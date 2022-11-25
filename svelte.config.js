@@ -14,7 +14,7 @@ const config = {
 		paths: {
 			base: dev ? '' : ''
 		},
-		appDir: 'internal'
+		appDir: 'internal',
 	},
 	prerender: { entries: [] },
 	preprocess: [
