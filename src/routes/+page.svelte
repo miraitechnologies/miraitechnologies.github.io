@@ -12,9 +12,12 @@
 	const inView = (pos) => (current = pos);
 </script>
 
+<svelte:head>
+	<title>Mirai Technologies</title>
+</svelte:head>
 <main class="relative">
-	<div class="bg-noise -z-20" />
-	<div class="bg-main -z-40" />
+	<div class="bg-noise" />
+	<div class="bg-main" />
 	<HeroSection />
 	<AboutSection />
 	<TeamSection />
@@ -23,29 +26,8 @@
 </main>
 <footer>
 	<div class="container mx-auto py-4">
-		<p><small class="text-sm text-right">© 2022 Mirai Technologies LLC</small></p>
+		<p class="text-center lg:text-right">
+			<small class="text-sm">© 2022 Mirai Technologies LLC</small>
+		</p>
 	</div>
 </footer>
-
-<style scoped>
-	.bg-main {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: url('/images/bg/bg1.png');
-		background-repeat: no-repeat;
-		background-size: 75% auto;
-	}
-	.bg-noise {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: url('/images/bg/noise.png');
-		background-repeat: repeat;
-		background-size: 35px auto;
-	}
-</style>

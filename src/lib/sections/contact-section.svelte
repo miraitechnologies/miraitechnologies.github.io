@@ -1,18 +1,21 @@
 <script>
+	import { Jp, Mn } from 'svelte-flag-icons';
 	import SectionHeader from '../section-header.svelte';
 </script>
 
-<section id="contact-section" class="background border-white/10 border-t border-b">
-	<div class="container mx-auto max-w-7xl">
+<section id="contact-section" class="bg-blur border-white/10 border-t border-b">
+	<div class="container mx-auto px-5 xl:max-w-7xl">
 		<div class="py-24">
 			<SectionHeader
 				title="Contact"
 				description="If you would like more information about our company or products, please feel free to reach
 			out to us."
 			/>
-			<div class="grid grid-cols-3 gap-6 mt-24">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12 lg:mt-24">
 				<div>
-					<div class="flex flex-col items-center space-y-2 text-center">
+					<div
+						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
+					>
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +23,7 @@
 								viewBox="0 0 24 24"
 								stroke-width="1"
 								stroke="currentColor"
-								class="w-10 h-10 text-yellow-400"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-yellow-500"
 							>
 								<path
 									stroke-linecap="round"
@@ -29,11 +32,13 @@
 								/>
 							</svg>
 						</div>
-						<div>contact@mirai-technologies.com</div>
+						<div>info@mirai-technologies.com</div>
 					</div>
 				</div>
 				<div>
-					<div class="flex flex-col items-center space-y-2 text-center">
+					<div
+						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
+					>
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +46,7 @@
 								viewBox="0 0 24 24"
 								stroke-width="1"
 								stroke="currentColor"
-								class="w-10 h-10 text-green-400"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-green-500"
 							>
 								<path
 									stroke-linecap="round"
@@ -50,11 +55,26 @@
 								/>
 							</svg>
 						</div>
-						<div>(976) 9936 7702</div>
+						<div class="flex flex-col">
+							<div class="flex items-center space-x-2">
+								<div>
+									<Jp class="w-6 h-6" />
+								</div>
+								<div>+81-90-9051-1386</div>
+							</div>
+							<div class="flex items-center space-x-2">
+								<div>
+									<Mn class="w-6 h-6" />
+								</div>
+								<div>+976-9580-0317</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div>
-					<div class="flex flex-col items-center space-y-2 text-center">
+					<div
+						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
+					>
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +82,7 @@
 								viewBox="0 0 24 24"
 								stroke-width="1"
 								stroke="currentColor"
-								class="w-10 h-10 text-red-400"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-red-500"
 							>
 								<path
 									stroke-linecap="round"
@@ -83,9 +103,3 @@
 		</div>
 	</div>
 </section>
-
-<style scoped>
-	.background {
-		background-image: url('/images/bg/blur.png');
-	}
-</style>
