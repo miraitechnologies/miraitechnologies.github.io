@@ -5,5 +5,7 @@
 html,
 body {
 	@apply text-white;
-	background-color: #06021d;
+}
+html {
+	background-color: #081336;
 }
