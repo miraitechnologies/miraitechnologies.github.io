@@ -77,8 +77,20 @@ body {
 	}
 	&-shape {
 		@apply -z-20 absolute top-0 right-0 bottom-0 left-0;
+		&-1 {
+			background-image: url('/images/bg/circle1.svg');
+			background-repeat: no-repeat;
+			background-size: 75% auto;
+			background-position: left top;
+		}
+		&-2 {
+			background-image: url('/images/bg/circle2.svg');
+			background-repeat: no-repeat;
+			background-size: 75% auto;
+			background-position: right center;
+		}
 		&-4 {
-			background-image: url('/images/bg/circle.svg');
+			background-image: url('/images/bg/circle4.svg');
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 			background-position: center top;

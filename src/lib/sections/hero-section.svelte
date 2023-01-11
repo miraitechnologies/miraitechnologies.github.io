@@ -4,6 +4,7 @@
 
 <section id="hero-section" class="relative">
 	<div class="bg-section bg-section-1" />
+	<div class="bg-shape bg-shape-1" />
 	<div class="container mx-auto px-5">
 		<div class="min-h-screen flex flex-col justify-end relative">
 			<div class="grow grid grid-cols-1 lg:grid-cols-2 gap-5">

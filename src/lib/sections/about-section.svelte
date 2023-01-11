@@ -24,6 +24,7 @@
 
 <section id="about-section" class="relative">
 	<div class="bg-section bg-section-2" />
+	<div class="bg-shape bg-shape-2" />
 	<div class="container mx-auto px-5 xl:max-w-6xl">
 		<div class="pt-24 pb-24 lg:pb-48">
 			<SectionHeader
