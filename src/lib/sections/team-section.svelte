@@ -4,6 +4,11 @@
 	const members = [
 		{
 			role: 'Founder',
+			fullname: 'Temuulen Olonbayar',
+			image: '/images/members/temuulen.jpeg'
+		},
+		{
+			role: 'CEO',
 			fullname: 'Lkhagvasuren Jazag',
 			image: '/images/members/lkhagvasuren.jpeg'
 		},
@@ -13,19 +18,9 @@
 			image: '/images/members/ankhbayar.jpeg'
 		},
 		{
-			role: 'Software Engineer',
-			fullname: 'Bat-Orshikh Baavgaikhuu',
-			image: '/images/members/bat-orshikh.jpeg'
-		},
-		{
 			role: 'Bridge Engineer',
 			fullname: 'Batzorigt Retsen',
 			image: '/images/members/batzorigt.jpeg'
-		},
-		{
-			role: 'Software Engineer',
-			fullname: 'Ganbayar Batkhishig',
-			image: '/images/members/ganbayar.jpeg'
 		},
 		{
 			role: 'Bridge Engineer',
@@ -36,6 +31,16 @@
 			role: 'Bridge Engineer',
 			fullname: 'Ider Erdenebaatar',
 			image: '/images/members/ider.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Bat-Orshikh Baavgaikhuu',
+			image: '/images/members/bat-orshikh.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Ganbayar Batkhishig',
+			image: '/images/members/ganbayar.jpeg'
 		}
 	];
 </script>
