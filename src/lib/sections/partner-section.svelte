@@ -4,12 +4,12 @@
 	const partners = [
 		{
 			name: 'Shinmei',
-			image: '/images/shinmei.svg',
+			image: '/images/shinmei.png',
 			link: 'https://www.shinmei.co.jp/'
 		},
 		{
 			name: 'MKSC',
-			image: '/images/mksc.svg',
+			image: '/images/mksc.png',
 			link: 'https://mksc.jp/'
 		}
 	];

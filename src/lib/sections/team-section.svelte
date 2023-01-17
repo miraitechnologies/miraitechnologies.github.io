@@ -57,7 +57,7 @@
 			<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 mt-24">
 				{#each members as member}
 					<div
-						class="relative overflow-hidden transition-all h-56 md:h-80 w-full bg-white/10 border border-white/50 shadow-2xl rounded-lg"
+						class="relative overflow-hidden transition-all h-56 md:h-80 w-full bg-white/10 border border-white/50 shadow-2xl rounded-lg bg-blur"
 					>
 						{#if member.image}
 							<img src={member.image} class="object-cover w-full h-full" alt={member.fullname} />

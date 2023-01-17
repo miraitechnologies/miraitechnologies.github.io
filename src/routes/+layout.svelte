@@ -53,7 +53,7 @@
 				: 'opacity-0'}"
 		/>
 		<div class="container mx-auto px-5 relative">
-			<div class="flex justify-between items-center h-14 lg:h-24">
+			<div class="flex justify-between items-center h-14 lg:h-20">
 				<div>
 					<a href="#hero-section" on:click={handleAnchorClick}>
 						<div class="h-8 lg:h-10 flex flex-row items-center">

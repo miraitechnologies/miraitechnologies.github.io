@@ -12,7 +12,7 @@
 					<h1 class="text-6xl lg:text-8xl font-black uppercase text-white text-center lg:text-left">
 						Create the <span class="">future</span>.
 					</h1>
-					<h3 class="text-xl font-medium uppercase text-white/80 text-center lg:text-left">
+					<h3 class="text-xl font-medium uppercase lg:text-white/80 text-center lg:text-left z-10">
 						We help to make the future with coding that supports people and vehicles.
 					</h3>
 				</div>

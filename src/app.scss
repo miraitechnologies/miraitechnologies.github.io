@@ -80,20 +80,32 @@ body {
 		&-1 {
 			background-image: url('/images/bg/circle1.svg');
 			background-repeat: no-repeat;
-			background-size: 75% auto;
+			background-size: 100% auto;
 			background-position: left top;
+			@screen lg {
+				background-size: 75% auto;
+				background-position: left top;
+			}
 		}
 		&-2 {
 			background-image: url('/images/bg/circle2.svg');
 			background-repeat: no-repeat;
-			background-size: 75% auto;
+			background-size: auto 75%;
 			background-position: right center;
+			@screen lg {
+				background-size: 75% auto;
+				background-position: right center;
+			}
 		}
 		&-4 {
 			background-image: url('/images/bg/circle4.svg');
 			background-repeat: no-repeat;
-			background-size: 100% auto;
-			background-position: center top;
+			background-size: auto 100%;
+			background-position: center bottom;
+			@screen lg {
+				background-size: 100% auto;
+				background-position: center top;
+			}
 		}
 	}
 }
