@@ -1,5 +1,6 @@
 <script>
 	import SectionHeader from '../section-header.svelte';
+	import viewport from '../useViewportAction';
 	const blocks = [
 		{
 			title: 'Who we are',
@@ -20,10 +21,16 @@
 			image: '/images/svg/rocket_launch.svg'
 		}
 	];
+
+	let isEnter = false;
 </script>
 
-<section id="about-section" class="relative">
-	<div class="bg-section bg-section-2" />
+<section id="about-section" class="relative" use:viewport on:enterViewport={() => (isEnter = true)}>
+	<div
+		class="bg-section bg-section-2 transition-opacity duration-1000 {isEnter
+			? 'opacity-100'
+			: 'opacity-0'}"
+	/>
 	<div class="bg-shape bg-shape-2" />
 	<div class="container mx-auto px-5 xl:max-w-6xl">
 		<div class="pt-24 pb-24 lg:pb-48">

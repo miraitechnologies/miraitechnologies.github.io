@@ -1,9 +1,17 @@
 <script>
+	import viewport from '../useViewportAction';
 	let y = 0;
+	let isEnter = false;
 </script>
 
-<section id="hero-section" class="relative">
-	<div class="bg-section bg-section-1" />
+<svelte:window bind:scrollY={y} />
+
+<section id="hero-section" class="relative" use:viewport on:enterViewport={() => (isEnter = true)}>
+	<div
+		class="bg-section bg-section-1 transition-opacity duration-1000 {isEnter
+			? 'opacity-100'
+			: 'opacity-0'}"
+	/>
 	<div class="bg-shape bg-shape-1" />
 	<div class="container mx-auto px-5">
 		<div class="min-h-screen flex flex-col justify-end relative">
@@ -39,4 +47,3 @@
 		</div>
 	</div>
 </section>
-<svelte:window bind:scrollY={y} />

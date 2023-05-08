@@ -1,6 +1,6 @@
 <script>
 	import SectionHeader from '../section-header.svelte';
-
+	import viewport from '../useViewportAction';
 	const members = [
 		{
 			role: 'Founder',
@@ -38,10 +38,15 @@
 			image: '/images/members/ganbayar.jpeg'
 		}
 	];
+	let isEnter = false;
 </script>
 
-<section id="team-section" class="relative">
-	<div class="bg-section bg-section-3" />
+<section id="team-section" class="relative" use:viewport on:enterViewport={() => (isEnter = true)}>
+	<div
+		class="bg-section bg-section-3 transition-opacity duration-1000 {isEnter
+			? 'opacity-100'
+			: 'opacity-0'}"
+	/>
 	<div class="container mx-auto px-5">
 		<div class="pt-24 pb-24 lg:pb-48">
 			<SectionHeader
