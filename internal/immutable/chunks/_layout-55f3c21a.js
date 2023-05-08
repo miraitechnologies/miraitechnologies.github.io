@@ -1,0 +1,1 @@
+const s=!0,r=!0,t=!1,e="always",a=Object.freeze(Object.defineProperty({__proto__:null,prerender:!0,ssr:!0,csr:!1,trailingSlash:e},Symbol.toStringTag,{value:"Module"}));export{a as _,t as c,s as p,r as s,e as t};
