@@ -1,5 +1,6 @@
 <script>
 	import '../app.scss';
+	let y = 0;
 
 	const currentYear = new Date().getFullYear();
 
@@ -41,10 +42,12 @@
 	}
 </script>
 
+<svelte:window bind:scrollY={y} />
+
 <header>
 	<nav class="fixed w-full z-40 top-0 left-0 right-0">
 		<div
-			class="absolute top-0 bottom-0 left-0 right-0 w-full bg-[#081336]/30 backdrop-blur-lg -z-10 transition-opacity duration-300"
+			class="absolute top-0 bottom-0 left-0 right-0 w-full bg-[#081336]/30 backdrop-blur-lg -z-10 transition-opacity duration-300 {y > 0 ? 'opacity-100' : 'opacity-0'}"
 		/>
 		<div class="container mx-auto px-5 relative">
 			<div class="flex justify-between items-center h-14 lg:h-20">
