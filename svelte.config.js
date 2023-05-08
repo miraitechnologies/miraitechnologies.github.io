@@ -10,7 +10,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html',
-			precompress: true,
+			precompress: false,
 			strict: true
 		}),
 		paths: {
@@ -18,7 +18,7 @@ const config = {
 		},
 		appDir: 'internal'
 	},
-	prerender: { entries: [] },
+	prerender: { default: true },
 	preprocess: [
 		preprocess({
 			postcss: true
