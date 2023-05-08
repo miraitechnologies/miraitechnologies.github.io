@@ -7,7 +7,6 @@ export const ssr = true;
 export const csr = false;
 export const trailingSlash = 'always';
 
-
 // /** @type {import('./$types').PageLoad} */
 // export const load = async () => {
 // 	if (browser) {

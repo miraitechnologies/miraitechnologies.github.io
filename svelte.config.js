@@ -10,9 +10,9 @@ const config = {
 		paths: {
 			base: dev ? '' : process.env.BASE_PATH
 		},
-		appDir: 'internal'
+		appDir: 'internal',
 	},
-	prerender: { default: true, crawl: true, concurrency: 1 },
+	prerender: { default: true },
 	preprocess: [
 		preprocess({
 			postcss: true

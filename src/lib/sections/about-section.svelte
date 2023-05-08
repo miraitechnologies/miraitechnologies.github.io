@@ -35,8 +35,9 @@
 				{#each blocks as block, i}
 					<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
 						<div
-							class="order-2 lg:order-1 flex flex-col space-y-6 justify-center"
-							class:lg:order-2={i % 2 === 1}
+							class="order-2 flex flex-col space-y-6 justify-center {i % 2 === 1
+								? 'lg:order-2'
+								: 'lg:order-1'}"
 						>
 							<h3
 								class="text-2xl lg:text-5xl uppercase font-bold {i % 2 === 1
@@ -48,10 +49,11 @@
 							<p class="text-justify">{block.paragraph}</p>
 						</div>
 						<div
-							class="order-1 lg:order-2 flex {i % 2 === 1
-								? 'justify-end'
-								: 'justify-start'} lg:justify-center -mb-24 lg:mb-0 opacity-50 lg:opacity-100 -z-10"
-							class:lg:order-2={i % 2 === 0}
+							class="order-1 flex lg:justify-center -mb-24 lg:mb-0 opacity-50 lg:opacity-100 -z-10 {i %
+								2 ===
+							1
+								? 'lg:order-1'
+								: 'lg:order-2'}"
 						>
 							<div
 								class="w-full h-80 lg:h-96 bg-no-repeat bg-center bg-contain"
