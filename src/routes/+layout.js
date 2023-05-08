@@ -3,7 +3,7 @@
 // import { locale, waitLocale } from 'svelte-i18n';
 
 // export const ssr = true;
-export const prerender = false;
+export const prerender = true;
 export const ssr = true;
 export const trailingSlash = 'ignore';
 
