@@ -9,12 +9,14 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html'
+			fallback: 'index.html',
+			precompress: true,
+			strict: true
 		}),
 		paths: {
 			base: dev ? '' : ''
 		},
-		appDir: 'internal',
+		appDir: 'internal'
 	},
 	prerender: { entries: [] },
 	preprocess: [

@@ -19,11 +19,6 @@
 		},
 		{
 			role: 'Bridge Engineer',
-			fullname: 'Batzorigt Retsen',
-			image: '/images/members/batzorigt.jpeg'
-		},
-		{
-			role: 'Bridge Engineer',
 			fullname: 'Ganbold Sukhbat',
 			image: '/images/members/ganbold.jpeg'
 		},
@@ -54,16 +49,16 @@
 				description="Our team is made up of highly skilled and experienced professionals who are experts in their
 			respective fields."
 			/>
-			<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 mt-24">
+			<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mt-24">
 				{#each members as member}
 					<div
-						class="relative overflow-hidden transition-all h-56 md:h-80 w-full bg-white/10 border border-white/50 shadow-2xl rounded-lg bg-blur"
+						class="relative overflow-hidden transition-all h-72 lg:h-80 w-full bg-white/10 border border-white/50 shadow-2xl rounded-lg bg-blur"
 					>
 						{#if member.image}
 							<img src={member.image} class="object-cover w-full h-full" alt={member.fullname} />
 						{/if}
 						<div class="absolute bottom-0 left-0 right-0 py-4 px-2 backdrop-blur-lg bg-black/20">
-							<div class="font-bold uppercase text-center truncate">
+							<div class="font-bold uppercase text-center">
 								{member.fullname}
 							</div>
 							<div class="text-sm text-center text-white">{member.role}</div>

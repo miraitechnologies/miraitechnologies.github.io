@@ -55,12 +55,10 @@
 		<div class="container mx-auto px-5 relative">
 			<div class="flex justify-between items-center h-14 lg:h-20">
 				<div>
-					<a href="#hero-section" on:click={handleAnchorClick}>
-						<div class="h-8 lg:h-10 flex flex-row items-center">
-							<img src="/images/logo.svg" class="h-8 lg:h-10" alt="Logo" />
-							<img src="/images/logo_text.svg" class="h-6 lg:h-8 ml-2" alt="Logo Text" />
-						</div>
-					</a>
+					<div class="h-8 lg:h-10 flex flex-row items-center">
+						<img src="/images/logo.svg" class="h-8 lg:h-10" alt="Logo" />
+						<img src="/images/logo_text.svg" class="h-6 lg:h-8 ml-2" alt="Logo Text" />
+					</div>
 				</div>
 				<div class="hidden lg:block">
 					<ul class="list-none flex flex-row gap-10">
@@ -73,9 +71,6 @@
 								>
 							</li>
 						{/each}
-						<!-- <li>
-							<Jp class="w-6 h-6 opacity-60 hover:opacity-100 transition-opacity duration-300" />
-						</li> -->
 					</ul>
 				</div>
 			</div>

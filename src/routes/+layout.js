@@ -1,8 +1,15 @@
-import { dev } from '$app/environment';
-export const ssr = false;
-// we don't need any JS on this page, though we'll load
-// it in dev so that we get hot module replacement
+import { dev, browser } from '$app/environment';
+import '$lib/i18n';
+import { locale, waitLocale } from 'svelte-i18n';
+
+export const ssr = true;
 export const csr = dev;
-// since there's no dynamic data here, we can prerender
-// it so that it gets served as a static asset in production
-export const prerender = true;
+export const prerender = false;
+
+/** @type {import('./$types').PageLoad} */
+export const load = async () => {
+	if (browser) {
+		locale.set(window.navigator.language);
+	}
+	await waitLocale();
+};
