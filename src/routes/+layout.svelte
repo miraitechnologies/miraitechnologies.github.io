@@ -1,9 +1,6 @@
 <script>
-	// import { Jp, Us } from 'svelte-flag-icons';
 	import '../app.scss';
 	let y = 0;
-
-	let open = false;
 
 	const menu = [
 		{
@@ -44,6 +41,8 @@
 	}
 </script>
 
+<svelte:window bind:scrollY={y} />
+
 <header>
 	<nav class="fixed w-full z-40 top-0 left-0 right-0">
 		<div
@@ -78,4 +77,3 @@
 	</nav>
 </header>
 <slot />
-<svelte:window bind:scrollY={y} />

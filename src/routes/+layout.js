@@ -2,7 +2,6 @@
 // import '$lib/i18n';
 // import { locale, waitLocale } from 'svelte-i18n';
 
-// export const ssr = true;
 export const prerender = true;
 export const ssr = true;
 export const csr = false;
