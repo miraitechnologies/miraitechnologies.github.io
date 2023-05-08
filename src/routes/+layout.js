@@ -5,7 +5,9 @@
 // export const ssr = true;
 export const prerender = true;
 export const ssr = true;
-export const trailingSlash = 'ignore';
+export const csr = false;
+export const trailingSlash = 'always';
+
 
 // /** @type {import('./$types').PageLoad} */
 // export const load = async () => {

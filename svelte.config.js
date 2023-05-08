@@ -6,19 +6,13 @@ const dev = process.argv.includes('dev');
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: 'index.html',
-			precompress: false,
-			strict: true
-		}),
+		adapter: adapter(),
 		paths: {
 			base: dev ? '' : process.env.BASE_PATH
 		},
 		appDir: 'internal'
 	},
-	prerender: { default: true },
+	prerender: { default: true, crawl: true, concurrency: 1 },
 	preprocess: [
 		preprocess({
 			postcss: true
