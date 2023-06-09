@@ -36,6 +36,31 @@
 			role: 'Software Engineer',
 			fullname: 'Ganbayar Batkhishig',
 			image: '/images/members/ganbayar.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Bilguun Bayartsengel',
+			image: '/images/members/bilguun.jpeg'
+		},
+		{
+			role: 'Office Manager',
+			fullname: 'Maralmaa Oyun',
+			image: '/images/members/maralmaa.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Sanchirmaa Lkhagvasuren',
+			image: '/images/members/sanchirmaa.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Sukh-Erdene Bolortuya',
+			image: '/images/members/bsukherdene.jpeg'
+		},
+		{
+			role: 'Software Engineer',
+			fullname: 'Sukh-Erdene Nyamsukh',
+			image: '/images/members/nsukherdene.jpeg'
 		}
 	];
 	let isEnter = false;
