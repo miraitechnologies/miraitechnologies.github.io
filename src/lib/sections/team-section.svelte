@@ -48,7 +48,7 @@
 			image: '/images/members/maralmaa.jpeg'
 		},
 		{
-			role: 'Software Engineer',
+			role: 'System Engineer',
 			fullname: 'Sanchirmaa Lkhagvasuren',
 			image: '/images/members/sanchirmaa.jpeg'
 		},
