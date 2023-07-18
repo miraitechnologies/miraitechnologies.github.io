@@ -13,6 +13,31 @@
 			image: '/images/members/lkhagvasuren.jpeg'
 		},
 		{
+			role: 'Consultant',
+			fullname: 'Otgonbayar Uuye',
+			image: '/images/members/otgonbayar.jpeg'
+		},
+		{
+			role: 'Consultant',
+			fullname: 'Bayarpurev Mongol',
+			image: '/images/members/bayarpurev.jpeg'
+		},
+		{
+			role: 'Consultant',
+			fullname: 'Amartuvshin Renchin-Ochir',
+			image: '/images/members/amartuvshin.jpeg'
+		},
+		{
+			role: 'Consultant',
+			fullname: 'Enkhtogtokh Togootogtokh',
+			image: '/images/members/enkhtogtokh.jpeg'
+		},
+		{
+			role: 'Consultant',
+			fullname: 'Odonchimed Sodtavilan',
+			image: '/images/members/sodtavilan.jpeg'
+		},
+		{
 			role: 'Bridge Engineer',
 			fullname: 'Ankhbayar Tsagaan',
 			image: '/images/members/ankhbayar.jpeg'
@@ -61,32 +86,7 @@
 			role: 'Software Engineer',
 			fullname: 'Sukh-Erdene Nyamsukh',
 			image: '/images/members/nsukherdene.jpeg'
-		},
-		{
-			role: 'Consultant',
-			fullname: 'Otgonbayar Uuye',
-			image: '/images/members/otgonbayar.jpeg'
-		},
-		{
-			role: 'Consultant',
-			fullname: 'Bayarpurev Mongol',
-			image: '/images/members/bayarpurev.jpeg'
-		},
-		{
-			role: 'Consultant',
-			fullname: 'Amartuvshin Renchin-Ochir',
-			image: '/images/members/amartuvshin.jpeg'
-		},
-		{
-			role: 'Consultant',
-			fullname: 'Enkhtogtokh Togootogtokh',
-			image: '/images/members/enkhtogtokh.jpeg'
-		},
-		{
-			role: 'Consultant',
-			fullname: 'Odonchimed Sodtavilan',
-			image: '/images/members/sodtavilan.jpeg'
-		},
+		}
 	];
 	let isEnter = false;
 </script>
