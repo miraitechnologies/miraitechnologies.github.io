@@ -1452,32 +1452,42 @@
 		style="visibility: hidden"
 		bind:this={modals[i]}
 	>
-		<button
-			type="button"
-			id="modal-close-{i}"
-			class="absolute right-5 top-5 w-16 h-16 bg-white border border-black text-black rounded-full flex justify-center items-center opacity-75 hover:opacity-100"
-			on:click={(e) => hideDetail(e, i)}
-		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-				class="w-6 h-6"
+		<div class="absolute right-2 top-2 z-50">
+			<button
+				type="button"
+				id="modal-close-{i}"
+				class="w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
+				on:click={(e) => hideDetail(e, i)}
 			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-			</svg>
-		</button>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="w-6 h-6"
+				>
+					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+				</svg>
+			</button>
+		</div>
 
-		<div class="container mx-auto text-black max-w-6xl py-24 px-10">
+		<div class="container mx-auto text-black max-w-6xl py-5 md:py-24 px-5">
 			<div class="grid grid-cols-5 gap-x-10">
-				<div class="col-span-5 md:col-span-3 order-2">
-					<h1 id="modal-text-fullname-{i}" class="text-6xl uppercase">
+				<div class="col-span-5 md:col-span-3 order-2 pt-5">
+					<h1
+						id="modal-text-fullname-{i}"
+						class="text-3xl md:text-6xl uppercase text-center md:text-left"
+					>
 						<span class="font-bold">{member.firstname}</span>
 						<span>{member.lastname}</span>
 					</h1>
-					<h2 id="modal-text-role-{i}" class="text-4xl font-thin mt-4">{member.role}</h2>
+					<h2
+						id="modal-text-role-{i}"
+						class="text-2xl md:text-4xl font-thin mt-1 md:mt-4 text-center md:text-left"
+					>
+						{member.role}
+					</h2>
 					<div id="modal-info-{i}">
 						{#if member.bio}
 							<p class="text-justify mt-10">{member.bio}</p>
