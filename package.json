@@ -36,8 +36,12 @@
 	"type": "module",
 	"dependencies": {
 		"animejs": "^3.2.1",
+		"gsap": "^3.12.2",
+		"imagesloaded": "^5.0.0",
+		"split-type": "^0.3.3",
 		"svelte-hamburgers": "^2.0.6",
 		"svelte-i18n": "^3.6.0",
-		"svelte-inview": "^3.0.1"
+		"svelte-inview": "^3.0.1",
+		"svelte-overlay": "^1.4.1"
 	}
 }

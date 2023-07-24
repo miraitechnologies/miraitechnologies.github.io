@@ -28,7 +28,7 @@
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
 								fill="currentColor"
-								class="w-6 h-6 lg:w-10 lg:h-10 text-yellow-500/75"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-yellow-400"
 							>
 								<path
 									d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
@@ -50,7 +50,7 @@
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
 								fill="currentColor"
-								class="w-6 h-6 lg:w-10 lg:h-10 text-green-500/75"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-green-500"
 							>
 								<path
 									fill-rule="evenodd"
@@ -84,7 +84,7 @@
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
 								fill="currentColor"
-								class="w-6 h-6 lg:w-10 lg:h-10 text-red-500/75"
+								class="w-6 h-6 lg:w-10 lg:h-10 text-red-600"
 							>
 								<path
 									fill-rule="evenodd"
