@@ -1504,7 +1504,7 @@
 											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
 											<p class="text-lg">{item.organization}</p>
 											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.date}
 														<div>
 															<svg
@@ -1525,7 +1525,7 @@
 														</div>
 													{/if}
 												</div>
-												<div class="flex items-center space-x-1 text-gray-700">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.location}
 														<div>
 															<svg
@@ -1564,7 +1564,7 @@
 											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
 											<p class="text-lg">{item.organization}</p>
 											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.date}
 														<div>
 															<svg
@@ -1585,7 +1585,7 @@
 														</div>
 													{/if}
 												</div>
-												<div class="flex items-center space-x-1 text-gray-700">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.location}
 														<div>
 															<svg
@@ -1624,7 +1624,7 @@
 											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
 											<p class="text-lg">{item.organization}</p>
 											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.date}
 														<div>
 															<svg
@@ -1645,7 +1645,7 @@
 														</div>
 													{/if}
 												</div>
-												<div class="flex items-center space-x-1 text-gray-700">
+												<div class="flex items-center space-x-1 text-gray-600 text-sm">
 													{#if item.location}
 														<div>
 															<svg
