@@ -21,7 +21,7 @@
 				},
 				{
 					title: 'Corporate strategist/planner',
-					organization: '新明工業株式会社',
+					organization: 'Shinmei Industry Co.., Ltd',
 					date: null,
 					location: 'Japan'
 				}
@@ -48,15 +48,15 @@
 			],
 			educations: [
 				{
-					title: '修士号',
-					organization: '経済学研究科、名古屋大学',
-					date: null,
+					title: 'Masters from Graduate School of Economics',
+					organization: 'Nagoya University',
+					date: '2019-2021',
 					location: 'Nagayo, Japan'
 				},
 				{
-					title: '学士号',
-					organization: '経済学科、経済学部、名古屋大学',
-					date: null,
+					title: 'Bachelors from School of Economics',
+					organization: 'Nagoya University',
+					date: '2015-2019',
 					location: 'Nagayo, Japan'
 				}
 			],
@@ -1334,6 +1334,9 @@
 						ease: 'expo'
 					});
 
+					gsap.set(infoText, { opacity: 0, y: '200' });
+					gsap.to(infoText, { opacity: 1, y: 0 });
+
 					const closeButton = document.querySelectorAll(`#modal-close-${i}`)[0];
 					gsap.set(closeButton, { scale: 0.1, opacity: 0 });
 					gsap.to(closeButton, {
@@ -1341,9 +1344,6 @@
 						opacity: 1,
 						ease: 'elastic.out'
 					});
-
-					gsap.set(infoText, { opacity: 0, y: '200' });
-					gsap.to(infoText, { opacity: 1, y: 0 });
 				}
 			});
 		}
@@ -1359,7 +1359,7 @@
 				modal,
 				{
 					opacity: 0,
-					onComplete: () => gsap.set(modal, { visibility: 'hidden', y: 0, opacity: 1 })
+					onComplete: () => gsap.set(modal, { y: 0, opacity: 1, visibility: 'hidden' })
 				},
 				-0.1
 			);
@@ -1448,30 +1448,10 @@
 </section>
 {#each members as member, i}
 	<div
-		class="fixed top-0 bottom-0 left-0 right-0 bg-white z-40 detail overflow-y-auto"
+		class="fixed top-0 bottom-0 left-0 right-0 w-full h-full bg-white z-40 detail overflow-y-auto"
 		style="visibility: hidden"
 		bind:this={modals[i]}
 	>
-		<div class="absolute right-2 top-2 z-50">
-			<button
-				type="button"
-				id="modal-close-{i}"
-				class="w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
-				on:click={(e) => hideDetail(e, i)}
-			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke-width="1.5"
-					stroke="currentColor"
-					class="w-6 h-6"
-				>
-					<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-				</svg>
-			</button>
-		</div>
-
 		<div class="container mx-auto text-black max-w-6xl py-5 md:py-24 px-5">
 			<div class="grid grid-cols-5 gap-x-10">
 				<div class="col-span-5 md:col-span-3 order-2 pt-5">
@@ -1718,5 +1698,23 @@
 				</div>
 			</div>
 		</div>
+
+		<button
+			type="button"
+			id="modal-close-{i}"
+			class="absolute right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
+			on:click={(e) => hideDetail(e, i)}
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke-width="1.5"
+				stroke="currentColor"
+				class="w-6 h-6"
+			>
+				<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+			</svg>
+		</button>
 	</div>
 {/each}
