@@ -1421,13 +1421,12 @@
 					<div
 						on:click={(e) => showDetail(e, i)}
 						on:keydown={(e) => showDetail(e, i)}
-						data-member-id={i}
 						class="member-thumbnail relative overflow-hidden transition-all h-72 lg:h-80 w-full bg-white/10 border border-white/50 hover:border-white/100 duration-300 cursor-pointer shadow-2xl rounded-lg group"
 					>
 						<img
-							src={member.image}
+							src={member.image ? member.image : '/images/members/no_photo.jpg'}
 							class="object-cover w-full h-full scale-100 group-hover:scale-110 duration-500 ease-out"
-							alt={member.firstname}
+							alt="{member.firstname} {member.lastname}"
 						/>
 						<div
 							class="absolute bottom-0 left-0 right-0 py-3 px-1 bg-[#081336]/25 backdrop-blur-lg group-hover:bg-white/100 text-white group-hover:text-black duration-300 ease-in"
@@ -1692,7 +1691,7 @@
 						<img
 							src={member.image ? member.image : '/images/members/no_photo.jpg'}
 							class="h-full w-full object-cover"
-							alt={member.firstname}
+							alt="{member.firstname} {member.lastname}"
 						/>
 					</div>
 				</div>

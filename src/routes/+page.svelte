@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Mirai Technologies</title>
+	<title>Mirai Technologies LLC</title>
 </svelte:head>
 
 <main class="relative">
