@@ -21,26 +21,20 @@
 				},
 				{
 					title: 'Corporate strategist/planner',
-					organization: 'Shinmei Industry Co.., Ltd',
+					organization: '新明工業株式会社',
 					date: null,
 					location: 'Japan'
 				}
 			],
 			expierences: [
 				{
-					title: 'インターン',
-					organization: 'ゴルドマンサックスジャパン、外資投資銀行',
-					date: null,
-					location: 'Japan'
-				},
-				{
-					title: 'TA',
+					title: 'Teaching assistant',
 					organization: '名古屋大学・大学院工学研究科',
 					date: null,
 					location: 'Japan'
 				},
 				{
-					title: 'RA',
+					title: 'Research assistant',
 					organization: '名古屋大学・経済学研究科',
 					date: null,
 					location: 'Japan'
@@ -48,32 +42,33 @@
 			],
 			educations: [
 				{
-					title: 'Masters from Graduate School of Economics',
-					organization: 'Nagoya University',
-					date: '2019-2021',
-					location: 'Nagayo, Japan'
+					title: '修士号',
+					organization: '経済学研究科、名古屋大学',
+					date: null,
+					location: 'Nagoya, Japan'
 				},
 				{
-					title: 'Bachelors from School of Economics',
-					organization: 'Nagoya University',
-					date: '2015-2019',
-					location: 'Nagayo, Japan'
+					title: '学士号',
+					organization: '経済学科、経済学部、名古屋大学',
+					date: null,
+					location: 'Nagoya, Japan'
 				}
 			],
 			projects: [
-				'グラフニューラルネットワーク利用チェスエンジン開発',
-				'投資ポートフォリオの最適化アルゴリズム',
-				'オークションの結果のAI予測'
+				'Monte-carlo Tree-Search Algorithm Based Chess AI',
+				'Reinforcement Learning based Portfolio Optimization AI',
+				'Deep Reinforcement Learning model to predict precious metal auction prices'
 			],
 			achievements: [
-				'2013 チェス首都大会３位、モンゴル',
-				'2015 名古屋大学グローバル３０奨学金、 日本',
-				'2015 JASSO奨学金、日本',
-				'2015 七大戦・チェス夏合宿大会優勝',
-				'2016 大学生全国チェス夏大会２位、日本',
-				'2017 名古屋市ブリッツチェス大会優勝、日本',
+				'2012 Bayanzurkh District Chess Tournament, 3rd place',
+				'2013 White Queen Chess tournament, 2nd place',
+				'2013 U-16 Open Chess Tournament "Best Game" prize',
+				'2015-2019 名古屋大学グローバル３０奨学金, 日本',
+				'2015-2019 EJU-JASSO奨学金、日本',
+				'2015 全国大学チェス部夏合宿・ブリッツチェス大会２位',
 				'2019 文部科学省奨学金、日本',
-				'2019 学部代表首席卒業、日本'
+				'2019 文部科学省奨学金、日本',
+				'2019 名古屋大学経済学部代表卒業、日本'
 			]
 		},
 		{
