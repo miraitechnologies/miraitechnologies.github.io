@@ -1234,7 +1234,9 @@
 			const to = calculatePosition(modalImage[0]);
 			const toBackground = calculatePosition(modals[i]);
 
-			background.className = 'bg-white z-50';
+			// modals[i].scrollTop(0);
+
+			background.className = 'bg-white z-50 rounded-lg';
 			clone.classList.remove('member-thumbnail');
 			clone.classList.remove('border-white/50');
 			clone.classList.remove('hover:border-white/100');
@@ -1270,7 +1272,7 @@
 
 			gsap.set([clone, background], { position: 'absolute' });
 			gsap.set([clone, background], from);
-			gsap.set(background, { borderRadius: '100%', opacity: 0 });
+			gsap.set(background, { opacity: 0 });
 
 			body.appendChild(background);
 			body.appendChild(clone);
@@ -1328,11 +1330,11 @@
 						ease: 'expo'
 					});
 
-					gsap.set(infoText, { opacity: 0, y: '200' });
-					gsap.to(infoText, { opacity: 1, y: 0 });
+					gsap.set(infoText, { opacity: 0, y: '200', display: 'none' });
+					gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
 					const closeButton = document.querySelectorAll(`#modal-close-${i}`)[0];
-					gsap.set(closeButton, { scale: 0.1, opacity: 0 });
+					gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
 					gsap.to(closeButton, {
 						scale: 1,
 						opacity: 1,
@@ -1347,13 +1349,16 @@
 		if (browser) {
 			const { body } = document;
 			const modal = modals[i];
+			const closeButton = document.querySelectorAll(`#modal-close-${i}`)[0];
 
 			const tl = gsap.timeline();
 			tl.to(
-				modal,
+				[modal, closeButton],
 				{
 					opacity: 0,
-					onComplete: () => gsap.set(modal, { y: 0, opacity: 1, visibility: 'hidden' })
+					onComplete: () => {
+						gsap.set([modal, closeButton], { y: 0, opacity: 1, visibility: 'hidden' });
+					}
 				},
 				-0.1
 			);
@@ -1367,8 +1372,8 @@
 					autoRound: false,
 					duration: 0.2,
 					onComplete: () => {
-						body.classList.remove('noscroll');
 						selected = -1;
+						body.classList.remove('noscroll');
 					}
 				});
 			}
@@ -1691,23 +1696,23 @@
 				</div>
 			</div>
 		</div>
-
-		<button
-			type="button"
-			id="modal-close-{i}"
-			class="absolute right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
-			on:click={(e) => hideDetail(e, i)}
-		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-				class="w-6 h-6"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-			</svg>
-		</button>
 	</div>
+	<button
+		type="button"
+		id="modal-close-{i}"
+		class="fixed right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
+		style="visibility: hidden"
+		on:click={(e) => hideDetail(e, i)}
+	>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="1.5"
+			stroke="currentColor"
+			class="w-6 h-6"
+		>
+			<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+		</svg>
+	</button>
 {/each}
