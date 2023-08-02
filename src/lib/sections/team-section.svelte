@@ -1226,6 +1226,9 @@
 			const { body } = document;
 			const { currentTarget } = e;
 			const modalImage = document.querySelectorAll(`#modal-image-${i}`);
+
+			body.classList.add('noscroll');
+
 			const clone = currentTarget.cloneNode(true);
 			const background = currentTarget.cloneNode(false);
 
@@ -1274,7 +1277,6 @@
 
 			body.appendChild(background);
 			body.appendChild(clone);
-			body.classList.add('noscroll');
 
 			gsap.to(clone.children[0], {
 				scale: 1,
