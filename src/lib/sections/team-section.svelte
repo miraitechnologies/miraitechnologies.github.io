@@ -1234,8 +1234,6 @@
 			const to = calculatePosition(modalImage[0]);
 			const toBackground = calculatePosition(modals[i]);
 
-			// modals[i].scrollTop(0);
-
 			background.className = 'bg-white z-50 rounded-lg';
 			clone.classList.remove('member-thumbnail');
 			clone.classList.remove('border-white/50');
@@ -1276,6 +1274,7 @@
 
 			body.appendChild(background);
 			body.appendChild(clone);
+			body.classList.add('noscroll');
 
 			gsap.to(clone.children[0], {
 				scale: 1,
@@ -1310,7 +1309,6 @@
 				duration: 0.2,
 				onComplete: () => {
 					gsap.set(modals[i], { visibility: 'visible' });
-					body.classList.add('noscroll');
 					body.removeChild(clone);
 					body.removeChild(background);
 					const fullnameText = new SplitType(`#modal-text-fullname-${selected}`);
