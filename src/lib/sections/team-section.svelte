@@ -1211,7 +1211,14 @@
 					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
-			projects: [],
+			projects: [
+				'Recruit matching platform',
+				'Labor management system',
+				'Sales & Marketing system',
+				'Wallet system',
+				'NFT & NFT Coin',
+				'Multichain ticketing'
+			],
 			achievements: []
 		}
 	];
