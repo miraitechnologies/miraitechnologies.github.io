@@ -535,6 +535,65 @@
 				'From 2013-2017, I gained the Ph.D degree in computer science specially machine (deep) learning from Taiwan top university system (world ranking top-70).'
 			]
 		},
+		{
+			role: 'Consultant',
+			firstname: 'An',
+			lastname: 'Nguyen',
+			image: '/images/members/an-nguyen.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Consultant',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2023',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Researcher',
+					organization: 'Zatitech',
+					date: 'Sep 2020 - Aug 2021',
+					location: null
+				},
+				{
+					title: 'Research Intern',
+					organization: 'Horiba-MIRA',
+					date: 'Aug 2018 - Sep 2018',
+					location: null
+				},
+				{
+					title: 'Aerospace Engineer Internship',
+					organization: 'Boeing Japan',
+					date: 'Apr 2018 - Jul 2018',
+					location: null
+				}
+			],
+			educations: [
+				{
+					title: 'Doctor of Philosophy Program, Computer Science Department.',
+					organization: 'Oxford University, United Kingdom',
+					date: '2021-2024',
+					location: 'United Kingdom'
+				},
+				{
+					title: 'Master Program, Robotics, Autonomous Systems and Artificial Intelligence.',
+					organization: 'Nagoya University, Japan',
+					date: '2019 - 2021',
+					location: 'Nagoya, Japan'
+				}
+			],
+			projects: [
+				'Joint research project focused on developing autonomous feature including localization, path following and collision avoidance for Automated Guided Vehicle (AGV) prototype. Mar 2020 - Aug 2021',
+				'Adopting data-driven method to identify Human Driving Behavior for behavior planing and prediction from real world data collected in downtown area. Sep 2019 - Aug 2021',
+				'Setup testing vehicle and tune LiDAR, sensor and cameras on Toyota Prius 2015. Mar 2018 - Aug 2019',
+			],
+			achievements: [
+				'2019-2021, MEXT Scholarship, Japanese Government',
+				'September 2015 - August 2019, JASSO Scholarship, JASSO Foundation',
+				'Conference Reviewers: IROS (2022), ICCA (2022), IFAC (2022), COSY (2022), FORMATS (2022)'
+			]
+		},
 		// {
 		// 	role: 'Consultant',
 		// 	firstname: 'Sodtavilan',
