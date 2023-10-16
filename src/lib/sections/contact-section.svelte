@@ -93,7 +93,22 @@
 								/>
 							</svg>
 						</div>
-						<p>{address}</p>
+						<div class="flex flex-col space-y-2">
+							<p>{address}</p>
+							<div>
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.8227316473785!2d106.89890247676352!3d47.92046736625065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693fb9b76c3f7%3A0x6fcd2c2e78763977!2sMirai%20Technologies!5e0!3m2!1sen!2smn!4v1697446072076!5m2!1sen!2smn"
+									class="w-full aspect-square"
+									width="400" height="300"
+									style="border:0;"
+									loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"
+									title="Mirai Technologies LLC on Google Maps"
+									allowfullscreen
+								/>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
