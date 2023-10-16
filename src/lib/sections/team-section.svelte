@@ -457,84 +457,84 @@
 				'Silver medal in 2006 National robot contest (ABU Robocon 2006 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).'
 			]
 		},
-		{
-			role: 'Consultant',
-			firstname: 'Enkhtogtokh',
-			lastname: 'Togootogtokh',
-			image: '/images/members/enkhtogtokh.jpeg',
-			bio: 'Senior AI Research, Professor(Ass.), Researcher, and Software Engineer with academic and industry experience in AI, machine learning, deep learning, computer vision, software development, software architect & design.',
-			current: [
-				{
-					title: 'Consultant',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Senior AI Researcher',
-					organization: 'Technidoo Solutions',
-					date: 'Since 2019',
-					location: 'Germany'
-				},
-				{
-					title: 'Professor (Ass.)',
-					organization: 'CS department, Mongolian University of Science and Technology',
-					date: 'Since 2017',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Machine Learning Researcher',
-					organization: 'MINE Lab, National Central University',
-					date: '2013 - 2017',
-					location: 'Taiwan'
-				},
-				{
-					title: 'Software engineer',
-					organization: 'Nimon Systems',
-					date: '2008 - 2012',
-					location: 'Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Post Doc in deep lear ning for UAV',
-					organization: 'University of Udine, Italy, National University of Singapore',
-					date: '2018-2019',
-					location: 'Singapore'
-				},
-				{
-					title: 'Ph.D in Computer Science',
-					organization: 'National Central University (Taiwan top university system)',
-					date: '2013-2017',
-					location: 'Taiwan'
-				},
-				{
-					title: 'MSc in Mathematics',
-					organization: 'National University of Mongolia',
-					date: '2006-2008',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'BSc in Mathematics',
-					organization: 'National University of Mongolia',
-					date: '2002-2006',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			projects: [
-				'Sennheiser Price Optimization BOT platform, Technidoo Solutions, Sennheiser GMBH, 2021-2022',
-				'Trixie Logistic Optimization AI platform, Technidoo Solutions, Trixie GMBH, Microsoft, 2020-2021',
-				'BASF Counterfeit detection AI platform, Technidoo solutions, BASF, Alibaba, 2019-2020',
-				'PRESNET – AI Computer Vision for UAV Singaporean and Italian Government, Ministries of defense of Singapore and Italy, 2017-2019',
-				'Inter national Build4Skills Big Data Project Mongolian Government, BMZ Germany, 2016-2017'
-			],
-			achievements: [
-				'From 2018-2019, i won the post doc grant and challenged in AI government project. I have successfully done in half of the scheduled time.',
-				'From 2013-2017, I gained the Ph.D degree in computer science specially machine (deep) learning from Taiwan top university system (world ranking top-70).'
-			]
-		},
+		// {
+		// 	role: 'Consultant',
+		// 	firstname: 'Enkhtogtokh',
+		// 	lastname: 'Togootogtokh',
+		// 	image: '/images/members/enkhtogtokh.jpeg',
+		// 	bio: 'Senior AI Research, Professor(Ass.), Researcher, and Software Engineer with academic and industry experience in AI, machine learning, deep learning, computer vision, software development, software architect & design.',
+		// 	current: [
+		// 		{
+		// 			title: 'Consultant',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2023',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Senior AI Researcher',
+		// 			organization: 'Technidoo Solutions',
+		// 			date: 'Since 2019',
+		// 			location: 'Germany'
+		// 		},
+		// 		{
+		// 			title: 'Professor (Ass.)',
+		// 			organization: 'CS department, Mongolian University of Science and Technology',
+		// 			date: 'Since 2017',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: 'Machine Learning Researcher',
+		// 			organization: 'MINE Lab, National Central University',
+		// 			date: '2013 - 2017',
+		// 			location: 'Taiwan'
+		// 		},
+		// 		{
+		// 			title: 'Software engineer',
+		// 			organization: 'Nimon Systems',
+		// 			date: '2008 - 2012',
+		// 			location: 'Mongolia'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: 'Post Doc in deep lear ning for UAV',
+		// 			organization: 'University of Udine, Italy, National University of Singapore',
+		// 			date: '2018-2019',
+		// 			location: 'Singapore'
+		// 		},
+		// 		{
+		// 			title: 'Ph.D in Computer Science',
+		// 			organization: 'National Central University (Taiwan top university system)',
+		// 			date: '2013-2017',
+		// 			location: 'Taiwan'
+		// 		},
+		// 		{
+		// 			title: 'MSc in Mathematics',
+		// 			organization: 'National University of Mongolia',
+		// 			date: '2006-2008',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'BSc in Mathematics',
+		// 			organization: 'National University of Mongolia',
+		// 			date: '2002-2006',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	projects: [
+		// 		'Sennheiser Price Optimization BOT platform, Technidoo Solutions, Sennheiser GMBH, 2021-2022',
+		// 		'Trixie Logistic Optimization AI platform, Technidoo Solutions, Trixie GMBH, Microsoft, 2020-2021',
+		// 		'BASF Counterfeit detection AI platform, Technidoo solutions, BASF, Alibaba, 2019-2020',
+		// 		'PRESNET – AI Computer Vision for UAV Singaporean and Italian Government, Ministries of defense of Singapore and Italy, 2017-2019',
+		// 		'Inter national Build4Skills Big Data Project Mongolian Government, BMZ Germany, 2016-2017'
+		// 	],
+		// 	achievements: [
+		// 		'From 2018-2019, i won the post doc grant and challenged in AI government project. I have successfully done in half of the scheduled time.',
+		// 		'From 2013-2017, I gained the Ph.D degree in computer science specially machine (deep) learning from Taiwan top university system (world ranking top-70).'
+		// 	]
+		// },
 		{
 			role: 'Consultant',
 			firstname: 'An',
