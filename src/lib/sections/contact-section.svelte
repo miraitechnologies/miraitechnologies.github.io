@@ -18,11 +18,10 @@
 				description="If you would like more information about our company or products, please feel free to reach
 			out to us."
 			/>
-			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12 lg:mt-24">
-				<div>
-					<div
-						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
-					>
+
+			<div class="grid grid-cols-1 lg:grid-cols-2 mt-12 lg:mt-24 gap-12">
+				<div class="flex flex-col gap-6">
+					<div class="flex flex-row items-center gap-6">
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -40,11 +39,7 @@
 						</div>
 						<div>{email}</div>
 					</div>
-				</div>
-				<div>
-					<div
-						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
-					>
+					<div class="flex flex-row items-center gap-6">
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -74,11 +69,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div>
-					<div
-						class="flex flex-row lg:flex-col items-center space-x-4 lg:space-x-0 lg:space-y-2 lg:text-center"
-					>
+					<div class="flex flex-row items-center gap-6">
 						<div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -93,25 +84,21 @@
 								/>
 							</svg>
 						</div>
-						<div class="flex flex-col space-y-2">
-							<p>{address}</p>
-							<div>
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.8227316473785!2d106.89890247676352!3d47.92046736625065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693fb9b76c3f7%3A0x6fcd2c2e78763977!2sMirai%20Technologies!5e0!3m2!1sen!2smn!4v1697446072076!5m2!1sen!2smn"
-									class="w-full aspect-square"
-									width="400" height="300"
-									style="border:0;"
-									loading="lazy"
-									referrerpolicy="no-referrer-when-downgrade"
-									title="Mirai Technologies LLC on Google Maps"
-									allowfullscreen
-								/>
-							</div>
-
-						</div>
+						<p>{address}</p>
 					</div>
 				</div>
+				<div>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.8227316473785!2d106.89890247676352!3d47.92046736625065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d9693fb9b76c3f7%3A0x6fcd2c2e78763977!2sMirai%20Technologies!5e0!3m2!1sen!2smn!4v1697446072076!5m2!1sen!2smn"
+						class="w-full aspect-square rounded-xl bg-[#2d4189]"
+						height="300"
+						style="border:0;"
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+						title="Mirai Technologies LLC on Google Maps"
+						allowfullscreen
+					/>
+				</div>
 			</div>
-		</div>
 	</div>
 </section>
