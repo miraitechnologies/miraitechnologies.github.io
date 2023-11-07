@@ -1060,7 +1060,6 @@
 			],
 			projects: [],
 			achievements: [
-				'2022 - Runner up in “Haruul Zangi” nationwide cyber security CTF competition.',
 				'2014 - Runner up in Mongolian national coding competition.',
 				'2014 - Second place in Ulaanbaatar city BZD regional coding competition.',
 				'2014 - Second place in Ulaanbaatar city coding competition.',
