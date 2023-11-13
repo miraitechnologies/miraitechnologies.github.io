@@ -586,7 +586,7 @@
 			projects: [
 				'Joint research project focused on developing autonomous feature including localization, path following and collision avoidance for Automated Guided Vehicle (AGV) prototype. Mar 2020 - Aug 2021',
 				'Adopting data-driven method to identify Human Driving Behavior for behavior planing and prediction from real world data collected in downtown area. Sep 2019 - Aug 2021',
-				'Setup testing vehicle and tune LiDAR, sensor and cameras on Toyota Prius 2015. Mar 2018 - Aug 2019',
+				'Setup testing vehicle and tune LiDAR, sensor and cameras on Toyota Prius 2015. Mar 2018 - Aug 2019'
 			],
 			achievements: [
 				'2019-2021, MEXT Scholarship, Japanese Government',
