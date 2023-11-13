@@ -1505,6 +1505,26 @@
 						</div>
 					</div>
 				{/each}
+				<a
+					href="https://www.zangia.mn/company/MIRAI-TECHNOLOGIES-LLC/"
+					target="_blank"
+					class="member-thumbnail relative overflow-hidden transition-all h-72 lg:h-80 w-full bg-[#141d3c] border border-[#2c3451] cursor-pointer shadow-2xl rounded-lg group"
+					rel="noreferrer"
+				>
+					<img
+						src="/images/svg/questionmark.svg"
+						class="object-cover w-full h-full scale-100 group-hover:scale-110 duration-500 ease-out object-left-top"
+						alt="questionmark"
+					/>
+					<div
+						class="absolute bottom-0 left-0 right-0 top-0 py-6 px-6 text-white flex flex-col justify-end items-center space-y-6"
+					>
+						<div class="font-thin text-lg">Wish to see your photo here?</div>
+						<div class="text-center text-sm font-semibold py-2 px-5 bg-white text-black rounded-full">
+							See open positions
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
