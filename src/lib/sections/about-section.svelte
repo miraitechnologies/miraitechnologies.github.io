@@ -6,19 +6,19 @@
 			title: 'Who we are',
 			paragraph:
 				'Mirai Technologies LLC is a Mongolian outsourcing company established in 2022 with the investment of Shinmei Corporation of Japan. Since its inception, it has formed a team of skilled people and has been working on software development and AI development projects.',
-			image: '/images/svg/startup.svg'
+			image: '/images/2.png'
 		},
 		{
 			title: 'What we do',
 			paragraph:
 				'We write code. We perform a variety of tasks using the latest technology with best solutions like software development, artificial intelligence development, machine learning, computer vision, mobile app development, website development, etc.',
-			image: '/images/svg/coding.svg'
+			image: '/images/3.png'
 		},
 		{
 			title: 'Our vision',
 			paragraph:
 				'Our vision is simple. We want to be one of the major players in the field of artificial intelligence development without losing the trust of those who trust us.',
-			image: '/images/svg/rocket_launch.svg'
+			image: '/images/4.png'
 		}
 	];
 
@@ -42,7 +42,7 @@
 				{#each blocks as block, i}
 					<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
 						<div
-							class="order-2 flex flex-col space-y-6 justify-center {i % 2 === 1
+							class="order-2 flex flex-col space-y-6 justify-center px-5 lg:px-0 {i % 2 === 1
 								? 'lg:order-2'
 								: 'lg:order-1'}"
 						>
@@ -63,7 +63,7 @@
 								: 'lg:order-2'}"
 						>
 							<div
-								class="w-full h-80 lg:h-96 bg-no-repeat bg-center bg-contain"
+								class="w-full h-80 lg:h-96 bg-no-repeat bg-center bg-cover rounded-3xl lg:border lg:border-white/50 lg:border-spacing-4"
 								style="background-image: url('{block.image}')"
 							/>
 						</div>

@@ -13,19 +13,26 @@
 			: 'opacity-0'}"
 	/>
 	<div class="bg-shape bg-shape-1" />
-	<div class="container mx-auto px-5">
-		<div class="min-h-screen flex flex-col justify-end relative">
-			<div class="grow grid grid-cols-1 lg:grid-cols-2 gap-5">
-				<div class="flex flex-col justify-end lg:justify-center space-y-6 lg:space-y-12 ">
+	<div class="container mx-auto">
+		<div class="min-h-screen flex justify-center relative">
+			<div class="grow grid grid-cols-1 lg:grid-cols-2 lg:gap-x-10">
+				<div
+					class="flex opacity-50 lg:mt-0 lg:opacity-100 order-2 -z-10"
+				>
+					<div
+						class="lg:my-auto w-full aspect-square lg:rounded-3xl bg-cover"
+						style="background-image: url('/images/1.png')"
+					/>
+				</div>
+				<div
+					class="flex flex-col justify-center lg:justify-center space-y-12 lg:space-y-12 order-1 p-2 lg:p-0 absolute top-0 bottom-0 lg:relative"
+				>
 					<h1 class="text-6xl lg:text-8xl font-black uppercase text-white text-center lg:text-left">
 						Create the <span class="">future</span>.
 					</h1>
 					<h3 class="text-xl font-medium uppercase lg:text-white/80 text-center lg:text-left z-10">
 						We help to make the future with coding that supports people and vehicles.
 					</h3>
-				</div>
-				<div class="flex justify-center -mt-40 opacity-50 lg:mt-0 lg:opacity-100">
-					<img src="/images/svg/coding2.svg" alt="coding" />
 				</div>
 			</div>
 			<div class="self-center py-6 transition-opacity bottom-0 absolute" class:opacity-0={y > 0}>
