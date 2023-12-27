@@ -5,7 +5,7 @@
 		{
 			title: 'Who we are',
 			paragraph:
-				'Mirai Technologies LLC is a Mongolian company established in 2022 with the investment of Shinmei Corporation of Japan. Since its inception, it has formed a team of skilled people and has been working on software development and AI development projects.',
+				'Mirai Technologies LLC is a Mongolian software company established in 2022 with the investment of Shinmei Corporation of Japan. Since its inception, it has formed a team of skilled people and has been working on software development and AI development projects.',
 			image: '/images/2.png'
 		},
 		{
