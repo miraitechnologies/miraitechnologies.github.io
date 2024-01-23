@@ -1282,7 +1282,7 @@
 		{
 			role: 'Software Engineer',
 			firstname: 'Erdenebileg',
-			lastname: '',
+			lastname: 'Byambadorj',
 			image: '/images/members/erdenebileg.jpeg',
 			bio: null,
 			current: [
