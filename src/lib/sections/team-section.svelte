@@ -1016,59 +1016,59 @@
 				'2009 Silver medal, International Programming Project Olympiad, Turkmenistan'
 			]
 		},
-		{
-			role: 'Software Engineer',
-			firstname: 'Bilguun',
-			lastname: 'Bayartsengel',
-			image: '/images/members/bilguun.jpeg',
-			bio: 'A highly motivated and enthusiastic software engineer with 5 years of experience seeking a challenging position in a dynamic organization to utilize my skills and expertise in software development. Passionate for developing innovative programs and learning new technologies',
-			current: [
-				{
-					title: 'Software Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Fullstack Developer',
-					organization: 'Mevento LLC',
-					date: '2021 - 2022',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Senior R&D engineer, AI team supervisor',
-					organization: 'Grapecity Mongolia LLC',
-					date: '2019 - 2021',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Fullstack Developer',
-					organization: 'Grapecity Mongolia LLC',
-					date: '2018 - 2019',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Bachelor',
-					organization: 'National University of Mongolia',
-					date: '2014-2018',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			projects: [],
-			achievements: [
-				'2014 - Runner up in Mongolian national coding competition.',
-				'2014 - Second place in Ulaanbaatar city BZD regional coding competition.',
-				'2014 - Second place in Ulaanbaatar city coding competition.',
-				'2013 - First place in Ulaanbaatar city coding competition.',
-				'2013 - First place in Ulaanbaatar city BZD regional coding competition.',
-				'2012 - Third place in Ulaanbaatar city BZD regional coding competition.',
-				'2011 - First place at Dornod province coding competition.'
-			]
-		},
+		// {
+		// 	role: 'Software Engineer',
+		// 	firstname: 'Bilguun',
+		// 	lastname: 'Bayartsengel',
+		// 	image: '/images/members/bilguun.jpeg',
+		// 	bio: 'A highly motivated and enthusiastic software engineer with 5 years of experience seeking a challenging position in a dynamic organization to utilize my skills and expertise in software development. Passionate for developing innovative programs and learning new technologies',
+		// 	current: [
+		// 		{
+		// 			title: 'Software Engineer',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2023',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: 'Fullstack Developer',
+		// 			organization: 'Mevento LLC',
+		// 			date: '2021 - 2022',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Senior R&D engineer, AI team supervisor',
+		// 			organization: 'Grapecity Mongolia LLC',
+		// 			date: '2019 - 2021',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Fullstack Developer',
+		// 			organization: 'Grapecity Mongolia LLC',
+		// 			date: '2018 - 2019',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: 'Bachelor',
+		// 			organization: 'National University of Mongolia',
+		// 			date: '2014-2018',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	projects: [],
+		// 	achievements: [
+		// 		'2014 - Runner up in Mongolian national coding competition.',
+		// 		'2014 - Second place in Ulaanbaatar city BZD regional coding competition.',
+		// 		'2014 - Second place in Ulaanbaatar city coding competition.',
+		// 		'2013 - First place in Ulaanbaatar city coding competition.',
+		// 		'2013 - First place in Ulaanbaatar city BZD regional coding competition.',
+		// 		'2012 - Third place in Ulaanbaatar city BZD regional coding competition.',
+		// 		'2011 - First place at Dornod province coding competition.'
+		// 	]
+		// },
 		{
 			role: 'Office Manager',
 			firstname: 'Maralmaa',
@@ -1278,6 +1278,72 @@
 				'Multichain ticketing'
 			],
 			achievements: []
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Erdenebileg',
+			lastname: '',
+			image: '/images/members/erdenebileg.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2023/12',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Data Engineer',
+					organization: 'United Alliance LLC',
+					date: 'Jun 2023 - Oct 2023',
+					location: null
+				},
+				{
+					title: 'Data Engineer',
+					organization: 'United Group',
+					date: 'Nov 2018 - Jun 2019',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Software Engineer',
+					organization: 'Trade and Development Bank of Mongolia',
+					date: 'Jul 2018 - Sep 2018',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'M.Sc. in Data Science',
+					organization: 'University of Trento',
+					date: '2019-2022',
+					location: null
+				},
+				{
+					title: 'B.Sc. in Software Engineering',
+					organization: 'National University of Mongolia',
+					date: '2014-2018',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Knowledge Graph Evolution',
+				'Crowdsourcing for Local Knowledge Core',
+				'Agent Communication Language',
+				'Distributed Machine Learning'
+			],
+			achievements: [
+				'2023 - UniTN 37th Cycle PhD Qualifying Paper Submission - "Ask, Tell and Listen - An Agent Communication Protocol for Knowledge and Information Exchange"',
+				'2022 - Paper Publication in ACM Conference/Computer Science - "Language Diversity: Visible to Humans, Exploitable by Machines"',
+				'2021 - UniTN 37th Cycle IECS PhD Scholarship Recipient (Research Area C) - 1st place',
+				'2019 - UniTrento Laurea Magistrale Scholarship Recipient - 1st place',
+				'2018 - National University of Mongolia - SEAS Academic Conference - 2nd place',
+				'2018 - Paper Publication in MMT-2018 Conference/Artificial Intelligence - "System for Construction of Local Knowledge Core via Crowdsourcing"',
+				'2016 - Erasmus+ Student Mobility Scholarship Recipient (Student exchange to University of Trento in the academic year 2016/2017)',
+				'2014 - Provincial IQ Olympiad - Bronze Medal',
+				'2012 - Provincial Table Tennis Championship - Silver Medal'
+			]
 		}
 	];
 	let isEnter = false;
@@ -1520,7 +1586,9 @@
 						class="absolute bottom-0 left-0 right-0 top-0 py-6 px-6 text-white flex flex-col justify-end items-center space-y-6"
 					>
 						<div class="font-thin text-lg">Wish to see your photo here?</div>
-						<div class="text-center text-sm font-semibold py-2 px-5 bg-white text-black rounded-full">
+						<div
+							class="text-center text-sm font-semibold py-2 px-5 bg-white text-black rounded-full"
+						>
 							See open positions
 						</div>
 					</div>
