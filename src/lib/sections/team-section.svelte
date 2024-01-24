@@ -1302,7 +1302,7 @@
 				},
 				{
 					title: 'Data Engineer',
-					organization: 'United Group',
+					organization: 'Unitel Group',
 					date: 'Nov 2018 - Jun 2019',
 					location: 'Ulaanbaatar, Mongolia'
 				},
