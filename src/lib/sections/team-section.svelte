@@ -1344,7 +1344,58 @@
 				'2014 - Provincial IQ Olympiad - Bronze Medal',
 				'2012 - Provincial Table Tennis Championship - Silver Medal'
 			]
-		}
+		},
+		{
+			role: 'Product Manager',
+			firstname: 'Yesui',
+			lastname: 'Baatar',
+			image: '/images/members/yesui.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Product Manager',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Conference Zoom Operator',
+					organization: 'The International Academic Forum IAFOR',
+					date: '2021 - 2022',
+					location: null
+				},
+				{
+					title: 'Conference Organizing Committee',
+					organization: 'AIESEC volunteering organization',
+					date: '2018 - 2019',
+					location: null
+				},
+			],
+			educations: [
+				{
+					title: 'Master in Quantum Engineering',
+					organization: 'Nagoya University',
+					date: '2023/10 - ongoing',
+					location: "Nagayo, Japan"
+				},
+				{
+					title: 'Bachelor in Applied Physics',
+					organization: 'Nagoya University',
+					date: '2019/10-2023/09',
+					location: 'Nagayo, Japan'
+				}
+			],
+			projects: [
+				'Bachelor Thesis: Conductance through Normal Metal/Insulator/Normal Metal/Insulator/Superconductor junction',
+				'Customized human detection model'
+			],
+			achievements: [
+				'2011 Calligraphy Olympiad - Honorary Diploma of the President of Mongolia for successful participation',
+				'2017 State Physics Olympiad Honorary Certificate',
+			]
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
