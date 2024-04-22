@@ -1147,74 +1147,74 @@
 				'Upper Intermediate Knowledge of English'
 			]
 		},
-		{
-			role: 'Software Engineer',
-			firstname: 'Sukh-Erdene',
-			lastname: 'Bolortuya',
-			image: '/images/members/bsukherdene.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Software Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'AI Engineer',
-					organization: 'ICT group LLC',
-					date: '2022/04 - 2023/03',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Developer',
-					organization: 'Digital Edu management',
-					date: '2020/11 - 2022/04',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Developer',
-					organization: 'Anduud Lab LLC',
-					date: '2019/08 - 2020/08',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Developer',
-					organization: 'ATM Service Mongolia LLC',
-					date: '2019/04 - 2019/08',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Bachelor - Physics electronics',
-					organization: 'National University of Mongolia',
-					date: '2010-2014',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Korean language',
-					organization: 'Hallym University Language institute',
-					date: '2014-2015',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Master - Computer Science',
-					organization: 'Kangwon National University',
-					date: '2015-2018',
-					location: 'Korea'
-				}
-			],
-			projects: [
-				'2019.04~2019-08: Desktop application maintenance testing.',
-				'2019.08~2020-08: Natural language processing research, latin to cyrillic converter, keyword based natural language understanding system with about 1k question and answers. Neo4j graph based database research',
-				'2022.11~2023-04: Moodle LMS maintenance support engineer, php basic bug fixing and developing',
-				'2023-04~: Face recognition system main research, Chest x-ray image abnormality classification and detection system(tested with YOLO, DETECTRON2, Efficientnet, etc...)'
-			],
-			achievements: []
-		},
+		// {
+		// 	role: 'Software Engineer',
+		// 	firstname: 'Sukh-Erdene',
+		// 	lastname: 'Bolortuya',
+		// 	image: '/images/members/bsukherdene.jpeg',
+		// 	bio: null,
+		// 	current: [
+		// 		{
+		// 			title: 'Software Engineer',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2023',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: 'AI Engineer',
+		// 			organization: 'ICT group LLC',
+		// 			date: '2022/04 - 2023/03',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Developer',
+		// 			organization: 'Digital Edu management',
+		// 			date: '2020/11 - 2022/04',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Developer',
+		// 			organization: 'Anduud Lab LLC',
+		// 			date: '2019/08 - 2020/08',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Developer',
+		// 			organization: 'ATM Service Mongolia LLC',
+		// 			date: '2019/04 - 2019/08',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: 'Bachelor - Physics electronics',
+		// 			organization: 'National University of Mongolia',
+		// 			date: '2010-2014',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Korean language',
+		// 			organization: 'Hallym University Language institute',
+		// 			date: '2014-2015',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Master - Computer Science',
+		// 			organization: 'Kangwon National University',
+		// 			date: '2015-2018',
+		// 			location: 'Korea'
+		// 		}
+		// 	],
+		// 	projects: [
+		// 		'2019.04~2019-08: Desktop application maintenance testing.',
+		// 		'2019.08~2020-08: Natural language processing research, latin to cyrillic converter, keyword based natural language understanding system with about 1k question and answers. Neo4j graph based database research',
+		// 		'2022.11~2023-04: Moodle LMS maintenance support engineer, php basic bug fixing and developing',
+		// 		'2023-04~: Face recognition system main research, Chest x-ray image abnormality classification and detection system(tested with YOLO, DETECTRON2, Efficientnet, etc...)'
+		// 	],
+		// 	achievements: []
+		// },
 		{
 			role: 'Software Engineer',
 			firstname: 'Sukh-Erdene',
@@ -1371,14 +1371,14 @@
 					organization: 'AIESEC volunteering organization',
 					date: '2018 - 2019',
 					location: null
-				},
+				}
 			],
 			educations: [
 				{
 					title: 'Master in Quantum Engineering',
 					organization: 'Nagoya University',
 					date: '2023/10 - ongoing',
-					location: "Nagayo, Japan"
+					location: 'Nagayo, Japan'
 				},
 				{
 					title: 'Bachelor in Applied Physics',
@@ -1393,9 +1393,9 @@
 			],
 			achievements: [
 				'2011 Calligraphy Olympiad - Honorary Diploma of the President of Mongolia for successful participation',
-				'2017 State Physics Olympiad Honorary Certificate',
+				'2017 State Physics Olympiad Honorary Certificate'
 			]
-		},
+		}
 	];
 	let isEnter = false;
 	let selected = -1;
@@ -1630,7 +1630,7 @@
 				>
 					<img
 						src="/images/svg/questionmark.svg"
-						class="object-cover w-full h-full scale-100 group-hover:scale-110 duration-500 ease-out object-left-top"
+						class="object-cover w-full h-full scale-110 group-hover:scale-100 duration-500 ease-out object-left-top"
 						alt="questionmark"
 					/>
 					<div
