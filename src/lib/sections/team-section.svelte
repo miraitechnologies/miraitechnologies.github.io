@@ -1645,6 +1645,12 @@
 					</div>
 				</a>
 			</div>
+			<div class="mt-7">
+				<p class="text-sm italic text-center">
+					If you have trouble seeing open positions, please try to contact us via email or
+					phone in the <a href="#contact-section" class="underline">contact</a> section.
+				</p>
+			</div>
 		</div>
 	</div>
 </section>
