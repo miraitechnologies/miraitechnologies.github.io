@@ -594,70 +594,70 @@
 				'Conference Reviewers: IROS (2022), ICCA (2022), IFAC (2022), COSY (2022), FORMATS (2022)'
 			]
 		},
-		// {
-		// 	role: 'Consultant',
-		// 	firstname: 'Sodtavilan',
-		// 	lastname: 'Odonchimed',
-		// 	image: '/images/members/sodtavilan.jpeg',
-		// 	bio: null,
-		// 	current: [
-		// 		{
-		// 			title: 'Consultant',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2023',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'AIエンジニア',
-		// 			organization: '株式会社エクサウィザ ズ',
-		// 			date: '2019/08 - 2019/09',
-		// 			location: 'Japan'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: '工学部システム創成学科 3年次編入学',
-		// 			organization: '東京大学',
-		// 			date: '2021/04 - 2024/03 卒業予定',
-		// 			location: 'Japan'
-		// 		},
-		// 		{
-		// 			title: '電子制御工学科 3年次編入学',
-		// 			organization: '長岡工業高等専門学校',
-		// 			date: '2018/04 - 2021/03 卒業',
-		// 			location: 'Japan'
-		// 		},
-		// 		{
-		// 			title: '東京日本語教育センター',
-		// 			organization: 'K1コース',
-		// 			date: '入学 2017/04 - 2018/03 卒業',
-		// 			location: 'Japan'
-		// 		},
-		// 		{
-		// 			title: '電気電子工学科 1年入学',
-		// 			organization: '新モンゴル高専',
-		// 			date: '2014/09 - 2017/03 3学年卒業',
-		// 			location: 'Japan'
-		// 		}
-		// 	],
-		// 	projects: [
-		// 		'「ニュ ラルネットワ クによる重力波波形再構成のための最適なフィルターデザインの生成」 日本物理学会第76年次大会 発表 電子制御工学科 卒業研究 特別賞 金賞',
-		// 		'「ニュ ラルネットワ クによる重力波波形抽出のためのフィルタ生成の検討」 日本物理学会2022年秋季大会 発表',
-		// 		'「Three-Dimensional Medical Image Synthesis with Denoising Diffusion Probabilistic Models」 MIDL 2022 Short Paper'
-		// 	],
-		// 	achievements: [
-		// 		'日本語能力試験 N1',
-		// 		'Startup Weekend Tokyo Fintech #3 第三位',
-		// 		'信州アプリコンテスト0 U29 優秀賞 総務省信越総合通信局長賞',
-		// 		'ビジネスデザイン発見&発表会 信越大会 最優秀賞 特別賞',
-		// 		'DCON2019 最優秀賞 企業賞',
-		// 		'高専ワイヤレスコンテスト スマ トファクトリ 賞',
-		// 		'長岡工業高等専門 同窓会 功労章',
-		// 		'DL Circle 論文輪読コミュニティ 共同創業者'
-		// 	]
-		// },
+		{
+			role: 'Consultant',
+			firstname: 'Sodtavilan',
+			lastname: 'Odonchimed',
+			image: '/images/members/sodtavilan.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Consultant',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2023',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'AIエンジニア',
+					organization: '株式会社エクサウィザ ズ',
+					date: '2019/08 - 2019/09',
+					location: 'Japan'
+				}
+			],
+			educations: [
+				{
+					title: '工学部システム創成学科 3年次編入学',
+					organization: '東京大学',
+					date: '2021/04 - 2024/03 卒業予定',
+					location: 'Japan'
+				},
+				{
+					title: '電子制御工学科 3年次編入学',
+					organization: '長岡工業高等専門学校',
+					date: '2018/04 - 2021/03 卒業',
+					location: 'Japan'
+				},
+				{
+					title: '東京日本語教育センター',
+					organization: 'K1コース',
+					date: '入学 2017/04 - 2018/03 卒業',
+					location: 'Japan'
+				},
+				{
+					title: '電気電子工学科 1年入学',
+					organization: '新モンゴル高専',
+					date: '2014/09 - 2017/03 3学年卒業',
+					location: 'Japan'
+				}
+			],
+			projects: [
+				'「ニュ ラルネットワ クによる重力波波形再構成のための最適なフィルターデザインの生成」 日本物理学会第76年次大会 発表 電子制御工学科 卒業研究 特別賞 金賞',
+				'「ニュ ラルネットワ クによる重力波波形抽出のためのフィルタ生成の検討」 日本物理学会2022年秋季大会 発表',
+				'「Three-Dimensional Medical Image Synthesis with Denoising Diffusion Probabilistic Models」 MIDL 2022 Short Paper'
+			],
+			achievements: [
+				'日本語能力試験 N1',
+				'Startup Weekend Tokyo Fintech #3 第三位',
+				'信州アプリコンテスト0 U29 優秀賞 総務省信越総合通信局長賞',
+				'ビジネスデザイン発見&発表会 信越大会 最優秀賞 特別賞',
+				'DCON2019 最優秀賞 企業賞',
+				'高専ワイヤレスコンテスト スマ トファクトリ 賞',
+				'長岡工業高等専門 同窓会 功労章',
+				'DL Circle 論文輪読コミュニティ 共同創業者'
+			]
+		},
 		{
 			role: 'Bridge Engineer',
 			firstname: 'Ankhbayar',
@@ -1395,7 +1395,67 @@
 				'2011 Calligraphy Olympiad - Honorary Diploma of the President of Mongolia for successful participation',
 				'2017 State Physics Olympiad Honorary Certificate'
 			]
-		}
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Khaschuluu',
+			lastname: 'Munkhbayar',
+			image: '/images/members/khaschuluu.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'CTO',
+					organization: 'Altex.mn - Crypto Exchange',
+					date: '2022 - 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Blockchain specialist',
+					organization: 'ICT Group',
+					date: '2020 - 2022',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Founder & CEO',
+					organization: 'Digital Egereg LLC',
+					date: '2016 - 2018',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Senior developer',
+					organization: 'Ard Financial Group',
+					date: '2014 - 2016',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor - Computer Science',
+					organization: 'National University of Mongolia',
+					date: '2008-2014',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+			],
+			projects: [
+				'Altex Investment - Crypto gateway to stock market',
+				'AltPay - P2P platform for international money transfer',
+				'ReindeerBoots - Inventory management',
+				'Bileg - Delivery management',
+				'Trade.mn BCS - Binance Smart Chain side of Trade.mn',
+				'Smart contracts - Smart contract development for token (TRD, SPC), NFT, airdrop, lottery etc.',
+				'Egereg - Mongolian first stable crypto token to MNT',
+				'Bloodstock Auction - Real-time online auction',
+			],
+			achievements: []
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
@@ -1647,8 +1707,8 @@
 			</div>
 			<div class="mt-7">
 				<p class="text-sm italic text-center">
-					If you have trouble seeing open positions, please try to contact us via email or
-					phone in the <a href="#contact-section" class="underline">contact</a> section.
+					If you have trouble seeing open positions, please try to contact us via email or phone in
+					the <a href="#contact-section" class="underline">contact</a> section.
 				</p>
 			</div>
 		</div>
