@@ -1460,7 +1460,7 @@
 			role: 'Bridge Engineer',
 			firstname: 'Ganbayar',
 			lastname: 'Amgalan',
-			image: '/images/members/khaschuluu.jpeg',
+			image: '/images/members/ganbayar_a.jpeg',
 			bio: null,
 			current: [
 				{
