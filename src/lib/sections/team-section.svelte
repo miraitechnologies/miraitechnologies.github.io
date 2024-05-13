@@ -1442,7 +1442,7 @@
 					organization: 'National University of Mongolia',
 					date: '2008-2014',
 					location: 'Ulaanbaatar, Mongolia'
-				},
+				}
 			],
 			projects: [
 				'Altex Investment - Crypto gateway to stock market',
@@ -1452,10 +1452,99 @@
 				'Trade.mn BCS - Binance Smart Chain side of Trade.mn',
 				'Smart contracts - Smart contract development for token (TRD, SPC), NFT, airdrop, lottery etc.',
 				'Egereg - Mongolian first stable crypto token to MNT',
-				'Bloodstock Auction - Real-time online auction',
+				'Bloodstock Auction - Real-time online auction'
 			],
 			achievements: []
 		},
+		{
+			role: 'Bridge Engineer',
+			firstname: 'Ganbayar',
+			lastname: 'Amgalan',
+			image: '/images/members/khaschuluu.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Bridge Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'SE・チームリーダー',
+					organization: '（株）テービーアイ（東京貿易グループ）',
+					date: '2018 - 2023',
+					location: 'Tokyo, Japan'
+				},
+				{
+					title: 'フリーランサー',
+					organization: '',
+					date: '2012 - 2017',
+					location: 'San Francisco, Los Angeles/USA'
+				},
+				{
+					title: 'SE・チームリーダー',
+					organization: '（株）キヤノンソフトウエア',
+					date: '2006 - 2012',
+					location: 'Kawasaki/Japan'
+				},
+				{
+					title: 'ソフトウエア開発者',
+					organization: '（株）アクセスネット',
+					date: '2004 - 2006',
+					location: 'Tokyo/Japan'
+				}
+			],
+			educations: [
+				{
+					title: 'Computer engineering extension',
+					organization: 'University of California, Los Angeles',
+					date: '2016-2017',
+					location: 'Los Angeles/USA'
+				},
+				{
+					title: 'MBA',
+					organization: 'California University of Management and Sciences',
+					date: '2014-2015',
+					location: 'Los Angeles/USA'
+				},
+				{
+					title: 'pre-MBA, MBA',
+					organization: 'Missouri State University',
+					date: '2012-2013',
+					location: 'Missouri/USA'
+				},
+				{
+					title: 'B.Sc.',
+					organization: '宇都宮大学',
+					date: '2001-2003',
+					location: 'Tochigi/Japan'
+				},
+				{
+					title: '専門士',
+					organization: '石川工業高等専門学校',
+					date: '1998-2000',
+					location: 'Ishikawa/Japan'
+				}
+			],
+			projects: [
+				'警備監視システム開発（CSPセントラル警備保障）',
+				'キヤノン複写機組み込み開発',
+				'Docomo無線基地局組み込み開発',
+				'監視カメラの画像解析・AI開発',
+				'顔認証用3D化ツール開発',
+				'タッチパネル開発',
+				'リモートコントローラーVNCサーバー開発',
+				'システムの監視・冗長化開発',
+				'字幕再生可能なビデオプレイヤー開発'
+			],
+			achievements: [
+				'1997-2002 日本政府文部科学省奨学金, 日本',
+				'2015 California University of Management and Sciences - Cum Laude Honor Graduate CGPA 3.89',
+				'2017 University of California, Los Angeles - Awarded with Distinction'
+			]
+		}
 	];
 	let isEnter = false;
 	let selected = -1;
