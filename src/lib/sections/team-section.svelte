@@ -660,88 +660,6 @@
 		},
 		{
 			role: 'Bridge Engineer',
-			firstname: 'Ankhbayar',
-			lastname: 'Tsagaan',
-			image: '/images/members/ankhbayar.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Bridge Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2022',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'ブリッジSE',
-					organization: '2ndコミュニティシステムズ株式会社',
-					date: '2021-2022',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'SE、チームリーダー',
-					organization: 'ユニメディアソリューションズ株式会社',
-					date: '2014-2021',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'シニアエンジニア',
-					organization: 'PCM LLC',
-					date: '2012-2014',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'ソフトウェア開発者',
-					organization: 'モンゴル電気通信株式会社',
-					date: '2009-2012',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'ソフトウェア開発者',
-					organization: 'Digitaleaf Inc.',
-					date: '2006-2009',
-					location: 'Tokyo, Japan'
-				}
-			],
-			educations: [
-				{
-					title: '専門士',
-					organization: '日本電子専門学校組込み学科',
-					date: '2005-2008',
-					location: 'Tokyo, Japan'
-				},
-				{
-					title: '情報処理学士号 ',
-					organization: 'モンゴル国立大学情報処理学部',
-					date: '2001-2005',
-					location: 'ウラーンバートル, モンゴル'
-				}
-			],
-			projects: [
-				'国際通話サービス提供システム',
-				'課金、支払い収集システム',
-				'TV販売バックエンドシステム',
-				'POSシステム',
-				'設備メンテナンス管理システム',
-				'CROWDジョブ',
-				'受注管理システム',
-				'作業管理システム',
-				'オンラインクラスマネジメントシステム',
-				'部屋レンタルシステム',
-				'ブロックチェーンプラットフォーム',
-				'AI'
-			],
-			achievements: [
-				'2012-2014 ITスタートアップインキュベーションプログラム賞',
-				'2005‐2008 日本政府文部科学省奨学金, 日本',
-				'2002-2005住友奨学金（モンゴル国立大学大学生向け）',
-				'1998全国物理学オリンピック、スペシャル賞',
-				'1998 国際ロシア語オリンピック, モスクワ'
-			]
-		},
-		{
-			role: 'Bridge Engineer',
 			firstname: 'Ganbold',
 			lastname: 'Sukhbat',
 			image: '/images/members/ganbold.jpeg',
@@ -898,6 +816,228 @@
 				'2008 OracleEBS（Gold Master資格あり）',
 				'1996‐2000 日本政府文部科学省奨学金, 日本',
 				'2002-2004ロータリ米山奨学金'
+			]
+		},
+		{
+			role: 'Bridge Engineer',
+			firstname: 'Ganbayar',
+			lastname: 'Amgalan',
+			image: '/images/members/ganbayar_a.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Bridge Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'SE・チームリーダー',
+					organization: '（株）テービーアイ（東京貿易グループ）',
+					date: '2018 - 2023',
+					location: 'Tokyo, Japan'
+				},
+				{
+					title: 'フリーランサー',
+					organization: '',
+					date: '2012 - 2017',
+					location: 'San Francisco, Los Angeles/USA'
+				},
+				{
+					title: 'SE・チームリーダー',
+					organization: '（株）キヤノンソフトウエア',
+					date: '2006 - 2012',
+					location: 'Kawasaki/Japan'
+				},
+				{
+					title: 'ソフトウエア開発者',
+					organization: '（株）アクセスネット',
+					date: '2004 - 2006',
+					location: 'Tokyo/Japan'
+				}
+			],
+			educations: [
+				{
+					title: 'Computer engineering extension',
+					organization: 'University of California, Los Angeles',
+					date: '2016-2017',
+					location: 'Los Angeles/USA'
+				},
+				{
+					title: 'MBA',
+					organization: 'California University of Management and Sciences',
+					date: '2014-2015',
+					location: 'Los Angeles/USA'
+				},
+				{
+					title: 'pre-MBA, MBA',
+					organization: 'Missouri State University',
+					date: '2012-2013',
+					location: 'Missouri/USA'
+				},
+				{
+					title: 'B.Sc.',
+					organization: '宇都宮大学',
+					date: '2001-2003',
+					location: 'Tochigi/Japan'
+				},
+				{
+					title: '専門士',
+					organization: '石川工業高等専門学校',
+					date: '1998-2000',
+					location: 'Ishikawa/Japan'
+				}
+			],
+			projects: [
+				'警備監視システム開発（CSPセントラル警備保障）',
+				'キヤノン複写機組み込み開発',
+				'Docomo無線基地局組み込み開発',
+				'監視カメラの画像解析・AI開発',
+				'顔認証用3D化ツール開発',
+				'タッチパネル開発',
+				'リモートコントローラーVNCサーバー開発',
+				'システムの監視・冗長化開発',
+				'字幕再生可能なビデオプレイヤー開発'
+			],
+			achievements: [
+				'1997-2002 日本政府文部科学省奨学金, 日本',
+				'2015 California University of Management and Sciences - Cum Laude Honor Graduate CGPA 3.89',
+				'2017 University of California, Los Angeles - Awarded with Distinction'
+			]
+		},
+		{
+			role: 'Bridge Engineer',
+			firstname: 'Ankhbayar',
+			lastname: 'Tsagaan',
+			image: '/images/members/ankhbayar.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Bridge Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2022',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'ブリッジSE',
+					organization: '2ndコミュニティシステムズ株式会社',
+					date: '2021-2022',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'SE、チームリーダー',
+					organization: 'ユニメディアソリューションズ株式会社',
+					date: '2014-2021',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'シニアエンジニア',
+					organization: 'PCM LLC',
+					date: '2012-2014',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'ソフトウェア開発者',
+					organization: 'モンゴル電気通信株式会社',
+					date: '2009-2012',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'ソフトウェア開発者',
+					organization: 'Digitaleaf Inc.',
+					date: '2006-2009',
+					location: 'Tokyo, Japan'
+				}
+			],
+			educations: [
+				{
+					title: '専門士',
+					organization: '日本電子専門学校組込み学科',
+					date: '2005-2008',
+					location: 'Tokyo, Japan'
+				},
+				{
+					title: '情報処理学士号 ',
+					organization: 'モンゴル国立大学情報処理学部',
+					date: '2001-2005',
+					location: 'ウラーンバートル, モンゴル'
+				}
+			],
+			projects: [
+				'国際通話サービス提供システム',
+				'課金、支払い収集システム',
+				'TV販売バックエンドシステム',
+				'POSシステム',
+				'設備メンテナンス管理システム',
+				'CROWDジョブ',
+				'受注管理システム',
+				'作業管理システム',
+				'オンラインクラスマネジメントシステム',
+				'部屋レンタルシステム',
+				'ブロックチェーンプラットフォーム',
+				'AI'
+			],
+			achievements: [
+				'2012-2014 ITスタートアップインキュベーションプログラム賞',
+				'2005‐2008 日本政府文部科学省奨学金, 日本',
+				'2002-2005住友奨学金（モンゴル国立大学大学生向け）',
+				'1998全国物理学オリンピック、スペシャル賞',
+				'1998 国際ロシア語オリンピック, モスクワ'
+			]
+		},
+		{
+			role: 'Product Manager',
+			firstname: 'Yesui',
+			lastname: 'Baatar',
+			image: '/images/members/yesui.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Product Manager',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Conference Zoom Operator',
+					organization: 'The International Academic Forum IAFOR',
+					date: '2021 - 2022',
+					location: null
+				},
+				{
+					title: 'Conference Organizing Committee',
+					organization: 'AIESEC volunteering organization',
+					date: '2018 - 2019',
+					location: null
+				}
+			],
+			educations: [
+				{
+					title: 'Master in Quantum Engineering',
+					organization: 'Nagoya University',
+					date: '2023/10 - ongoing',
+					location: 'Nagayo, Japan'
+				},
+				{
+					title: 'Bachelor in Applied Physics',
+					organization: 'Nagoya University',
+					date: '2019/10-2023/09',
+					location: 'Nagayo, Japan'
+				}
+			],
+			projects: [
+				'Bachelor Thesis: Conductance through Normal Metal/Insulator/Normal Metal/Insulator/Superconductor junction',
+				'Customized human detection model'
+			],
+			achievements: [
+				'2011 Calligraphy Olympiad - Honorary Diploma of the President of Mongolia for successful participation',
+				'2017 State Physics Olympiad Honorary Certificate'
 			]
 		},
 		{
@@ -1346,57 +1486,6 @@
 			]
 		},
 		{
-			role: 'Product Manager',
-			firstname: 'Yesui',
-			lastname: 'Baatar',
-			image: '/images/members/yesui.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Product Manager',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Conference Zoom Operator',
-					organization: 'The International Academic Forum IAFOR',
-					date: '2021 - 2022',
-					location: null
-				},
-				{
-					title: 'Conference Organizing Committee',
-					organization: 'AIESEC volunteering organization',
-					date: '2018 - 2019',
-					location: null
-				}
-			],
-			educations: [
-				{
-					title: 'Master in Quantum Engineering',
-					organization: 'Nagoya University',
-					date: '2023/10 - ongoing',
-					location: 'Nagayo, Japan'
-				},
-				{
-					title: 'Bachelor in Applied Physics',
-					organization: 'Nagoya University',
-					date: '2019/10-2023/09',
-					location: 'Nagayo, Japan'
-				}
-			],
-			projects: [
-				'Bachelor Thesis: Conductance through Normal Metal/Insulator/Normal Metal/Insulator/Superconductor junction',
-				'Customized human detection model'
-			],
-			achievements: [
-				'2011 Calligraphy Olympiad - Honorary Diploma of the President of Mongolia for successful participation',
-				'2017 State Physics Olympiad Honorary Certificate'
-			]
-		},
-		{
 			role: 'Software Engineer',
 			firstname: 'Khaschuluu',
 			lastname: 'Munkhbayar',
@@ -1455,95 +1544,6 @@
 				'Bloodstock Auction - Real-time online auction'
 			],
 			achievements: []
-		},
-		{
-			role: 'Bridge Engineer',
-			firstname: 'Ganbayar',
-			lastname: 'Amgalan',
-			image: '/images/members/ganbayar_a.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Bridge Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'SE・チームリーダー',
-					organization: '（株）テービーアイ（東京貿易グループ）',
-					date: '2018 - 2023',
-					location: 'Tokyo, Japan'
-				},
-				{
-					title: 'フリーランサー',
-					organization: '',
-					date: '2012 - 2017',
-					location: 'San Francisco, Los Angeles/USA'
-				},
-				{
-					title: 'SE・チームリーダー',
-					organization: '（株）キヤノンソフトウエア',
-					date: '2006 - 2012',
-					location: 'Kawasaki/Japan'
-				},
-				{
-					title: 'ソフトウエア開発者',
-					organization: '（株）アクセスネット',
-					date: '2004 - 2006',
-					location: 'Tokyo/Japan'
-				}
-			],
-			educations: [
-				{
-					title: 'Computer engineering extension',
-					organization: 'University of California, Los Angeles',
-					date: '2016-2017',
-					location: 'Los Angeles/USA'
-				},
-				{
-					title: 'MBA',
-					organization: 'California University of Management and Sciences',
-					date: '2014-2015',
-					location: 'Los Angeles/USA'
-				},
-				{
-					title: 'pre-MBA, MBA',
-					organization: 'Missouri State University',
-					date: '2012-2013',
-					location: 'Missouri/USA'
-				},
-				{
-					title: 'B.Sc.',
-					organization: '宇都宮大学',
-					date: '2001-2003',
-					location: 'Tochigi/Japan'
-				},
-				{
-					title: '専門士',
-					organization: '石川工業高等専門学校',
-					date: '1998-2000',
-					location: 'Ishikawa/Japan'
-				}
-			],
-			projects: [
-				'警備監視システム開発（CSPセントラル警備保障）',
-				'キヤノン複写機組み込み開発',
-				'Docomo無線基地局組み込み開発',
-				'監視カメラの画像解析・AI開発',
-				'顔認証用3D化ツール開発',
-				'タッチパネル開発',
-				'リモートコントローラーVNCサーバー開発',
-				'システムの監視・冗長化開発',
-				'字幕再生可能なビデオプレイヤー開発'
-			],
-			achievements: [
-				'1997-2002 日本政府文部科学省奨学金, 日本',
-				'2015 California University of Management and Sciences - Cum Laude Honor Graduate CGPA 3.89',
-				'2017 University of California, Los Angeles - Awarded with Distinction'
-			]
 		}
 	];
 	let isEnter = false;
@@ -1761,7 +1761,7 @@
 						<div
 							class="absolute bottom-0 left-0 right-0 py-3 px-1 bg-[#081336]/25 backdrop-blur-lg group-hover:bg-white/100 text-white group-hover:text-black duration-300 ease-in"
 						>
-							<div class="uppercase text-center whitespace-pre-line ">
+							<div class="uppercase text-center whitespace-pre-line">
 								<span class="whitespace-nowrap font-bold">{member.firstname}</span>
 								<span class="whitespace-nowrap">{member.lastname}</span>
 							</div>
@@ -2041,7 +2041,7 @@
 						{/if}
 					</div>
 				</div>
-				<div class="col-span-5 md:col-span-2  order-1 relative">
+				<div class="col-span-5 md:col-span-2 order-1 relative">
 					<div
 						id="modal-image-{i}"
 						class="w-full aspect-[3/4] overflow-hidden shadow-2xl rounded-3xl sticky top-24 bottom-24"
