@@ -595,14 +595,14 @@
 			]
 		},
 		{
-			role: 'Consultant',
+			role: 'Research Engineer',
 			firstname: 'Lester (Peng-Jian)',
 			lastname: 'Yang',
 			image: '/images/members/lester.jpeg',
 			bio: "Projects more on lesterpjy.me",
 			current: [
 				{
-					title: 'Consultant',
+					title: 'Research Engineer',
 					organization: 'Mirai Technologies LLC',
 					date: 'Since 2024',
 					location: 'Ulaanbaatar, Mongolia'
