@@ -144,6 +144,64 @@
 			]
 		},
 		{
+			role: 'CTO',
+			firstname: 'Amgalan',
+			lastname: 'Ganbat',
+			image: '/images/members/no_photo.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'CTO',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'CTO',
+					organization: 'addice co., Ltd.',
+					date: '2019 - 2024',
+					location: 'Tokyo, Japan'
+				},
+				{
+					title: 'CTO',
+					organization: 'Dentsu Data-Artist Mongol',
+					date: '2018-2019',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Data engineer',
+					organization: 'Freelance',
+					date: '2016-2018',
+					location: 'London, UK'
+				},
+				{
+					title: 'System engineer',
+					organization: 'IBM Japan',
+					date: '2014-2016',
+					location: 'Tokyo, Japan'
+				},
+			],
+			educations: [
+				{
+					title: 'Master in Information and Communication Engineering',
+					organization: 'The University of Tokyo',
+					date: '2012-2014',
+					location: 'Tokyo, Japan'
+				},
+				{
+					title: 'Bachelor in Electronics and Communication Engineering',
+					organization: 'The University of Tokyo',
+					date: '2008-2012',
+					location: 'Tokyo, Japan'
+				}
+			],
+			projects: [
+			],
+			achievements: []
+		},
+		{
 			role: 'Consultant',
 			firstname: 'Otgonbayar',
 			lastname: 'Uuye',
@@ -1270,25 +1328,25 @@
 		// 		'2011 - First place at Dornod province coding competition.'
 		// 	]
 		// },
-		{
-			role: 'Office Manager',
-			firstname: 'Maralmaa',
-			lastname: 'Oyun',
-			image: '/images/members/maralmaa.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Office Manager',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [],
-			educations: [],
-			projects: [],
-			achievements: []
-		},
+		// {
+		// 	role: 'Office Manager',
+		// 	firstname: 'Maralmaa',
+		// 	lastname: 'Oyun',
+		// 	image: '/images/members/maralmaa.jpeg',
+		// 	bio: null,
+		// 	current: [
+		// 		{
+		// 			title: 'Office Manager',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2023',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [],
+		// 	educations: [],
+		// 	projects: [],
+		// 	achievements: []
+		// },
 		{
 			role: 'System Engineer',
 			firstname: 'Sanchirmaa',
@@ -1603,6 +1661,82 @@
 				'Smart contracts - Smart contract development for token (TRD, SPC), NFT, airdrop, lottery etc.',
 				'Egereg - Mongolian first stable crypto token to MNT',
 				'Bloodstock Auction - Real-time online auction'
+			],
+			achievements: []
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Odbayar',
+			lastname: 'Mendbayar',
+			image: '/images/members/soyol.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Software Engineer',
+					organization: 'Riku Tech LLC,',
+					date: '2023 - 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+			],
+			educations: [
+				{
+					title: 'Associate Degree - Computer Science',
+					organization: 'Anan National College of Technology',
+					date: '2020-2023',
+					location: 'Tokushima, Japan'
+				}
+			],
+			projects: [
+				'Optimizing Posture Control for Humanoid Robots During Falls Using DDPG',
+			],
+			achievements: []
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Dulguun',
+			lastname: 'Battugs',
+			image: '/images/members/dolgoon.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Network Engineer',
+					organization: 'Unitel LLC',
+					date: '2021-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Software Engineer',
+					organization: 'Riku Tech LLC',
+					date: '2021-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+			],
+			educations: [
+				{
+					title: 'Associate Degree - Computer Science',
+					organization: 'Matsue National College of Technology',
+					date: '2018-2021',
+					location: 'Shimane, Japan'
+				},
+			],
+			projects: [
+				'Adaptive Traffic Signal Control with Reinforcement Learning'
 			],
 			achievements: []
 		}
