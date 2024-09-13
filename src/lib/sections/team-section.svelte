@@ -147,7 +147,7 @@
 			role: 'CTO',
 			firstname: 'Amgalan',
 			lastname: 'Ganbat',
-			image: '/images/members/no_photo.jpg',
+			image: '/images/members/amgalan.jpeg',
 			bio: null,
 			current: [
 				{
