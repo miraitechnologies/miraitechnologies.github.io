@@ -1739,6 +1739,46 @@
 				'Adaptive Traffic Signal Control with Reinforcement Learning'
 			],
 			achievements: []
+		},
+		{
+			role: 'AI Engineer',
+			firstname: 'Munkh-Erdene',
+			lastname: 'Otgonbold',
+			image: '/images/members/munkherdene.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'AI Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Research Assistant',
+					organization: 'United Arab Emirates University, AI and Robotics Lab',
+					date: '2021-2024',
+					location: 'United Arab Emirates'
+				},
+			],
+			educations: [
+				{
+					title: 'Master in electronic engineering',
+					organization: 'Mongolian University of Science and Technology',
+					date: '2022-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Bachelor in electronic engineering',
+					organization: 'Mongolian University of Science and Technology',
+					date: '2016-2020',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+			],
+			projects: [
+			],
+			achievements: []
 		}
 	];
 	let isEnter = false;
