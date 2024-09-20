@@ -1665,6 +1665,45 @@
 			achievements: []
 		},
 		{
+            role: 'Software engineer',
+            firstname: 'Nurbyek',
+            lastname: 'Khuansh',
+            image: '/images/members/nurbyek.jpeg',
+            bio: null,
+            current: [
+                {
+                    title: 'Software engineer',
+                    organization: 'Mirai Technologies LLC',
+                    date: 'Since 2024',
+                    location: 'Ulaanbaatar, Mongolia'
+                }
+            ],
+            expierences: [
+                {
+                    title: 'Developer',
+                    organization: 'LendMN NBFI JSC',
+                    date: '2021-2024',
+                    location: 'Ulaanbaatar, Mongolia'
+                },
+                {
+                    title: 'Developer',
+                    organization: 'Digital Edu Management LLC',
+                    date: '2021-2024',
+                    location: 'Ulaanbaatar, Mongolia'
+                },
+            ],
+            educations: [
+                {
+                    title: 'Bachelor in Information Technology',
+                    organization: 'Mongolian University of Science and Technology',
+                    date: '2017-2021',
+                    location: 'Ulaanbaatar, Mongolia'
+                },
+            ],
+            projects: [],
+            achievements: []
+		},
+		{
 			role: 'Software Engineer',
 			firstname: 'Odbayar',
 			lastname: 'Mendbayar',
@@ -1779,7 +1818,7 @@
 			projects: [
 			],
 			achievements: []
-		}
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
