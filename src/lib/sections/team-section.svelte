@@ -1275,205 +1275,6 @@
 				'2009 Silver medal, International Programming Project Olympiad, Turkmenistan'
 			]
 		},
-		// {
-		// 	role: 'Software Engineer',
-		// 	firstname: 'Bilguun',
-		// 	lastname: 'Bayartsengel',
-		// 	image: '/images/members/bilguun.jpeg',
-		// 	bio: 'A highly motivated and enthusiastic software engineer with 5 years of experience seeking a challenging position in a dynamic organization to utilize my skills and expertise in software development. Passionate for developing innovative programs and learning new technologies',
-		// 	current: [
-		// 		{
-		// 			title: 'Software Engineer',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2023',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'Fullstack Developer',
-		// 			organization: 'Mevento LLC',
-		// 			date: '2021 - 2022',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Senior R&D engineer, AI team supervisor',
-		// 			organization: 'Grapecity Mongolia LLC',
-		// 			date: '2019 - 2021',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Fullstack Developer',
-		// 			organization: 'Grapecity Mongolia LLC',
-		// 			date: '2018 - 2019',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: 'Bachelor',
-		// 			organization: 'National University of Mongolia',
-		// 			date: '2014-2018',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	projects: [],
-		// 	achievements: [
-		// 		'2014 - Runner up in Mongolian national coding competition.',
-		// 		'2014 - Second place in Ulaanbaatar city BZD regional coding competition.',
-		// 		'2014 - Second place in Ulaanbaatar city coding competition.',
-		// 		'2013 - First place in Ulaanbaatar city coding competition.',
-		// 		'2013 - First place in Ulaanbaatar city BZD regional coding competition.',
-		// 		'2012 - Third place in Ulaanbaatar city BZD regional coding competition.',
-		// 		'2011 - First place at Dornod province coding competition.'
-		// 	]
-		// },
-		// {
-		// 	role: 'Office Manager',
-		// 	firstname: 'Maralmaa',
-		// 	lastname: 'Oyun',
-		// 	image: '/images/members/maralmaa.jpeg',
-		// 	bio: null,
-		// 	current: [
-		// 		{
-		// 			title: 'Office Manager',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2023',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [],
-		// 	educations: [],
-		// 	projects: [],
-		// 	achievements: []
-		// },
-		{
-			role: 'System Engineer',
-			firstname: 'Sanchirmaa',
-			lastname: 'Lkhagvasuren',
-			image: '/images/members/sanchirmaa.jpeg',
-			bio: 'More than 10 years progressive experience and excellent skills in system administrator and IT security, a problem-solver and effective team player. Thrives on new challenges; committed to continuous learning and professional growth.',
-			current: [
-				{
-					title: 'Software Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Senior Information Security Architect',
-					organization: 'Mobicom Corporation LLC',
-					date: '2009-2023',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Developer, System engineer',
-					organization: 'Mongol Systems LLC',
-					date: '2008/9 – 2009/3',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Developer',
-					organization: 'NewcomSystems Japan LLC',
-					date: '2007/9 - 2008/8',
-					location: 'Japan'
-				},
-				{
-					title: 'System engineer, Database administrator',
-					organization: 'Newcom Systems LLC',
-					date: '2005/7 - 2007/8',
-					location: 'Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Bachelor degree in Computer Software engineering',
-					organization: 'National University of Mongolia',
-					date: '2001-2005',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			projects: [],
-			achievements: [
-				'SANS GIAC Certified Forensic Analyst (GCFA), Singapore',
-				'ArcSight Certified Security Analyst, Arcsight Training Center in Washington, USA',
-				'SourceFire Certified Professional, Mongolia',
-				'Network Security, Mongolia',
-				'IBT TOEFL preparation course',
-				'High Advanced Knowledge of English',
-				'Upper Intermediate Knowledge of English'
-			]
-		},
-		// {
-		// 	role: 'Software Engineer',
-		// 	firstname: 'Sukh-Erdene',
-		// 	lastname: 'Bolortuya',
-		// 	image: '/images/members/bsukherdene.jpeg',
-		// 	bio: null,
-		// 	current: [
-		// 		{
-		// 			title: 'Software Engineer',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2023',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'AI Engineer',
-		// 			organization: 'ICT group LLC',
-		// 			date: '2022/04 - 2023/03',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Developer',
-		// 			organization: 'Digital Edu management',
-		// 			date: '2020/11 - 2022/04',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Developer',
-		// 			organization: 'Anduud Lab LLC',
-		// 			date: '2019/08 - 2020/08',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Developer',
-		// 			organization: 'ATM Service Mongolia LLC',
-		// 			date: '2019/04 - 2019/08',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: 'Bachelor - Physics electronics',
-		// 			organization: 'National University of Mongolia',
-		// 			date: '2010-2014',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Korean language',
-		// 			organization: 'Hallym University Language institute',
-		// 			date: '2014-2015',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Master - Computer Science',
-		// 			organization: 'Kangwon National University',
-		// 			date: '2015-2018',
-		// 			location: 'Korea'
-		// 		}
-		// 	],
-		// 	projects: [
-		// 		'2019.04~2019-08: Desktop application maintenance testing.',
-		// 		'2019.08~2020-08: Natural language processing research, latin to cyrillic converter, keyword based natural language understanding system with about 1k question and answers. Neo4j graph based database research',
-		// 		'2022.11~2023-04: Moodle LMS maintenance support engineer, php basic bug fixing and developing',
-		// 		'2023-04~: Face recognition system main research, Chest x-ray image abnormality classification and detection system(tested with YOLO, DETECTRON2, Efficientnet, etc...)'
-		// 	],
-		// 	achievements: []
-		// },
 		{
 			role: 'Software Engineer',
 			firstname: 'Sukh-Erdene',
@@ -1819,6 +1620,94 @@
 			],
 			achievements: []
 		},
+		{
+			role: 'SOFTWARE ENGINEER',
+			firstname: 'Manaljav',
+			lastname: 'Purevsuren',
+			image: '/images/members/manaljav.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Fullstack Developer',
+					organization: 'Infinite Solutions LLC',
+					date: 2022-2024,
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Software Developer',
+					organization: 'JPMorgan Chase & Co',
+					date: 2021-2022,
+					location: 'Tampa, Florida USA'
+				}
+			],
+			educations: [
+				{
+					title: 'Computer Science',
+					organization: 'University of South Florida',
+					date: 2016-2020,
+					location: 'Tampa, Florida USA'
+				},
+				{
+					title: 'Pre-Engineering',
+					organization: 'Lindenwood University',
+					date: 2014-2016,
+					location: 'St. Charles, Missouri USA'
+				}
+			],
+			projects: [
+				'Meterium - Tokenized Marketplace',
+				'VSign - Electronic signatures',
+				'TDB - Banking Web',
+               'Chase customer service - Web app'
+			],
+			achievements: [
+				'2016 Missouri State College Math Competition, 1st place (Team)',
+				'2020 USF College of Engineering, Excellence in Computer Science Award'
+			]
+		},
+		{
+			role: 'AI Engineer',
+			firstname: 'Byambadorj',
+			lastname: 'Baasan',
+			image: '/images/members/byambadorj.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'AI Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Full-stack developer',
+					organization: 'Dentsu Data Artist Mongol',
+					date: '2019 - 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Associate Degree - Computer Science',
+					organization: 'Kumamoto National Institute of Technology',
+					date: '2016 - 2019',
+					location: 'Kumamoto, Japan'
+				}
+			],
+			projects: [
+				'ACM - Advertisement banner generation using AI'
+			],
+			achievements: []
+		}
 	];
 	let isEnter = false;
 	let selected = -1;
