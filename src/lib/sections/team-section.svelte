@@ -1638,13 +1638,13 @@
 				{
 					title: 'Fullstack Developer',
 					organization: 'Infinite Solutions LLC',
-					date: 2022-2024,
+					date: "2022-2024",
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Software Developer',
 					organization: 'JPMorgan Chase & Co',
-					date: 2021-2022,
+					date: "2021-2022",
 					location: 'Tampa, Florida USA'
 				}
 			],
@@ -1652,13 +1652,13 @@
 				{
 					title: 'Computer Science',
 					organization: 'University of South Florida',
-					date: 2016-2020,
+					date: "2016-2020",
 					location: 'Tampa, Florida USA'
 				},
 				{
 					title: 'Pre-Engineering',
 					organization: 'Lindenwood University',
-					date: 2014-2016,
+					date: "2014-2016",
 					location: 'St. Charles, Missouri USA'
 				}
 			],
@@ -1707,7 +1707,76 @@
 				'ACM - Advertisement banner generation using AI'
 			],
 			achievements: []
-		}
+		},
+		{
+			role: 'FullStack developer',
+			firstname: 'Enkhtur',
+			lastname: 'Enkhee',
+			image: '/images/members/enkhtur.jpeg',
+			bio: null,
+			current: [
+			{
+				title: 'FullStack Developer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2024.11',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+			],
+			expierences: [
+				{
+					title: 'BI Developer in Tableau',
+					organization: 'MAK LLC',
+					date: "2023-2023",
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Analytic Data Metric Developer',
+					organization: 'RioTinto Mongolia',
+					date: "2019-2019",
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Software engineer',
+					organization: 'ITSystems LLC',
+					date: "2013-2023",
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Software engineer',
+					organization: 'Anungoo LLC',
+					date: "2015-2017",
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Sofware engineer, Billing engineer',
+					organization: 'Unitel LLC',
+					date: "2006-2013",
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Software engineer',
+					organization: 'Mongolian University of Science andTechnology - Computer Science and Management School',
+					date: "2001-2005",
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Developed promotions provided by Unitel in Oracle database.(iD, Tariff change, Dopin, Family group, Friends group, Couple, Sms packaging, Green Gold, Group Sms, Mobile marketing, Univision service by GG, Dopin Star, Live package, Corporate VPN, U Media, Fifa 2008, New year promotion 2012, 5 house 5 lucky person, White month promotion )',
+				'QSF project, introduced in MCS Anungoo, MCS Coca Cola, MCS Distribution (Works with Yukon)',
+				'Medical Registration system (Ambulatori and stationary, Adaptable to various situation)',
+				'Worked on DTL system called PRIME which is centralized ETL(extraction, transformation, load) of  RioTinto’s various ERP system’s data to MSSQL OLAP database using SSIS. ',
+				'Various registration systems: Finance, Shopping, Restaurant, MRP, Procurement, Logistic&Supply chain, TimeAttendance etc',
+				'Various BI Dashboards in Tableau on MAK',
+			],
+			achievements: [
+				'Certified Information Technology Professional (FE): Information and Communication Technology Authority of the Government of Mongolia. 2007-12-21',
+				'Oracle Database SQL Certified Expert (Passing score 70%), Kuala Lumpur, Malaysias, 2009',
+				'Oracle Database 10g Administrator Certified(Passing score 100%), Kuala Lumpur, Malaysia, 2009',
+				'Employee of the year, Unitel group, 2012'
+			]
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
