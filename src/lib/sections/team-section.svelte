@@ -1160,6 +1160,88 @@
 			]
 		},
 		{
+			"role": "Software Engineer",
+			"firstname": "Gerelt-Od",
+			"lastname": "Surenjav",
+			"image": "/images/members/profile_gereltod.jpeg",
+			"bio": null,
+			"current": [
+				{
+					"title": "Software Engineer",
+					"organization": "Mirai Technologies LLC",
+					"date": "Since 2024",
+					"location": "Ulaanbaatar, Mongolia"
+				}
+			],
+			"expierences": [
+				{
+					"title": "Senior Software Engineer",
+					"organization": "GTN Mongolia",
+					"date": "2022-2023",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Senior Software Engineer",
+					"organization": "TAB Solutions",
+					"date": "2019-2020",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Software Engineer",
+					"organization": "Freelancer",
+					"date": "2017-2019",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Senior Software Engineer/CTO",
+					"organization": " TengerSystems LLC, ARD holdings",
+					"date": "2014-2017",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Senior Software Engineer/CTO",
+					"organization": "SmartSolutions",
+					"date": "2012-2014",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Software Engineer",
+					"organization": "XacBank",
+					"date": "2007-2012",
+					"location": "Ulaanbaatar, Mongolia"
+				},
+				{
+					"title": "Software Developer",
+					"organization": "ECM",
+					"date": "2005-2007",
+					"location": "Ulaanbaatar, Mongolia"
+				}
+			],
+			"educations": [
+				{
+					"title": "Software Engineer",
+					"organization": "Mongolian University of Science and Technology - Computer Science and Management School",
+					"date": "2000-2005",
+					"location": "Ulaanbaatar, Mongolia"
+				}
+			],
+			"projects": [        
+				"jobandwork.jp, System Designing, Cloud Infrastructure - GCP, 2019",
+				"Tele-conference(voting) system of THE CREATE HURAL(PARLIAMENT HOUSE) OF MONGOLIA was integrated in Finger identification system (Java, c#, DigitalPersona EIKON touch), 2018",
+				"Genius bank (for accounting and savings and credit cooperative) @ARD, 2014-2017",
+				"Traffic police fine system, A camera system to fine vehicles driving in bus lanes @SmartSolutions, 2012-2014",
+				"Surveillance camera system (Tattile, Merit Lillin), RF, IC-chip card programming @SmartSolutions, 2012-2014",
+				"AMAR mobile banking system, Telephone banking Core Development, C#/ASP.NET, XacBank, 2010",
+				"Internet banking system, Core Development, C#/ASP.NET, XacBank, 2008",
+				"Credit Scoring, EOffice, @ECM, 2005-2007"
+			],
+			"achievements": [
+				"PRO: Designing and Developing ASP.NET Applications using Microsoft .NET Framework 3.5 (New Delhi India, 2011)",
+				"Microsoft.NET Framework 3.5, ASP.NET Application Development (New Delhi India, 2011)",
+				"Microsoft.NET Framework 3.5, Windows Communication Foundation Application Development (New Delhi India, 2011)"        
+			]
+		},
+		{
 			role: 'Software Engineer',
 			firstname: 'Bat-Orshikh',
 			lastname: 'Baavgaikhuu',
@@ -1338,72 +1420,6 @@
 				'Multichain ticketing'
 			],
 			achievements: []
-		},
-		{
-			role: 'Software Engineer',
-			firstname: 'Erdenebileg',
-			lastname: 'Byambadorj',
-			image: '/images/members/erdenebileg.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Software Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2023/12',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Data Engineer',
-					organization: 'United Alliance LLC',
-					date: 'Jun 2023 - Oct 2023',
-					location: null
-				},
-				{
-					title: 'Data Engineer',
-					organization: 'Unitel Group',
-					date: 'Nov 2018 - Jun 2019',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Software Engineer',
-					organization: 'Trade and Development Bank of Mongolia',
-					date: 'Jul 2018 - Sep 2018',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'M.Sc. in Data Science',
-					organization: 'University of Trento',
-					date: '2019-2022',
-					location: null
-				},
-				{
-					title: 'B.Sc. in Software Engineering',
-					organization: 'National University of Mongolia',
-					date: '2014-2018',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			projects: [
-				'Knowledge Graph Evolution',
-				'Crowdsourcing for Local Knowledge Core',
-				'Agent Communication Language',
-				'Distributed Machine Learning'
-			],
-			achievements: [
-				'2023 - UniTN 37th Cycle PhD Qualifying Paper Submission - "Ask, Tell and Listen - An Agent Communication Protocol for Knowledge and Information Exchange"',
-				'2022 - Paper Publication in ACM Conference/Computer Science - "Language Diversity: Visible to Humans, Exploitable by Machines"',
-				'2021 - UniTN 37th Cycle IECS PhD Scholarship Recipient (Research Area C) - 1st place',
-				'2019 - UniTrento Laurea Magistrale Scholarship Recipient - 1st place',
-				'2018 - National University of Mongolia - SEAS Academic Conference - 2nd place',
-				'2018 - Paper Publication in MMT-2018 Conference/Artificial Intelligence - "System for Construction of Local Knowledge Core via Crowdsourcing"',
-				'2016 - Erasmus+ Student Mobility Scholarship Recipient (Student exchange to University of Trento in the academic year 2016/2017)',
-				'2014 - Provincial IQ Olympiad - Bronze Medal',
-				'2012 - Provincial Table Tennis Championship - Silver Medal'
-			]
 		},
 		{
 			role: 'Software Engineer',
