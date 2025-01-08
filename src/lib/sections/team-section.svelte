@@ -1793,6 +1793,78 @@
 				'Employee of the year, Unitel group, 2012'
 			]
 		},
+		{
+			role: 'Office Manager',
+			firstname: 'Gerelmaa',
+			lastname: 'Bavuujav',
+			image: '/images/members/gerelmaa.jpg',
+			bio: null,
+			current: [
+			{
+				title: 'オフィスマネージャー',
+				organization: 'Mirai Technologies LLC',
+				date: '2024',
+				location: 'ウランバートル、モンゴル'
+			}
+			],
+			expierences: [
+				{
+					title: '国際協力事業翻訳',
+					organization: 'CIT LLC',
+					date: "2018-2023",
+					location: 'ウランバートル、モンゴル'
+				},
+				{
+					title: 'アジア地域国際関係マネージャー',
+					organization: 'Lots Invest LLC',
+					date: "2014-2017",
+					location: 'ウランバートル、モンゴル'
+				},
+				{
+					title: '事業サービス管理者',
+					organization: 'Oyu Tolgoi LLC',
+					date: "2011-2014",
+					location: 'ウランバートル、モンゴル'
+				},
+				{
+					title: '日本語教師',
+					organization: '紅萩日本語学',
+					date: "2008-2011",
+					location: 'ウランバートル、モンゴル'
+				},
+				{
+					title: 'インポートマネージャー',
+					organization: 'SRT Transportation LLC',
+					date: "1999- 2005",
+					location: 'ウランバートル、モンゴル'
+				}
+			],
+			educations: [
+				{
+					title: '研究生',
+					organization: '社会教育研究科、福岡教育大学',
+					date: "2007-2008",
+					location: '福岡、日本'
+				},
+				{
+					title: '専門士',
+					organization: '九州ビジネス専門学校文化・教養科',
+					date: "2005-2007",
+					location: '福岡、日本'
+				},
+				{
+					title: '学士号',
+					organization: '心理学部、華東師範大学',
+					date: "1994-1999",
+					location: '上海、中国'
+				},
+			],
+			projects: [
+			],
+			achievements: [
+				'1994-1999 中国政府奨学金、中国',
+			]
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
