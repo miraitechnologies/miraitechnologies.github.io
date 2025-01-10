@@ -1884,7 +1884,7 @@
 				{
 					title: 'Teacher in the Computer Science Department',
 					organization: 'New Mongol College of Technology',
-					date: 2021-2024,
+					date: '2021-2024',
 					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
@@ -1892,13 +1892,13 @@
 				{
 					title: 'Bachelor Degree - Electronic Engineering',
 					organization: 'Mongolian University of Science and Technology',
-					date: 2021-2022,
+					date: '2021-2022',
 					location: 'Ulaanbaatar, Mongolia'
 				},  
 				{
 					title: 'Associate Degree - Electrical and Computer Engineering',
 					organization: 'Ichinoseki College, National Institute of Technology',
-					date: 2018-2021,
+					date: '2018-2021',
 					location: 'Ichinoseki, Japan'
 				}
 			],
