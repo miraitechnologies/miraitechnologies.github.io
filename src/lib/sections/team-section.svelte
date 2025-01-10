@@ -1866,6 +1866,46 @@
 				'1994-1999 中国政府奨学金、中国',
 			]
 		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Shur-Erdene',
+			lastname: 'Buyannemekh',
+			image: '/images/members/shurer.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Teacher in the Computer Science Department',
+					organization: 'New Mongol College of Technology',
+					date: 2021-2024,
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor Degree - Electronic Engineering',
+					organization: 'Mongolian University of Science and Technology',
+					date: 2021-2022,
+					location: 'Ulaanbaatar, Mongolia'
+				},  
+				{
+					title: 'Associate Degree - Electrical and Computer Engineering',
+					organization: 'Ichinoseki College, National Institute of Technology',
+					date: 2018-2021,
+					location: 'Ichinoseki, Japan'
+				}
+			],
+			projects: [
+				'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
+			]
+		},
 	];
 	let isEnter = false;
 	let selected = -1;
