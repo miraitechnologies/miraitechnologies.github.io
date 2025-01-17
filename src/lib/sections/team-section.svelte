@@ -181,7 +181,7 @@
 					organization: 'IBM Japan',
 					date: '2014-2016',
 					location: 'Tokyo, Japan'
-				},
+				}
 			],
 			educations: [
 				{
@@ -197,8 +197,7 @@
 					location: 'Tokyo, Japan'
 				}
 			],
-			projects: [
-			],
+			projects: [],
 			achievements: []
 		},
 		{
@@ -657,7 +656,7 @@
 			firstname: 'Lester (Peng-Jian)',
 			lastname: 'Yang',
 			image: '/images/members/lester.jpeg',
-			bio: "Projects more on lesterpjy.me",
+			bio: 'Projects more on lesterpjy.me',
 			current: [
 				{
 					title: 'Research Engineer',
@@ -698,7 +697,7 @@
 					organization: 'Nagoya University',
 					date: 'October 2015 – September 2019',
 					location: 'Nagoya, Japan'
-				},
+				}
 			],
 			projects: [
 				'Open Source Contributions LangChain: integration of PDF document loader via pdfplumber, thus enabling usage of pdfplumber’s visual debugger with LangChain',
@@ -1160,85 +1159,86 @@
 			]
 		},
 		{
-			"role": "Software Engineer",
-			"firstname": "Gerelt-Od",
-			"lastname": "Surenjav",
-			"image": "/images/members/profile_gereltod.jpeg",
-			"bio": null,
-			"current": [
+			role: 'Software Engineer',
+			firstname: 'Gerelt-Od',
+			lastname: 'Surenjav',
+			image: '/images/members/profile_gereltod.jpeg',
+			bio: null,
+			current: [
 				{
-					"title": "Software Engineer",
-					"organization": "Mirai Technologies LLC",
-					"date": "Since 2024",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Team Leader',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
-			"expierences": [
+			expierences: [
 				{
-					"title": "Senior Software Engineer",
-					"organization": "GTN Mongolia",
-					"date": "2022-2023",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Senior Software Engineer',
+					organization: 'GTN Mongolia',
+					date: '2022-2023',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Senior Software Engineer",
-					"organization": "TAB Solutions",
-					"date": "2019-2020",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Senior Software Engineer',
+					organization: 'TAB Solutions',
+					date: '2019-2020',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Software Engineer",
-					"organization": "Freelancer",
-					"date": "2017-2019",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Software Engineer',
+					organization: 'Freelancer',
+					date: '2017-2019',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Senior Software Engineer/CTO",
-					"organization": " TengerSystems LLC, ARD holdings",
-					"date": "2014-2017",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Senior Software Engineer/CTO',
+					organization: ' TengerSystems LLC, ARD holdings',
+					date: '2014-2017',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Senior Software Engineer/CTO",
-					"organization": "SmartSolutions",
-					"date": "2012-2014",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Senior Software Engineer/CTO',
+					organization: 'SmartSolutions',
+					date: '2012-2014',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Software Engineer",
-					"organization": "XacBank",
-					"date": "2007-2012",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Software Engineer',
+					organization: 'XacBank',
+					date: '2007-2012',
+					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
-					"title": "Software Developer",
-					"organization": "ECM",
-					"date": "2005-2007",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Software Developer',
+					organization: 'ECM',
+					date: '2005-2007',
+					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
-			"educations": [
+			educations: [
 				{
-					"title": "Software Engineer",
-					"organization": "Mongolian University of Science and Technology - Computer Science and Management School",
-					"date": "2000-2005",
-					"location": "Ulaanbaatar, Mongolia"
+					title: 'Software Engineer',
+					organization:
+						'Mongolian University of Science and Technology - Computer Science and Management School',
+					date: '2000-2005',
+					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
-			"projects": [        
-				"jobandwork.jp, System Designing, Cloud Infrastructure - GCP, 2019",
-				"Tele-conference(voting) system of THE CREATE HURAL(PARLIAMENT HOUSE) OF MONGOLIA was integrated in Finger identification system (Java, c#, DigitalPersona EIKON touch), 2018",
-				"Genius bank (for accounting and savings and credit cooperative) @ARD, 2014-2017",
-				"Traffic police fine system, A camera system to fine vehicles driving in bus lanes @SmartSolutions, 2012-2014",
-				"Surveillance camera system (Tattile, Merit Lillin), RF, IC-chip card programming @SmartSolutions, 2012-2014",
-				"AMAR mobile banking system, Telephone banking Core Development, C#/ASP.NET, XacBank, 2010",
-				"Internet banking system, Core Development, C#/ASP.NET, XacBank, 2008",
-				"Credit Scoring, EOffice, @ECM, 2005-2007"
+			projects: [
+				'jobandwork.jp, System Designing, Cloud Infrastructure - GCP, 2019',
+				'Tele-conference(voting) system of THE CREATE HURAL(PARLIAMENT HOUSE) OF MONGOLIA was integrated in Finger identification system (Java, c#, DigitalPersona EIKON touch), 2018',
+				'Genius bank (for accounting and savings and credit cooperative) @ARD, 2014-2017',
+				'Traffic police fine system, A camera system to fine vehicles driving in bus lanes @SmartSolutions, 2012-2014',
+				'Surveillance camera system (Tattile, Merit Lillin), RF, IC-chip card programming @SmartSolutions, 2012-2014',
+				'AMAR mobile banking system, Telephone banking Core Development, C#/ASP.NET, XacBank, 2010',
+				'Internet banking system, Core Development, C#/ASP.NET, XacBank, 2008',
+				'Credit Scoring, EOffice, @ECM, 2005-2007'
 			],
-			"achievements": [
-				"PRO: Designing and Developing ASP.NET Applications using Microsoft .NET Framework 3.5 (New Delhi India, 2011)",
-				"Microsoft.NET Framework 3.5, ASP.NET Application Development (New Delhi India, 2011)",
-				"Microsoft.NET Framework 3.5, Windows Communication Foundation Application Development (New Delhi India, 2011)"        
+			achievements: [
+				'PRO: Designing and Developing ASP.NET Applications using Microsoft .NET Framework 3.5 (New Delhi India, 2011)',
+				'Microsoft.NET Framework 3.5, ASP.NET Application Development (New Delhi India, 2011)',
+				'Microsoft.NET Framework 3.5, Windows Communication Foundation Application Development (New Delhi India, 2011)'
 			]
 		},
 		{
@@ -1482,43 +1482,43 @@
 			achievements: []
 		},
 		{
-            role: 'Software engineer',
-            firstname: 'Nurbyek',
-            lastname: 'Khuansh',
-            image: '/images/members/nurbyek.jpeg',
-            bio: null,
-            current: [
-                {
-                    title: 'Software engineer',
-                    organization: 'Mirai Technologies LLC',
-                    date: 'Since 2024',
-                    location: 'Ulaanbaatar, Mongolia'
-                }
-            ],
-            expierences: [
-                {
-                    title: 'Developer',
-                    organization: 'LendMN NBFI JSC',
-                    date: '2021-2024',
-                    location: 'Ulaanbaatar, Mongolia'
-                },
-                {
-                    title: 'Developer',
-                    organization: 'Digital Edu Management LLC',
-                    date: '2021-2024',
-                    location: 'Ulaanbaatar, Mongolia'
-                },
-            ],
-            educations: [
-                {
-                    title: 'Bachelor in Information Technology',
-                    organization: 'Mongolian University of Science and Technology',
-                    date: '2017-2021',
-                    location: 'Ulaanbaatar, Mongolia'
-                },
-            ],
-            projects: [],
-            achievements: []
+			role: 'Software engineer',
+			firstname: 'Nurbyek',
+			lastname: 'Khuansh',
+			image: '/images/members/nurbyek.jpeg',
+			bio: null,
+			current: [
+				{
+					title: 'Software engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Developer',
+					organization: 'LendMN NBFI JSC',
+					date: '2021-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				},
+				{
+					title: 'Developer',
+					organization: 'Digital Edu Management LLC',
+					date: '2021-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor in Information Technology',
+					organization: 'Mongolian University of Science and Technology',
+					date: '2017-2021',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [],
+			achievements: []
 		},
 		{
 			role: 'Software Engineer',
@@ -1540,7 +1540,7 @@
 					organization: 'Riku Tech LLC,',
 					date: '2023 - 2024',
 					location: 'Ulaanbaatar, Mongolia'
-				},
+				}
 			],
 			educations: [
 				{
@@ -1550,9 +1550,7 @@
 					location: 'Tokushima, Japan'
 				}
 			],
-			projects: [
-				'Optimizing Posture Control for Humanoid Robots During Falls Using DDPG',
-			],
+			projects: ['Optimizing Posture Control for Humanoid Robots During Falls Using DDPG'],
 			achievements: []
 		},
 		{
@@ -1581,7 +1579,7 @@
 					organization: 'Riku Tech LLC',
 					date: '2021-2024',
 					location: 'Ulaanbaatar, Mongolia'
-				},
+				}
 			],
 			educations: [
 				{
@@ -1589,11 +1587,9 @@
 					organization: 'Matsue National College of Technology',
 					date: '2018-2021',
 					location: 'Shimane, Japan'
-				},
+				}
 			],
-			projects: [
-				'Adaptive Traffic Signal Control with Reinforcement Learning'
-			],
+			projects: ['Adaptive Traffic Signal Control with Reinforcement Learning'],
 			achievements: []
 		},
 		{
@@ -1616,7 +1612,7 @@
 					organization: 'United Arab Emirates University, AI and Robotics Lab',
 					date: '2021-2024',
 					location: 'United Arab Emirates'
-				},
+				}
 			],
 			educations: [
 				{
@@ -1630,10 +1626,9 @@
 					organization: 'Mongolian University of Science and Technology',
 					date: '2016-2020',
 					location: 'Ulaanbaatar, Mongolia'
-				},
+				}
 			],
-			projects: [
-			],
+			projects: [],
 			achievements: []
 		},
 		{
@@ -1654,13 +1649,13 @@
 				{
 					title: 'Fullstack Developer',
 					organization: 'Infinite Solutions LLC',
-					date: "2022-2024",
+					date: '2022-2024',
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Software Developer',
 					organization: 'JPMorgan Chase & Co',
-					date: "2021-2022",
+					date: '2021-2022',
 					location: 'Tampa, Florida USA'
 				}
 			],
@@ -1668,13 +1663,13 @@
 				{
 					title: 'Computer Science',
 					organization: 'University of South Florida',
-					date: "2016-2020",
+					date: '2016-2020',
 					location: 'Tampa, Florida USA'
 				},
 				{
 					title: 'Pre-Engineering',
 					organization: 'Lindenwood University',
-					date: "2014-2016",
+					date: '2014-2016',
 					location: 'St. Charles, Missouri USA'
 				}
 			],
@@ -1682,7 +1677,7 @@
 				'Meterium - Tokenized Marketplace',
 				'VSign - Electronic signatures',
 				'TDB - Banking Web',
-               'Chase customer service - Web app'
+				'Chase customer service - Web app'
 			],
 			achievements: [
 				'2016 Missouri State College Math Competition, 1st place (Team)',
@@ -1719,9 +1714,7 @@
 					location: 'Kumamoto, Japan'
 				}
 			],
-			projects: [
-				'ACM - Advertisement banner generation using AI'
-			],
+			projects: ['ACM - Advertisement banner generation using AI'],
 			achievements: []
 		},
 		{
@@ -1731,50 +1724,51 @@
 			image: '/images/members/enkhtur.jpeg',
 			bio: null,
 			current: [
-			{
-				title: 'FullStack Developer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2024.11',
-				location: 'Ulaanbaatar, Mongolia'
-			}
+				{
+					title: 'FullStack Developer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024.11',
+					location: 'Ulaanbaatar, Mongolia'
+				}
 			],
 			expierences: [
 				{
 					title: 'BI Developer in Tableau',
 					organization: 'MAK LLC',
-					date: "2023-2023",
+					date: '2023-2023',
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Analytic Data Metric Developer',
 					organization: 'RioTinto Mongolia',
-					date: "2019-2019",
+					date: '2019-2019',
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Software engineer',
 					organization: 'ITSystems LLC',
-					date: "2013-2023",
+					date: '2013-2023',
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Software engineer',
 					organization: 'Anungoo LLC',
-					date: "2015-2017",
+					date: '2015-2017',
 					location: 'Ulaanbaatar, Mongolia'
 				},
 				{
 					title: 'Sofware engineer, Billing engineer',
 					organization: 'Unitel LLC',
-					date: "2006-2013",
+					date: '2006-2013',
 					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
 			educations: [
 				{
 					title: 'Software engineer',
-					organization: 'Mongolian University of Science andTechnology - Computer Science and Management School',
-					date: "2001-2005",
+					organization:
+						'Mongolian University of Science andTechnology - Computer Science and Management School',
+					date: '2001-2005',
 					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
@@ -1784,7 +1778,7 @@
 				'Medical Registration system (Ambulatori and stationary, Adaptable to various situation)',
 				'Worked on DTL system called PRIME which is centralized ETL(extraction, transformation, load) of  RioTinto’s various ERP system’s data to MSSQL OLAP database using SSIS. ',
 				'Various registration systems: Finance, Shopping, Restaurant, MRP, Procurement, Logistic&Supply chain, TimeAttendance etc',
-				'Various BI Dashboards in Tableau on MAK',
+				'Various BI Dashboards in Tableau on MAK'
 			],
 			achievements: [
 				'Certified Information Technology Professional (FE): Information and Communication Technology Authority of the Government of Mongolia. 2007-12-21',
@@ -1793,79 +1787,79 @@
 				'Employee of the year, Unitel group, 2012'
 			]
 		},
-		{
-			role: 'Office Manager',
-			firstname: 'Gerelmaa',
-			lastname: 'Bavuujav',
-			image: '/images/members/gerelmaa.jpg',
-			bio: null,
-			current: [
-			{
-				title: 'オフィスマネージャー',
-				organization: 'Mirai Technologies LLC',
-				date: '2024',
-				location: 'ウランバートル、モンゴル'
-			}
-			],
-			expierences: [
-				{
-					title: '国際協力事業翻訳',
-					organization: 'CIT LLC',
-					date: "2018-2023",
-					location: 'ウランバートル、モンゴル'
-				},
-				{
-					title: 'アジア地域国際関係マネージャー',
-					organization: 'Lots Invest LLC',
-					date: "2014-2017",
-					location: 'ウランバートル、モンゴル'
-				},
-				{
-					title: '事業サービス管理者',
-					organization: 'Oyu Tolgoi LLC',
-					date: "2011-2014",
-					location: 'ウランバートル、モンゴル'
-				},
-				{
-					title: '日本語教師',
-					organization: '紅萩日本語学',
-					date: "2008-2011",
-					location: 'ウランバートル、モンゴル'
-				},
-				{
-					title: 'インポートマネージャー',
-					organization: 'SRT Transportation LLC',
-					date: "1999- 2005",
-					location: 'ウランバートル、モンゴル'
-				}
-			],
-			educations: [
-				{
-					title: '研究生',
-					organization: '社会教育研究科、福岡教育大学',
-					date: "2007-2008",
-					location: '福岡、日本'
-				},
-				{
-					title: '専門士',
-					organization: '九州ビジネス専門学校文化・教養科',
-					date: "2005-2007",
-					location: '福岡、日本'
-				},
-				{
-					title: '学士号',
-					organization: '心理学部、華東師範大学',
-					date: "1994-1999",
-					location: '上海、中国'
-				},
-			],
-			projects: [
-			],
-			achievements: [
-				'日本語能力試験 N1',
-				'1994-1999 中国政府奨学金、中国',
-			]
-		},
+		// {
+		// 	role: 'Office Manager',
+		// 	firstname: 'Gerelmaa',
+		// 	lastname: 'Bavuujav',
+		// 	image: '/images/members/gerelmaa.jpg',
+		// 	bio: null,
+		// 	current: [
+		// 	{
+		// 		title: 'オフィスマネージャー',
+		// 		organization: 'Mirai Technologies LLC',
+		// 		date: '2024',
+		// 		location: 'ウランバートル、モンゴル'
+		// 	}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: '国際協力事業翻訳',
+		// 			organization: 'CIT LLC',
+		// 			date: "2018-2023",
+		// 			location: 'ウランバートル、モンゴル'
+		// 		},
+		// 		{
+		// 			title: 'アジア地域国際関係マネージャー',
+		// 			organization: 'Lots Invest LLC',
+		// 			date: "2014-2017",
+		// 			location: 'ウランバートル、モンゴル'
+		// 		},
+		// 		{
+		// 			title: '事業サービス管理者',
+		// 			organization: 'Oyu Tolgoi LLC',
+		// 			date: "2011-2014",
+		// 			location: 'ウランバートル、モンゴル'
+		// 		},
+		// 		{
+		// 			title: '日本語教師',
+		// 			organization: '紅萩日本語学',
+		// 			date: "2008-2011",
+		// 			location: 'ウランバートル、モンゴル'
+		// 		},
+		// 		{
+		// 			title: 'インポートマネージャー',
+		// 			organization: 'SRT Transportation LLC',
+		// 			date: "1999- 2005",
+		// 			location: 'ウランバートル、モンゴル'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: '研究生',
+		// 			organization: '社会教育研究科、福岡教育大学',
+		// 			date: "2007-2008",
+		// 			location: '福岡、日本'
+		// 		},
+		// 		{
+		// 			title: '専門士',
+		// 			organization: '九州ビジネス専門学校文化・教養科',
+		// 			date: "2005-2007",
+		// 			location: '福岡、日本'
+		// 		},
+		// 		{
+		// 			title: '学士号',
+		// 			organization: '心理学部、華東師範大学',
+		// 			date: "1994-1999",
+		// 			location: '上海、中国'
+		// 		},
+		// 	],
+		// 	projects: [
+		// 	],
+		// 	achievements: [
+		// 		'日本語能力試験 N1',
+		// 		'1994-1999 中国政府奨学金、中国',
+		// 	]
+		// },
 		{
 			role: 'Software Engineer',
 			firstname: 'Shur-Erdene',
@@ -1894,7 +1888,7 @@
 					organization: 'Mongolian University of Science and Technology',
 					date: '2021-2022',
 					location: 'Ulaanbaatar, Mongolia'
-				},  
+				},
 				{
 					title: 'Associate Degree - Electrical and Computer Engineering',
 					organization: 'Ichinoseki College, National Institute of Technology',
@@ -1905,7 +1899,7 @@
 			projects: [
 				'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
 			]
-		},
+		}
 	];
 	let isEnter = false;
 	let selected = -1;
