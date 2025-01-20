@@ -1159,7 +1159,7 @@
 			]
 		},
 		{
-			role: 'Software Engineer',
+			role: 'Team Leader',
 			firstname: 'Gerelt-Od',
 			lastname: 'Surenjav',
 			image: '/images/members/profile_gereltod.jpeg',
