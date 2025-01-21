@@ -1946,7 +1946,7 @@
 			role: 'Software Engineer',
 			firstname: 'Biziya',
 			lastname: 'Sarangerel',
-			image: '/images/member/bizya.jpg',
+			image: '/images/members/bizya.jpg',
 			bio: null,
 			current: [
 				{
