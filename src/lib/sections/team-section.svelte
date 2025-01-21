@@ -1899,6 +1899,83 @@
 			projects: [
 				'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
 			]
+		},
+		{
+			role: 'Software engineer',
+			firstname: 'Badamsereedari',
+			lastname: 'Togtool',
+			image: '/images/members/badamsereedari.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Developer',
+					organization: 'Grapecity Mongolia LLC',
+					date: '2017-2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor of Computer Science in Software Engineering',
+					organization: 'Mongolian University of Science and Technology',
+					date: '2013-2017',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'ASR insurance system',
+				'ETL tool for ARD, State bank',
+				'NES banking system',
+				'Polaris NBFIs system'
+			],
+			achievements: [
+				'Outstanding Graduate Student Award, 2017',
+				'Employee of the year, Grapecity Mongolia LLC, 2020',
+				'Employee of the year, Grapecity Mongolia LLC, 2023'
+			]
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Biziya',
+			lastname: 'Sarangerel',
+			image: '/images/member/bizya.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Research assistant',
+					organization: 'Laser Research Laboratory, National University of Mongolia',
+					date: null,
+					location: 'Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'A Bachelor of Science in Theoretical Physics',
+					organization: 'National University of Mongolia ',
+					date: 2019 - 2024,
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Bachelor Thesis: Programming the Hartree-Fock Algorithm/Applications to Simple Atomic Systems '
+			],
+			achievements: ['2017 Bronze Medal, National Physics Olympiad, Mongolia']
 		}
 	];
 	let isEnter = false;
