@@ -652,67 +652,6 @@
 			]
 		},
 		{
-			role: 'Research Engineer',
-			firstname: 'Lester (Peng-Jian)',
-			lastname: 'Yang',
-			image: '/images/members/lester.jpeg',
-			bio: 'Projects more on lesterpjy.me',
-			current: [
-				{
-					title: 'Research Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Senior Engineering Scientist',
-					organization: 'Logitech',
-					date: 'May 2021 - Jun 2022',
-					location: 'Hsinchu, Taiwan'
-				},
-				{
-					title: 'Data Science Intern',
-					organization: 'Omnistream Co.',
-					date: 'Apr 2020 - Jun 2020',
-					location: 'Singapore'
-				},
-				{
-					title: 'Undergraduate Researcher in Theoretical and Quantum Chemistry',
-					organization: 'Nagoya University',
-					date: 'Aug 2018 - Sep 2019',
-					location: 'Nagoya, Japan'
-				}
-			],
-			educations: [
-				{
-					title: 'Master of Information and Data Science',
-					organization: 'University of California, Berkeley',
-					date: 'August 2019 – May 2021',
-					location: 'California, USA'
-				},
-				{
-					title: 'Bachelor of Science in Chemistry',
-					organization: 'Nagoya University',
-					date: 'October 2015 – September 2019',
-					location: 'Nagoya, Japan'
-				}
-			],
-			projects: [
-				'Open Source Contributions LangChain: integration of PDF document loader via pdfplumber, thus enabling usage of pdfplumber’s visual debugger with LangChain',
-				'Influencing vaccination opinions: A difference-in-difference analysis of random experiment data studying the effects of exposing engaging media of COVID-19 vaccination facts on inclination of vaccination.',
-				'Analysis of BayWheels Bike-share Data: Queried top travel routes separated by user type by querying the public bike-share dataset on BigQuery with SQL. Devised recommendations for improving revenue stream with bike station status, popularity of stations by usage, and time of use.',
-				'Flight Delay Prediction: prediction of departure flight delay using the Bureau of Transport Statistic on-time performance dataset, and weather data provided by NOAA. 11 gigabytes of data were cleaned, explored, and engineered with PySpark to build a gradient boosted tree model that predicts departure delay with a recall of 86%'
-			],
-			achievements: [
-				'Peng-Jian Yang, Shang-Yu Yu, Yi-Hsieh Wang, Ko Chun Lin, Zhaoyan Han. 2023. Color matching system for product manufacturing. USPTO. US11847799B2.',
-				'Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer. 2021. NT5?! Training T5 to Perform Numerical Reasoning. arXiv preprint arXiv: 2104.07307v2',
-				'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. Artificial neural networks applied as molecularwave function solvers. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
-				'NGK Insulators Scholarship 2017-2019, Daiko Foundation Scholarship 2017, Japan Gov. Monbukagakusho Honors Scholarship 2016.'
-			]
-		},
-		{
 			role: 'Consultant',
 			firstname: 'Sodtavilan',
 			lastname: 'Odonchimed',
@@ -774,6 +713,67 @@
 				'高専ワイヤレスコンテスト スマ トファクトリ 賞',
 				'長岡工業高等専門 同窓会 功労章',
 				'DL Circle 論文輪読コミュニティ 共同創業者'
+			]
+		},
+		{
+			role: 'Research Engineer',
+			firstname: 'Lester (Peng-Jian)',
+			lastname: 'Yang',
+			image: '/images/members/lester.jpeg',
+			bio: 'Projects more on lesterpjy.me',
+			current: [
+				{
+					title: 'Research Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Senior Engineering Scientist',
+					organization: 'Logitech',
+					date: 'May 2021 - Jun 2022',
+					location: 'Hsinchu, Taiwan'
+				},
+				{
+					title: 'Data Science Intern',
+					organization: 'Omnistream Co.',
+					date: 'Apr 2020 - Jun 2020',
+					location: 'Singapore'
+				},
+				{
+					title: 'Undergraduate Researcher in Theoretical and Quantum Chemistry',
+					organization: 'Nagoya University',
+					date: 'Aug 2018 - Sep 2019',
+					location: 'Nagoya, Japan'
+				}
+			],
+			educations: [
+				{
+					title: 'Master of Information and Data Science',
+					organization: 'University of California, Berkeley',
+					date: 'August 2019 – May 2021',
+					location: 'California, USA'
+				},
+				{
+					title: 'Bachelor of Science in Chemistry',
+					organization: 'Nagoya University',
+					date: 'October 2015 – September 2019',
+					location: 'Nagoya, Japan'
+				}
+			],
+			projects: [
+				'Open Source Contributions LangChain: integration of PDF document loader via pdfplumber, thus enabling usage of pdfplumber’s visual debugger with LangChain',
+				'Influencing vaccination opinions: A difference-in-difference analysis of random experiment data studying the effects of exposing engaging media of COVID-19 vaccination facts on inclination of vaccination.',
+				'Analysis of BayWheels Bike-share Data: Queried top travel routes separated by user type by querying the public bike-share dataset on BigQuery with SQL. Devised recommendations for improving revenue stream with bike station status, popularity of stations by usage, and time of use.',
+				'Flight Delay Prediction: prediction of departure flight delay using the Bureau of Transport Statistic on-time performance dataset, and weather data provided by NOAA. 11 gigabytes of data were cleaned, explored, and engineered with PySpark to build a gradient boosted tree model that predicts departure delay with a recall of 86%'
+			],
+			achievements: [
+				'Peng-Jian Yang, Shang-Yu Yu, Yi-Hsieh Wang, Ko Chun Lin, Zhaoyan Han. 2023. Color matching system for product manufacturing. USPTO. US11847799B2.',
+				'Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer. 2021. NT5?! Training T5 to Perform Numerical Reasoning. arXiv preprint arXiv: 2104.07307v2',
+				'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. Artificial neural networks applied as molecularwave function solvers. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
+				'NGK Insulators Scholarship 2017-2019, Daiko Foundation Scholarship 2017, Japan Gov. Monbukagakusho Honors Scholarship 2016.'
 			]
 		},
 		{
@@ -1593,14 +1593,14 @@
 			achievements: []
 		},
 		{
-			role: 'AI Engineer',
+			role: 'Software Engineer',
 			firstname: 'Munkh-Erdene',
 			lastname: 'Otgonbold',
 			image: '/images/members/munkherdene.jpeg',
 			bio: null,
 			current: [
 				{
-					title: 'AI Engineer',
+					title: 'Software Engineer',
 					organization: 'Mirai Technologies LLC',
 					date: 'Since 2024',
 					location: 'Ulaanbaatar, Mongolia'
@@ -1685,14 +1685,14 @@
 			]
 		},
 		{
-			role: 'AI Engineer',
+			role: 'Software Engineer',
 			firstname: 'Byambadorj',
 			lastname: 'Baasan',
 			image: '/images/members/byambadorj.jpeg',
 			bio: null,
 			current: [
 				{
-					title: 'AI Engineer',
+					title: 'Software Engineer',
 					organization: 'Mirai Technologies LLC',
 					date: 'Since 2024',
 					location: 'Ulaanbaatar, Mongolia'
@@ -1718,14 +1718,14 @@
 			achievements: []
 		},
 		{
-			role: 'FullStack developer',
+			role: 'Software Engineer',
 			firstname: 'Enkhtur',
 			lastname: 'Enkhee',
 			image: '/images/members/enkhtur.jpeg',
 			bio: null,
 			current: [
 				{
-					title: 'FullStack Developer',
+					title: 'Software Engineer',
 					organization: 'Mirai Technologies LLC',
 					date: 'Since 2024.11',
 					location: 'Ulaanbaatar, Mongolia'
