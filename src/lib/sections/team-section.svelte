@@ -777,6 +777,58 @@
 			]
 		},
 		{
+			role: 'Research Engineer',
+			firstname: 'Sumiyajav',
+			lastname: 'Sarangerel',
+			image: 'images/members/sumiyajav.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Graduate Research Assistant',
+					organization: 'MIT ARCLab',
+					date: 'Since June 2023',
+					location: 'Cambridge, MA'
+				}
+			],
+			expierences: [
+				{
+					title: 'Undergraduate Research Assistant',
+					organization: 'MIT Senseable City Lab',
+					date: 'Sep. 2022 - May 2023',
+					location: 'Cambridge, MA'
+				},
+				{
+					title: 'Software Engineering Intern',
+					organization: 'Iterative Health',
+					date: 'June 2022 - Aug. 2022',
+					location: 'Cambridge, MA'
+				}
+			],
+			educations: [
+				{
+					title: 'M.Eng in Artificial Intelligence',
+					organization: 'Massachusetts Institute of Technology (MIT)',
+					date: 'Expected June 2025',
+					location: 'Cambridge, MA'
+				},
+				{
+					title: 'B.S. in Computer Science and Engineering',
+					organization: 'Massachusetts Institute of Technology (MIT)',
+					date: 'Feb 2024',
+					location: 'Cambridge, MA'
+				}
+			],
+			projects: [
+				'Uncertainty Calibration of LLMs based on prompt engineering',
+				'Time Series Machine Learning for Space Object Density Forecasting'
+			],
+			achievements: [
+				'49th International Physics Olympiad Silver medal, 2018, Lisbon, Portugal',
+				'19th Asian Physics Olympiad Bronze medal, 2018, Hanoi, Vietnam',
+				'48th International Physics Olympiad Bronze medal, 2017, Yogyakarta, Indonesia'
+			]
+		},
+		{
 			role: 'Bridge Engineer',
 			firstname: 'Ganbold',
 			lastname: 'Sukhbat',
