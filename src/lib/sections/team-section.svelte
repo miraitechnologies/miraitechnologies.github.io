@@ -1968,7 +1968,7 @@
 				{
 					title: 'A Bachelor of Science in Theoretical Physics',
 					organization: 'National University of Mongolia ',
-					date: 2019 - 2024,
+					date: '2019 - 2024',
 					location: 'Ulaanbaatar, Mongolia'
 				}
 			],
