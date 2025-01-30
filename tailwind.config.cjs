@@ -7,6 +7,5 @@ module.exports = {
 				primary: '#0000ff'
 			}
 		}
-	},
-	plugins: []
+	}
 };

@@ -18,6 +18,10 @@
 			anchor: 'team-section'
 		},
 		{
+			text: 'Product & Solution',
+			anchor: 'product-solution-section'
+		},
+		{
 			text: 'Partners',
 			anchor: 'partner-section'
 		},
@@ -47,12 +51,18 @@
 <header>
 	<nav class="fixed w-full z-40 top-0 left-0 right-0">
 		<div
-			class="absolute top-0 bottom-0 left-0 right-0 w-full bg-[#081336]/30 backdrop-blur-lg -z-10 transition-opacity duration-300 {y > 0 ? 'opacity-100' : 'opacity-0'}"
+			class="absolute top-0 bottom-0 left-0 right-0 w-full bg-[#081336]/30 backdrop-blur-lg -z-10 transition-opacity duration-300 {y >
+			0
+				? 'opacity-100'
+				: 'opacity-0'}"
 		/>
 		<div class="container mx-auto px-5 relative">
 			<div class="flex justify-between items-center h-14 lg:h-20">
 				<div>
-					<div class="h-8 lg:h-10 flex flex-row items-center" title="Mobile, Innovation, Robotics ,Artificial, Intellence">
+					<div
+						class="h-8 lg:h-10 flex flex-row items-center"
+						title="Mobile, Innovation, Robotics ,Artificial, Intellence"
+					>
 						<img src="/images/logo.svg" class="h-8 lg:h-10" alt="Logo" />
 						<img src="/images/logo_text.svg" class="h-6 lg:h-8 ml-2" alt="Logo Text" />
 					</div>
