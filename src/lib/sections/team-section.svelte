@@ -1953,6 +1953,55 @@
 			]
 		},
 		{
+			role: 'System Security Engineer',
+			firstname: 'Byambadorj',
+			lastname: 'Ganbat',
+			image: '/images/members/g.byambadorj.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'System Security Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Security Specialist',
+					organization: 'Infinite Solutions LLC',
+					date: '2021-2024',
+					location: 'Mongolia'
+				},
+				{
+					title: 'System Analyst',
+					organization: 'Trade and Development Bank',
+					date: '2020-2021',
+					location: 'Mongolia'
+				},
+				{
+					title: 'System Administrator',
+					organization: 'Ulaanbaatar Bank',
+					date: '2018-2020',
+					location: 'Mongolia'
+				},
+				{
+					title: 'System Administrator',
+					organization: 'Mongolian National Data Center',
+					date: '2014-2018',
+					location: 'Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor in System Security',
+					organization: 'Mongolian University Of Science and Technology',
+					date: '2009-2014',
+					location: 'Mongolia'
+				}
+			]
+		},
+		{
 			role: 'Software engineer',
 			firstname: 'Badamsereedari',
 			lastname: 'Togtool',
