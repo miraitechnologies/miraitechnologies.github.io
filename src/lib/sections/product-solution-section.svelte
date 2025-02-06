@@ -6,15 +6,16 @@
 	import SplitType from 'split-type';
 
 	const MODAL_CLOSE_BTN_ID = 'modal-close-prod';
+	const MODAL_IMAGE_ID = 'modal-image-prod';
 
 	const products = [
 		{
-			name: 'Temuulen',
+			name: 'AI-Powered Asphalt Finishing',
 			brief:
-				'Precise quality control driven by AI to detect in real time all defects in a product and simultaneously check for configuration errors or damages.',
+				'Enhance your paving efficiency with our cutting-edge AI technology! Our software accurately detects roads and optimizes asphalt finishing, ensuring precision, quality, and reduced waste. Revolutionize road construction with smart automation!',
 			detail:
-				'24 VISION offers a quality control system powered by AI. It ensures error-free production and worry-free quality management. It detects defects and configuration errors in a variety of automotive products, including car seats, doors, control panels and even entire cars. By leveraging real-time detection, the system can quickly identify and alert users to any potential issues in the production.',
-			image: '/images/members/temuulen.jpeg'
+				'Revolutionizing Asphalt Finishing with AI\n\nRoad construction is evolving, and we are leading the way with AI-powered asphalt finishing.\nOur innovative software leverages artificial intelligence to accurately detect road surfaces and optimize the paving process.\n\nPrecision Detection – Our AI system identifies roads with high accuracy, reducing errors and ensuring seamless asphalt application.\n\nOptimized Asphalt Finishing – Achieve perfect paving with intelligent automation that enhances quality and efficiency.\n\nCost-Effective & Sustainable – Reduce material waste and minimize operational costs with data-driven decision-making.\n\nOur technology empowers construction teams with smart solutions, making roadwork faster, safer, and more efficient.\n Experience the future of asphalt finishing today! ',
+			image: '/images/products/asphalt_finisher.jpg'
 		}
 	];
 
@@ -28,7 +29,7 @@
 			selected = i;
 			const { body } = document;
 			const { currentTarget } = e;
-			const modalImage = document.querySelectorAll(`#modal-image-${i}`);
+			const modalImage = document.querySelectorAll(`#${MODAL_IMAGE_ID}-${i}`);
 
 			body.classList.add('noscroll');
 
@@ -37,10 +38,13 @@
 
 			const tl = gsap.timeline({ defaults: { ease: 'expo' } });
 			const from = calculatePosition(currentTarget);
+
+			console.log(modalImage[0]);
+
 			const to = calculatePosition(modalImage[0]);
 			const toBackground = calculatePosition(modals[i]);
 
-			background.className = 'bg-white z-50 rounded-lg';
+			background.className = 'z-50 rounded-lg';
 			clone.classList.remove('member-thumbnail');
 			clone.classList.remove('border-white/50');
 			clone.classList.remove('hover:border-white/100');
@@ -53,12 +57,12 @@
 			clone.children[0].classList.add('scale-110');
 
 			clone.children[1].classList.remove('bg-[#081336]/25');
-			clone.children[1].classList.remove('text-white');
+			// clone.children[1].classList.remove('text-white');
 			clone.children[1].classList.remove('group-hover:bg-white/100');
 			clone.children[1].classList.remove('group-hover:text-black');
 			clone.children[1].classList.remove('backdrop-blur-lg');
 			clone.children[1].classList.add('bg-white/100');
-			clone.children[1].classList.add('text-black');
+			// clone.children[1].classList.add('text-black');
 
 			const thumbnails = document.querySelectorAll('.member-thumbnail');
 			if (thumbnails && thumbnails.length > 0) {
@@ -133,10 +137,11 @@
 						ease: 'expo'
 					});
 
-					gsap.set(infoText, { opacity: 0, y: '200', display: 'none' });
+					gsap.set(infoText, { opacity: 0, y: '200', display: 'block' });
 					gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
 					const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
+
 					gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
 					gsap.to(closeButton, {
 						scale: 1,
@@ -194,6 +199,8 @@
 		var clientTop = root.clientTop || body.clientTop || 0;
 		var clientLeft = root.clientLeft || body.clientLeft || 0;
 
+		console.log(rect.top, scrollTop, clientTop);
+
 		return {
 			top: Math.round(rect.top + scrollTop - clientTop),
 			left: Math.round(rect.left + scrollLeft - clientLeft),
@@ -241,7 +248,7 @@
 								<div
 									class="uppercase whitespace-pre-line mb-4 text-2xl group-hover:text-sky-400  duration-300 ease-in"
 								>
-									<span class="whitespace-nowrap font-bold">{product.name}</span>
+									<span class="font-bold">{product.name}</span>
 								</div>
 								<div class="text-xs opacity-60 line-clamp-limited ">
 									{product.brief}
@@ -276,251 +283,31 @@
 {#each products as product, i}
 	<div
 		id={`id-${i}`}
-		class="fixed top-0 bottom-0 left-0 right-0 w-full h-full bg-white z-40 detail overflow-y-auto"
+		class="fixed top-0 bottom-0 left-0 right-0 w-full h-full bg-[#1b2849] z-40 detail overflow-y-auto"
 		style="visibility: hidden"
 		bind:this={modals[i]}
 	>
-		<div class="container mx-auto text-black max-w-6xl py-5 md:py-24 px-5">
-			<div class="grid grid-cols-5 gap-x-10">
-				<div class="col-span-5 md:col-span-3 order-2 pt-5">
+		<div class="container mx-auto text-white max-w-7xl py-5 md:pb-24 md:pt-32 px-2">
+			<div class="grid grid-cols-5 gap-x-10 ">
+				<div class="col-span-5 md:col-span-2 order-1 pt-5 content-center">
 					<h1
 						id="modal-text-fullname-{i}"
-						class="text-3xl md:text-6xl uppercase text-center md:text-left"
+						class="text-3xl md:text-5xl uppercase text-center md:text-left"
 					>
-						<span class="font-bold">{product.firstname}</span>
-						<span>{product.lastname}</span>
+						<span class="font-bold">{product.name}</span>
 					</h1>
-					<h2
-						id="modal-text-role-{i}"
-						class="text-2xl md:text-4xl font-thin mt-1 md:mt-4 text-center md:text-left"
-					>
-						{product.role}
-					</h2>
 					<div id="modal-info-{i}">
-						{#if product.bio}
-							<p class="text-justify mt-10">{product.bio}</p>
-						{/if}
-
-						{#if product.current && product.current.length > 0}
-							<div id="modal-current-position-{i}" class="mt-10">
-								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Current positions
-								</h3>
-								<ul class="list-none mt-5 space-y-5">
-									{#each product.current as item}
-										<li class="">
-											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
-											<p class="text-lg">{item.organization}</p>
-											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.date}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.date}
-														</div>
-													{/if}
-												</div>
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.location}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.location}
-														</div>
-													{/if}
-												</div>
-											</div>
-										</li>
-									{/each}
-								</ul>
-							</div>
-						{/if}
-
-						{#if product.expierences && product.expierences.length > 0}
-							<div id="modal-experience-{i}" class="mt-10">
-								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Experience
-								</h3>
-								<ul class="list-none mt-5 space-y-5">
-									{#each product.expierences as item}
-										<li class="">
-											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
-											<p class="text-lg">{item.organization}</p>
-											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.date}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.date}
-														</div>
-													{/if}
-												</div>
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.location}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.location}
-														</div>
-													{/if}
-												</div>
-											</div>
-										</li>
-									{/each}
-								</ul>
-							</div>
-						{/if}
-
-						{#if product.educations && product.educations.length > 0}
-							<div id="modal-education-{i}" class="mt-10">
-								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Education
-								</h3>
-								<ul class="list-none mt-5 space-y-5">
-									{#each product.educations as item}
-										<li class="">
-											<h4 class="text-xl font-medium capitalize">{item.title}</h4>
-											<p class="text-lg">{item.organization}</p>
-											<div class="flex justify-between">
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.date}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.date}
-														</div>
-													{/if}
-												</div>
-												<div class="flex items-center space-x-1 text-gray-600 text-sm">
-													{#if item.location}
-														<div>
-															<svg
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																class="w-5 h-5"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</div>
-														<div>
-															{item.location}
-														</div>
-													{/if}
-												</div>
-											</div>
-										</li>
-									{/each}
-								</ul>
-							</div>
-						{/if}
-
-						{#if product.projects && product.projects.length > 0}
-							<div id="modal-projects-{i}" class="mt-10">
-								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Projects
-								</h3>
-								<ul class="list-disc ml-5 mt-5">
-									{#each product.projects as item}
-										<li class="">
-											<p class="text-lg">{item}</p>
-										</li>
-									{/each}
-								</ul>
-							</div>
-						{/if}
-
-						{#if product.achievements && product.achievements.length > 0}
-							<div id="modal-achievements-{i}" class="mt-10">
-								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Achievements
-								</h3>
-								<ul class="list-disc ml-5 mt-5">
-									{#each product.achievements as item}
-										<li class="">
-											<p class="text-lg">{item}</p>
-										</li>
-									{/each}
-								</ul>
-							</div>
+						{#if product.detail}
+							<p class="text-justify mt-10 text-lg">{product.detail}</p>
 						{/if}
 					</div>
 				</div>
-				<div class="col-span-5 md:col-span-2 order-1 relative">
-					<div
-						id="modal-image-{i}"
-						class="w-full aspect-[3/4] overflow-hidden shadow-2xl rounded-3xl sticky top-24 bottom-24"
-					>
+				<div class="col-span-5 md:col-span-3 order-2 relative">
+					<div id="{MODAL_IMAGE_ID}-{i}" class="w-full aspect-[4/4] ">
 						<img
 							src={product.image ? product.image : '/images/members/no_photo.jpg'}
 							class="h-full w-full object-cover"
-							alt="{product.firstname} {product.lastname}"
+							alt={product.name}
 						/>
 					</div>
 				</div>
@@ -530,8 +317,8 @@
 
 	<button
 		type="button"
-		id="${MODAL_CLOSE_BTN_ID}-{i}"
-		class="fixed right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
+		id="{MODAL_CLOSE_BTN_ID}-{i}"
+		class="fixed right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-white rounded-full flex justify-center items-center hover:opacity-100"
 		style="visibility: hidden"
 		on:click={(e) => hideDetail(e, i)}
 	>
