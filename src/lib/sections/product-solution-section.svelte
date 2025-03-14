@@ -10,12 +10,44 @@
 
 	const products = [
 		{
-			name: 'AI-Powered Asphalt Finishing',
+			name: 'AI-Powered Asphalt Finisher',
 			brief:
 				'Enhance your paving efficiency with our cutting-edge AI technology! Our software accurately detects roads and optimizes asphalt finishing, ensuring precision, quality, and reduced waste. Revolutionize road construction with smart automation!',
 			detail:
 				'Revolutionizing Asphalt Finishing with AI\n\nRoad construction is evolving, and we are leading the way with AI-powered asphalt finishing.\nOur innovative software leverages artificial intelligence to accurately detect road surfaces and optimize the paving process.\n\nPrecision Detection – Our AI system identifies roads with high accuracy, reducing errors and ensuring seamless asphalt application.\n\nOptimized Asphalt Finishing – Achieve perfect paving with intelligent automation that enhances quality and efficiency.\n\nCost-Effective & Sustainable – Reduce material waste and minimize operational costs with data-driven decision-making.\n\nOur technology empowers construction teams with smart solutions, making roadwork faster, safer, and more efficient.\n Experience the future of asphalt finishing today! ',
 			image: '/images/products/asphalt_finisher.jpg'
+		},
+		{
+			name: 'Automated Guided Forklift',
+			brief:
+				'Automated Guided Forklifts (AGFs) are transforming the way modern smart factories operate. These intelligent, autonomous forklifts streamline material handling, enhance efficiency, and reduce operational costs, contributing to a more productive and safe manufacturing environment.',
+			detail:
+				'<strong>Key Features of AGF in Smart Factories</strong><br>  <strong>• Autonomous Navigation:</strong> Uses sensors, cameras, and LiDAR for seamless, human-free movement.<br>  <strong>• Precision & Accuracy:</strong> AI-driven route optimization ensures timely, precise transport.<br>  <strong>• Safety & Reliability:</strong> Obstacle detection and collision avoidance enhance safety.<br>  <strong>• Seamless Integration:</strong> Works with WMS and MES for real-time monitoring.<br>  <strong>• Scalability:</strong> Adapts to growing workloads without losing efficiency.<br><br>  <strong>Benefits of AGF</strong><br>  <strong>• Increased Productivity:</strong> Speeds up material flow and reduces downtime.<br>  <strong>• Cost Efficiency:</strong> Lowers labor costs and errors.<br>  <strong>• Enhanced Safety:</strong> Prevents accidents from manual operations.<br>  <strong>• Data-Driven Insights:</strong> Optimizes processes with real-time data.<br><br>  ',
+			image: '/images/products/Automated_guided_forklift.webp'
+		},
+		{
+			name: 'Digital Twin, Factory Solution',
+			brief:
+				'We drive the future of industrial innovation with AI-powered digital twin technology. Our advanced platform empowers businesses to simulate real-world scenarios, harness vast IoT sensor data, and develop intelligent solutions that enhance efficiency, productivity, and innovation.',
+			detail:
+				'Digital twins are revolutionizing the next generation of enterprises by going beyond replication—they transform decision-making through AI-driven insights. By integrating real-time data, predictive analytics, and automation, we enable organizations to optimize operations, minimize downtime, and unlock new growth opportunities. Our expertise spans across industries, from manufacturing and logistics to smart infrastructure, where precision, adaptability, and intelligence are critical. With our platform, businesses can visualize, simulate, and refine complex systems with unprecedented accuracy, leading to smarter strategies and transformative growth. We are committed to redefining how industries evolve. The power of AI-driven digital twins is not just about efficiency—it’s about shaping the future with actionable intelligence and visionary solutions.',
+			image: '/images/products/AI_digitaltwin.webp'
+		},
+		{
+			name: 'AI-Powered Workplace Assistants',
+			brief:
+				'Our team builds AI agents powered by LLMs to assist in every aspect of your workspace using company-specific data. Our product securely processes various data formats, including images, text, and videos, delivering responses in text, markdown, or HTML. With a strong focus on data protection, we ensure safe and reliable AI interactions. Additionally, our Graph RAG integration enables efficient retrieval of long-context information.',
+			detail:
+				'We aim to build agents based on company-specific data that can help you at every single step in your workspace by leveraging state-of-the-art Large Language Models (LLMs). It is our goal to ensure safe and secure LLM agents with ultimate data protection. Our product can read various formats of data (e.g. images, texts, and videos) and generate the response in desired output (e.g. text, markdown, and HTML). We also offer Graph Retrieval Augmented Generation (Graph RAG) integration that assists in efficient information retrieval in case of long context data.',
+			image: '/images/products/AI_agent.png'
+		},
+		{
+			name: 'Intelligent Document Insights Platform',
+			brief:
+				'Unlock hidden insights from your documents with our Intelligent Document Insights Platform. Easily upload, categorize, and summarize your files using advanced cloud AI and a powerful LLM to reveal valuable, actionable intelligence.',
+			detail:
+				'Our Intelligent Document Insights Platform is a versatile solution built for both companies and individuals, available for local use or via the web. It enables users to upload various types of documents—ranging from patents to other files—and organize them into user-defined categories. By leveraging advanced cloud-based AI services and a powerful LLM, the platform not only manages your documents but also uncovers hidden insights and overlapping content that might otherwise go unnoticed. Users can provide their own instructions for summarization, allowing them to quickly discover valuable, actionable intelligence. In essence, this platform goes beyond traditional document management by revealing the deeper, often hidden, layers of information within your documents.',
+			image: '/images/products/ttdcup.jpg'
 		}
 	];
 
@@ -298,7 +330,7 @@
 					</h1>
 					<div id="modal-info-{i}">
 						{#if product.detail}
-							<p class="text-justify mt-10 text-lg">{product.detail}</p>
+							<p class="text-justify mt-10 text-lg">{@html product.detail}</p>
 						{/if}
 					</div>
 				</div>
