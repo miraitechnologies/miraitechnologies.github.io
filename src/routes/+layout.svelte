@@ -57,7 +57,9 @@
 				: 'opacity-0'}"
 		/>
 		<div class="container mx-auto px-5 relative">
-			<div class="flex justify-between items-center h-14 lg:h-20">
+			<div
+				class="flex justify-between items-center h-14 lg:h-20 max-[340px]:flex-col max-[340px]:pt-5 max-[340px]:gap-5"
+			>
 				<div>
 					<div
 						class="h-8 lg:h-10 flex flex-row items-center"
@@ -69,8 +71,12 @@
 				</div>
 				<div class="hidden lg:block">
 					<ul class="list-none flex flex-row gap-10">
-						{#each menu as item}
-							<li>
+						{#each menu as item, i}
+							<!-- Hiding last two elements due to menu width overflow issue since we add "summit 2025" menu
+							So Hidding when max width 1280px or below. -->
+							<li
+								class={i === menu.length - 1 || i === menu.length - 2 ? 'max-[1280px]:hidden' : ''}
+							>
 								<a
 									class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
 									href="#{item.anchor}"
@@ -88,6 +94,16 @@
 						</li>
 					</ul>
 				</div>
+				<ul class="list-none  flex-row gap-10 hidden max-[1280px]:flex">
+					<li>
+						<a
+							class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
+							href="http://Summit2025.mirai-technologies.com"
+							target="_blank"
+							rel="noreferrer">Summit 2025</a
+						>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
