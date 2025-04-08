@@ -78,6 +78,14 @@
 								>
 							</li>
 						{/each}
+						<li>
+							<a
+								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
+								href="http://Summit2025.mirai-technologies.com"
+								target="_blank"
+								rel="noreferrer">Summit 2025</a
+							>
+						</li>
 					</ul>
 				</div>
 			</div>
