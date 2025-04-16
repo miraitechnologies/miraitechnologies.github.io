@@ -1,5 +1,7 @@
 <script>
 	import '../app.scss';
+	import newBadge from '$lib/images/new_badge.png';
+
 	let y = 0;
 
 	const currentYear = new Date().getFullYear();
@@ -84,7 +86,8 @@
 								>
 							</li>
 						{/each}
-						<li>
+						<li class="relative">
+							<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
 							<a
 								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
 								href="http://Summit2025.mirai-technologies.com"
@@ -94,8 +97,9 @@
 						</li>
 					</ul>
 				</div>
-				<ul class="list-none  flex-row gap-10 hidden max-[1280px]:flex">
-					<li>
+				<ul class="list-none  flex-row gap-10 hidden max-[1023px]:flex">
+					<li class="relative">
+						<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
 						<a
 							class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
 							href="http://Summit2025.mirai-technologies.com"
