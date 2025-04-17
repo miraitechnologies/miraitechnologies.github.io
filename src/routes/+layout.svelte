@@ -89,7 +89,7 @@
 						<li class="relative">
 							<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
 							<a
-								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
+								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300 relative z-10"
 								href="http://Summit2025.mirai-technologies.com"
 								target="_blank"
 								rel="noreferrer">Summit 2025</a
@@ -101,7 +101,7 @@
 					<li class="relative">
 						<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
 						<a
-							class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
+							class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300 relative z-10"
 							href="http://Summit2025.mirai-technologies.com"
 							target="_blank"
 							rel="noreferrer">Summit 2025</a

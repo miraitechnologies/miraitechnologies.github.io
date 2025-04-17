@@ -1,6 +1,8 @@
 <script>
 	import SectionHeader from '../section-header.svelte';
 	import viewport from '../useViewportAction';
+	import { locale, _ } from 'svelte-i18n';
+
 	const blocks = [
 		{
 			title: 'Who we are',
