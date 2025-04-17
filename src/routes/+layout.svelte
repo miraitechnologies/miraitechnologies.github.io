@@ -119,7 +119,7 @@
 					</li>
 				</ul>
 				<div
-					class="flex items-center gap-2 ml-8 pl-8 border-l border-opacity-20 border-[#ffffff33]"
+					class="flex items-center gap-2 ml-8 pl-8 border-l border-opacity-20 border-[#ffffff33] opacity-60"
 				>
 					<button
 						class="bare-button {selectedValue === 'en-US' ? 'selected-button' : ''}"
