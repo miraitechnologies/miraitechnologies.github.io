@@ -1,6 +1,16 @@
 <script>
 	import '../app.scss';
 	import newBadge from '$lib/images/new_badge.png';
+	import { locale, _ } from 'svelte-i18n';
+
+	let currentLocale = $locale;
+	console.log('LAANG', currentLocale);
+	let selectedValue = currentLocale || null;
+
+	function selectOption(option) {
+		selectedValue = option;
+		locale.set(option);
+	}
 
 	let y = 0;
 
@@ -108,6 +118,18 @@
 						>
 					</li>
 				</ul>
+				<div
+					class="flex items-center gap-2 ml-8 pl-8 border-l border-opacity-20 border-[#ffffff33]"
+				>
+					<button
+						class="bare-button {selectedValue === 'en-US' ? 'selected-button' : ''}"
+						on:click={() => selectOption('en-US')}>EN</button
+					>
+					<button
+						class="bare-button {selectedValue === 'jp' ? 'selected-button' : ''}"
+						on:click={() => selectOption('jp')}>JP</button
+					>
+				</div>
 			</div>
 		</div>
 	</nav>
@@ -120,3 +142,21 @@
 		</p>
 	</div>
 </footer>
+
+<style>
+	.bare-button {
+		background: none;
+		border: 2px solid transparent;
+		cursor: pointer;
+		padding: 0.25rem 0.5rem;
+		font-weight: 500;
+		color: var(--white);
+		transition: all 0.3s ease;
+		border-radius: 4px;
+		opacity: 0.9;
+	}
+	.selected-button {
+		border-color: var(--white);
+		opacity: 1;
+	}
+</style>
