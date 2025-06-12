@@ -2077,6 +2077,198 @@
 				'Bachelor Thesis: Programming the Hartree-Fock Algorithm/Applications to Simple Atomic Systems '
 			],
 			achievements: ['2017 Bronze Medal, National Physics Olympiad, Mongolia']
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Erkhembayar',
+			lastname: 'Ganbold',
+			image: '/images/members/erkhembayar.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Research assistant',
+					organization: 'United Arab Emirates University',
+					date: '2020 - 2022',
+					location: 'United Arab Emirates'
+				}
+			],
+			educations: [
+				{
+					title: 'A Bachelor of Electronic Engineering',
+					organization: 'School of Communication and Information Technology',
+					date: '2016 - 2020',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'NSDevil: Intelligent Smart Device Delivery Service.',
+				'UAE University Project: Fisheye camera traffic monitoring system.',
+				'UAE University Startup: "Meta touch" Elevetor operates using touchless technology.',
+				'Bachelor Thesis: Control of Seesaw balancing using Q-learning based on Reinforcement learning algorithm.',
+				'Asian Development Bank Project: Robot system development and experiment.'
+			],
+			achievements: [
+				'“ABU Robocon 2019 Mongolia” runner up prize.',
+				'“Autonomous robot 2019” 1 st prize.',
+				'“Autonomous robot 2024” 1 st prize.'
+			]
+		},
+		{
+			role: 'AI Engineer',
+			firstname: 'Ganzorig',
+			lastname: 'Batnasan',
+			image: '/images/members/ganzorig.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'AI Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2025',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Research assistant',
+					organization:
+						'Natural Language Processing Department, Mohamed Bin Zayed University of Artificial Intelligence',
+					date: 2023 - 2024,
+					location: 'Abu Dhabi, United Arab Emirates'
+				},
+				{
+					title: 'Research assistant',
+					organization: 'AI and Robotics Lab, United Arab Emirates University',
+					date: 2020 - 2024,
+					location: 'Abu Dhabi, United Arab Emirates'
+				},
+				{
+					title: 'Intern',
+					organization: 'Dentsu Data Artist Mongolia',
+					date: null,
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Master of Science in Engineering',
+					organization: 'United Arab Emirates University',
+					date: '2022 - 2024',
+					location: 'Abu Dhabi, United Arab Emirates'
+				},
+				{
+					title: 'Bachelor of Electronic Engineering',
+					organization: 'Mongolian University of Science and Technology',
+					date: '2016-2020',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Master Thesis: Vision Transformer for Sign Language Recognition',
+				'Bachelor Thesis: Deep Reinforcement Learning based mobile robot navigation',
+				'State Space Control of Inverted Pendulum based unstable system',
+				'Computer vision based line keeping robot',
+				'Fisheye8K: A benchmark and dataset for fisheye camera object detection, CVPRW2023',
+				'Ultra-low resolution infrared sensor-based wireless sensor network for privacy-preserved recognition of daily activities of living',
+				'8th AI City Challenge, CVPR2024',
+				'CVQA: Culturally-diverse multilingual visual question answering benchmark, NeurIPS2024'
+			]
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Tuguldur',
+			lastname: 'Bayarsaikhan',
+			image: '/images/members/tuguldur.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			expierences: [
+				{
+					title: 'Machine Learning Engineer',
+					organization: 'Hand Pro LLC',
+					date: 2023 - 2024,
+					location: 'Mongolia'
+				},
+				{
+					title: 'Machine Learning Engineer Intern',
+					organization: 'URECA LLC',
+					date: 2022 - 2022,
+					location: 'Mongolia'
+				},
+				{
+					title: 'Developer',
+					organization: 'Infinite Solutions LLC',
+					date: 2021 - 2022,
+					location: 'Mongolia'
+				}
+			],
+			educations: [
+				{
+					title: 'Bachelor in Computer Science',
+					organization: 'National University of Mongolia ',
+					date: '2019 - 2025',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Identifying difficulty level in university courses using Machine learning and K-Means clustering algorithm',
+				'Continuous Sign Language Translation using GNN-based encoder and decoder network',
+				'Graph Representation learning with Reinforcement learning for Combinatorial Optimization Problems',
+				'Bachelor Thesis: Machine Learning in the Critical Element Detection: Survey Paper under the advisory of Prof. Altannar Chinchuluun'
+			],
+			achievements: [
+				'2015 Silver Medal, State Physics Olympiad, Mongolia',
+				'2019 First Place, PROCON - National Students Programming Contest',
+				'2022 Scholarship Award - Oyutolgoi',
+				'2023 2nd Place - NUM Appathon',
+				'2023 3rd Place - NUM Startup 3.0'
+			]
+		},
+		{
+			role: 'Software Engineer',
+			firstname: 'Sanjaa-Ish',
+			lastname: 'Lkhasurenjav',
+			image: '/images/members/sanjaa.jpg',
+			bio: null,
+			current: [
+				{
+					title: 'Software Engineer',
+					organization: 'Mirai Technologies LLC',
+					date: 'Since 2024',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+
+			educations: [
+				{
+					title: 'Bachelor in electronics engineering',
+					organization: 'National University of Mongolia',
+					date: '2020 - 2025',
+					location: 'Ulaanbaatar, Mongolia'
+				}
+			],
+			projects: [
+				'Bachelor Thesis: Development of a Manually Controlled Four-Wheeled Mecanum Robot with PID Control and Utilizing ROS',
+				'Development of a Fully Automatic Four-Wheeled Mecanum Robot Using Deep Learning and ROS'
+			],
+			achievements: [
+				'2023 National Electronics Olympiad, 1st place (Team)',
+				'2022 National Robotics Competition, 3rd place',
+				'2024 National Robotics Competition, 1st place'
+			]
 		}
 	];
 	let isEnter = false;
