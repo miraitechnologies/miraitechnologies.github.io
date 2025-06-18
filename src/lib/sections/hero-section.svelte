@@ -1,5 +1,6 @@
 <script>
 	import viewport from '../useViewportAction';
+	import { locale, _ } from 'svelte-i18n';
 	let y = 0;
 	let isEnter = false;
 </script>
@@ -18,10 +19,10 @@
 			<div class="grow grid grid-cols-1 lg:grid-cols-2 gap-5">
 				<div class="flex flex-col justify-end lg:justify-center space-y-6 lg:space-y-12 ">
 					<h1 class="text-6xl lg:text-8xl font-black uppercase text-white text-center lg:text-left">
-						Create the <span class="">future</span>.
+						{$_('home.title')}
 					</h1>
 					<h3 class="text-xl font-medium uppercase lg:text-white/80 text-center lg:text-left z-10">
-						We help to make the future with coding that supports people and vehicles.
+						{$_('home.description')}
 					</h3>
 				</div>
 				<div class="flex justify-center -mt-40 opacity-50 lg:mt-0 lg:opacity-100">

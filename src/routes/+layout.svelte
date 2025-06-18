@@ -2,9 +2,14 @@
 	import '../app.scss';
 	import newBadge from '$lib/images/new_badge.png';
 	import { locale, _ } from 'svelte-i18n';
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		const savedLocale = localStorage.getItem('lang') || 'en-US';
+		locale.set(savedLocale);
+	}
 
 	let currentLocale = $locale;
-	console.log('LAANG', currentLocale);
 	let selectedValue = currentLocale || null;
 
 	function selectOption(option) {
@@ -17,30 +22,12 @@
 	const currentYear = new Date().getFullYear();
 
 	const menu = [
-		{
-			text: 'Home',
-			anchor: 'hero-section'
-		},
-		{
-			text: 'About',
-			anchor: 'about-section'
-		},
-		{
-			text: 'Team',
-			anchor: 'team-section'
-		},
-		{
-			text: 'Product & Solution',
-			anchor: 'product-solution-section'
-		},
-		{
-			text: 'Partners',
-			anchor: 'partner-section'
-		},
-		{
-			text: 'Contact',
-			anchor: 'contact-section'
-		}
+		{ textKey: 'menu.home', anchor: 'hero-section' },
+		{ textKey: 'menu.about', anchor: 'about-section' },
+		{ textKey: 'menu.team', anchor: 'team-section' },
+		{ textKey: 'menu.product_solution', anchor: 'product-solution-section' },
+		{ textKey: 'menu.partners', anchor: 'partner-section' },
+		{ textKey: 'menu.contact', anchor: 'contact-section' }
 	];
 
 	/**
@@ -104,7 +91,7 @@
 								<a
 									class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300"
 									href="#{item.anchor}"
-									on:click={handleAnchorClick}>{item.text}</a
+									on:click={handleAnchorClick}>{$_(item.textKey)}</a
 								>
 							</li>
 						{/each}
@@ -114,7 +101,7 @@
 								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300 relative z-10"
 								href="http://Summit2025.mirai-technologies.com"
 								target="_blank"
-								rel="noreferrer">Summit 2025</a
+								rel="noreferrer">{$_('menu.summit')}</a
 							>
 						</li>
 					</ul>

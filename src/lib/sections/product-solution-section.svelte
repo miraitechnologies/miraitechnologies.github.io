@@ -4,6 +4,7 @@
 	import { browser } from '$app/environment';
 	import gsap from 'gsap';
 	import SplitType from 'split-type';
+	import { locale, _ } from 'svelte-i18n';
 
 	const MODAL_CLOSE_BTN_ID = 'modal-close-prod';
 	const MODAL_IMAGE_ID = 'modal-image-prod';
@@ -70,8 +71,6 @@
 
 			const tl = gsap.timeline({ defaults: { ease: 'expo' } });
 			const from = calculatePosition(currentTarget);
-
-			console.log(modalImage[0]);
 
 			const to = calculatePosition(modalImage[0]);
 			const toBackground = calculatePosition(modals[i]);
@@ -258,8 +257,8 @@
 	<div class="container mx-auto px-5">
 		<div class="pt-24 pb-24 lg:pb-48">
 			<SectionHeader
-				title="Product & Solution"
-				description="We harness the power of AI to create cutting-edge solutions that empower businesses with smarter, faster, and more efficient tools, unlocking new possibilities for growth and innovation."
+				title={$_('product_solution.title')}
+				description={$_('product_solution.description')}
 			/>
 			<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 mt-24">
 				{#each products as product, i}
@@ -299,11 +298,10 @@
 			</div>
 			<div class="mt-7">
 				<p class="text-sm italic text-center">
-					If you are interested in our products, solutions, cooperation opportunities, or need a
-					tailored solution for your needs, please contact us via email or phone in the <a
-						href="#contact-section"
-						class="underline">contact</a
-					> section.
+					{$_('product_solution.contact_part1')}<a href="#contact-section" class="underline"
+						>{$_('product_solution.contact_part2')}</a
+					>
+					{$_('product_solution.contact_part3')}
 				</p>
 			</div>
 		</div>
