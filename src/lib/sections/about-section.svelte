@@ -5,21 +5,18 @@
 
 	const blocks = [
 		{
-			title: 'Who we are',
-			paragraph:
-				'Mirai Technologies LLC is a Industrial AI Solution Provider company established in 2022 with the investment of Shinmei Corporation of Japan. Since its inception, it has formed a team of skilled people and has been working on software development and AI development projects.',
+			titleKey: 'about.who_we_are',
+			paragraphKey: 'about.who_we_are_desc',
 			image: '/images/2.png'
 		},
 		{
-			title: 'What we do',
-			paragraph:
-				'We write code. We perform a variety of tasks using the latest technology with best solutions like software development, artificial intelligence development, machine learning, computer vision, mobile app development, website development, etc.',
+			titleKey: 'about.what_we_do',
+			paragraphKey: 'about.what_we_do_desc',
 			image: '/images/3.png'
 		},
 		{
-			title: 'Our vision',
-			paragraph:
-				'Our vision is simple. We want to be one of the major players in the field of artificial intelligence development without losing the trust of those who trust us.',
+			titleKey: 'about.our_vision',
+			paragraphKey: 'about.our_vision_desc',
 			image: '/images/4.png'
 		}
 	];
@@ -36,10 +33,7 @@
 	<div class="bg-shape bg-shape-2" />
 	<div class="container mx-auto px-5 xl:max-w-6xl">
 		<div class="pt-24 pb-24 lg:pb-48">
-			<SectionHeader
-				title="About"
-				description="About who we are, what we do and what is our vision."
-			/>
+			<SectionHeader title={$_('about.title')} description={$_('about.description')} />
 			<div class="flex flex-col space-y-12 lg:space-y-24 mt-0 lg:mt-36">
 				{#each blocks as block, i}
 					<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
@@ -53,9 +47,9 @@
 									? 'lg:text-left'
 									: 'lg:text-right'}"
 							>
-								{block.title}
+								{$_(block.titleKey)}
 							</h3>
-							<p class="text-justify">{block.paragraph}</p>
+							<p class="text-justify">{$_(block.paragraphKey)}</p>
 						</div>
 						<div
 							class="order-1 flex lg:justify-center -mb-24 lg:mb-0 opacity-50 lg:opacity-100 -z-10 {i %

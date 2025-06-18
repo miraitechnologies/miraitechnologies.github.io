@@ -1,23 +1,18 @@
 <script>
 	import { Jp, Mn } from 'svelte-flag-icons';
 	import SectionHeader from '../section-header.svelte';
+	import { locale, _ } from 'svelte-i18n';
 
 	const email = 'info@mirai-technologies.com';
 
 	const phone1 = '+81-90-9051-1386';
 	const phone2 = '+976-9580-0317';
-
-	const address = '2F, Erkht center, 2nd khoroo, Chingeltei district, Ulaanbaatar, Mongolia';
 </script>
 
 <section id="contact-section" class="bg-blur border-white/10 border-t border-b">
 	<div class="container mx-auto px-5 xl:max-w-7xl">
 		<div class="py-24">
-			<SectionHeader
-				title="Contact"
-				description="If you would like more information about our company or products, please feel free to reach
-			out to us."
-			/>
+			<SectionHeader title={$_('contact.title')} description={$_('contact.description')} />
 
 			<div class="grid grid-cols-1 lg:grid-cols-2 mt-12 lg:mt-24 gap-12">
 				<div class="flex flex-col gap-6">
@@ -84,7 +79,7 @@
 								/>
 							</svg>
 						</div>
-						<p>{address}</p>
+						<p>{$_('contact.address')}</p>
 					</div>
 				</div>
 				<div>
@@ -100,5 +95,6 @@
 					/>
 				</div>
 			</div>
+		</div>
 	</div>
 </section>

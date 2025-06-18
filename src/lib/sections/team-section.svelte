@@ -4,6 +4,7 @@
 	import { browser } from '$app/environment';
 	import gsap from 'gsap';
 	import SplitType from 'split-type';
+	import { locale, _ } from 'svelte-i18n';
 
 	const members = [
 		{
@@ -2466,11 +2467,7 @@
 	/>
 	<div class="container mx-auto px-5">
 		<div class="pt-24 pb-24 lg:pb-48">
-			<SectionHeader
-				title="Team"
-				description="Our team is made up of highly skilled and experienced professionals who are experts in their
-			respective fields."
-			/>
+			<SectionHeader title={$_('team.title')} description={$_('team.description')} />
 			<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 mt-24">
 				{#each members as member, i}
 					<div
@@ -2510,19 +2507,20 @@
 					<div
 						class="absolute bottom-0 left-0 right-0 top-0 py-6 px-6 text-white flex flex-col justify-end items-center space-y-6"
 					>
-						<div class="font-thin text-lg">Wish to see your photo here?</div>
+						<div class="font-thin text-lg">{$_('team.career')}</div>
 						<div
 							class="text-center text-sm font-semibold py-2 px-5 bg-white text-black rounded-full"
 						>
-							See open positions
+							{$_('team.cta')}
 						</div>
 					</div>
 				</a>
 			</div>
 			<div class="mt-7">
 				<p class="text-sm italic text-center">
-					If you have trouble seeing open positions, please try to contact us via email or phone in
-					the <a href="#contact-section" class="underline">contact</a> section.
+					{$_('team.trouble_seeing_part1')}
+					<a href="#contact-section" class="underline">{$_('team.trouble_seeing_part2')}</a>
+					{$_('team.trouble_seeing_part3')}
 				</p>
 			</div>
 		</div>
