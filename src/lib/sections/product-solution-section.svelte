@@ -42,10 +42,11 @@
 	let isEnter = false;
 	let selected = -1;
 	let modals = [];
+	let selectedProduct = null;
+	let isClosingModal = false;
 	let copySuccess = false;
 	let showToast = false;
 	let toastMessage = '';
-	let isClosingModal = false;
 
 	function showCopyToast(message = 'Link copied to clipboard!') {
 		toastMessage = message;
@@ -56,140 +57,158 @@
 	}
 
 	// Handle URL parameter to open specific product modal
-	$: if (productParam && browser && !isClosingModal) {
-		const productIndex = productKeys.indexOf(productParam);
-		if (productIndex !== -1 && selected === -1) {
-			// Small delay to ensure DOM is ready
-			setTimeout(() => {
+	$: if (browser && productParam && !isClosingModal) {
+		// Double-check that the parameter still exists in the URL
+		const urlParams = new URLSearchParams(window.location.search);
+		const currentProductParam = urlParams.get('product');
+
+		if (currentProductParam === productParam) {
+			const productIndex = productKeys.indexOf(productParam);
+			if (productIndex !== -1 && selected === -1) {
+				// Set flag to prevent reopening during navigation
+				isClosingModal = true;
 				showDetailFromUrl(productIndex);
-			}, 100);
+				// Reset flag after modal is opened
+				setTimeout(() => {
+					isClosingModal = false;
+				}, 1000);
+			}
 		}
 	}
 
 	function showDetailFromUrl(i) {
 		if (browser) {
-			selected = i;
-			const { body } = document;
-			const modalImage = document.querySelectorAll(`#${MODAL_IMAGE_ID}-${i}`);
-			const thumbnail = document.querySelectorAll('.member-thumbnail')[i];
+			// Scroll to product section first
+			const productSection = document.getElementById('product-solution');
+			if (productSection) {
+				productSection.scrollIntoView({ behavior: 'smooth' });
+			}
 
-			if (!thumbnail || !modalImage[0] || !modals[i]) return;
+			// Small delay to let the scroll complete
+			setTimeout(() => {
+				selected = i;
+				const { body } = document;
+				const modalImage = document.querySelectorAll(`#${MODAL_IMAGE_ID}-${i}`);
+				const thumbnail = document.querySelectorAll('.member-thumbnail')[i];
 
-			body.classList.add('noscroll');
+				if (!thumbnail || !modalImage[0] || !modals[i]) return;
 
-			const clone = thumbnail.cloneNode(true);
-			const background = thumbnail.cloneNode(false);
+				body.classList.add('noscroll');
 
-			const tl = gsap.timeline({ defaults: { ease: 'expo' } });
-			const from = calculatePosition(thumbnail);
-			const to = calculatePosition(modalImage[0]);
-			const toBackground = calculatePosition(modals[i]);
+				const clone = thumbnail.cloneNode(true);
+				const background = thumbnail.cloneNode(false);
 
-			background.className = 'z-50 rounded-lg';
-			clone.classList.remove('member-thumbnail');
-			clone.classList.remove('border-white/50');
-			clone.classList.remove('hover:border-white/100');
-			clone.classList.remove('cursor-pointer');
-			clone.classList.add('z-50');
-			clone.classList.add('border-white/100');
+				const tl = gsap.timeline({ defaults: { ease: 'expo' } });
+				const from = calculatePosition(thumbnail);
+				const to = calculatePosition(modalImage[0]);
+				const toBackground = calculatePosition(modals[i]);
 
-			clone.children[0].classList.remove('scale-100');
-			clone.children[0].classList.remove('group-hover:scale-110');
-			clone.children[0].classList.add('scale-110');
+				background.className = 'z-50 rounded-lg';
+				clone.classList.remove('member-thumbnail');
+				clone.classList.remove('border-white/50');
+				clone.classList.remove('hover:border-white/100');
+				clone.classList.remove('cursor-pointer');
+				clone.classList.add('z-50');
+				clone.classList.add('border-white/100');
 
-			clone.children[1].classList.remove('bg-[#081336]/25');
-			clone.children[1].classList.remove('group-hover:bg-white/100');
-			clone.children[1].classList.remove('group-hover:text-black');
-			clone.children[1].classList.remove('backdrop-blur-lg');
-			clone.children[1].classList.add('bg-white/100');
+				clone.children[0].classList.remove('scale-100');
+				clone.children[0].classList.remove('group-hover:scale-110');
+				clone.children[0].classList.add('scale-110');
 
-			const thumbnails = document.querySelectorAll('.member-thumbnail');
-			if (thumbnails && thumbnails.length > 0) {
-				gsap.to(thumbnails, {
-					scale: 0.5,
+				clone.children[1].classList.remove('bg-[#081336]/25');
+				clone.children[1].classList.remove('group-hover:bg-white/100');
+				clone.children[1].classList.remove('group-hover:text-black');
+				clone.children[1].classList.remove('backdrop-blur-lg');
+				clone.children[1].classList.add('bg-white/100');
+
+				const thumbnails = document.querySelectorAll('.member-thumbnail');
+				if (thumbnails && thumbnails.length > 0) {
+					gsap.to(thumbnails, {
+						scale: 0.5,
+						opacity: 0,
+						ease: 'circ.out',
+						autoRound: false,
+						duration: 0.1,
+						onComplete: function () {
+							gsap.set(this._targets, { visibility: 'hidden' });
+						}
+					});
+				}
+
+				gsap.set([clone, background], { position: 'absolute' });
+				gsap.set([clone, background], from);
+				gsap.set(background, { opacity: 0 });
+
+				body.appendChild(background);
+				body.appendChild(clone);
+
+				gsap.to(clone.children[0], {
+					scale: 1,
+					ease: 'strong4.out',
+					duration: 0.2,
+					onComplete: function () {
+						clone.children[0].classList.remove('scale-110');
+					}
+				});
+
+				gsap.to(clone.children[1], {
 					opacity: 0,
-					ease: 'circ.out',
-					autoRound: false,
-					duration: 0.1,
+					y: 100,
+					ease: 'strong4.out',
+					duration: 0.2,
 					onComplete: function () {
 						gsap.set(this._targets, { visibility: 'hidden' });
 					}
 				});
-			}
 
-			gsap.set([clone, background], { position: 'absolute' });
-			gsap.set([clone, background], from);
-			gsap.set(background, { opacity: 0 });
+				tl.to(clone, {
+					...to,
+					ease: 'strong4.out',
+					border: 0,
+					borderRadius: 24,
+					duration: 0.4
+				}).to(background, {
+					...toBackground,
+					borderRadius: 0,
+					ease: 'strong4.out',
+					opacity: 1,
+					duration: 0.2,
+					onComplete: () => {
+						gsap.set(modals[i], { visibility: 'visible' });
+						body.removeChild(clone);
+						body.removeChild(background);
 
-			body.appendChild(background);
-			body.appendChild(clone);
+						const nameText = `#modal-text-fullname-${selected}`;
+						const infoText = `#modal-info-${selected}`;
 
-			gsap.to(clone.children[0], {
-				scale: 1,
-				ease: 'strong4.out',
-				duration: 0.2,
-				onComplete: function () {
-					clone.children[0].classList.remove('scale-110');
-				}
-			});
+						gsap.set(nameText, { opacity: 0, y: '50', display: 'block' });
+						gsap.to(nameText, { opacity: 1, y: 0, duration: 0.8, ease: 'expo' });
 
-			gsap.to(clone.children[1], {
-				opacity: 0,
-				y: 100,
-				ease: 'strong4.out',
-				duration: 0.2,
-				onComplete: function () {
-					gsap.set(this._targets, { visibility: 'hidden' });
-				}
-			});
+						gsap.set(infoText, { opacity: 0, y: '200', display: 'block' });
+						gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
-			tl.to(clone, {
-				...to,
-				ease: 'strong4.out',
-				border: 0,
-				borderRadius: 24,
-				duration: 0.4
-			}).to(background, {
-				...toBackground,
-				borderRadius: 0,
-				ease: 'strong4.out',
-				opacity: 1,
-				duration: 0.2,
-				onComplete: () => {
-					gsap.set(modals[i], { visibility: 'visible' });
-					body.removeChild(clone);
-					body.removeChild(background);
+						const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
+						const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
 
-					const nameText = `#modal-text-fullname-${selected}`;
-					const infoText = `#modal-info-${selected}`;
-
-					gsap.set(nameText, { opacity: 0, y: '50', display: 'block' });
-					gsap.to(nameText, { opacity: 1, y: 0, duration: 0.8, ease: 'expo' });
-
-					gsap.set(infoText, { opacity: 0, y: '200', display: 'block' });
-					gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
-
-					const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
-					const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
-
-					gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
-					gsap.to(closeButton, {
-						scale: 1,
-						opacity: 1,
-						ease: 'elastic.out'
-					});
-
-					if (shareButton) {
-						gsap.set(shareButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
-						gsap.to(shareButton, {
+						gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
+						gsap.to(closeButton, {
 							scale: 1,
 							opacity: 1,
-							ease: 'elastic.out',
-							delay: 0.1
+							ease: 'elastic.out'
 						});
+
+						if (shareButton) {
+							gsap.set(shareButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
+							gsap.to(shareButton, {
+								scale: 1,
+								opacity: 1,
+								ease: 'elastic.out',
+								delay: 0.1
+							});
+						}
 					}
-				}
-			});
+				});
+			}, 500);
 		}
 	}
 
@@ -197,7 +216,7 @@
 		event.stopPropagation(); // Prevent modal from opening
 
 		if (browser) {
-			const url = `${window.location.origin}/products/${productKey}`;
+			const url = `${window.location.origin}/?product=${productKey}`;
 
 			try {
 				await navigator.clipboard.writeText(url);
@@ -443,6 +462,36 @@
 	}
 
 	// $: modals = modals.filter(el => el);
+
+	function closeModal() {
+		if (browser) {
+			isClosingModal = true;
+
+			// Check if modal was opened via URL parameter
+			const urlParams = new URLSearchParams(window.location.search);
+			const hasProductParam = urlParams.has('product');
+
+			if (hasProductParam) {
+				// Navigate to main domain and clear the parameter
+				goto('/', { replaceState: true });
+			} else {
+				// Just close the modal
+				selected = -1;
+				// Scroll to product section
+				setTimeout(() => {
+					const productSection = document.getElementById('product-solution');
+					if (productSection) {
+						productSection.scrollIntoView({ behavior: 'smooth' });
+					}
+				}, 100);
+			}
+
+			// Reset the flag after a longer delay to ensure navigation completes
+			setTimeout(() => {
+				isClosingModal = false;
+			}, 500);
+		}
+	}
 </script>
 
 <section

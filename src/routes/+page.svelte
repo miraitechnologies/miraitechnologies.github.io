@@ -7,9 +7,28 @@
 	import ContactSection from '../lib/sections/contact-section.svelte';
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
-	// Get product parameter from URL - only in browser
-	$: productParam = browser ? $page.url.searchParams.get('product') : null;
+	// Get product parameter from URL - handle both query params and pathname
+	let productParam = null;
+
+	$: if (browser) {
+		// Check query parameter first
+		const queryParam = $page.url.searchParams.get('product');
+		if (queryParam) {
+			productParam = queryParam;
+		} else {
+			// Check if we're on a product path like /products/asphalt_finisher
+			const pathname = $page.url.pathname;
+			const productMatch = pathname.match(/^\/products\/(.+)$/);
+			if (productMatch) {
+				const productKey = productMatch[1];
+				// Redirect to main page with query parameter
+				goto(`/?product=${productKey}`, { replaceState: true });
+			}
+		}
+	}
 </script>
 
 <svelte:head>
