@@ -5,6 +5,10 @@
 	import ProductSolutionSection from '../lib/sections/product-solution-section.svelte';
 	import PartnerSection from '../lib/sections/partner-section.svelte';
 	import ContactSection from '../lib/sections/contact-section.svelte';
+	import { page } from '$app/stores';
+
+	// Get product parameter from URL
+	$: productParam = $page.url.searchParams.get('product');
 </script>
 
 <svelte:head>
@@ -17,7 +21,7 @@
 	<HeroSection />
 	<AboutSection />
 	<TeamSection />
-	<ProductSolutionSection />
+	<ProductSolutionSection {productParam} />
 	<PartnerSection />
 	<ContactSection />
 </main>
