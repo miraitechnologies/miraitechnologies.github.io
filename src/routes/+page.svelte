@@ -6,9 +6,10 @@
 	import PartnerSection from '../lib/sections/partner-section.svelte';
 	import ContactSection from '../lib/sections/contact-section.svelte';
 	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
 
-	// Get product parameter from URL
-	$: productParam = $page.url.searchParams.get('product');
+	// Get product parameter from URL - only in browser
+	$: productParam = browser ? $page.url.searchParams.get('product') : null;
 </script>
 
 <svelte:head>

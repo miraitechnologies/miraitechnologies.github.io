@@ -399,18 +399,20 @@
 						selected = -1;
 						body.classList.remove('noscroll');
 
-						// Check if modal was opened via URL parameter
-						const urlParams = new URLSearchParams(window.location.search);
-						const hasProductParam = urlParams.has('product');
+						// Check if modal was opened via URL parameter - only in browser
+						if (browser) {
+							const urlParams = new URLSearchParams(window.location.search);
+							const hasProductParam = urlParams.has('product');
 
-						if (hasProductParam) {
-							// If opened via URL, go to main domain
-							isClosingModal = true; // Prevent modal from reopening
-							goto('/', { replaceState: true });
-							// Reset flag after navigation completes
-							setTimeout(() => {
-								isClosingModal = false;
-							}, 500);
+							if (hasProductParam) {
+								// If opened via URL, go to main domain
+								isClosingModal = true; // Prevent modal from reopening
+								goto('/', { replaceState: true });
+								// Reset flag after navigation completes
+								setTimeout(() => {
+									isClosingModal = false;
+								}, 500);
+							}
 						}
 						// If opened via card click, just close modal (no navigation)
 					}
