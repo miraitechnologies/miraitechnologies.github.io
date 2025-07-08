@@ -4,19 +4,18 @@
     "src": "src/lib/images/new_badge.png"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "internal/immutable/start-140131a4.js",
+    "file": "internal/immutable/start-9f02ad46.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-96ac2615.js",
-      "_singletons-9e12c3c9.js",
+      "_singletons-2ed5fe09.js",
       "_preload-helper-176e53da.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
       ".svelte-kit/generated/nodes/1.js",
-      ".svelte-kit/generated/nodes/2.js",
-      ".svelte-kit/generated/nodes/3.js"
+      ".svelte-kit/generated/nodes/2.js"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -28,43 +27,33 @@
       "_runtime.esm-db1da4c2.js"
     ],
     "css": [
-      "internal/immutable/assets/_layout-54aab5e8.css"
+      "internal/immutable/assets/_layout-e2834b7d.css"
     ],
     "assets": [
       "internal/immutable/assets/new_badge-c2fc91f8.png"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "internal/immutable/components/error.svelte-8d284ef4.js",
+    "file": "internal/immutable/components/error.svelte-641bce31.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-96ac2615.js",
-      "_stores-6fd56d5b.js"
+      "_stores-408716be.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "internal/immutable/components/pages/_page.svelte-47f357ab.js",
+    "file": "internal/immutable/components/pages/_page.svelte-2acd460d.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-96ac2615.js",
       "_runtime.esm-db1da4c2.js",
-      "_navigation-c18d771e.js",
-      "_stores-6fd56d5b.js"
+      "_singletons-2ed5fe09.js",
+      "_stores-408716be.js"
     ],
     "css": [
       "internal/immutable/assets/_page-bb0dfa1c.css"
-    ]
-  },
-  "src/routes/products/[productKey]/+page.svelte": {
-    "file": "internal/immutable/components/pages/products/_productKey_/_page.svelte-eb9f791b.js",
-    "src": "src/routes/products/[productKey]/+page.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-96ac2615.js",
-      "_stores-6fd56d5b.js",
-      "_navigation-c18d771e.js"
     ]
   },
   "src/routes/+layout.js": {
@@ -83,8 +72,8 @@
       "__page-c68cc303.js"
     ]
   },
-  "_singletons-9e12c3c9.js": {
-    "file": "internal/immutable/chunks/singletons-9e12c3c9.js",
+  "_singletons-2ed5fe09.js": {
+    "file": "internal/immutable/chunks/singletons-2ed5fe09.js",
     "imports": [
       "_index-96ac2615.js"
     ]
@@ -113,16 +102,10 @@
       "src/lib/i18n/locales/jp.json"
     ]
   },
-  "_stores-6fd56d5b.js": {
-    "file": "internal/immutable/chunks/stores-6fd56d5b.js",
+  "_stores-408716be.js": {
+    "file": "internal/immutable/chunks/stores-408716be.js",
     "imports": [
-      "_singletons-9e12c3c9.js"
-    ]
-  },
-  "_navigation-c18d771e.js": {
-    "file": "internal/immutable/chunks/navigation-c18d771e.js",
-    "imports": [
-      "_singletons-9e12c3c9.js"
+      "_singletons-2ed5fe09.js"
     ]
   },
   "__page-c68cc303.js": {
@@ -138,7 +121,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "internal/immutable/chunks/1-fa0920b2.js",
+    "file": "internal/immutable/chunks/1-941e1176.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -146,20 +129,12 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "internal/immutable/chunks/2-3346ff0c.js",
+    "file": "internal/immutable/chunks/2-e7fae817.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-c68cc303.js",
       "src/routes/+page.svelte"
-    ]
-  },
-  ".svelte-kit/generated/nodes/3.js": {
-    "file": "internal/immutable/chunks/3-dece1c72.js",
-    "src": ".svelte-kit/generated/nodes/3.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/products/[productKey]/+page.svelte"
     ]
   },
   "src/lib/i18n/locales/en.json": {
@@ -177,7 +152,7 @@
     "src": "src/routes/+page.css"
   },
   "src/routes/+layout.css": {
-    "file": "internal/immutable/assets/_layout-54aab5e8.css",
+    "file": "internal/immutable/assets/_layout-e2834b7d.css",
     "src": "src/routes/+layout.css"
   }
 }
