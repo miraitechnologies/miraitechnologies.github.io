@@ -1,0 +1,1 @@
+@keyframes svelte-1nc59m-fade-in-out{0%{opacity:0;transform:translateY(20px) scale(.95)}10%{opacity:1;transform:translateY(0) scale(1)}90%{opacity:1;transform:translateY(0) scale(1)}to{opacity:0;transform:translateY(20px) scale(.95)}}.animate-fade-in-out.svelte-1nc59m{animation:svelte-1nc59m-fade-in-out 2s cubic-bezier(.4,0,.2,1)}
