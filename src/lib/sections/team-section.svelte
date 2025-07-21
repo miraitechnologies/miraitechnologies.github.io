@@ -999,85 +999,85 @@
 				'2017 University of California, Los Angeles - Awarded with Distinction'
 			]
 		},
-		{
-			role: 'Bridge Engineer',
-			firstname: 'Ider',
-			lastname: 'Erdenebaatar',
-			image: '/images/members/ider.jpeg',
-			bio: null,
-			current: [
-				{
-					title: 'Bridge Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2022',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'プロジェクトマネジャ、SE',
-					organization: '大手自動車メーカーの生産管理部門システムの開発案件',
-					date: '2014-2021',
-					location: '茨城県, 日本'
-				},
-				{
-					title: 'SE、チームリーダー',
-					organization: 'サプライチェーンシステムへ子会社の自動車メーカへ導入案件',
-					date: '2012-2014',
-					location: '茨城県, 日本'
-				},
-				{
-					title: 'システムエンジニア',
-					organization: 'サプライチェーン基幹システム導入開発のプロジェクト',
-					date: '2007-2012',
-					location: '東京, 日本'
-				},
-				{
-					title: 'システムアドバイザ',
-					organization: '某自動車部品会社への提案案件',
-					date: '2006-2007',
-					location: '静岡県, 日本'
-				},
-				{
-					title: 'ソフトウェア開発者',
-					organization: 'e-Manufactoring 某配管パイプ製造メーカー会社に導入案件',
-					date: '2005-2006',
-					location: '埼玉県、日本'
-				},
-				{
-					title: 'ソフトウェア開発者',
-					organization: 'ベンチャーのサプライチェーン管理パッケージ開発支援',
-					date: '2004-2005',
-					location: '東京、日本'
-				}
-			],
-			educations: [
-				{
-					title: '情報工学科卒業',
-					organization: '苫小牧高等専門学校',
-					date: '1997-2000',
-					location: '北海道、日本'
-				},
-				{
-					title: '情報学科専攻修士課程卒業',
-					organization: '室蘭工業大学大学院',
-					date: '2003-2004',
-					location: '北海道、日本'
-				}
-			],
-			projects: [
-				'Java、PLSQL等の開発',
-				'RD BのSQLデータ分析・可視化',
-				'統合ERPパッケージ導入経験（OracleEBS、SAP）',
-				'生産管理に関する業務知識（部品・自動車関連）',
-				'プロジェクト管理'
-			],
-			achievements: [
-				'2008 OracleEBS（Gold Master資格あり）',
-				'1996‐2000 日本政府文部科学省奨学金, 日本',
-				'2002-2004ロータリ米山奨学金'
-			]
-		},
+		// {
+		// 	role: 'Bridge Engineer',
+		// 	firstname: 'Ider',
+		// 	lastname: 'Erdenebaatar',
+		// 	image: '/images/members/ider.jpeg',
+		// 	bio: null,
+		// 	current: [
+		// 		{
+		// 			title: 'Bridge Engineer',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2022',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: 'プロジェクトマネジャ、SE',
+		// 			organization: '大手自動車メーカーの生産管理部門システムの開発案件',
+		// 			date: '2014-2021',
+		// 			location: '茨城県, 日本'
+		// 		},
+		// 		{
+		// 			title: 'SE、チームリーダー',
+		// 			organization: 'サプライチェーンシステムへ子会社の自動車メーカへ導入案件',
+		// 			date: '2012-2014',
+		// 			location: '茨城県, 日本'
+		// 		},
+		// 		{
+		// 			title: 'システムエンジニア',
+		// 			organization: 'サプライチェーン基幹システム導入開発のプロジェクト',
+		// 			date: '2007-2012',
+		// 			location: '東京, 日本'
+		// 		},
+		// 		{
+		// 			title: 'システムアドバイザ',
+		// 			organization: '某自動車部品会社への提案案件',
+		// 			date: '2006-2007',
+		// 			location: '静岡県, 日本'
+		// 		},
+		// 		{
+		// 			title: 'ソフトウェア開発者',
+		// 			organization: 'e-Manufactoring 某配管パイプ製造メーカー会社に導入案件',
+		// 			date: '2005-2006',
+		// 			location: '埼玉県、日本'
+		// 		},
+		// 		{
+		// 			title: 'ソフトウェア開発者',
+		// 			organization: 'ベンチャーのサプライチェーン管理パッケージ開発支援',
+		// 			date: '2004-2005',
+		// 			location: '東京、日本'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: '情報工学科卒業',
+		// 			organization: '苫小牧高等専門学校',
+		// 			date: '1997-2000',
+		// 			location: '北海道、日本'
+		// 		},
+		// 		{
+		// 			title: '情報学科専攻修士課程卒業',
+		// 			organization: '室蘭工業大学大学院',
+		// 			date: '2003-2004',
+		// 			location: '北海道、日本'
+		// 		}
+		// 	],
+		// 	projects: [
+		// 		'Java、PLSQL等の開発',
+		// 		'RD BのSQLデータ分析・可視化',
+		// 		'統合ERPパッケージ導入経験（OracleEBS、SAP）',
+		// 		'生産管理に関する業務知識（部品・自動車関連）',
+		// 		'プロジェクト管理'
+		// 	],
+		// 	achievements: [
+		// 		'2008 OracleEBS（Gold Master資格あり）',
+		// 		'1996‐2000 日本政府文部科学省奨学金, 日本',
+		// 		'2002-2004ロータリ米山奨学金'
+		// 	]
+		// },
 		{
 			role: 'Bridge Engineer',
 			firstname: 'Ankhbayar',
@@ -1913,95 +1913,46 @@
 		// 		'1994-1999 中国政府奨学金、中国',
 		// 	]
 		// },
-		{
-			role: 'Software Engineer',
-			firstname: 'Shur-Erdene',
-			lastname: 'Buyannemekh',
-			image: '/images/members/shurer.jpg',
-			bio: null,
-			current: [
-				{
-					title: 'Software Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Teacher in the Computer Science Department',
-					organization: 'New Mongol College of Technology',
-					date: '2021-2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Bachelor Degree - Electronic Engineering',
-					organization: 'Mongolian University of Science and Technology',
-					date: '2021-2022',
-					location: 'Ulaanbaatar, Mongolia'
-				},
-				{
-					title: 'Associate Degree - Electrical and Computer Engineering',
-					organization: 'Ichinoseki College, National Institute of Technology',
-					date: '2018-2021',
-					location: 'Ichinoseki, Japan'
-				}
-			],
-			projects: [
-				'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
-			]
-		},
-		{
-			role: 'System Security Engineer',
-			firstname: 'Byambadorj',
-			lastname: 'Ganbat',
-			image: '/images/members/g.byambadorj.jpg',
-			bio: null,
-			current: [
-				{
-					title: 'System Security Engineer',
-					organization: 'Mirai Technologies LLC',
-					date: 'Since 2024',
-					location: 'Ulaanbaatar, Mongolia'
-				}
-			],
-			expierences: [
-				{
-					title: 'Security Specialist',
-					organization: 'Infinite Solutions LLC',
-					date: '2021-2024',
-					location: 'Mongolia'
-				},
-				{
-					title: 'System Analyst',
-					organization: 'Trade and Development Bank',
-					date: '2020-2021',
-					location: 'Mongolia'
-				},
-				{
-					title: 'System Administrator',
-					organization: 'Ulaanbaatar Bank',
-					date: '2018-2020',
-					location: 'Mongolia'
-				},
-				{
-					title: 'System Administrator',
-					organization: 'Mongolian National Data Center',
-					date: '2014-2018',
-					location: 'Mongolia'
-				}
-			],
-			educations: [
-				{
-					title: 'Bachelor in System Security',
-					organization: 'Mongolian University Of Science and Technology',
-					date: '2009-2014',
-					location: 'Mongolia'
-				}
-			]
-		},
+		// {
+		// 	role: 'Software Engineer',
+		// 	firstname: 'Shur-Erdene',
+		// 	lastname: 'Buyannemekh',
+		// 	image: '/images/members/shurer.jpg',
+		// 	bio: null,
+		// 	current: [
+		// 		{
+		// 			title: 'Software Engineer',
+		// 			organization: 'Mirai Technologies LLC',
+		// 			date: 'Since 2024',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	expierences: [
+		// 		{
+		// 			title: 'Teacher in the Computer Science Department',
+		// 			organization: 'New Mongol College of Technology',
+		// 			date: '2021-2024',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		}
+		// 	],
+		// 	educations: [
+		// 		{
+		// 			title: 'Bachelor Degree - Electronic Engineering',
+		// 			organization: 'Mongolian University of Science and Technology',
+		// 			date: '2021-2022',
+		// 			location: 'Ulaanbaatar, Mongolia'
+		// 		},
+		// 		{
+		// 			title: 'Associate Degree - Electrical and Computer Engineering',
+		// 			organization: 'Ichinoseki College, National Institute of Technology',
+		// 			date: '2018-2021',
+		// 			location: 'Ichinoseki, Japan'
+		// 		}
+		// 	],
+		// 	projects: [
+		// 		'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
+		// 	]
+		// },
 		{
 			role: 'Software engineer',
 			firstname: 'Badamsereedari',
