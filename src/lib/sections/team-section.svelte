@@ -2074,14 +2074,14 @@
 			]
 		},
 		{
-			role: 'AI Engineer',
+			role: 'Software Engineer',
 			firstname: 'Ganzorig',
 			lastname: 'Batnasan',
 			image: '/images/members/ganzorig.jpg',
 			bio: null,
 			current: [
 				{
-					title: 'AI Engineer',
+					title: 'Software Engineer',
 					organization: 'Mirai Technologies LLC',
 					date: 'Since 2025',
 					location: 'Ulaanbaatar, Mongolia'
