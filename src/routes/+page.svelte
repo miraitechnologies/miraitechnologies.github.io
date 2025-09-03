@@ -12,6 +12,7 @@
 
 	// Get product parameter from URL - handle both query params and pathname
 	let productParam = null;
+	let teamMemberParam = null;
 
 	$: if (browser) {
 		// Check query parameter first
@@ -28,6 +29,21 @@
 				goto(`/?product=${productKey}`, { replaceState: true });
 			}
 		}
+
+		// Check team member parameter
+		const teamQueryParam = $page.url.searchParams.get('member');
+		if (teamQueryParam) {
+			teamMemberParam = teamQueryParam;
+		} else {
+			// Check if we're on a team member path like /team/member_name
+			const pathname = $page.url.pathname;
+			const teamMatch = pathname.match(/^\/team\/(.+)$/);
+			if (teamMatch) {
+				const memberKey = teamMatch[1];
+				// Redirect to main page with query parameter
+				goto(`/?member=${memberKey}`, { replaceState: true });
+			}
+		}
 	}
 </script>
 
@@ -40,7 +56,7 @@
 	<div class="bg-main" />
 	<HeroSection />
 	<AboutSection />
-	<TeamSection />
+	<TeamSection {teamMemberParam} />
 	<ProductSolutionSection {productParam} />
 	<PartnerSection />
 	<ContactSection />
