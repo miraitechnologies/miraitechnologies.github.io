@@ -35,6 +35,8 @@
 		if (teamQueryParam) {
 			teamMemberParam = teamQueryParam;
 		} else {
+			// Clear team member parameter if no parameter in URL
+			teamMemberParam = null;
 			// Check if we're on a team member path like /team/member_name
 			const pathname = $page.url.pathname;
 			const teamMatch = pathname.match(/^\/team\/(.+)$/);

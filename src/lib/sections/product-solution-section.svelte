@@ -188,7 +188,6 @@
 						gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
 						const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
-						const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
 
 						gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
 						gsap.to(closeButton, {
@@ -196,16 +195,6 @@
 							opacity: 1,
 							ease: 'elastic.out'
 						});
-
-						if (shareButton) {
-							gsap.set(shareButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
-							gsap.to(shareButton, {
-								scale: 1,
-								opacity: 1,
-								ease: 'elastic.out',
-								delay: 0.1
-							});
-						}
 					}
 				});
 			}, 500);
@@ -364,7 +353,6 @@
 					gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
 					const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
-					const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
 
 					gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
 					gsap.to(closeButton, {
@@ -372,16 +360,6 @@
 						opacity: 1,
 						ease: 'elastic.out'
 					});
-
-					if (shareButton) {
-						gsap.set(shareButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
-						gsap.to(shareButton, {
-							scale: 1,
-							opacity: 1,
-							ease: 'elastic.out',
-							delay: 0.1
-						});
-					}
 				}
 			});
 		}
@@ -392,15 +370,14 @@
 			const { body } = document;
 			const modal = modals[i];
 			const closeButton = document.querySelectorAll(`#${MODAL_CLOSE_BTN_ID}-${i}`)[0];
-			const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
 
 			const tl = gsap.timeline();
 			tl.to(
-				[modal, closeButton, shareButton],
+				[modal, closeButton],
 				{
 					opacity: 0,
 					onComplete: () => {
-						gsap.set([modal, closeButton, shareButton], { y: 0, opacity: 1, visibility: 'hidden' });
+						gsap.set([modal, closeButton], { y: 0, opacity: 1, visibility: 'hidden' });
 					}
 				},
 				-0.1
@@ -622,30 +599,6 @@
 	</div>
 
 	<!-- Share Button for Modal -->
-	<button
-		type="button"
-		id="modal-share-{i}"
-		class="fixed right-20 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-white rounded-full flex justify-center items-center hover:opacity-100"
-		style="visibility: hidden"
-		on:click={(e) => copyProductLink(product.key, e)}
-		title="Copy link to clipboard"
-	>
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke-width="1.5"
-			stroke="currentColor"
-			class="w-6 h-6"
-		>
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0-3.933-2.185 2.25 2.25 0 0 0 3.933 2.185Z"
-			/>
-		</svg>
-	</button>
-
 	<button
 		type="button"
 		id="{MODAL_CLOSE_BTN_ID}-{i}"

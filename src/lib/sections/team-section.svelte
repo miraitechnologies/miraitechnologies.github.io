@@ -6,6 +6,12 @@
 	import SplitType from 'split-type';
 	import { locale, _ } from 'svelte-i18n';
 	import { goto } from '$app/navigation';
+	import {
+		createCopyLinkFunction,
+		createCloseModalFunction,
+		createUrlParamHandler,
+		createToastSystem
+	} from '../modal-utils.js';
 
 	// Props
 	export let teamMemberParam = null;
@@ -2236,80 +2242,187 @@
 	let showToast = false;
 	let toastMessage = '';
 
-	function showCopyToast(message = 'Link copied to clipboard!') {
-		toastMessage = message;
-		showToast = true;
-		setTimeout(() => {
-			showToast = false;
-		}, 2000);
-	}
+	// Create toast system using utility
+	const { showToast: showCopyToast } = createToastSystem(
+		(show) => {
+			showToast = show;
+		},
+		(message) => {
+			toastMessage = message;
+		}
+	);
 
 	// Handle URL parameter to open specific member modal
 	$: if (browser && teamMemberParam && !isClosingModal) {
-		const memberIndex = members.findIndex((member) => {
-			const memberKey =
-				`${member.firstname.toLowerCase()}_${member.lastname.toLowerCase()}`.replace(/\s+/g, '_');
-			return memberKey === teamMemberParam;
-		});
+		// Double-check that the parameter still exists in the URL
+		const urlParams = new URLSearchParams(window.location.search);
+		const currentMemberParam = urlParams.get('member');
 
-		if (memberIndex !== -1 && selected === -1) {
-			selectedMember = members[memberIndex];
-			// Use setTimeout to ensure DOM is ready
-			setTimeout(() => {
-				const memberElement = document.querySelector(`[data-member-index="${memberIndex}"]`);
-				if (memberElement) {
-					showDetail({ currentTarget: memberElement }, memberIndex);
-				}
-			}, 100);
+		if (currentMemberParam === teamMemberParam) {
+			const memberIndex = members.findIndex((member) => {
+				const memberKey =
+					`${member.firstname.toLowerCase()}_${member.lastname.toLowerCase()}`.replace(/\s+/g, '_');
+				return memberKey === teamMemberParam;
+			});
+
+			if (memberIndex !== -1 && selected === -1) {
+				// Set flag to prevent reopening during navigation
+				isClosingModal = true;
+				showDetailFromUrl(memberIndex);
+				// Reset flag after modal is opened
+				setTimeout(() => {
+					isClosingModal = false;
+				}, 1000);
+			}
 		}
 	}
 
-	async function copyMemberLink(member, event) {
-		event.stopPropagation(); // Prevent modal from opening
-
+	function showDetailFromUrl(i) {
 		if (browser) {
-			const memberKey =
-				`${member.firstname.toLowerCase()}_${member.lastname.toLowerCase()}`.replace(/\s+/g, '_');
-			const url = `${window.location.origin}/?member=${memberKey}`;
-
-			try {
-				await navigator.clipboard.writeText(url);
-				copySuccess = true;
-				showCopyToast();
-
-				// Show success feedback
-				const button = event.currentTarget;
-				const originalHTML = button.innerHTML;
-				button.innerHTML = `
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-					</svg>
-				`;
-				button.classList.add('text-green-400');
-
-				setTimeout(() => {
-					button.innerHTML = originalHTML;
-					button.classList.remove('text-green-400');
-					copySuccess = false;
-				}, 2000);
-			} catch (err) {
-				console.error('Failed to copy: ', err);
-				// Fallback for older browsers
-				const textArea = document.createElement('textarea');
-				textArea.value = url;
-				document.body.appendChild(textArea);
-				textArea.select();
-				document.execCommand('copy');
-				document.body.removeChild(textArea);
-
-				copySuccess = true;
-				showCopyToast();
-
-				setTimeout(() => {
-					copySuccess = false;
-				}, 2000);
+			// Scroll to team section first
+			const teamSection = document.getElementById('team-section');
+			if (teamSection) {
+				teamSection.scrollIntoView({ behavior: 'smooth' });
 			}
+
+			// Small delay to let the scroll complete
+			setTimeout(() => {
+				selected = i;
+				selectedMember = members[i];
+				const { body } = document;
+				const thumbnail = document.querySelectorAll('.member-thumbnail')[i];
+
+				if (!thumbnail || !modals[i]) return;
+
+				body.classList.add('noscroll');
+
+				const clone = thumbnail.cloneNode(true);
+				const background = thumbnail.cloneNode(false);
+
+				const from = calculatePosition(thumbnail);
+				const to = calculatePosition(modals[i]);
+
+				const toBackground = {
+					top: 0,
+					left: 0,
+					width: '100vw',
+					height: '100vh'
+				};
+
+				const thumbnails = document.querySelectorAll('.member-thumbnail');
+				gsap.set(thumbnails, { visibility: 'hidden' });
+				gsap.set(thumbnails, {
+					scale: 0.5,
+					opacity: 0,
+					ease: 'circ.out',
+					autoRound: false,
+					duration: 0.1,
+					onComplete: function () {
+						gsap.set(this._targets, { visibility: 'hidden' });
+					}
+				});
+
+				gsap.set([clone, background], { position: 'absolute' });
+				gsap.set([clone, background], from);
+				gsap.set(background, { opacity: 0 });
+
+				body.appendChild(background);
+				body.appendChild(clone);
+
+				gsap.to(clone.children[0], {
+					scale: 1,
+					ease: 'strong4.out',
+					duration: 0.2,
+					onComplete: function () {
+						clone.children[0].classList.remove('scale-110');
+					}
+				});
+
+				gsap.to(clone.children[1], {
+					opacity: 0,
+					y: 100,
+					ease: 'strong4.out',
+					duration: 0.2,
+					onComplete: function () {
+						gsap.set(this._targets, { visibility: 'hidden' });
+					}
+				});
+
+				const tl = gsap.timeline();
+				tl.to(clone, {
+					...to,
+					ease: 'strong4.out',
+					border: 0,
+					borderRadius: 24,
+					duration: 0.4
+				}).to(background, {
+					...toBackground,
+					borderRadius: 0,
+					ease: 'strong4.out',
+					opacity: 1,
+					duration: 0.2,
+					onComplete: () => {
+						gsap.set(modals[i], { visibility: 'visible' });
+						body.removeChild(clone);
+						body.removeChild(background);
+						const fullnameText = new SplitType(`#modal-text-fullname-${selected}`);
+						const roleText = new SplitType(`#modal-text-role-${selected}`);
+						const infoText = `#modal-info-${selected}`;
+						gsap.set([fullnameText.chars, roleText.chars], {
+							y: '120%',
+							rotate: 15,
+							opacity: 0
+						});
+
+						gsap.to([fullnameText.chars, roleText.chars], {
+							y: '0%',
+							rotate: 0,
+							opacity: 1,
+							ease: 'elastic.out',
+							duration: 0.8,
+							stagger: 0.02,
+							delay: 0.2
+						});
+
+						gsap.fromTo(
+							infoText,
+							{
+								opacity: 0,
+								y: 20
+							},
+							{
+								opacity: 1,
+								y: 0,
+								ease: 'elastic.out',
+								delay: 0.4,
+								duration: 0.6
+							}
+						);
+
+						const closeButton = document.querySelectorAll(`#modal-close-${i}`)[0];
+
+						gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
+						gsap.to(closeButton, {
+							scale: 1,
+							opacity: 1,
+							ease: 'elastic.out'
+						});
+					}
+				});
+			}, 300);
 		}
+	}
+
+	// Create copy link function using utility
+	function copyMemberLink(member, event) {
+		const memberKey = `${member.firstname.toLowerCase()}_${member.lastname.toLowerCase()}`.replace(
+			/\s+/g,
+			'_'
+		);
+
+		// Call the utility function directly with the event
+		const copyFunction = createCopyLinkFunction('member', memberKey, showCopyToast);
+		copyFunction(event);
 	}
 
 	function showDetail(e, i) {
@@ -2426,7 +2539,6 @@
 					gsap.to(infoText, { opacity: 1, y: 0, display: 'block' });
 
 					const closeButton = document.querySelectorAll(`#modal-close-${i}`)[0];
-					const shareButton = document.querySelectorAll(`#modal-share-${i}`)[0];
 
 					gsap.set(closeButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
 					gsap.to(closeButton, {
@@ -2434,16 +2546,6 @@
 						opacity: 1,
 						ease: 'elastic.out'
 					});
-
-					if (shareButton) {
-						gsap.set(shareButton, { scale: 0.1, opacity: 0, visibility: 'visible' });
-						gsap.to(shareButton, {
-							scale: 1,
-							opacity: 1,
-							ease: 'elastic.out',
-							delay: 0.1
-						});
-					}
 				}
 			});
 		}
@@ -2480,13 +2582,23 @@
 						selected = -1;
 						selectedMember = null;
 						body.classList.remove('noscroll');
-						// Clear URL parameter when closing modal
-						if (teamMemberParam) {
-							goto('/', { replaceState: true });
+
+						// Check if modal was opened via URL parameter - only in browser
+						if (browser) {
+							const urlParams = new URLSearchParams(window.location.search);
+							const hasMemberParam = urlParams.has('member');
+
+							if (hasMemberParam) {
+								// If opened via URL, go to main domain
+								isClosingModal = true; // Prevent modal from reopening
+								goto('/', { replaceState: true });
+								// Reset flag after navigation completes
+								setTimeout(() => {
+									isClosingModal = false;
+								}, 500);
+							}
 						}
-						setTimeout(() => {
-							isClosingModal = false;
-						}, 500);
+						// If opened via card click, just close modal (no navigation)
 					}
 				});
 			}
@@ -2510,6 +2622,13 @@
 			height: rect.height,
 			width: rect.width
 		};
+	}
+
+	function closeModal() {
+		if (browser && selected !== -1) {
+			// Use the existing hideDetail function to handle animations
+			hideDetail(null, selected);
+		}
 	}
 
 	// $: modals = modals.filter(el => el);
@@ -2862,34 +2981,10 @@
 	<!-- Share Button for Modal -->
 	<button
 		type="button"
-		id="modal-share-{i}"
-		class="fixed right-20 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
-		style="visibility: hidden"
-		on:click={(e) => copyMemberLink(member, e)}
-		title="Copy link to clipboard"
-	>
-		<svg
-			xmlns="http://www.w3.org/2000/svg"
-			fill="none"
-			viewBox="0 0 24 24"
-			stroke-width="1.5"
-			stroke="currentColor"
-			class="w-6 h-6"
-		>
-			<path
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0-3.933-2.185 2.25 2.25 0 0 0 3.933 2.185Z"
-			/>
-		</svg>
-	</button>
-
-	<button
-		type="button"
 		id="modal-close-{i}"
 		class="fixed right-2 top-2 z-50 w-16 h-16 bg-white/50 border border-black/50 text-black rounded-full flex justify-center items-center hover:opacity-100"
 		style="visibility: hidden"
-		on:click={(e) => hideDetail(e, i)}
+		on:click={closeModal}
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -2907,20 +3002,42 @@
 <!-- Toast Notification -->
 {#if showToast}
 	<div
-		class="fixed bottom-4 right-4 z-50 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg transform transition-all duration-300 ease-in-out"
+		class="fixed left-1/2 bottom-8 z-[9999] -translate-x-1/2 bg-black/90 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-2 text-base animate-fade-in-out pointer-events-none select-none"
 	>
-		<div class="flex items-center space-x-2">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				stroke-width="1.5"
-				stroke="currentColor"
-				class="w-5 h-5"
-			>
-				<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-			</svg>
-			<span>{toastMessage}</span>
-		</div>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			class="w-5 h-5 text-green-400"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+			stroke-width="2"
+		>
+			<path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+		</svg>
+		<span>{toastMessage}</span>
 	</div>
 {/if}
+
+<style>
+	@keyframes fade-in-out {
+		0% {
+			opacity: 0;
+			transform: translateY(20px) scale(0.95);
+		}
+		10% {
+			opacity: 1;
+			transform: translateY(0) scale(1);
+		}
+		90% {
+			opacity: 1;
+			transform: translateY(0) scale(1);
+		}
+		100% {
+			opacity: 0;
+			transform: translateY(20px) scale(0.95);
+		}
+	}
+	.animate-fade-in-out {
+		animation: fade-in-out 2s cubic-bezier(0.4, 0, 0.2, 1);
+	}
+</style>
