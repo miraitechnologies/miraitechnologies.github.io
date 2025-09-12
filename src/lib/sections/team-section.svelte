@@ -12,11 +12,13 @@
 		createUrlParamHandler,
 		createToastSystem
 	} from '../modal-utils.js';
+	import membersJP from '../i18n/members-jp.ts';
 
 	// Props
 	export let teamMemberParam = null;
 
-	const members = [
+	// English member data
+	const membersEN = [
 		{
 			role: 'Founder',
 			firstname: 'Temuulen',
@@ -525,84 +527,7 @@
 				'Silver medal in 2006 National robot contest (ABU Robocon 2006 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).'
 			]
 		},
-		// {
-		// 	role: 'Consultant',
-		// 	firstname: 'Enkhtogtokh',
-		// 	lastname: 'Togootogtokh',
-		// 	image: '/images/members/enkhtogtokh.jpeg',
-		// 	bio: 'Senior AI Research, Professor(Ass.), Researcher, and Software Engineer with academic and industry experience in AI, machine learning, deep learning, computer vision, software development, software architect & design.',
-		// 	current: [
-		// 		{
-		// 			title: 'Consultant',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2023',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Senior AI Researcher',
-		// 			organization: 'Technidoo Solutions',
-		// 			date: 'Since 2019',
-		// 			location: 'Germany'
-		// 		},
-		// 		{
-		// 			title: 'Professor (Ass.)',
-		// 			organization: 'CS department, Mongolian University of Science and Technology',
-		// 			date: 'Since 2017',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'Machine Learning Researcher',
-		// 			organization: 'MINE Lab, National Central University',
-		// 			date: '2013 - 2017',
-		// 			location: 'Taiwan'
-		// 		},
-		// 		{
-		// 			title: 'Software engineer',
-		// 			organization: 'Nimon Systems',
-		// 			date: '2008 - 2012',
-		// 			location: 'Mongolia'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: 'Post Doc in deep lear ning for UAV',
-		// 			organization: 'University of Udine, Italy, National University of Singapore',
-		// 			date: '2018-2019',
-		// 			location: 'Singapore'
-		// 		},
-		// 		{
-		// 			title: 'Ph.D in Computer Science',
-		// 			organization: 'National Central University (Taiwan top university system)',
-		// 			date: '2013-2017',
-		// 			location: 'Taiwan'
-		// 		},
-		// 		{
-		// 			title: 'MSc in Mathematics',
-		// 			organization: 'National University of Mongolia',
-		// 			date: '2006-2008',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'BSc in Mathematics',
-		// 			organization: 'National University of Mongolia',
-		// 			date: '2002-2006',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	projects: [
-		// 		'Sennheiser Price Optimization BOT platform, Technidoo Solutions, Sennheiser GMBH, 2021-2022',
-		// 		'Trixie Logistic Optimization AI platform, Technidoo Solutions, Trixie GMBH, Microsoft, 2020-2021',
-		// 		'BASF Counterfeit detection AI platform, Technidoo solutions, BASF, Alibaba, 2019-2020',
-		// 		'PRESNET – AI Computer Vision for UAV Singaporean and Italian Government, Ministries of defense of Singapore and Italy, 2017-2019',
-		// 		'Inter national Build4Skills Big Data Project Mongolian Government, BMZ Germany, 2016-2017'
-		// 	],
-		// 	achievements: [
-		// 		'From 2018-2019, i won the post doc grant and challenged in AI government project. I have successfully done in half of the scheduled time.',
-		// 		'From 2013-2017, I gained the Ph.D degree in computer science specially machine (deep) learning from Taiwan top university system (world ranking top-70).'
-		// 	]
-		// },
+
 		{
 			role: 'Consultant',
 			firstname: 'An',
@@ -1009,85 +934,7 @@
 				'2017 University of California, Los Angeles - Awarded with Distinction'
 			]
 		},
-		// {
-		// 	role: 'Bridge Engineer',
-		// 	firstname: 'Ider',
-		// 	lastname: 'Erdenebaatar',
-		// 	image: '/images/members/ider.jpeg',
-		// 	bio: null,
-		// 	current: [
-		// 		{
-		// 			title: 'Bridge Engineer',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2022',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'プロジェクトマネジャ、SE',
-		// 			organization: '大手自動車メーカーの生産管理部門システムの開発案件',
-		// 			date: '2014-2021',
-		// 			location: '茨城県, 日本'
-		// 		},
-		// 		{
-		// 			title: 'SE、チームリーダー',
-		// 			organization: 'サプライチェーンシステムへ子会社の自動車メーカへ導入案件',
-		// 			date: '2012-2014',
-		// 			location: '茨城県, 日本'
-		// 		},
-		// 		{
-		// 			title: 'システムエンジニア',
-		// 			organization: 'サプライチェーン基幹システム導入開発のプロジェクト',
-		// 			date: '2007-2012',
-		// 			location: '東京, 日本'
-		// 		},
-		// 		{
-		// 			title: 'システムアドバイザ',
-		// 			organization: '某自動車部品会社への提案案件',
-		// 			date: '2006-2007',
-		// 			location: '静岡県, 日本'
-		// 		},
-		// 		{
-		// 			title: 'ソフトウェア開発者',
-		// 			organization: 'e-Manufactoring 某配管パイプ製造メーカー会社に導入案件',
-		// 			date: '2005-2006',
-		// 			location: '埼玉県、日本'
-		// 		},
-		// 		{
-		// 			title: 'ソフトウェア開発者',
-		// 			organization: 'ベンチャーのサプライチェーン管理パッケージ開発支援',
-		// 			date: '2004-2005',
-		// 			location: '東京、日本'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: '情報工学科卒業',
-		// 			organization: '苫小牧高等専門学校',
-		// 			date: '1997-2000',
-		// 			location: '北海道、日本'
-		// 		},
-		// 		{
-		// 			title: '情報学科専攻修士課程卒業',
-		// 			organization: '室蘭工業大学大学院',
-		// 			date: '2003-2004',
-		// 			location: '北海道、日本'
-		// 		}
-		// 	],
-		// 	projects: [
-		// 		'Java、PLSQL等の開発',
-		// 		'RD BのSQLデータ分析・可視化',
-		// 		'統合ERPパッケージ導入経験（OracleEBS、SAP）',
-		// 		'生産管理に関する業務知識（部品・自動車関連）',
-		// 		'プロジェクト管理'
-		// 	],
-		// 	achievements: [
-		// 		'2008 OracleEBS（Gold Master資格あり）',
-		// 		'1996‐2000 日本政府文部科学省奨学金, 日本',
-		// 		'2002-2004ロータリ米山奨学金'
-		// 	]
-		// },
+
 		{
 			role: 'Bridge Engineer',
 			firstname: 'Ankhbayar',
@@ -1850,119 +1697,7 @@
 				'Employee of the year, Unitel group, 2012'
 			]
 		},
-		// {
-		// 	role: 'Office Manager',
-		// 	firstname: 'Gerelmaa',
-		// 	lastname: 'Bavuujav',
-		// 	image: '/images/members/gerelmaa.jpg',
-		// 	bio: null,
-		// 	current: [
-		// 	{
-		// 		title: 'オフィスマネージャー',
-		// 		organization: 'Mirai Technologies LLC',
-		// 		date: '2024',
-		// 		location: 'ウランバートル、モンゴル'
-		// 	}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: '国際協力事業翻訳',
-		// 			organization: 'CIT LLC',
-		// 			date: "2018-2023",
-		// 			location: 'ウランバートル、モンゴル'
-		// 		},
-		// 		{
-		// 			title: 'アジア地域国際関係マネージャー',
-		// 			organization: 'Lots Invest LLC',
-		// 			date: "2014-2017",
-		// 			location: 'ウランバートル、モンゴル'
-		// 		},
-		// 		{
-		// 			title: '事業サービス管理者',
-		// 			organization: 'Oyu Tolgoi LLC',
-		// 			date: "2011-2014",
-		// 			location: 'ウランバートル、モンゴル'
-		// 		},
-		// 		{
-		// 			title: '日本語教師',
-		// 			organization: '紅萩日本語学',
-		// 			date: "2008-2011",
-		// 			location: 'ウランバートル、モンゴル'
-		// 		},
-		// 		{
-		// 			title: 'インポートマネージャー',
-		// 			organization: 'SRT Transportation LLC',
-		// 			date: "1999- 2005",
-		// 			location: 'ウランバートル、モンゴル'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: '研究生',
-		// 			organization: '社会教育研究科、福岡教育大学',
-		// 			date: "2007-2008",
-		// 			location: '福岡、日本'
-		// 		},
-		// 		{
-		// 			title: '専門士',
-		// 			organization: '九州ビジネス専門学校文化・教養科',
-		// 			date: "2005-2007",
-		// 			location: '福岡、日本'
-		// 		},
-		// 		{
-		// 			title: '学士号',
-		// 			organization: '心理学部、華東師範大学',
-		// 			date: "1994-1999",
-		// 			location: '上海、中国'
-		// 		},
-		// 	],
-		// 	projects: [
-		// 	],
-		// 	achievements: [
-		// 		'日本語能力試験 N1',
-		// 		'1994-1999 中国政府奨学金、中国',
-		// 	]
-		// },
-		// {
-		// 	role: 'Software Engineer',
-		// 	firstname: 'Shur-Erdene',
-		// 	lastname: 'Buyannemekh',
-		// 	image: '/images/members/shurer.jpg',
-		// 	bio: null,
-		// 	current: [
-		// 		{
-		// 			title: 'Software Engineer',
-		// 			organization: 'Mirai Technologies LLC',
-		// 			date: 'Since 2024',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	expierences: [
-		// 		{
-		// 			title: 'Teacher in the Computer Science Department',
-		// 			organization: 'New Mongol College of Technology',
-		// 			date: '2021-2024',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		}
-		// 	],
-		// 	educations: [
-		// 		{
-		// 			title: 'Bachelor Degree - Electronic Engineering',
-		// 			organization: 'Mongolian University of Science and Technology',
-		// 			date: '2021-2022',
-		// 			location: 'Ulaanbaatar, Mongolia'
-		// 		},
-		// 		{
-		// 			title: 'Associate Degree - Electrical and Computer Engineering',
-		// 			organization: 'Ichinoseki College, National Institute of Technology',
-		// 			date: '2018-2021',
-		// 			location: 'Ichinoseki, Japan'
-		// 		}
-		// 	],
-		// 	projects: [
-		// 		'Effect of water temperature on nitric acid production using non-equilibrium pulse discharge plasma between needle and water surface'
-		// 	]
-		// },
+
 		{
 			role: 'Software engineer',
 			firstname: 'Badamsereedari',
@@ -2233,6 +1968,10 @@
 			]
 		}
 	];
+
+	// Select members based on current language
+	$: members = $locale === 'jp' ? membersJP : membersEN;
+
 	let isEnter = false;
 	let selected = -1;
 	let modals = [];
@@ -2755,7 +2494,7 @@
 						{#if member.current && member.current.length > 0}
 							<div id="modal-current-position-{i}" class="mt-10">
 								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Current positions
+									{$_('team.current_positions')}
 								</h3>
 								<ul class="list-none mt-5 space-y-5">
 									{#each member.current as item}
@@ -2815,7 +2554,7 @@
 						{#if member.expierences && member.expierences.length > 0}
 							<div id="modal-experience-{i}" class="mt-10">
 								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Experience
+									{$_('team.experience')}
 								</h3>
 								<ul class="list-none mt-5 space-y-5">
 									{#each member.expierences as item}
@@ -2875,7 +2614,7 @@
 						{#if member.educations && member.educations.length > 0}
 							<div id="modal-education-{i}" class="mt-10">
 								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Education
+									{$_('team.education')}
 								</h3>
 								<ul class="list-none mt-5 space-y-5">
 									{#each member.educations as item}
@@ -2935,7 +2674,7 @@
 						{#if member.projects && member.projects.length > 0}
 							<div id="modal-projects-{i}" class="mt-10">
 								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Projects
+									{$_('team.projects')}
 								</h3>
 								<ul class="list-disc ml-5 mt-5">
 									{#each member.projects as item}
@@ -2950,7 +2689,7 @@
 						{#if member.achievements && member.achievements.length > 0}
 							<div id="modal-achievements-{i}" class="mt-10">
 								<h3 class="text-2xl uppercase font-bold text-[#081336] border-b-2 border-[#081336]">
-									Achievements
+									{$_('team.achievements')}
 								</h3>
 								<ul class="list-disc ml-5 mt-5">
 									{#each member.achievements as item}

@@ -29,7 +29,12 @@
 		"trouble_seeing_part2": "お問い合わせ",
 		"trouble_seeing_part3": "セクションに記載しています。",
 		"career": "ここにあなたの写真を掲載しませんか？",
-		"cta": "採用情報を見る"
+		"cta": "採用情報を見る",
+		"current_positions": "現在の役職",
+		"experience": "経験",
+		"education": "学歴",
+		"projects": "プロジェクト",
+		"achievements": "実績"
 	},
 	"product_solution": {
 		"title": "製品とソリューション",

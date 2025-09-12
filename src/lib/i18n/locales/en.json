@@ -29,7 +29,12 @@
 		"trouble_seeing_part2": "contact",
 		"trouble_seeing_part3": "section.",
 		"career": "Wish to see your photo here?",
-		"cta": "See open positions"
+		"cta": "See open positions",
+		"current_positions": "Current positions",
+		"experience": "Experience",
+		"education": "Education",
+		"projects": "Projects",
+		"achievements": "Achievements"
 	},
 	"product_solution": {
 		"title": "Product & Solution",
