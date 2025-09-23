@@ -82,6 +82,7 @@
 		</Carousel>
 	</div>
 </div>
+
 <div class="text-center mt-8">
 	<button
 		type="button"
