@@ -3,6 +3,8 @@
 	import newBadge from '$lib/images/new_badge.png';
 	import { locale, _ } from 'svelte-i18n';
 	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
+	import { page } from '$app/stores';
 
 	if (browser) {
 		const savedLocale = localStorage.getItem('lang') || 'en-US';
@@ -37,11 +39,21 @@
 		event.preventDefault();
 		const link = event.currentTarget;
 		const anchorId = new URL(link.href).hash.replace('#', '');
-		const anchor = document.getElementById(anchorId);
-		window.scrollTo({
-			top: anchor.offsetTop,
-			behavior: 'smooth'
-		});
+
+		// Check if we're on the main page
+		if ($page.url.pathname === '/') {
+			// If on main page, scroll to the section
+			const anchor = document.getElementById(anchorId);
+			if (anchor) {
+				window.scrollTo({
+					top: anchor.offsetTop,
+					behavior: 'smooth'
+				});
+			}
+		} else {
+			// If on other pages, navigate to main page with anchor
+			goto(`/#${anchorId}`, { replaceState: false });
+		}
 	}
 </script>
 
@@ -60,13 +72,18 @@
 				class="flex justify-between items-center h-14 lg:h-20 max-[550px]:flex-col max-[550px]:pt-5 max-[550px]:gap-5"
 			>
 				<div class="flex max-[550px]:justify-between max-[550px]:w-full max-[550px]:min-w-[350px]">
-					<div
-						class="h-8 lg:h-10 flex flex-row items-center"
+					<a
+						href="/"
+						class="h-8 lg:h-10 flex flex-row items-center cursor-pointer hover:opacity-80 transition-opacity duration-300"
 						title="Mobile, Innovation, Robotics ,Artificial, Intellence"
+						on:click={(e) => {
+							e.preventDefault();
+							goto('/', { replaceState: false });
+						}}
 					>
 						<img src="/images/logo.svg" class="h-8 lg:h-10" alt="Logo" />
 						<img src="/images/logo_text.svg" class="h-6 lg:h-8 ml-2" alt="Logo Text" />
-					</div>
+					</a>
 					<div
 						class="items-center gap-2 ml-8 pl-8 border-l border-opacity-20 border-[#ffffff33] opacity-60 hidden  max-[550px]:flex"
 					>

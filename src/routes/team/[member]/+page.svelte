@@ -13,6 +13,9 @@
 	let member = null;
 	let isAnimating = false;
 
+	// Track scroll position for scrolling indicator
+	let y = 0;
+
 	$: if (browser) {
 		memberKey = $page.params.member;
 		// Select members based on current language
@@ -138,6 +141,8 @@
 	}
 </script>
 
+<svelte:window bind:scrollY={y} />
+
 <svelte:head>
 	<title
 		>{member
@@ -233,6 +238,29 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<!-- Scrolling Indicator -->
+		<div class="relative">
+			<div
+				class="self-center py-6 transition-opacity bottom-0 absolute left-1/2 transform -translate-x-1/2"
+				class:opacity-0={y > 0}
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="animate-bounce w-8 h-8 opacity-50"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5"
+					/>
+				</svg>
 			</div>
 		</div>
 
