@@ -101,7 +101,7 @@
 							<!-- Share Button on Image -->
 							<button
 								on:click|stopPropagation={(e) => copyMemberLink(member, e)}
-								class="absolute top-2 right-2 z-10 bg-black/70 hover:bg-black/90 text-white p-1 rounded-full transition-all duration-300 w-7 h-7 flex items-center justify-center shadow-md"
+								class="absolute top-2 right-2 z-10 bg-black/70 hover:bg-black/90 text-white p-1 rounded-full transition-all duration-300 w-7 h-7 flex items-center justify-center shadow-md opacity-0 group-hover:opacity-100"
 								title="Copy link to clipboard"
 							>
 								<svg
