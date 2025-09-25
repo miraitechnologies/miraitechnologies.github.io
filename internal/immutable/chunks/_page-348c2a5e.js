@@ -1,0 +1,1 @@
+const e=["asphalt_finisher","automated_forklift","digital_twin","ai_workplace_assistants","document_insights"];async function a(){return e.map(t=>({product:t}))}const n=Object.freeze(Object.defineProperty({__proto__:null,entries:a},Symbol.toStringTag,{value:"Module"}));export{n as _,a as e};
