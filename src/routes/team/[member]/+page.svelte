@@ -158,15 +158,17 @@
 </svelte:head>
 
 {#if member}
-	<div class="page-content min-h-screen bg-gradient-to-br from-[#081336] to-[#1a2a4a]">
+	<div class="page-content min-h-screen bg-gradient-to-br from-[#081336] to-[#1a2a4a] mt-12">
 		<!-- Hero Section -->
 		<div class="hero-content relative overflow-hidden">
 			<div class="absolute inset-0 bg-gradient-to-r from-[#081336]/90 to-transparent z-10" />
-			<div class="container mx-auto px-5 py-24 relative z-20">
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+			<div class="container mx-auto px-5 py-8 relative z-20">
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 					<!-- Member Image -->
 					<div class="member-image order-2 lg:order-1">
-						<div class="w-full aspect-[3/4] overflow-hidden shadow-2xl rounded-3xl">
+						<div
+							class="w-full aspect-square max-w-md mx-auto overflow-hidden shadow-2xl rounded-3xl"
+						>
 							<img
 								src={member.image ? member.image : '/images/members/no_photo.jpg'}
 								class="h-full w-full object-cover"
@@ -176,8 +178,13 @@
 					</div>
 
 					<!-- Member Info -->
-					<div class="member-text order-1 lg:order-2 text-white">
-						<h1 id="member-fullname" class="text-5xl md:text-7xl uppercase mb-4">
+					<div
+						class="member-text order-1 lg:order-2 text-white justify-items-center lg:justify-items-start"
+					>
+						<h1
+							id="member-fullname"
+							class="text-5xl md:text-7xl uppercase mb-4 lg:text-left text-center"
+						>
 							<span class="font-bold">{member.firstname}</span>
 							<span>{member.lastname}</span>
 						</h1>
@@ -192,7 +199,7 @@
 						{/if}
 
 						<!-- Action Buttons -->
-						<div class="flex flex-col sm:flex-row gap-4">
+						<div class="flex flex-row gap-4">
 							<button
 								on:click={goBack}
 								class="inline-flex items-center px-8 py-4 bg-white/20 hover:bg-white/30 text-white rounded-full transition-all duration-300 font-medium backdrop-blur-sm"
@@ -203,7 +210,7 @@
 									viewBox="0 0 24 24"
 									stroke-width="1.5"
 									stroke="currentColor"
-									class="w-5 h-5 mr-2"
+									class="w-5 h-5 mr-2 "
 								>
 									<path
 										stroke-linecap="round"
@@ -211,7 +218,7 @@
 										d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
 									/>
 								</svg>
-								Back to Team
+								<span class="hidden sm:block"> Back to Team </span>
 							</button>
 
 							<button
@@ -233,7 +240,7 @@
 										d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186Zm0-12.814a2.25 2.25 0 10-3.933-2.185 2.25 2.25 0 003.933 2.185Z"
 									/>
 								</svg>
-								Share Profile
+								<span class="hidden sm:block"> Share Profile </span>
 							</button>
 						</div>
 					</div>
@@ -242,7 +249,7 @@
 		</div>
 
 		<!-- Scrolling Indicator -->
-		<div class="relative">
+		<!-- <div class="relative">
 			<div
 				class="self-center py-6 transition-opacity bottom-0 absolute left-1/2 transform -translate-x-1/2"
 				class:opacity-0={y > 0}
@@ -262,7 +269,7 @@
 					/>
 				</svg>
 			</div>
-		</div>
+		</div> -->
 
 		<!-- Content Section -->
 		<div class="bg-white py-24">
