@@ -1,0 +1,262 @@
+{
+	"membersJP": [
+		{
+			"firstname": "Temuulen",
+			"lastname": "Olonbayar"
+		},
+		{
+			"firstname": "Lkhagvasuren",
+			"lastname": "Jazag"
+		},
+		{
+			"firstname": "Amgalan",
+			"lastname": "Ganbat"
+		},
+		{
+			"firstname": "Otgonbayar",
+			"lastname": "Uuye"
+		},
+		{
+			"firstname": "Bayarpurev",
+			"lastname": "Mongol"
+		},
+		{
+			"firstname": "Amartuvshin",
+			"lastname": "Renchin-Ochir"
+		},
+		{
+			"firstname": "An",
+			"lastname": "Nguyen"
+		},
+		{
+			"firstname": "Sodtavilan",
+			"lastname": "Odonchimed"
+		},
+		{
+			"firstname": "Lester (Peng-Jian)",
+			"lastname": "Yang"
+		},
+		{
+			"firstname": "Sumiyajav",
+			"lastname": "Sarangerel"
+		},
+		{
+			"firstname": "Ganbold",
+			"lastname": "Sukhbat"
+		},
+		{
+			"firstname": "Ganbayar",
+			"lastname": "Amgalan"
+		},
+		{
+			"firstname": "Ankhbayar",
+			"lastname": "Tsagaan"
+		},
+		{
+			"firstname": "Yesui",
+			"lastname": "Baatar"
+		},
+		{
+			"firstname": "Gerelt-Od",
+			"lastname": "Surenjav"
+		},
+		{
+			"firstname": "Bat-Orshikh",
+			"lastname": "Baavgaikhuu"
+		},
+		{
+			"firstname": "Ganbayar",
+			"lastname": "Batkhishig"
+		},
+		{
+			"firstname": "Sukh-Erdene",
+			"lastname": "Nyamsukh"
+		},
+		{
+			"firstname": "Khaschuluu",
+			"lastname": "Munkhbayar"
+		},
+		{
+			"firstname": "Nurbyek",
+			"lastname": "Khuansh"
+		},
+		{
+			"firstname": "Odbayar",
+			"lastname": "Mendbayar"
+		},
+		{
+			"firstname": "Dulguun",
+			"lastname": "Battugs"
+		},
+		{
+			"firstname": "Munkh-Erdene",
+			"lastname": "Otgonbold"
+		},
+		{
+			"firstname": "Manaljav",
+			"lastname": "Purevsuren"
+		},
+		{
+			"firstname": "Byambadorj",
+			"lastname": "Baasan"
+		},
+		{
+			"firstname": "Enkhtur",
+			"lastname": "Enkhee"
+		},
+		{
+			"firstname": "Badamsereedari",
+			"lastname": "Togtool"
+		},
+		{
+			"firstname": "Biziya",
+			"lastname": "Sarangerel"
+		},
+		{
+			"firstname": "Erkhembayar",
+			"lastname": "Ganbold"
+		},
+		{
+			"firstname": "Ganzorig",
+			"lastname": "Batnasan"
+		},
+		{
+			"firstname": "Tuguldur",
+			"lastname": "Bayarsaikhan"
+		},
+		{
+			"firstname": "Sanjaa-Ish",
+			"lastname": "Lkhasurenjav"
+		}
+	],
+	"membersEN": [
+		{
+			"firstname": "Temuulen",
+			"lastname": "Olonbayar"
+		},
+		{
+			"firstname": "Lkhagvasuren",
+			"lastname": "Jazag"
+		},
+		{
+			"firstname": "Amgalan",
+			"lastname": "Ganbat"
+		},
+		{
+			"firstname": "Otgonbayar",
+			"lastname": "Uuye"
+		},
+		{
+			"firstname": "Bayarpurev",
+			"lastname": "Mongol"
+		},
+		{
+			"firstname": "Amartuvshin",
+			"lastname": "Renchin-Ochir"
+		},
+		{
+			"firstname": "An",
+			"lastname": "Nguyen"
+		},
+		{
+			"firstname": "Sodtavilan",
+			"lastname": "Odonchimed"
+		},
+		{
+			"firstname": "Lester (Peng-Jian)",
+			"lastname": "Yang"
+		},
+		{
+			"firstname": "Sumiyajav",
+			"lastname": "Sarangerel"
+		},
+		{
+			"firstname": "Ganbold",
+			"lastname": "Sukhbat"
+		},
+		{
+			"firstname": "Ganbayar",
+			"lastname": "Amgalan"
+		},
+		{
+			"firstname": "Ankhbayar",
+			"lastname": "Tsagaan"
+		},
+		{
+			"firstname": "Yesui",
+			"lastname": "Baatar"
+		},
+		{
+			"firstname": "Gerelt-Od",
+			"lastname": "Surenjav"
+		},
+		{
+			"firstname": "Bat-Orshikh",
+			"lastname": "Baavgaikhuu"
+		},
+		{
+			"firstname": "Ganbayar",
+			"lastname": "Batkhishig"
+		},
+		{
+			"firstname": "Sukh-Erdene",
+			"lastname": "Nyamsukh"
+		},
+		{
+			"firstname": "Khaschuluu",
+			"lastname": "Munkhbayar"
+		},
+		{
+			"firstname": "Nurbyek",
+			"lastname": "Khuansh"
+		},
+		{
+			"firstname": "Odbayar",
+			"lastname": "Mendbayar"
+		},
+		{
+			"firstname": "Dulguun",
+			"lastname": "Battugs"
+		},
+		{
+			"firstname": "Munkh-Erdene",
+			"lastname": "Otgonbold"
+		},
+		{
+			"firstname": "Manaljav",
+			"lastname": "Purevsuren"
+		},
+		{
+			"firstname": "Byambadorj",
+			"lastname": "Baasan"
+		},
+		{
+			"firstname": "Enkhtur",
+			"lastname": "Enkhee"
+		},
+		{
+			"firstname": "Badamsereedari",
+			"lastname": "Togtool"
+		},
+		{
+			"firstname": "Biziya",
+			"lastname": "Sarangerel"
+		},
+		{
+			"firstname": "Erkhembayar",
+			"lastname": "Ganbold"
+		},
+		{
+			"firstname": "Ganzorig",
+			"lastname": "Batnasan"
+		},
+		{
+			"firstname": "Tuguldur",
+			"lastname": "Bayarsaikhan"
+		},
+		{
+			"firstname": "Sanjaa-Ish",
+			"lastname": "Lkhasurenjav"
+		}
+	]
+}
