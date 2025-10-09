@@ -66,6 +66,45 @@
 					</div>
 				{/each}
 			</div>
+
+			<!-- Information Security Policy Section -->
+			<div class="mt-24 lg:mt-36">
+				<SectionHeader
+					title={$_('about.security_policy.title')}
+					description={$_('about.security_policy.description')}
+				/>
+				<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mt-12">
+					<!-- First Column: Company Policy -->
+					<div class="space-y-6">
+						<p class="text-justify font-semibold text-lg leading-relaxed">
+							{$_('about.security_policy.company_policy_intro')}
+						</p>
+						<ul class="space-y-4 text-justify">
+							{#each $_('about.security_policy.company_policy_points') as point}
+								<li class="flex items-start">
+									<span class="mr-3 mt-1">•</span>
+									<span>{point}</span>
+								</li>
+							{/each}
+						</ul>
+					</div>
+
+					<!-- Second Column: Security Activities -->
+					<div class="space-y-6">
+						<p class="text-justify font-semibold text-lg leading-relaxed">
+							{$_('about.security_policy.activities_intro')}
+						</p>
+						<ul class="space-y-4 text-justify">
+							{#each $_('about.security_policy.activities_points') as point}
+								<li class="flex items-start">
+									<span class="mr-3 mt-1">•</span>
+									<span>{point}</span>
+								</li>
+							{/each}
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

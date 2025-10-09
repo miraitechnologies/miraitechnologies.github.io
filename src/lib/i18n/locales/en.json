@@ -20,7 +20,24 @@
 		"what_we_do": "What we do",
 		"what_we_do_desc": "We write code. We perform a variety of tasks using the latest technology with best solutions like software development, artificial intelligence development, machine learning, computer vision, mobile app development, website development, etc.",
 		"our_vision": "Our vision",
-		"our_vision_desc": "Our vision is simple. We want to be one of the major players in the field of artificial intelligence development without losing the trust of those who trust us."
+		"our_vision_desc": "Our vision is simple. We want to be one of the major players in the field of artificial intelligence development without losing the trust of those who trust us.",
+		"security_policy": {
+			"title": "Information Security Policy",
+			"description": "Our commitment to protecting data and maintaining the highest standards of information security across all our operations and partnerships.",
+			"company_policy_intro": "The company provides software development and artificial intelligence development services to both domestic and international organizations. Within the scope of these activities, the following policy is upheld:",
+			"company_policy_points": [
+				"When working with clients and technology partners, the company recognizes the importance of data and information confidentiality, integrity, and availability.",
+				"All company data and information—including corporate information, confidential data, intellectual property, personal data, and personally identifiable information—are considered valuable assets and must be protected from unauthorized access, sharing, disclosure, alteration, loss, damage, or destruction.",
+				"The company ensures the information security of all internal and client data that it creates, collects, acquires, stores, processes, transfers, or distributes, thereby building trust with all stakeholders."
+			],
+			"activities_intro": "As part of its information security policy, the company implements the following activities:",
+			"activities_points": [
+				"Conducts regular risk assessments to identify potential risks to the confidentiality, integrity, and availability of data, information assets, information systems, and information processing infrastructure.",
+				"Implements effective controls, policies, standards, practices, processes, and procedures to reduce, mitigate, and prevent risks.",
+				"Complies with the laws and regulations of Mongolia, upholds the organization's values and ethics, and ensures continuous compliance with the requirements of regulatory authorities and contractual obligations.",
+				"The company continuously supports the implementation of information security controls, adoption of technological advancements, and capacity building of its employees through training and development."
+			]
+		}
 	},
 	"team": {
 		"title": "Team",
