@@ -1,4 +1,4 @@
-import { membersJP, membersEN } from '../../../lib/i18n/members-jp.ts';
+import { membersJP, membersEN } from '../../../lib/i18n/members.ts';
 
 export async function entries() {
 	// Generate all possible member routes for both languages
