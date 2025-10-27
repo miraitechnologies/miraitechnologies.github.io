@@ -1,6 +1,6 @@
 <script>
 	import '../app.scss';
-	import newBadge from '$lib/images/new_badge.png';
+	// import newBadge from '$lib/images/new_badge.png';
 	import { locale, _ } from 'svelte-i18n';
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
@@ -113,7 +113,7 @@
 							</li>
 						{/each}
 						<li class="relative">
-							<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
+							<!-- <img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" /> -->
 							<a
 								class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300 relative z-10"
 								href="http://Summit2025.mirai-technologies.com"
@@ -125,7 +125,7 @@
 				</div>
 				<ul class="list-none  flex-row gap-10 hidden max-[1023px]:flex max-[550px]:hidden">
 					<li class="relative">
-						<img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" />
+						<!-- <img class="absolute w-[46px] right-[-13px] top-[-21px]" src={newBadge} alt="" /> -->
 						<a
 							class="block uppercase font-bold opacity-60 hover:opacity-100 transition-opacity duration-300 relative z-10"
 							href="http://Summit2025.mirai-technologies.com"

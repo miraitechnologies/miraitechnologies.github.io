@@ -4,7 +4,7 @@
 	import gsap from 'gsap';
 	import SplitType from 'split-type';
 	import { _, locale } from 'svelte-i18n';
-	import { membersJP, membersEN } from '../i18n/members-jp.ts';
+	import { membersJP, membersEN } from '../i18n/members.ts';
 	import { createCopyLinkFunction, createToastSystem } from '../modal-utils.js';
 	import SectionHeader from '../section-header.svelte';
 	import viewport from '../useViewportAction';

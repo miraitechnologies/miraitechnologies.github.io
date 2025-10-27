@@ -1045,6 +1045,48 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'システムセキュリティチームリーダー',
+		firstname: 'Nurjan',
+		lastname: 'Janaikhan',
+		image: '/images/members/nurjan.jpg',
+		bio: null,
+		current: [
+			{
+				title: '情報セキュリティスペシャリスト',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		expierences: [
+			{
+				title: 'システム管理者',
+				organization: 'Golomt銀行',
+				date: '2017 - 2019年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'システムエンジニア',
+				organization: 'IT Zone LLC',
+				date: '2020 - 2022年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '準学士 - コンピューターサイエンス',
+				organization: 'モンゴル国立大学',
+				date: '2005 - 2009年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'SIGO - システムアップグレードプロジェクトにおけるインフラ環境更新',
+			'モンゴル銀行 - システムアップグレードプロジェクトにおけるインフラ環境更新'
+		],
+		achievements: []
+	},
+	{
 		role: 'チームリーダー',
 		firstname: 'Gerelt-Od',
 		lastname: 'Surenjav',
@@ -1866,6 +1908,182 @@ export const membersJP = [
 			'2023年 全国電子工学オリンピアード、第1位（チーム）',
 			'2022年 全国ロボットコンテスト、第3位',
 			'2024年 全国ロボットコンテスト、第1位'
+		]
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Saruul-Ulzii',
+		lastname: 'Sampilnorov',
+		image: '/images/members/saruululzii.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年 – 現在',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'シニアフルスタック開発者',
+				organization: 'Mercedes-Benz Financial Services USA',
+				date: '2022年 – 2024年',
+				location: 'ミシガン州、米国'
+			},
+			{
+				title: 'フルスタック開発者',
+				organization: '2nd Community Systems LLC',
+				date: '2020年 – 2021年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニアフルスタック開発者',
+				organization: 'Nomch IT Consulting LLC',
+				date: '2017年 – 2019年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フリーランス開発者・翻訳者',
+				organization: 'Upwork / Freelancer',
+				date: '2016年 – 2017年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フルスタック開発者',
+				organization: 'MongolID LLC',
+				date: '2015年 – 2016年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニア開発者',
+				organization: 'ITZone LLC',
+				date: '2010年 – 2015年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '修士号 – コンピューターサイエンス',
+				organization: 'Maharishi International University',
+				date: '2021年 – 2023年',
+				location: 'アイオワ州、米国'
+			},
+			{
+				title: '修士号 – コンピューターサイエンス',
+				organization: 'モンゴル科学技術大学',
+				date: '2010年 – 2012年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: '学士号 – ソフトウェア工学',
+				organization: 'モンゴル科学技術大学',
+				date: '2006年 – 2010年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'ERPシステム – .NET, C#, Oracle',
+			'Bone Shakerモバイルゲーム – Unity',
+			'GPS追跡システム – Java, Ionic',
+			'教育用モバイルアプリ – Kotlin, Swift, MySQL',
+			'GlobalWorldモバイルアプリ – Flutter, Firebase'
+		],
+		achievements: [
+			'数学高校優勝学生 – モンゴル科学技術大学 (2006年)',
+			'第1位 – 学生記述幾何学オリンピアード、モンゴル科学技術大学 (2008年)',
+			'三菱商事国際奨学金受賞者、モンゴル科学技術大学 (2009年)',
+			'第2位 – 学生哲学オリンピアード、モンゴル科学技術大学 (2009年)',
+			'チームメンバー – 学生数学オリンピアード、モンゴル (2009年)',
+			'優秀卒業生賞、モンゴル科学技術大学 (2010年)',
+			'Microsoft認定技術スペシャリスト (2010年)',
+			'基礎情報技術者 (FE ITPEC)、在モンゴル日本大使館 (2010年)',
+			'第13位 – 学生プログラミングオリンピアード、モンゴル科学技術大学 (2010年)',
+			'第1位 – ゲームジャンル、モバイルICTコンペティション (2013年)'
+		]
+	},
+	{
+		role: 'セキュリティエンジニア',
+		firstname: 'Batmergen',
+		lastname: 'Bat',
+		image: '/images/members/batmergen.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'セキュリティエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '学士号 – セキュリティ工学',
+				organization: 'モンゴル国際学校',
+				date: '2016年 - 2020年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'2021-2022 Khan銀行 – システム管理者',
+			'2022-2023 Towa国際学校 – 日本語',
+			'2023-2024 Meganya – ゲーム開発者',
+			'2024-2025 Mobicom – プラットフォームエンジニア'
+		],
+		achievements: []
+	},
+	{
+		role: '研究科学者',
+		firstname: 'Otgonbayar',
+		lastname: 'Khuslen',
+		image: '/images/members/khuslen.jpeg',
+		bio: null,
+		current: [
+			{
+				title: '研究科学者',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: '研究助手',
+				organization: '昆山杜克大学',
+				date: '2023年 - 2025年',
+				location: '崑山、中国'
+			},
+			{
+				title: 'データサイエンティストインターン',
+				organization: 'Metropolitan Policy Institute',
+				date: '2024年6月 - 2024年8月',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'ブランディング戦略・研究インターンシップ',
+				organization: 'Hugo Boss',
+				date: '2023年6月 - 2023年8月',
+				location: 'ニューヨーク、米国（リモート）'
+			}
+		],
+		educations: [
+			{
+				title: '学士号 – データサイエンス',
+				organization: '昆山杜克大学 & Duke University',
+				date: '2021年 - 2025年',
+				location: 'ダーラム、米国；崑山、中国；バルセロナ、スペイン'
+			}
+		],
+		projects: [
+			'ハイブリッド Markov-LSTM時系列予測',
+			'線形回帰とサポートベクタ回帰による時系列予測の比較研究',
+			'インタラクティブ交通流可視化・分析ダッシュボード',
+			'時空間大気質予測'
+		],
+		achievements: [
+			'銀メダリスト – 国家化学オリンピアード (2016年)',
+			'銅メダリスト – 新入学数学オリンピアード (2016年)',
+			'"Khuuhed-Erdene"メダリスト – モンゴル子供宮殿 (2021年)'
 		]
 	}
 ];
@@ -2922,6 +3140,48 @@ export const membersEN = [
 		]
 	},
 	{
+		role: 'Information Security Lead',
+		firstname: 'Nurjan',
+		lastname: 'Janaikhan',
+		image: '/images/members/nurjan.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Information Security Specialist',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		expierences: [
+			{
+				title: 'System Admin',
+				organization: 'Golomt Bank',
+				date: '2017 - 2019',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'System Engineer',
+				organization: 'IT Zone LLC',
+				date: '2020 - 2022',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Associate Degree - Computer Science',
+				organization: 'National University of Mongolia',
+				date: '2005 - 2009',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'SIGO - Infrastructure Environment Renewal within the System Upgrade Project',
+			'Bank of Mongolia - Infrastructure Environment Renewal within the System Upgrade Project'
+		],
+		achievements: []
+	},
+	{
 		role: 'Team Leader',
 		firstname: 'Gerelt-Od',
 		lastname: 'Surenjav',
@@ -3747,6 +4007,182 @@ export const membersEN = [
 			'2023 National Electronics Olympiad, 1st place (Team)',
 			'2022 National Robotics Competition, 3rd place',
 			'2024 National Robotics Competition, 1st place'
+		]
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Saruul-Ulzii',
+		lastname: 'Sampilnorov',
+		image: '/images/members/saruululzii.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: '2025 – Present',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Senior Full-Stack Developer',
+				organization: 'Mercedes-Benz Financial Services USA',
+				date: '2022 – 2024',
+				location: 'Michigan, USA'
+			},
+			{
+				title: 'Full-Stack Developer',
+				organization: '2nd Community Systems LLC',
+				date: '2020 – 2021',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Full-Stack Developer',
+				organization: 'Nomch IT Consulting LLC',
+				date: '2017 – 2019',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Freelance Developer & Translator',
+				organization: 'Upwork / Freelancer',
+				date: '2016 – 2017',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Full-Stack Developer',
+				organization: 'MongolID LLC',
+				date: '2015 – 2016',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Developer',
+				organization: 'ITZone LLC',
+				date: '2010 – 2015',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Master’s Degree – Computer Science',
+				organization: 'Maharishi International University',
+				date: '2021 – 2023',
+				location: 'Iowa, USA'
+			},
+			{
+				title: 'Master’s Degree – Computer Science',
+				organization: 'Mongolian University of Science and Technology',
+				date: '2010 – 2012',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Bachelor’s Degree – Software Engineering',
+				organization: 'Mongolian University of Science and Technology',
+				date: '2006 – 2010',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'ERP System – .NET, C#, Oracle',
+			'Bone Shaker Mobile Game – Unity',
+			'GPS Tracking System – Java, Ionic',
+			'Educational Mobile App – Kotlin, Swift, MySQL',
+			'GlobalWorld Mobile App – Flutter, Firebase'
+		],
+		achievements: [
+			'Champion Student – Mathematics High School, Mongolian University of Science and Technology (2006)',
+			'1st Place – Student Descriptive Geometry Olympiad, Mongolian University of Science and Technology (2008)',
+			'Mitsubishi Corporation International Scholarship Awardee, Mongolian University of Science and Technology (2009)',
+			'2nd Place – Student Philosophy Olympiad, Mongolian University of Science and Technology (2009)',
+			'Team Member – Student Math Olympiad, Mongolia (2009)',
+			'Outstanding Graduate Student Award, Mongolian University of Science and Technology (2010)',
+			'Microsoft Certified Technology Specialist (2010)',
+			'Fundamental Information Technology Engineer (FE ITPEC), Embassy of Japan in Mongolia (2010)',
+			'13th Place – Student Programming Olympiad, Mongolian University of Science and Technology (2010)',
+			'1st Place – Game Genre, Mobile ICT Competition (2013)'
+		]
+	},
+	{
+		role: 'Security Engineer',
+		firstname: 'Batmergen',
+		lastname: 'Bat',
+		image: '/images/members/batmergen.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Security Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in security engineering',
+				organization: 'Mongolian International School',
+				date: '2016 - 2020',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'2021-2022 Khan Bank - System Administrator',
+			'2022-2023 Towa International School - Japanese Language',
+			'2023-2024 Meganya - Game Developer',
+			'2024-2025 Mobicom - Platform Engineer'
+		],
+		achievements: []
+	},
+	{
+		role: 'Research Scientist',
+		firstname: 'Otgonbayar',
+		lastname: 'Khuslen',
+		image: '/images/members/khuslen.jpeg',
+		bio: null,
+		current: [
+			{
+				title: 'Research Scientist',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Research Assistant',
+				organization: '昆山杜克大学',
+				date: '2023 - 2025',
+				location: 'Kunshan, China'
+			},
+			{
+				title: 'Data Scientist Intern',
+				organization: 'Metropolitan Policy Institute',
+				date: 'Jun 2024 - Aug 2024',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Branding Strategy & Research Internship',
+				organization: 'Hugo Boss',
+				date: 'Jun 2023 - Aug 2023',
+				location: 'New York, USA (Remote)'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor of Science - Data Science',
+				organization: '昆山杜克大学 & Duke University',
+				date: '2021 - 2025',
+				location: 'Durham, USA; Kunshan, China; Barcelona, Spain'
+			}
+		],
+		projects: [
+			'Hybrid of Markov-LSTM for Time Series Forecasting',
+			'Comparative Study of Linear and Support Vector Regression for Time Series Prediction',
+			'Interactive Traffic Flow Visualization and Analysis Dashboard',
+			'Spatial-Temporal Air Quality Prediction'
+		],
+		achievements: [
+			'Silver Medalist - State Chemistry Olympiad (2016)',
+			'Bronze Medalist – New Beginning Mathematics Olympiad (2016)',
+			'"Khuuhed-Erdene" Medalist - Mongolian Children\'s Palace (2021)'
 		]
 	}
 ];
