@@ -2034,8 +2034,8 @@ export const membersJP = [
 	},
 	{
 		role: '研究科学者',
-		firstname: 'Otgonbayar',
-		lastname: 'Khuslen',
+		firstname: 'Khuslen',
+		lastname: 'Otgonbayar',
 		image: '/images/members/khuslen.jpeg',
 		bio: null,
 		current: [
@@ -4133,8 +4133,8 @@ export const membersEN = [
 	},
 	{
 		role: 'Research Scientist',
-		firstname: 'Otgonbayar',
-		lastname: 'Khuslen',
+		firstname: 'Khuslen',
+		lastname: 'Otgonbayar',
 		image: '/images/members/khuslen.jpeg',
 		bio: null,
 		current: [
