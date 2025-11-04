@@ -2003,6 +2003,49 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Tuvshintugs',
+		lastname: 'Sereenendorj',
+		image: '/images/members/tuvshintugs.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年～',
+				location: 'モンゴル国 ウランバートル'
+			}
+		],
+		experience: [
+			{
+				title: '研究助手・ロボコンチームインストラクター',
+				organization: 'モンゴル国立大学',
+				date: '2024年～2025年',
+				location: 'モンゴル国 ウランバートル'
+			}
+		],
+		educations: [
+			{
+				title: '電子工学学士',
+				organization: 'モンゴル国立大学',
+				date: '2020年～2024年',
+				location: 'モンゴル国 ウランバートル'
+			}
+		],
+		projects: [
+			'学士論文：深層学習とROSを用いた全自動四輪メカナムロボットの開発',
+			'AirQ スマート空気質制御・換気システム',
+			'ランダム3点幾何と半径制約を用いた点群中の反復的効率的球体検出'
+		],
+		achievements: [
+			'「第3位」全国ロボットコンテスト（ABU Robocon 2022 モンゴル）ウランバートル（SOYOMBOチームリーダー）',
+			'「ベストエンジニアリング賞」全国ロボットコンテスト（ABU Robocon 2023 モンゴル）ウランバートル（SOYOMBOチームリーダー）',
+			'「全国優勝」全国ロボットコンテスト（ABU Robocon 2024 モンゴル）ウランバートル（SOYOMBOチームリーダー）',
+			'「ROHM賞」アジア太平洋ロボットコンテスト（ABU Robocon 2024 モンゴル）ウランバートル（SOYOMBOチームリーダー）',
+			'「モンゴル初のジャンピングロボット」全国ロボットコンテスト（ABU Robocon 2025 モンゴル）ウランバートル（SOYOMBOチームインストラクター）'
+		]
+	},
+	{
 		role: 'セキュリティエンジニア',
 		firstname: 'Batmergen',
 		lastname: 'Bat',
@@ -4102,6 +4145,49 @@ export const membersEN = [
 		]
 	},
 	{
+		role: 'Software Engineer',
+		firstname: 'Tuvshintugs',
+		lastname: 'Sereenendorj',
+		image: '/images/members/tuvshintugs.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experience: [
+			{
+				title: 'Research assistant and Robocon team instructor',
+				organization: 'National University of Mongolia',
+				date: '2024 - 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Electronic Engineering',
+				organization: 'National University of Mongolia',
+				date: '2020 - 2024',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Bachelor Thesis: Development of a Fully Automatic Four-Wheeled Mecanum Robot Using Deep Learning and ROS',
+			'AirQ smart air quality control and ventilation system',
+			'Iteration based Efficient Sphere Detection in Point Clouds Using Random 3-Point Geometry and Radius Constraints'
+		],
+		achievements: [
+			'"3rd place" in National robot contest (ABU Robocon 2022 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
+			'"Best engineering" in National robot contest (ABU Robocon 2023 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
+			'"National champions" in National robot contest (ABU Robocon 2024 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
+			'"ROHM award" in Asia-pacific Robot contest (ABU Robocon 2024 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
+			'"Mongolian first jumping robot" in National robot contest (ABU Robocon 2025 Mongolia), Ulaanbaatar Mongolia (instructor of SOYOMBO team).'
+		]
+	},
+	{
 		role: 'Security Engineer',
 		firstname: 'Batmergen',
 		lastname: 'Bat',
@@ -4132,14 +4218,14 @@ export const membersEN = [
 		achievements: []
 	},
 	{
-		role: 'Research Scientist',
+		role: 'Software Engineer',
 		firstname: 'Khuslen',
 		lastname: 'Otgonbayar',
 		image: '/images/members/khuslen.jpeg',
 		bio: null,
 		current: [
 			{
-				title: 'Research Scientist',
+				title: 'Software Engineer',
 				organization: 'Mirai Technologies LLC',
 				date: 'Since 2025',
 				location: 'Ulaanbaatar, Mongolia'
