@@ -5,6 +5,7 @@
 	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
 
 	if (browser) {
 		const savedLocale = localStorage.getItem('lang') || 'en-US';
@@ -24,8 +25,8 @@
 	const currentYear = new Date().getFullYear();
 
 	const menu = [
-		{ textKey: 'menu.home', anchor: 'hero-section' },
 		{ textKey: 'menu.about', anchor: 'about-section' },
+		{ textKey: 'menu.iso', anchor: 'iso-section' },
 		{ textKey: 'menu.team', anchor: 'team-section' },
 		{ textKey: 'menu.product_solution', anchor: 'product-solution-section' },
 		{ textKey: 'menu.partners', anchor: 'partner-section' },
@@ -43,17 +44,53 @@
 		// Check if we're on the main page
 		if ($page.url.pathname === '/') {
 			// If on main page, scroll to the section
-			const anchor = document.getElementById(anchorId);
-			if (anchor) {
-				window.scrollTo({
-					top: anchor.offsetTop,
-					behavior: 'smooth'
-				});
-			}
+			scrollToAnchor(anchorId);
 		} else {
 			// If on other pages, navigate to main page with anchor
 			goto(`/#${anchorId}`, { replaceState: false });
 		}
+	}
+
+	function scrollToAnchor(anchorId) {
+		const anchor = document.getElementById(anchorId);
+		if (anchor) {
+			// Get header height for offset
+			const header = document.querySelector('header');
+			const headerHeight = header ? header.offsetHeight : 80;
+			
+			// Use getBoundingClientRect for more accurate positioning
+			const rect = anchor.getBoundingClientRect();
+			const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			// Increased offset to ensure title is visible below header
+			// Add extra 50px offset for ISO section
+			const extraOffset = anchorId === 'iso-section' ? 50 : 0;
+			const targetPosition = rect.top + scrollTop - headerHeight - 40 - extraOffset;
+			
+			window.scrollTo({
+				top: Math.max(0, targetPosition),
+				behavior: 'smooth'
+			});
+		}
+	}
+
+	// Handle hash navigation on page load
+	onMount(() => {
+		if (browser && $page.url.pathname === '/' && $page.url.hash) {
+			const anchorId = $page.url.hash.replace('#', '');
+			// Wait for page to be fully rendered
+			setTimeout(() => {
+				scrollToAnchor(anchorId);
+			}, 300);
+		}
+	});
+
+	// Also handle hash changes
+	$: if (browser && $page.url.pathname === '/' && $page.url.hash) {
+		const anchorId = $page.url.hash.replace('#', '');
+		// Wait a bit for navigation to complete
+		setTimeout(() => {
+			scrollToAnchor(anchorId);
+		}, 300);
 	}
 </script>
 
