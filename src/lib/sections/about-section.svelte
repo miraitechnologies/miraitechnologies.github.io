@@ -86,7 +86,7 @@
 					</div>
 
 					<img
-						src="/iso/iso_cert_receiving.png"
+						src="/iso/iso_cert_receiving.jpg"
 						alt="ISO Certificate Receiving"
 						class="w-full max-w-4xl h-auto rounded-lg mb-6"
 					/>
@@ -108,7 +108,7 @@
 					</div>
 
 					<img
-						src="/iso/iso_cert.png"
+						src="/iso/iso_cert.jpg"
 						alt="ISO Certificate"
 						class="w-full max-w-2xl h-auto rounded-lg mb-6"
 					/>
