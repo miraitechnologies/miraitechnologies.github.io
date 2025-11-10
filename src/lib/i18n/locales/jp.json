@@ -1,7 +1,7 @@
 {
 	"menu": {
-		"home": "ホーム",
 		"about": "会社情報",
+		"iso": "ISO/IEC",
 		"team": "社員紹介",
 		"product_solution": "製品とソリューション",
 		"partners": "主要取引先",

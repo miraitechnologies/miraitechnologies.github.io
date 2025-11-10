@@ -39,6 +39,7 @@
 		"animejs": "^3.2.1",
 		"gsap": "^3.12.2",
 		"imagesloaded": "^5.0.0",
+		"pdfjs-dist": "^5.4.394",
 		"split-type": "^0.3.3",
 		"svelte-hamburgers": "^2.0.6",
 		"svelte-i18n": "^3.6.0",
