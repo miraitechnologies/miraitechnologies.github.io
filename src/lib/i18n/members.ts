@@ -911,88 +911,88 @@ export const membersJP = [
 		]
 	},
 
-	{
-		role: 'ブリッジエンジニア',
-		firstname: 'Ankhbayar',
-		lastname: 'Tsagaan',
-		image: '/images/members/ankhbayar.jpeg',
-		bio: null,
-		current: [
-			{
-				title: 'ブリッジエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2022年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		expierences: [
-			{
-				title: 'ブリッジSE',
-				organization: '2ndコミュニティシステムズ株式会社',
-				date: '2021-2022年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'SE、チームリーダー',
-				organization: 'ユニメディアソリューションズ株式会社',
-				date: '2014-2021年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'シニアエンジニア',
-				organization: 'PCM LLC',
-				date: '2012-2014年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'ソフトウェア開発者',
-				organization: 'モンゴル電気通信株式会社',
-				date: '2009-2012年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'ソフトウェア開発者',
-				organization: 'Digitaleaf Inc.',
-				date: '2006-2009年',
-				location: '東京、日本'
-			}
-		],
-		educations: [
-			{
-				title: '専門士',
-				organization: '日本電子専門学校組込み学科',
-				date: '2005-2008年',
-				location: '東京、日本'
-			},
-			{
-				title: '情報処理学士号',
-				organization: 'モンゴル国立大学情報処理学部',
-				date: '2001-2005年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: [
-			'国際通話サービス提供システム',
-			'課金、支払い収集システム',
-			'TV販売バックエンドシステム',
-			'POSシステム',
-			'設備メンテナンス管理システム',
-			'CROWDジョブ',
-			'受注管理システム',
-			'作業管理システム',
-			'オンラインクラスマネジメントシステム',
-			'部屋レンタルシステム',
-			'ブロックチェーンプラットフォーム',
-			'AI'
-		],
-		achievements: [
-			'2012-2014年 ITスタートアップインキュベーションプログラム賞',
-			'2005-2008年 日本政府文部科学省奨学金、日本',
-			'2002-2005年 住友奨学金（モンゴル国立大学大学生向け）',
-			'1998年 全国物理学オリンピック、スペシャル賞',
-			'1998年 国際ロシア語オリンピック、モスクワ'
-		]
-	},
+	// {
+	// 	role: 'ブリッジエンジニア',
+	// 	firstname: 'Ankhbayar',
+	// 	lastname: 'Tsagaan',
+	// 	image: '/images/members/ankhbayar.jpeg',
+	// 	bio: null,
+	// 	current: [
+	// 		{
+	// 			title: 'ブリッジエンジニア',
+	// 			organization: 'Mirai Technologies LLC',
+	// 			date: '2022年より',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		}
+	// 	],
+	// 	expierences: [
+	// 		{
+	// 			title: 'ブリッジSE',
+	// 			organization: '2ndコミュニティシステムズ株式会社',
+	// 			date: '2021-2022年',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		},
+	// 		{
+	// 			title: 'SE、チームリーダー',
+	// 			organization: 'ユニメディアソリューションズ株式会社',
+	// 			date: '2014-2021年',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		},
+	// 		{
+	// 			title: 'シニアエンジニア',
+	// 			organization: 'PCM LLC',
+	// 			date: '2012-2014年',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		},
+	// 		{
+	// 			title: 'ソフトウェア開発者',
+	// 			organization: 'モンゴル電気通信株式会社',
+	// 			date: '2009-2012年',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		},
+	// 		{
+	// 			title: 'ソフトウェア開発者',
+	// 			organization: 'Digitaleaf Inc.',
+	// 			date: '2006-2009年',
+	// 			location: '東京、日本'
+	// 		}
+	// 	],
+	// 	educations: [
+	// 		{
+	// 			title: '専門士',
+	// 			organization: '日本電子専門学校組込み学科',
+	// 			date: '2005-2008年',
+	// 			location: '東京、日本'
+	// 		},
+	// 		{
+	// 			title: '情報処理学士号',
+	// 			organization: 'モンゴル国立大学情報処理学部',
+	// 			date: '2001-2005年',
+	// 			location: 'ウランバートル、モンゴル'
+	// 		}
+	// 	],
+	// 	projects: [
+	// 		'国際通話サービス提供システム',
+	// 		'課金、支払い収集システム',
+	// 		'TV販売バックエンドシステム',
+	// 		'POSシステム',
+	// 		'設備メンテナンス管理システム',
+	// 		'CROWDジョブ',
+	// 		'受注管理システム',
+	// 		'作業管理システム',
+	// 		'オンラインクラスマネジメントシステム',
+	// 		'部屋レンタルシステム',
+	// 		'ブロックチェーンプラットフォーム',
+	// 		'AI'
+	// 	],
+	// 	achievements: [
+	// 		'2012-2014年 ITスタートアップインキュベーションプログラム賞',
+	// 		'2005-2008年 日本政府文部科学省奨学金、日本',
+	// 		'2002-2005年 住友奨学金（モンゴル国立大学大学生向け）',
+	// 		'1998年 全国物理学オリンピック、スペシャル賞',
+	// 		'1998年 国際ロシア語オリンピック、モスクワ'
+	// 	]
+	// },
 	{
 		role: 'プロダクトマネージャー',
 		firstname: 'Yesui',
@@ -3049,88 +3049,88 @@ export const membersEN = [
 		]
 	},
 
-	{
-		role: 'Bridge Engineer',
-		firstname: 'Ankhbayar',
-		lastname: 'Tsagaan',
-		image: '/images/members/ankhbayar.jpeg',
-		bio: null,
-		current: [
-			{
-				title: 'Bridge Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2022',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		expierences: [
-			{
-				title: 'ブリッジSE',
-				organization: '2ndコミュニティシステムズ株式会社',
-				date: '2021-2022',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'SE、チームリーダー',
-				organization: 'ユニメディアソリューションズ株式会社',
-				date: '2014-2021',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'シニアエンジニア',
-				organization: 'PCM LLC',
-				date: '2012-2014',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'ソフトウェア開発者',
-				organization: 'モンゴル電気通信株式会社',
-				date: '2009-2012',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'ソフトウェア開発者',
-				organization: 'Digitaleaf Inc.',
-				date: '2006-2009',
-				location: 'Tokyo, Japan'
-			}
-		],
-		educations: [
-			{
-				title: '専門士',
-				organization: '日本電子専門学校組込み学科',
-				date: '2005-2008',
-				location: 'Tokyo, Japan'
-			},
-			{
-				title: '情報処理学士号 ',
-				organization: 'モンゴル国立大学情報処理学部',
-				date: '2001-2005',
-				location: 'ウラーンバートル, モンゴル'
-			}
-		],
-		projects: [
-			'国際通話サービス提供システム',
-			'課金、支払い収集システム',
-			'TV販売バックエンドシステム',
-			'POSシステム',
-			'設備メンテナンス管理システム',
-			'CROWDジョブ',
-			'受注管理システム',
-			'作業管理システム',
-			'オンラインクラスマネジメントシステム',
-			'部屋レンタルシステム',
-			'ブロックチェーンプラットフォーム',
-			'AI'
-		],
-		achievements: [
-			'2012-2014 ITスタートアップインキュベーションプログラム賞',
-			'2005‐2008 日本政府文部科学省奨学金, 日本',
-			'2002-2005住友奨学金（モンゴル国立大学大学生向け）',
-			'1998全国物理学オリンピック、スペシャル賞',
-			'1998 国際ロシア語オリンピック, モスクワ'
-		]
-	},
+	// {
+	// 	role: 'Bridge Engineer',
+	// 	firstname: 'Ankhbayar',
+	// 	lastname: 'Tsagaan',
+	// 	image: '/images/members/ankhbayar.jpeg',
+	// 	bio: null,
+	// 	current: [
+	// 		{
+	// 			title: 'Bridge Engineer',
+	// 			organization: 'Mirai Technologies LLC',
+	// 			date: 'Since 2022',
+	// 			location: 'Ulaanbaatar, Mongolia'
+	// 		}
+	// 	],
+	// 	expierences: [
+	// 		{
+	// 			title: 'ブリッジSE',
+	// 			organization: '2ndコミュニティシステムズ株式会社',
+	// 			date: '2021-2022',
+	// 			location: 'Ulaanbaatar, Mongolia'
+	// 		},
+	// 		{
+	// 			title: 'SE、チームリーダー',
+	// 			organization: 'ユニメディアソリューションズ株式会社',
+	// 			date: '2014-2021',
+	// 			location: 'Ulaanbaatar, Mongolia'
+	// 		},
+	// 		{
+	// 			title: 'シニアエンジニア',
+	// 			organization: 'PCM LLC',
+	// 			date: '2012-2014',
+	// 			location: 'Ulaanbaatar, Mongolia'
+	// 		},
+	// 		{
+	// 			title: 'ソフトウェア開発者',
+	// 			organization: 'モンゴル電気通信株式会社',
+	// 			date: '2009-2012',
+	// 			location: 'Ulaanbaatar, Mongolia'
+	// 		},
+	// 		{
+	// 			title: 'ソフトウェア開発者',
+	// 			organization: 'Digitaleaf Inc.',
+	// 			date: '2006-2009',
+	// 			location: 'Tokyo, Japan'
+	// 		}
+	// 	],
+	// 	educations: [
+	// 		{
+	// 			title: '専門士',
+	// 			organization: '日本電子専門学校組込み学科',
+	// 			date: '2005-2008',
+	// 			location: 'Tokyo, Japan'
+	// 		},
+	// 		{
+	// 			title: '情報処理学士号 ',
+	// 			organization: 'モンゴル国立大学情報処理学部',
+	// 			date: '2001-2005',
+	// 			location: 'ウラーンバートル, モンゴル'
+	// 		}
+	// 	],
+	// 	projects: [
+	// 		'国際通話サービス提供システム',
+	// 		'課金、支払い収集システム',
+	// 		'TV販売バックエンドシステム',
+	// 		'POSシステム',
+	// 		'設備メンテナンス管理システム',
+	// 		'CROWDジョブ',
+	// 		'受注管理システム',
+	// 		'作業管理システム',
+	// 		'オンラインクラスマネジメントシステム',
+	// 		'部屋レンタルシステム',
+	// 		'ブロックチェーンプラットフォーム',
+	// 		'AI'
+	// 	],
+	// 	achievements: [
+	// 		'2012-2014 ITスタートアップインキュベーションプログラム賞',
+	// 		'2005‐2008 日本政府文部科学省奨学金, 日本',
+	// 		'2002-2005住友奨学金（モンゴル国立大学大学生向け）',
+	// 		'1998全国物理学オリンピック、スペシャル賞',
+	// 		'1998 国際ロシア語オリンピック, モスクワ'
+	// 	]
+	// },
 	{
 		role: 'Product Manager',
 		firstname: 'Yesui',
