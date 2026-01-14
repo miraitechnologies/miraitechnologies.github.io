@@ -1007,14 +1007,14 @@ export const membersJP = [
 		]
 	},
 	{
-		role: 'プロダクトマネージャー',
+		role: '研究開発リード',
 		firstname: 'Yesui',
 		lastname: 'Baatar',
 		image: '/images/members/yesui.jpeg',
 		bio: null,
 		current: [
 			{
-				title: 'プロダクトマネージャー',
+				title: '研究開発リード',
 				organization: 'Mirai Technologies LLC',
 				date: '2024年より',
 				location: 'ウランバートル、モンゴル'
@@ -3128,14 +3128,14 @@ export const membersEN = [
 		]
 	},
 	{
-		role: 'Product Manager',
+		role: 'R&D Lead',
 		firstname: 'Yesui',
 		lastname: 'Baatar',
 		image: '/images/members/yesui.jpeg',
 		bio: null,
 		current: [
 			{
-				title: 'Product Manager',
+				title: 'R&D Lead',
 				organization: 'Mirai Technologies LLC',
 				date: 'Since 2024',
 				location: 'Ulaanbaatar, Mongolia'
