@@ -1,4 +1,32 @@
-export const membersJP = [
+interface Member {
+	role: string;
+	firstname: string;
+	lastname: string;
+	image: string;
+	bio: string | null;
+	current: {
+		title: string;
+		organization: string;
+		date: string | null;
+		location: string | null;
+	}[];
+	experiences: {
+		title: string;
+		organization: string;
+		date: string | null;
+		location: string | null;
+	}[];
+	educations: {
+		title: string;
+		organization: string;
+		date: string | null;
+		location: string | null;
+	}[];
+	projects?: string[];
+	achievements?: string[];
+}
+
+export const membersJP: Member[] = [
 	{
 		role: '創設者',
 		firstname: 'Temuulen',
@@ -1996,7 +2024,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-
+		experiences: [],
 		educations: [
 			{
 				title: '電子工学学士',
@@ -2029,7 +2057,7 @@ export const membersJP = [
 				location: 'モンゴル国 ウランバートル'
 			}
 		],
-		experience: [
+		experiences: [
 			{
 				title: '研究助手・ロボコンチームインストラクター',
 				organization: 'モンゴル国立大学',
@@ -2115,7 +2143,7 @@ export const membersJP = [
 ];
 
 // English member data
-export const membersEN = [
+export const membersEN: Member[] = [
 	{
 		role: 'Founder',
 		firstname: 'Temuulen',
@@ -4121,7 +4149,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-
+		experiences: [],
 		educations: [
 			{
 				title: 'Bachelor in electronics engineering',
@@ -4154,7 +4182,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		experience: [
+		experiences: [
 			{
 				title: 'Research assistant and Robocon team instructor',
 				organization: 'National University of Mongolia',
