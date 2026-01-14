@@ -331,7 +331,7 @@
 						</div>
 					{/if}
 
-					{#if member.expierences && member.expierences.length > 0}
+					{#if member.experiences && member.experiences.length > 0}
 						<div class="content-section mb-12">
 							<h3
 								class="text-3xl uppercase font-bold text-[#081336] border-b-2 border-[#081336] mb-8"
@@ -339,7 +339,7 @@
 								{$_('team.experience')}
 							</h3>
 							<div class="space-y-6">
-								{#each member.expierences as item}
+								{#each member.experiences as item}
 									<div
 										class="p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-shadow"
 									>

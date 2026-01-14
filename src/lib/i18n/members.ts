@@ -19,7 +19,7 @@ export const membersJP = [
 				location: '日本'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'ティーチングアシスタント',
 				organization: '名古屋大学・大学院工学研究科',
@@ -77,7 +77,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '創設者・社長',
 				organization: 'Bagshiin Tuslah LLC',
@@ -150,7 +150,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '最高技術責任者',
 				organization: 'addice co., Ltd.',
@@ -225,7 +225,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '所長',
 				organization: 'モンゴル国立大学数学研究所',
@@ -281,27 +281,27 @@ export const membersJP = [
 			'ディープラーニングUB',
 			'新モンゴル工科大学',
 			'クレジットスコアリング',
-			'e‐KYC',
+			'e-KYC',
 			'レコメンデーションエンジン'
 		],
 		achievements: [
-			'2019‐2020年 GCRF Grant, EPSRC (Co‐I), イギリス',
-			'2017‐2019年 高度研究助成金 (PI), モンゴル科学技術財団, モンゴル',
+			'2019-2020年 GCRF Grant, EPSRC (Co-I), イギリス',
+			'2017-2019年 高度研究助成金 (PI), モンゴル科学技術財団, モンゴル',
 			'2016年 TWAS賞 開発途上国の若手科学者, モンゴル',
-			'2014‐2015年 高度研究助成金, モンゴル国立大学, モンゴル',
-			'2011‐2014年 EPSRCポストドクタル研究フェローシップ (PI), イギリス',
+			'2014-2015年 高度研究助成金, モンゴル国立大学, モンゴル',
+			'2011-2014年 EPSRCポストドクタル研究フェローシップ (PI), イギリス',
 			'2006年 Robert and Betsy Wilson奨学金, アメリカ',
 			'2005年 MASS教育賞, アメリカ',
-			'2005‐2007年 JSPS若手研究者フェローシップ, 日本',
+			'2005-2007年 JSPS若手研究者フェローシップ, 日本',
 			'2004年 日商岩井財団奨学金, 日本',
-			'2004年 Vollmer‐Klecknerフェローシップ, アメリカ',
+			'2004年 Vollmer-Klecknerフェローシップ, アメリカ',
 			'2004年 大学院生奨学金, アメリカ',
-			'1997‐2004年 日本政府奨学金, 日本',
+			'1997-2004年 日本政府奨学金, 日本',
 			'1995年 1位, 全国大学生プログラミングオリンピック, モンゴル',
 			'1995年 1位, 全国大学生・教師数学オリンピック, モンゴル',
 			'1994年 銀メダル, 国際数学オリンピック, モンゴル',
-			'1992‐1994年 銅、銀、金メダル, 全国数学オリンピック, モンゴル',
-			'1993‐1994年 銀、金メダル, 全国プログラミングオリンピック, モンゴル'
+			'1992-1994年 銅、銀、金メダル, 全国数学オリンピック, モンゴル',
+			'1993-1994年 銀、金メダル, 全国プログラミングオリンピック, モンゴル'
 		]
 	},
 	{
@@ -324,7 +324,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '最高経営責任者',
 				organization: 'Invescore AI Lab LLC',
@@ -427,7 +427,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '技術アドバイザー',
 				organization: 'Measurement LLC',
@@ -518,7 +518,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '研究員',
 				organization: 'Zatitech',
@@ -577,7 +577,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'AIエンジニア',
 				organization: '株式会社エクサウィザーズ',
@@ -641,7 +641,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'シニアエンジニアリングサイエンティスト',
 				organization: 'Logitech',
@@ -702,7 +702,7 @@ export const membersJP = [
 				location: 'ケンブリッジ、マサチューセッツ'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '学部生研究助手',
 				organization: 'MIT Senseable City Lab',
@@ -754,7 +754,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'ブリッジシステムエンジニア',
 				organization: '2nd Community LLC',
@@ -835,7 +835,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'SE・チームリーダー',
 				organization: '（株）テービーアイ（東京貿易グループ）',
@@ -910,89 +910,6 @@ export const membersJP = [
 			'2017年 カリフォルニア大学ロサンゼルス校 - 優秀賞受賞'
 		]
 	},
-
-	// {
-	// 	role: 'ブリッジエンジニア',
-	// 	firstname: 'Ankhbayar',
-	// 	lastname: 'Tsagaan',
-	// 	image: '/images/members/ankhbayar.jpeg',
-	// 	bio: null,
-	// 	current: [
-	// 		{
-	// 			title: 'ブリッジエンジニア',
-	// 			organization: 'Mirai Technologies LLC',
-	// 			date: '2022年より',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		}
-	// 	],
-	// 	expierences: [
-	// 		{
-	// 			title: 'ブリッジSE',
-	// 			organization: '2ndコミュニティシステムズ株式会社',
-	// 			date: '2021-2022年',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		},
-	// 		{
-	// 			title: 'SE、チームリーダー',
-	// 			organization: 'ユニメディアソリューションズ株式会社',
-	// 			date: '2014-2021年',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		},
-	// 		{
-	// 			title: 'シニアエンジニア',
-	// 			organization: 'PCM LLC',
-	// 			date: '2012-2014年',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		},
-	// 		{
-	// 			title: 'ソフトウェア開発者',
-	// 			organization: 'モンゴル電気通信株式会社',
-	// 			date: '2009-2012年',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		},
-	// 		{
-	// 			title: 'ソフトウェア開発者',
-	// 			organization: 'Digitaleaf Inc.',
-	// 			date: '2006-2009年',
-	// 			location: '東京、日本'
-	// 		}
-	// 	],
-	// 	educations: [
-	// 		{
-	// 			title: '専門士',
-	// 			organization: '日本電子専門学校組込み学科',
-	// 			date: '2005-2008年',
-	// 			location: '東京、日本'
-	// 		},
-	// 		{
-	// 			title: '情報処理学士号',
-	// 			organization: 'モンゴル国立大学情報処理学部',
-	// 			date: '2001-2005年',
-	// 			location: 'ウランバートル、モンゴル'
-	// 		}
-	// 	],
-	// 	projects: [
-	// 		'国際通話サービス提供システム',
-	// 		'課金、支払い収集システム',
-	// 		'TV販売バックエンドシステム',
-	// 		'POSシステム',
-	// 		'設備メンテナンス管理システム',
-	// 		'CROWDジョブ',
-	// 		'受注管理システム',
-	// 		'作業管理システム',
-	// 		'オンラインクラスマネジメントシステム',
-	// 		'部屋レンタルシステム',
-	// 		'ブロックチェーンプラットフォーム',
-	// 		'AI'
-	// 	],
-	// 	achievements: [
-	// 		'2012-2014年 ITスタートアップインキュベーションプログラム賞',
-	// 		'2005-2008年 日本政府文部科学省奨学金、日本',
-	// 		'2002-2005年 住友奨学金（モンゴル国立大学大学生向け）',
-	// 		'1998年 全国物理学オリンピック、スペシャル賞',
-	// 		'1998年 国際ロシア語オリンピック、モスクワ'
-	// 	]
-	// },
 	{
 		role: 'プロダクトマネージャー',
 		firstname: 'Yesui',
@@ -1007,7 +924,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '会議ズームオペレーター',
 				organization: 'The International Academic Forum IAFOR',
@@ -1058,7 +975,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'システム管理者',
 				organization: 'Golomt銀行',
@@ -1100,7 +1017,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'シニアソフトウェアエンジニア',
 				organization: 'GTN Mongolia',
@@ -1182,7 +1099,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'フルスタックソフトウェアエンジニア',
 				organization: 'Second Community LLC',
@@ -1243,7 +1160,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'ソフトウェア開発者',
 				organization: '2nd Community LLC',
@@ -1298,7 +1215,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'シニア開発者',
 				organization: 'Infinite Solutions Co.,Ltd',
@@ -1362,7 +1279,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '最高技術責任者',
 				organization: 'Altex.mn - 暗号通貨取引所',
@@ -1422,7 +1339,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '開発者',
 				organization: 'LendMN NBFI JSC',
@@ -1461,7 +1378,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'ソフトウェアエンジニア',
 				organization: 'Riku Tech LLC',
@@ -1494,7 +1411,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'ネットワークエンジニア',
 				organization: 'Unitel LLC',
@@ -1533,7 +1450,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '研究助手',
 				organization: 'アラブ首長国連邦大学、AI・ロボティクス研究所',
@@ -1572,7 +1489,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'フルスタック開発者',
 				organization: 'Infinite Solutions LLC',
@@ -1625,7 +1542,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'フルスタック開発者',
 				organization: 'Dentsu Data Artist Mongol',
@@ -1658,7 +1575,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '開発者',
 				organization: 'Grapecity Mongolia LLC',
@@ -1700,7 +1617,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '研究助手',
 				organization: 'レーザー研究所、モンゴル国立大学',
@@ -1733,7 +1650,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '研究助手',
 				organization: 'アラブ首長国連邦大学',
@@ -1776,7 +1693,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '研究助手',
 				organization: '自然言語処理学部、モハメド・ビン・ザイード人工知能大学',
@@ -1835,7 +1752,7 @@ export const membersJP = [
 				location: 'ウランバートル、モンゴル'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: '機械学習エンジニア',
 				organization: 'Hand Pro LLC',
@@ -1920,7 +1837,7 @@ export const membersJP = [
 			{
 				title: 'ソフトウェアエンジニア',
 				organization: 'Mirai Technologies LLC',
-				date: '2025年 – 現在',
+				date: '2025年より',
 				location: 'ウランバートル、モンゴル'
 			}
 		],
@@ -1928,78 +1845,78 @@ export const membersJP = [
 			{
 				title: 'シニアフルスタック開発者',
 				organization: 'Mercedes-Benz Financial Services USA',
-				date: '2022年 – 2024年',
+				date: '2022年 - 2024年',
 				location: 'ミシガン州、米国'
 			},
 			{
 				title: 'フルスタック開発者',
 				organization: '2nd Community Systems LLC',
-				date: '2020年 – 2021年',
+				date: '2020年 - 2021年',
 				location: 'ウランバートル、モンゴル'
 			},
 			{
 				title: 'シニアフルスタック開発者',
 				organization: 'Nomch IT Consulting LLC',
-				date: '2017年 – 2019年',
+				date: '2017年 - 2019年',
 				location: 'ウランバートル、モンゴル'
 			},
 			{
 				title: 'フリーランス開発者・翻訳者',
 				organization: 'Upwork / Freelancer',
-				date: '2016年 – 2017年',
+				date: '2016年 - 2017年',
 				location: 'ウランバートル、モンゴル'
 			},
 			{
 				title: 'フルスタック開発者',
 				organization: 'MongolID LLC',
-				date: '2015年 – 2016年',
+				date: '2015年 - 2016年',
 				location: 'ウランバートル、モンゴル'
 			},
 			{
 				title: 'シニア開発者',
 				organization: 'ITZone LLC',
-				date: '2010年 – 2015年',
+				date: '2010年 - 2015年',
 				location: 'ウランバートル、モンゴル'
 			}
 		],
 		educations: [
 			{
-				title: '修士号 – コンピューターサイエンス',
+				title: '修士号 - コンピューターサイエンス',
 				organization: 'Maharishi International University',
-				date: '2021年 – 2023年',
+				date: '2021年 - 2023年',
 				location: 'アイオワ州、米国'
 			},
 			{
-				title: '修士号 – コンピューターサイエンス',
+				title: '修士号 - コンピューターサイエンス',
 				organization: 'モンゴル科学技術大学',
-				date: '2010年 – 2012年',
+				date: '2010年 - 2012年',
 				location: 'ウランバートル、モンゴル'
 			},
 			{
-				title: '学士号 – ソフトウェア工学',
+				title: '学士号 - ソフトウェア工学',
 				organization: 'モンゴル科学技術大学',
-				date: '2006年 – 2010年',
+				date: '2006年 - 2010年',
 				location: 'ウランバートル、モンゴル'
 			}
 		],
 		projects: [
-			'ERPシステム – .NET, C#, Oracle',
-			'Bone Shakerモバイルゲーム – Unity',
-			'GPS追跡システム – Java, Ionic',
-			'教育用モバイルアプリ – Kotlin, Swift, MySQL',
-			'GlobalWorldモバイルアプリ – Flutter, Firebase'
+			'ERPシステム - .NET, C#, Oracle',
+			'Bone Shakerモバイルゲーム - Unity',
+			'GPS追跡システム - Java, Ionic',
+			'教育用モバイルアプリ - Kotlin, Swift, MySQL',
+			'GlobalWorldモバイルアプリ - Flutter, Firebase'
 		],
 		achievements: [
-			'数学高校優勝学生 – モンゴル科学技術大学 (2006年)',
-			'第1位 – 学生記述幾何学オリンピアード、モンゴル科学技術大学 (2008年)',
+			'数学高校優勝学生 - モンゴル科学技術大学 (2006年)',
+			'第1位 - 学生記述幾何学オリンピアード、モンゴル科学技術大学 (2008年)',
 			'三菱商事国際奨学金受賞者、モンゴル科学技術大学 (2009年)',
-			'第2位 – 学生哲学オリンピアード、モンゴル科学技術大学 (2009年)',
-			'チームメンバー – 学生数学オリンピアード、モンゴル (2009年)',
+			'第2位 - 学生哲学オリンピアード、モンゴル科学技術大学 (2009年)',
+			'チームメンバー - 学生数学オリンピアード、モンゴル (2009年)',
 			'優秀卒業生賞、モンゴル科学技術大学 (2010年)',
 			'Microsoft認定技術スペシャリスト (2010年)',
 			'基礎情報技術者 (FE ITPEC)、在モンゴル日本大使館 (2010年)',
-			'第13位 – 学生プログラミングオリンピアード、モンゴル科学技術大学 (2010年)',
-			'第1位 – ゲームジャンル、モバイルICTコンペティション (2013年)'
+			'第13位 - 学生プログラミングオリンピアード、モンゴル科学技術大学 (2010年)',
+			'第1位 - ゲームジャンル、モバイルICTコンペティション (2013年)'
 		]
 	},
 	{
@@ -2012,7 +1929,7 @@ export const membersJP = [
 			{
 				title: 'ソフトウェアエンジニア',
 				organization: 'Mirai Technologies LLC',
-				date: '2025年～',
+				date: '2025年より',
 				location: 'モンゴル国 ウランバートル'
 			}
 		],
@@ -2046,14 +1963,14 @@ export const membersJP = [
 		]
 	},
 	{
-		role: '研究科学者',
+		role: 'ソフトウェアエンジニア',
 		firstname: 'Khuslen',
 		lastname: 'Otgonbayar',
 		image: '/images/members/khuslen.jpeg',
 		bio: null,
 		current: [
 			{
-				title: '研究科学者',
+				title: 'ソフトウェアエンジニア',
 				organization: 'Mirai Technologies LLC',
 				date: '2025年より',
 				location: 'ウランバートル、モンゴル'
@@ -2081,7 +1998,7 @@ export const membersJP = [
 		],
 		educations: [
 			{
-				title: '学士号 – データサイエンス',
+				title: '学士号 - データサイエンス',
 				organization: '昆山杜克大学 & Duke University',
 				date: '2021年 - 2025年',
 				location: 'ダーラム、米国；崑山、中国；バルセロナ、スペイン'
@@ -2094,9 +2011,9 @@ export const membersJP = [
 			'時空間大気質予測'
 		],
 		achievements: [
-			'銀メダリスト – 国家化学オリンピアード (2016年)',
-			'銅メダリスト – 新入学数学オリンピアード (2016年)',
-			'"Khuuhed-Erdene"メダリスト – モンゴル子供宮殿 (2021年)'
+			'銀メダリスト - 国家化学オリンピアード (2016年)',
+			'銅メダリスト - 新入学数学オリンピアード (2016年)',
+			'"Khuuhed-Erdene"メダリスト - モンゴル子供宮殿 (2021年)'
 		]
 	}
 ];
@@ -2123,7 +2040,7 @@ export const membersEN = [
 				location: 'Japan'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Teaching assistant',
 				organization: '名古屋大学・大学院工学研究科',
@@ -2181,7 +2098,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Founder & President',
 				organization: 'Bagshiin Tuslah LLC',
@@ -2254,7 +2171,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'CTO',
 				organization: 'addice co., Ltd.',
@@ -2329,7 +2246,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Director',
 				organization: 'Institute of Mathematics, National University of Mongolia',
@@ -2385,27 +2302,27 @@ export const membersEN = [
 			'Deep Learning UB',
 			'New Mongol Institute of Technology',
 			'Credit scoring',
-			'e‐KYC',
+			'e-KYC',
 			'Recommendation engine'
 		],
 		achievements: [
-			'2019‐2020 GCRF Grant, EPSRC (Co‐I), UK',
-			'2017‐2019 Advanced Research Grant (PI), Mongolian Science and Technology Foundation, Mongolia',
+			'2019-2020 GCRF Grant, EPSRC (Co-I), UK',
+			'2017-2019 Advanced Research Grant (PI), Mongolian Science and Technology Foundation, Mongolia',
 			'2016 TWAS prize for Young Scientists in Developing Countries',
-			'2014‐2015 Advanced Research Grant, National University of Mongolia, Mongolia',
-			'2011‐2014 EPSRC Postdoctoral Research Fellowship (PI), UK',
+			'2014-2015 Advanced Research Grant, National University of Mongolia, Mongolia',
+			'2011-2014 EPSRC Postdoctoral Research Fellowship (PI), UK',
 			'2006 Robert and Betsy Wilson Scholarship, US',
 			'2005 MASS Teaching Award, US',
-			'2005‐2007 JSPS Research Fellowship for Young Scientists, Japan',
-			'2004 Nissho‐Iwai Foundation Scholarship, Japan',
-			'2004 Vollmer‐Kleckner Fellowship, US',
+			'2005-2007 JSPS Research Fellowship for Young Scientists, Japan',
+			'2004 Nissho-Iwai Foundation Scholarship, Japan',
+			'2004 Vollmer-Kleckner Fellowship, US',
 			'2004 Graduate Scholars Fellowship, US',
-			'1997‐2004 Japanese Government Scholarship, Japan',
+			'1997-2004 Japanese Government Scholarship, Japan',
 			'1995 First Place, National Undergraduate Programming Olympiad, Mongolia',
 			'1995 First Place, National Mathematics Olympiad for University Students and Teachers, Mongolia',
 			'1994 Silver medal, International Mathematics Olympiad, Mongolia',
-			'1992‐1994 Bronze, Silver and Gold medals, National Mathematics Olympiad, Mongolia',
-			'1993‐1994 Silver and Gold medals, National Programming Olympiad, Mongolia'
+			'1992-1994 Bronze, Silver and Gold medals, National Mathematics Olympiad, Mongolia',
+			'1993-1994 Silver and Gold medals, National Programming Olympiad, Mongolia'
 		]
 	},
 	{
@@ -2429,7 +2346,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'CEO',
 				organization: 'Invescore AI Lab LLC',
@@ -2535,7 +2452,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Technical advisor',
 				organization: 'Measurement LLC',
@@ -2626,7 +2543,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Researcher',
 				organization: 'Zatitech',
@@ -2685,7 +2602,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'AIエンジニア',
 				organization: '株式会社エクサウィザ ズ',
@@ -2749,7 +2666,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Senior Engineering Scientist',
 				organization: 'Logitech',
@@ -2773,13 +2690,13 @@ export const membersEN = [
 			{
 				title: 'Master of Information and Data Science',
 				organization: 'University of California, Berkeley',
-				date: 'August 2019 – May 2021',
+				date: 'August 2019 - May 2021',
 				location: 'California, USA'
 			},
 			{
 				title: 'Bachelor of Science in Chemistry',
 				organization: 'Nagoya University',
-				date: 'October 2015 – September 2019',
+				date: 'October 2015 - September 2019',
 				location: 'Nagoya, Japan'
 			}
 		],
@@ -2810,7 +2727,7 @@ export const membersEN = [
 				location: 'Cambridge, MA'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Undergraduate Research Assistant',
 				organization: 'MIT Senseable City Lab',
@@ -2862,7 +2779,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Bridge System Engineer',
 				organization: '2nd Community LLC',
@@ -2943,7 +2860,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'SE・チームリーダー',
 				organization: '（株）テービーアイ（東京貿易グループ）',
@@ -3018,89 +2935,6 @@ export const membersEN = [
 			'2017 University of California, Los Angeles - Awarded with Distinction'
 		]
 	},
-
-	// {
-	// 	role: 'Bridge Engineer',
-	// 	firstname: 'Ankhbayar',
-	// 	lastname: 'Tsagaan',
-	// 	image: '/images/members/ankhbayar.jpeg',
-	// 	bio: null,
-	// 	current: [
-	// 		{
-	// 			title: 'Bridge Engineer',
-	// 			organization: 'Mirai Technologies LLC',
-	// 			date: 'Since 2022',
-	// 			location: 'Ulaanbaatar, Mongolia'
-	// 		}
-	// 	],
-	// 	expierences: [
-	// 		{
-	// 			title: 'ブリッジSE',
-	// 			organization: '2ndコミュニティシステムズ株式会社',
-	// 			date: '2021-2022',
-	// 			location: 'Ulaanbaatar, Mongolia'
-	// 		},
-	// 		{
-	// 			title: 'SE、チームリーダー',
-	// 			organization: 'ユニメディアソリューションズ株式会社',
-	// 			date: '2014-2021',
-	// 			location: 'Ulaanbaatar, Mongolia'
-	// 		},
-	// 		{
-	// 			title: 'シニアエンジニア',
-	// 			organization: 'PCM LLC',
-	// 			date: '2012-2014',
-	// 			location: 'Ulaanbaatar, Mongolia'
-	// 		},
-	// 		{
-	// 			title: 'ソフトウェア開発者',
-	// 			organization: 'モンゴル電気通信株式会社',
-	// 			date: '2009-2012',
-	// 			location: 'Ulaanbaatar, Mongolia'
-	// 		},
-	// 		{
-	// 			title: 'ソフトウェア開発者',
-	// 			organization: 'Digitaleaf Inc.',
-	// 			date: '2006-2009',
-	// 			location: 'Tokyo, Japan'
-	// 		}
-	// 	],
-	// 	educations: [
-	// 		{
-	// 			title: '専門士',
-	// 			organization: '日本電子専門学校組込み学科',
-	// 			date: '2005-2008',
-	// 			location: 'Tokyo, Japan'
-	// 		},
-	// 		{
-	// 			title: '情報処理学士号 ',
-	// 			organization: 'モンゴル国立大学情報処理学部',
-	// 			date: '2001-2005',
-	// 			location: 'ウラーンバートル, モンゴル'
-	// 		}
-	// 	],
-	// 	projects: [
-	// 		'国際通話サービス提供システム',
-	// 		'課金、支払い収集システム',
-	// 		'TV販売バックエンドシステム',
-	// 		'POSシステム',
-	// 		'設備メンテナンス管理システム',
-	// 		'CROWDジョブ',
-	// 		'受注管理システム',
-	// 		'作業管理システム',
-	// 		'オンラインクラスマネジメントシステム',
-	// 		'部屋レンタルシステム',
-	// 		'ブロックチェーンプラットフォーム',
-	// 		'AI'
-	// 	],
-	// 	achievements: [
-	// 		'2012-2014 ITスタートアップインキュベーションプログラム賞',
-	// 		'2005‐2008 日本政府文部科学省奨学金, 日本',
-	// 		'2002-2005住友奨学金（モンゴル国立大学大学生向け）',
-	// 		'1998全国物理学オリンピック、スペシャル賞',
-	// 		'1998 国際ロシア語オリンピック, モスクワ'
-	// 	]
-	// },
 	{
 		role: 'Product Manager',
 		firstname: 'Yesui',
@@ -3115,7 +2949,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Conference Zoom Operator',
 				organization: 'The International Academic Forum IAFOR',
@@ -3166,7 +3000,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'System Admin',
 				organization: 'Golomt Bank',
@@ -3208,7 +3042,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Senior Software Engineer',
 				organization: 'GTN Mongolia',
@@ -3291,7 +3125,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Full Stack Software Engineer',
 				organization: 'Second Community LLC',
@@ -3352,7 +3186,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Software Developer',
 				organization: '2nd Community LLC',
@@ -3407,7 +3241,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Senior developer',
 				organization: 'Infinite Solutions Co.,Ltd',
@@ -3471,7 +3305,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'CTO',
 				organization: 'Altex.mn - Crypto Exchange',
@@ -3531,7 +3365,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Developer',
 				organization: 'LendMN NBFI JSC',
@@ -3570,7 +3404,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Software Engineer',
 				organization: 'Riku Tech LLC,',
@@ -3603,7 +3437,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Network Engineer',
 				organization: 'Unitel LLC',
@@ -3642,7 +3476,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Research Assistant',
 				organization: 'United Arab Emirates University, AI and Robotics Lab',
@@ -3681,7 +3515,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Fullstack Developer',
 				organization: 'Infinite Solutions LLC',
@@ -3734,7 +3568,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Full-stack developer',
 				organization: 'Dentsu Data Artist Mongol',
@@ -3767,7 +3601,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Developer',
 				organization: 'Grapecity Mongolia LLC',
@@ -3809,7 +3643,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Research assistant',
 				organization: 'Laser Research Laboratory, National University of Mongolia',
@@ -3844,7 +3678,7 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Research assistant',
 				organization: 'United Arab Emirates University',
@@ -3887,18 +3721,18 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Research assistant',
 				organization:
 					'Natural Language Processing Department, Mohamed Bin Zayed University of Artificial Intelligence',
-				date: 2023 - 2024,
+				date: '2023 - 2024',
 				location: 'Abu Dhabi, United Arab Emirates'
 			},
 			{
 				title: 'Research assistant',
 				organization: 'AI and Robotics Lab, United Arab Emirates University',
-				date: 2020 - 2024,
+				date: '2020 - 2024',
 				location: 'Abu Dhabi, United Arab Emirates'
 			},
 			{
@@ -3947,23 +3781,23 @@ export const membersEN = [
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
-		expierences: [
+		experiences: [
 			{
 				title: 'Machine Learning Engineer',
 				organization: 'Hand Pro LLC',
-				date: 2023 - 2024,
+				date: '2023 - 2024',
 				location: 'Mongolia'
 			},
 			{
 				title: 'Machine Learning Engineer Intern',
 				organization: 'URECA LLC',
-				date: 2022 - 2022,
+				date: '2022 - 2022',
 				location: 'Mongolia'
 			},
 			{
 				title: 'Developer',
 				organization: 'Infinite Solutions LLC',
-				date: 2021 - 2022,
+				date: '2021 - 2022',
 				location: 'Mongolia'
 			}
 		],
@@ -4032,7 +3866,7 @@ export const membersEN = [
 			{
 				title: 'Software Engineer',
 				organization: 'Mirai Technologies LLC',
-				date: '2025 – Present',
+				date: 'Since 2025',
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
@@ -4040,78 +3874,78 @@ export const membersEN = [
 			{
 				title: 'Senior Full-Stack Developer',
 				organization: 'Mercedes-Benz Financial Services USA',
-				date: '2022 – 2024',
+				date: '2022 - 2024',
 				location: 'Michigan, USA'
 			},
 			{
 				title: 'Full-Stack Developer',
 				organization: '2nd Community Systems LLC',
-				date: '2020 – 2021',
+				date: '2020 - 2021',
 				location: 'Ulaanbaatar, Mongolia'
 			},
 			{
 				title: 'Senior Full-Stack Developer',
 				organization: 'Nomch IT Consulting LLC',
-				date: '2017 – 2019',
+				date: '2017 - 2019',
 				location: 'Ulaanbaatar, Mongolia'
 			},
 			{
 				title: 'Freelance Developer & Translator',
 				organization: 'Upwork / Freelancer',
-				date: '2016 – 2017',
+				date: '2016 - 2017',
 				location: 'Ulaanbaatar, Mongolia'
 			},
 			{
 				title: 'Full-Stack Developer',
 				organization: 'MongolID LLC',
-				date: '2015 – 2016',
+				date: '2015 - 2016',
 				location: 'Ulaanbaatar, Mongolia'
 			},
 			{
 				title: 'Senior Developer',
 				organization: 'ITZone LLC',
-				date: '2010 – 2015',
+				date: '2010 - 2015',
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
 		educations: [
 			{
-				title: 'Master’s Degree – Computer Science',
+				title: 'Master’s Degree - Computer Science',
 				organization: 'Maharishi International University',
-				date: '2021 – 2023',
+				date: '2021 - 2023',
 				location: 'Iowa, USA'
 			},
 			{
-				title: 'Master’s Degree – Computer Science',
+				title: 'Master’s Degree - Computer Science',
 				organization: 'Mongolian University of Science and Technology',
-				date: '2010 – 2012',
+				date: '2010 - 2012',
 				location: 'Ulaanbaatar, Mongolia'
 			},
 			{
-				title: 'Bachelor’s Degree – Software Engineering',
+				title: 'Bachelor’s Degree - Software Engineering',
 				organization: 'Mongolian University of Science and Technology',
-				date: '2006 – 2010',
+				date: '2006 - 2010',
 				location: 'Ulaanbaatar, Mongolia'
 			}
 		],
 		projects: [
-			'ERP System – .NET, C#, Oracle',
-			'Bone Shaker Mobile Game – Unity',
-			'GPS Tracking System – Java, Ionic',
-			'Educational Mobile App – Kotlin, Swift, MySQL',
-			'GlobalWorld Mobile App – Flutter, Firebase'
+			'ERP System - .NET, C#, Oracle',
+			'Bone Shaker Mobile Game - Unity',
+			'GPS Tracking System - Java, Ionic',
+			'Educational Mobile App - Kotlin, Swift, MySQL',
+			'GlobalWorld Mobile App - Flutter, Firebase'
 		],
 		achievements: [
-			'Champion Student – Mathematics High School, Mongolian University of Science and Technology (2006)',
-			'1st Place – Student Descriptive Geometry Olympiad, Mongolian University of Science and Technology (2008)',
+			'Champion Student - Mathematics High School, Mongolian University of Science and Technology (2006)',
+			'1st Place - Student Descriptive Geometry Olympiad, Mongolian University of Science and Technology (2008)',
 			'Mitsubishi Corporation International Scholarship Awardee, Mongolian University of Science and Technology (2009)',
-			'2nd Place – Student Philosophy Olympiad, Mongolian University of Science and Technology (2009)',
-			'Team Member – Student Math Olympiad, Mongolia (2009)',
+			'2nd Place - Student Philosophy Olympiad, Mongolian University of Science and Technology (2009)',
+			'Team Member - Student Math Olympiad, Mongolia (2009)',
 			'Outstanding Graduate Student Award, Mongolian University of Science and Technology (2010)',
 			'Microsoft Certified Technology Specialist (2010)',
 			'Fundamental Information Technology Engineer (FE ITPEC), Embassy of Japan in Mongolia (2010)',
-			'13th Place – Student Programming Olympiad, Mongolian University of Science and Technology (2010)',
-			'1st Place – Game Genre, Mobile ICT Competition (2013)'
+			'13th Place - Student Programming Olympiad, Mongolian University of Science and Technology (2010)',
+			'1st Place - Game Genre, Mobile ICT Competition (2013)'
 		]
 	},
 	{
@@ -4207,7 +4041,7 @@ export const membersEN = [
 		],
 		achievements: [
 			'Silver Medalist - State Chemistry Olympiad (2016)',
-			'Bronze Medalist – New Beginning Mathematics Olympiad (2016)',
+			'Bronze Medalist - New Beginning Mathematics Olympiad (2016)',
 			'"Khuuhed-Erdene" Medalist - Mongolian Children\'s Palace (2021)'
 		]
 	}
