@@ -503,7 +503,6 @@ export const membersJP = [
 			'銀メダル、2006年全国ロボットコンテスト（ABU Robocon 2006 Mongolia）、ウランバートル、モンゴル（SOYOMBOチームリーダー）'
 		]
 	},
-
 	{
 		role: 'コンサルタント',
 		firstname: 'An',
@@ -908,6 +907,103 @@ export const membersJP = [
 			'1997-2002年 日本政府文部科学省奨学金、日本',
 			'2015年 カリフォルニア経営科学大学 - 優等卒業生 CGPA 3.89',
 			'2017年 カリフォルニア大学ロサンゼルス校 - 優秀賞受賞'
+		]
+	},
+	{
+		role: 'ブリッジエンジニア',
+		firstname: 'Batzorigt',
+		lastname: 'Rentsen',
+		image: '/images/members/batzorigt.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ブリッジエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'マネージャー／テクノロジーコンサルタント',
+				organization: 'アクセンチュア・ジャパン',
+				date: '2024年 - 2025年',
+				location: '日本'
+			},
+			{
+				title: 'エンジニアリングマネージャー',
+				organization: 'GMOフィナンシャルホールディングス',
+				date: '2023年 - 2024年',
+				location: '日本'
+			},
+			{
+				title: 'ブリッジエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2022年 - 2023年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'CTO（最高技術責任者）',
+				organization: 'Tab Solutions LLC',
+				date: '2021年 - 2022年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'ブリッジエンジニア',
+				organization: 'Second Community Systems LLC',
+				date: '2020年 - 2021年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'テックリード',
+				organization: 'Irbis Global Systems LLC',
+				date: '2019年 - 2020年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'エンジニアリングマネージャー',
+				organization: 'Unimeida Solution LLC',
+				date: '2013年 - 2019年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'NTTデータ・ビジネスシステムズ',
+				date: '2008年 - 2013年',
+				location: '日本'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Sodech',
+				date: '2006年 - 2008年',
+				location: '日本'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Credit Bank',
+				date: '2004年 - 2006年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Sky Media LLC',
+				date: '2002年 - 2004年',
+				location: 'モンゴル'
+			},
+			{
+				title: '電子エンジニア',
+				organization: 'ITZone LLC',
+				date: '2000年 - 2002年',
+				location: 'モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '電子工学 学士',
+				organization: 'モンゴル国立大学',
+				date: '1996年 – 2000年',
+				location: 'ウランバートル、モンゴル'
+			}
 		]
 	},
 	{
@@ -2528,7 +2624,6 @@ export const membersEN = [
 			'Silver medal in 2006 National robot contest (ABU Robocon 2006 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).'
 		]
 	},
-
 	{
 		role: 'Consultant',
 		firstname: 'An',
@@ -2933,6 +3028,103 @@ export const membersEN = [
 			'1997-2002 日本政府文部科学省奨学金, 日本',
 			'2015 California University of Management and Sciences - Cum Laude Honor Graduate CGPA 3.89',
 			'2017 University of California, Los Angeles - Awarded with Distinction'
+		]
+	},
+	{
+		role: 'Bridge Engineer',
+		firstname: 'Batzorigt',
+		lastname: 'Rentsen',
+		image: '/images/members/batzorigt.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Bridge Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Manager, Technology Consultant',
+				organization: 'Accenture Japan',
+				date: '2024 - 2025',
+				location: 'Japan'
+			},
+			{
+				title: 'Engineering Manager',
+				organization: 'GMO Financial Holdings',
+				date: '2023 - 2024',
+				location: 'Japan'
+			},
+			{
+				title: 'Bridge Engineer',
+				organization: 'Mirai technologies LLC',
+				date: '2022 - 2023',
+				location: 'Mongolia'
+			},
+			{
+				title: 'CTO',
+				organization: 'Tab Solutions LLC',
+				date: '2021 - 2022',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Bridge Engineer',
+				organization: 'Second Community Systems LLC',
+				date: '2020 - 2021',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Tech Lead',
+				organization: 'Irbis Global Systems LLC',
+				date: '2019 - 2020',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Engineering manager',
+				organization: 'Unimeida Solution LLC',
+				date: '2013 - 2019',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Software engineer',
+				organization: 'NTT Data Business Systems',
+				date: '2008 - 2013',
+				location: 'Japan'
+			},
+			{
+				title: 'Software engineer',
+				organization: 'Sodech',
+				date: '2006 - 2008',
+				location: 'Japan'
+			},
+			{
+				title: 'Software engineer',
+				organization: 'Credit Bank',
+				date: '2004 - 2006',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Software engineer',
+				organization: 'Sky Media LLC',
+				date: '2002 - 2004',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Electronic engineer',
+				organization: 'ITZone LLC',
+				date: '2000 - 2002',
+				location: 'Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Electronic engineering',
+				organization: 'National University of Mongolia ',
+				date: '1996 - 2000',
+				location: 'Ulaanbaatar, Mongolia'
+			}
 		]
 	},
 	{
