@@ -2139,6 +2139,50 @@ export const membersJP: Member[] = [
 			'銅メダリスト - 新入学数学オリンピアード (2016年)',
 			'"Khuuhed-Erdene"メダリスト - モンゴル子供宮殿 (2021年)'
 		]
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Elems',
+		lastname: 'Yesyensau',
+		image: '/images/members/elems.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'ウェブ開発者',
+				organization: 'Lionrobo LLC',
+				date: '2024年〜2025年',
+				location: 'モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '電子工学学士',
+				organization: 'モンゴル科学技術大学 情報・通信技術学部',
+				date: '2020年〜2025年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'STM32（HAL、DMA、タイマー、UART）を用いた低レベル組み込みシステムの開発',
+			'ESP32を使用したWi-Fi対応LEDマトリクス制御システム'
+		],
+		achievements: [
+			'特別賞 ― 全国電気回路理論オリンピック（2021年）',
+			'第2位 ― Sansar Bot 全国ロボティクス大会、チームリーダー（2025年）',
+			'全国優勝 ― ABUロボコン全国大会、チームリーダー（2022年、2025年）',
+			'ベストアイデア賞 ― ABUロボコン国際大会（インド・ニューデリー、2022年）',
+			'Panasonic Connect賞およびチームリーダー ― ABUロボコン国際大会（モンゴル・ウランバートル、2025年）',
+			'複数回全国優勝 ― 自律ロボット競技大会（2017年〜2025年）',
+			'第2位およびメンター ― RobotChallenge 世界大会（中国・北京、2024年、2025年）'
+		]
 	}
 ];
 
@@ -3116,25 +3160,25 @@ export const membersEN: Member[] = [
 				location: 'Mongolia'
 			},
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'NTT Data Business Systems',
 				date: '2008 - 2013',
 				location: 'Japan'
 			},
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'Sodech',
 				date: '2006 - 2008',
 				location: 'Japan'
 			},
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'Credit Bank',
 				date: '2004 - 2006',
 				location: 'Mongolia'
 			},
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'Sky Media LLC',
 				date: '2002 - 2004',
 				location: 'Mongolia'
@@ -3664,14 +3708,14 @@ export const membersEN: Member[] = [
 		achievements: []
 	},
 	{
-		role: 'Software engineer',
+		role: 'Software Engineer',
 		firstname: 'Nurbyek',
 		lastname: 'Khuansh',
 		image: '/images/members/nurbyek.jpeg',
 		bio: null,
 		current: [
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'Mirai Technologies LLC',
 				date: 'Since 2024',
 				location: 'Ulaanbaatar, Mongolia'
@@ -3900,14 +3944,14 @@ export const membersEN: Member[] = [
 		achievements: []
 	},
 	{
-		role: 'Software engineer',
+		role: 'Software Engineer',
 		firstname: 'Badamsereedari',
 		lastname: 'Togtool',
 		image: '/images/members/badamsereedari.jpg',
 		bio: null,
 		current: [
 			{
-				title: 'Software engineer',
+				title: 'Software Engineer',
 				organization: 'Mirai Technologies LLC',
 				date: 'Since 2024',
 				location: 'Ulaanbaatar, Mongolia'
@@ -4263,6 +4307,51 @@ export const membersEN: Member[] = [
 			'Silver Medalist - State Chemistry Olympiad (2016)',
 			'Bronze Medalist - New Beginning Mathematics Olympiad (2016)',
 			'"Khuuhed-Erdene" Medalist - Mongolian Children\'s Palace (2021)'
+		]
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Elems',
+		lastname: 'Yesyensau',
+		image: '/images/members/elems.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Web Developer',
+				organization: 'Lionrobo LLC',
+				date: '2024 - 2025',
+				location: 'Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor of Electronic Engineering',
+				organization:
+					'Mongolian University of Science and Technology - School of information and Communication Technology',
+				date: '2020 - 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Developed low-level embedded systems using STM32 (HAL, DMA, Timers, UART)',
+			'Wi-Fi-enabled LED matrix control system using ESP32'
+		],
+		achievements: [
+			'Special Prize - National Olympiad in Electrical Circuit Theory (2021)',
+			'2nd Place  - Sansar Bot National Robotics Competition, Team leader (2025)',
+			'National Champion - ABU Robocon National Competition, Team leader (2022,2025)',
+			'Best Idea Award - ABU Robocon International Competition, New Delhi, India (2022)',
+			'Panasonic Connect Award & Team Leader - ABU Robocon International Competition, Ulaanbaatar, Mongolia (2025)',
+			'Multiple-Time National Champion - Autonomous Robot Competition (2017-2025)',
+			'2nd Place & Mentor- RobotChallenge World Competition, Beijing, China (2024,2025)'
 		]
 	}
 ];
