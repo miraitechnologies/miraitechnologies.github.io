@@ -1182,6 +1182,98 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'チームリーダー',
+		firstname: 'Saruul-Ulzii',
+		lastname: 'Sampilnorov',
+		image: '/images/members/saruululzii.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'チームリーダー',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'シニアフルスタック開発者',
+				organization: 'Mercedes-Benz Financial Services USA',
+				date: '2022年 - 2024年',
+				location: 'ミシガン州、米国'
+			},
+			{
+				title: 'フルスタック開発者',
+				organization: '2nd Community Systems LLC',
+				date: '2020年 - 2021年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニアフルスタック開発者',
+				organization: 'Nomch IT Consulting LLC',
+				date: '2017年 - 2019年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フリーランス開発者・翻訳者',
+				organization: 'Upwork / Freelancer',
+				date: '2016年 - 2017年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フルスタック開発者',
+				organization: 'MongolID LLC',
+				date: '2015年 - 2016年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニア開発者',
+				organization: 'ITZone LLC',
+				date: '2010年 - 2015年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '修士号 - コンピューターサイエンス',
+				organization: 'Maharishi International University',
+				date: '2021年 - 2023年',
+				location: 'アイオワ州、米国'
+			},
+			{
+				title: '修士号 - コンピューターサイエンス',
+				organization: 'モンゴル科学技術大学',
+				date: '2010年 - 2012年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: '学士号 - ソフトウェア工学',
+				organization: 'モンゴル科学技術大学',
+				date: '2006年 - 2010年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'ERPシステム - .NET, C#, Oracle',
+			'Bone Shakerモバイルゲーム - Unity',
+			'GPS追跡システム - Java, Ionic',
+			'教育用モバイルアプリ - Kotlin, Swift, MySQL',
+			'GlobalWorldモバイルアプリ - Flutter, Firebase'
+		],
+		achievements: [
+			'数学高校優勝学生 - モンゴル科学技術大学 (2006年)',
+			'第1位 - 学生記述幾何学オリンピアード、モンゴル科学技術大学 (2008年)',
+			'三菱商事国際奨学金受賞者、モンゴル科学技術大学 (2009年)',
+			'第2位 - 学生哲学オリンピアード、モンゴル科学技術大学 (2009年)',
+			'チームメンバー - 学生数学オリンピアード、モンゴル (2009年)',
+			'優秀卒業生賞、モンゴル科学技術大学 (2010年)',
+			'Microsoft認定技術スペシャリスト (2010年)',
+			'基礎情報技術者 (FE ITPEC)、在モンゴル日本大使館 (2010年)',
+			'第13位 - 学生プログラミングオリンピアード、モンゴル科学技術大学 (2010年)',
+			'第1位 - ゲームジャンル、モバイルICTコンペティション (2013年)'
+		]
+	},
+	{
 		role: 'ソフトウェアエンジニア',
 		firstname: 'Bat-Orshikh',
 		lastname: 'Baavgaikhuu',
@@ -1921,98 +2013,6 @@ export const membersJP = [
 			'2023年 全国電子工学オリンピアード、第1位（チーム）',
 			'2022年 全国ロボットコンテスト、第3位',
 			'2024年 全国ロボットコンテスト、第1位'
-		]
-	},
-	{
-		role: 'ソフトウェアエンジニア',
-		firstname: 'Saruul-Ulzii',
-		lastname: 'Sampilnorov',
-		image: '/images/members/saruululzii.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'ソフトウェアエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2025年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: 'シニアフルスタック開発者',
-				organization: 'Mercedes-Benz Financial Services USA',
-				date: '2022年 - 2024年',
-				location: 'ミシガン州、米国'
-			},
-			{
-				title: 'フルスタック開発者',
-				organization: '2nd Community Systems LLC',
-				date: '2020年 - 2021年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'シニアフルスタック開発者',
-				organization: 'Nomch IT Consulting LLC',
-				date: '2017年 - 2019年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'フリーランス開発者・翻訳者',
-				organization: 'Upwork / Freelancer',
-				date: '2016年 - 2017年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'フルスタック開発者',
-				organization: 'MongolID LLC',
-				date: '2015年 - 2016年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'シニア開発者',
-				organization: 'ITZone LLC',
-				date: '2010年 - 2015年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		educations: [
-			{
-				title: '修士号 - コンピューターサイエンス',
-				organization: 'Maharishi International University',
-				date: '2021年 - 2023年',
-				location: 'アイオワ州、米国'
-			},
-			{
-				title: '修士号 - コンピューターサイエンス',
-				organization: 'モンゴル科学技術大学',
-				date: '2010年 - 2012年',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: '学士号 - ソフトウェア工学',
-				organization: 'モンゴル科学技術大学',
-				date: '2006年 - 2010年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: [
-			'ERPシステム - .NET, C#, Oracle',
-			'Bone Shakerモバイルゲーム - Unity',
-			'GPS追跡システム - Java, Ionic',
-			'教育用モバイルアプリ - Kotlin, Swift, MySQL',
-			'GlobalWorldモバイルアプリ - Flutter, Firebase'
-		],
-		achievements: [
-			'数学高校優勝学生 - モンゴル科学技術大学 (2006年)',
-			'第1位 - 学生記述幾何学オリンピアード、モンゴル科学技術大学 (2008年)',
-			'三菱商事国際奨学金受賞者、モンゴル科学技術大学 (2009年)',
-			'第2位 - 学生哲学オリンピアード、モンゴル科学技術大学 (2009年)',
-			'チームメンバー - 学生数学オリンピアード、モンゴル (2009年)',
-			'優秀卒業生賞、モンゴル科学技術大学 (2010年)',
-			'Microsoft認定技術スペシャリスト (2010年)',
-			'基礎情報技術者 (FE ITPEC)、在モンゴル日本大使館 (2010年)',
-			'第13位 - 学生プログラミングオリンピアード、モンゴル科学技術大学 (2010年)',
-			'第1位 - ゲームジャンル、モバイルICTコンペティション (2013年)'
 		]
 	},
 	{
@@ -3304,6 +3304,98 @@ export const membersEN = [
 		]
 	},
 	{
+		role: 'Team Leader',
+		firstname: 'Saruul-Ulzii',
+		lastname: 'Sampilnorov',
+		image: '/images/members/saruululzii.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Team Leader',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Senior Full-Stack Developer',
+				organization: 'Mercedes-Benz Financial Services USA',
+				date: '2022 - 2024',
+				location: 'Michigan, USA'
+			},
+			{
+				title: 'Full-Stack Developer',
+				organization: '2nd Community Systems LLC',
+				date: '2020 - 2021',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Full-Stack Developer',
+				organization: 'Nomch IT Consulting LLC',
+				date: '2017 - 2019',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Freelance Developer & Translator',
+				organization: 'Upwork / Freelancer',
+				date: '2016 - 2017',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Full-Stack Developer',
+				organization: 'MongolID LLC',
+				date: '2015 - 2016',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Developer',
+				organization: 'ITZone LLC',
+				date: '2010 - 2015',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Master’s Degree - Computer Science',
+				organization: 'Maharishi International University',
+				date: '2021 - 2023',
+				location: 'Iowa, USA'
+			},
+			{
+				title: 'Master’s Degree - Computer Science',
+				organization: 'Mongolian University of Science and Technology',
+				date: '2010 - 2012',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Bachelor’s Degree - Software Engineering',
+				organization: 'Mongolian University of Science and Technology',
+				date: '2006 - 2010',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'ERP System - .NET, C#, Oracle',
+			'Bone Shaker Mobile Game - Unity',
+			'GPS Tracking System - Java, Ionic',
+			'Educational Mobile App - Kotlin, Swift, MySQL',
+			'GlobalWorld Mobile App - Flutter, Firebase'
+		],
+		achievements: [
+			'Champion Student - Mathematics High School, Mongolian University of Science and Technology (2006)',
+			'1st Place - Student Descriptive Geometry Olympiad, Mongolian University of Science and Technology (2008)',
+			'Mitsubishi Corporation International Scholarship Awardee, Mongolian University of Science and Technology (2009)',
+			'2nd Place - Student Philosophy Olympiad, Mongolian University of Science and Technology (2009)',
+			'Team Member - Student Math Olympiad, Mongolia (2009)',
+			'Outstanding Graduate Student Award, Mongolian University of Science and Technology (2010)',
+			'Microsoft Certified Technology Specialist (2010)',
+			'Fundamental Information Technology Engineer (FE ITPEC), Embassy of Japan in Mongolia (2010)',
+			'13th Place - Student Programming Olympiad, Mongolian University of Science and Technology (2010)',
+			'1st Place - Game Genre, Mobile ICT Competition (2013)'
+		]
+	},
+	{
 		role: 'Software Engineer',
 		firstname: 'Bat-Orshikh',
 		lastname: 'Baavgaikhuu',
@@ -4046,98 +4138,6 @@ export const membersEN = [
 			'2023 National Electronics Olympiad, 1st place (Team)',
 			'2022 National Robotics Competition, 3rd place',
 			'2024 National Robotics Competition, 1st place'
-		]
-	},
-	{
-		role: 'Software Engineer',
-		firstname: 'Saruul-Ulzii',
-		lastname: 'Sampilnorov',
-		image: '/images/members/saruululzii.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Software Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2025',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		experiences: [
-			{
-				title: 'Senior Full-Stack Developer',
-				organization: 'Mercedes-Benz Financial Services USA',
-				date: '2022 - 2024',
-				location: 'Michigan, USA'
-			},
-			{
-				title: 'Full-Stack Developer',
-				organization: '2nd Community Systems LLC',
-				date: '2020 - 2021',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Senior Full-Stack Developer',
-				organization: 'Nomch IT Consulting LLC',
-				date: '2017 - 2019',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Freelance Developer & Translator',
-				organization: 'Upwork / Freelancer',
-				date: '2016 - 2017',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Full-Stack Developer',
-				organization: 'MongolID LLC',
-				date: '2015 - 2016',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Senior Developer',
-				organization: 'ITZone LLC',
-				date: '2010 - 2015',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		educations: [
-			{
-				title: 'Master’s Degree - Computer Science',
-				organization: 'Maharishi International University',
-				date: '2021 - 2023',
-				location: 'Iowa, USA'
-			},
-			{
-				title: 'Master’s Degree - Computer Science',
-				organization: 'Mongolian University of Science and Technology',
-				date: '2010 - 2012',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Bachelor’s Degree - Software Engineering',
-				organization: 'Mongolian University of Science and Technology',
-				date: '2006 - 2010',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		projects: [
-			'ERP System - .NET, C#, Oracle',
-			'Bone Shaker Mobile Game - Unity',
-			'GPS Tracking System - Java, Ionic',
-			'Educational Mobile App - Kotlin, Swift, MySQL',
-			'GlobalWorld Mobile App - Flutter, Firebase'
-		],
-		achievements: [
-			'Champion Student - Mathematics High School, Mongolian University of Science and Technology (2006)',
-			'1st Place - Student Descriptive Geometry Olympiad, Mongolian University of Science and Technology (2008)',
-			'Mitsubishi Corporation International Scholarship Awardee, Mongolian University of Science and Technology (2009)',
-			'2nd Place - Student Philosophy Olympiad, Mongolian University of Science and Technology (2009)',
-			'Team Member - Student Math Olympiad, Mongolia (2009)',
-			'Outstanding Graduate Student Award, Mongolian University of Science and Technology (2010)',
-			'Microsoft Certified Technology Specialist (2010)',
-			'Fundamental Information Technology Engineer (FE ITPEC), Embassy of Japan in Mongolia (2010)',
-			'13th Place - Student Programming Olympiad, Mongolian University of Science and Technology (2010)',
-			'1st Place - Game Genre, Mobile ICT Competition (2013)'
 		]
 	},
 	{
