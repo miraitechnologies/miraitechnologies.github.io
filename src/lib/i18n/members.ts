@@ -2046,36 +2046,6 @@ export const membersJP = [
 		]
 	},
 	{
-		role: 'セキュリティエンジニア',
-		firstname: 'Batmergen',
-		lastname: 'Bat',
-		image: '/images/members/batmergen.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'セキュリティエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2025年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		educations: [
-			{
-				title: '学士号 – セキュリティ工学',
-				organization: 'モンゴル国際学校',
-				date: '2016年 - 2020年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: [
-			'2021-2022 Khan銀行 – システム管理者',
-			'2022-2023 Towa国際学校 – 日本語',
-			'2023-2024 Meganya – ゲーム開発者',
-			'2024-2025 Mobicom – プラットフォームエンジニア'
-		],
-		achievements: []
-	},
-	{
 		role: '研究科学者',
 		firstname: 'Khuslen',
 		lastname: 'Otgonbayar',
@@ -4186,36 +4156,6 @@ export const membersEN = [
 			'"ROHM award" in Asia-pacific Robot contest (ABU Robocon 2024 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
 			'"Mongolian first jumping robot" in National robot contest (ABU Robocon 2025 Mongolia), Ulaanbaatar Mongolia (instructor of SOYOMBO team).'
 		]
-	},
-	{
-		role: 'Security Engineer',
-		firstname: 'Batmergen',
-		lastname: 'Bat',
-		image: '/images/members/batmergen.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Security Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2025',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		educations: [
-			{
-				title: 'Bachelor in security engineering',
-				organization: 'Mongolian International School',
-				date: '2016 - 2020',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		projects: [
-			'2021-2022 Khan Bank - System Administrator',
-			'2022-2023 Towa International School - Japanese Language',
-			'2023-2024 Meganya - Game Developer',
-			'2024-2025 Mobicom - Platform Engineer'
-		],
-		achievements: []
 	},
 	{
 		role: 'Software Engineer',
