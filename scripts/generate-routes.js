@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { membersEN, membersJP } from '../src/lib/i18n/members.ts';
+import { membersEN, membersJP } from '../src/lib/i18n/members.js';
 
 // Product keys
 const productKeys = [

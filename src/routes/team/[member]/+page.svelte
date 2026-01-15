@@ -5,7 +5,7 @@
 	import gsap from 'gsap';
 	import SplitType from 'split-type';
 	import { _, locale } from 'svelte-i18n';
-	import { membersJP, membersEN } from '../../../lib/i18n/members.ts';
+	import { membersJP, membersEN } from '../../../lib/i18n/members.js';
 	import { onMount } from 'svelte';
 
 	// Get member parameter from URL

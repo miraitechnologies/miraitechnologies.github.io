@@ -1,32 +1,4 @@
-interface Member {
-	role: string;
-	firstname: string;
-	lastname: string;
-	image: string;
-	bio: string | null;
-	current: {
-		title: string;
-		organization: string;
-		date: string | null;
-		location: string | null;
-	}[];
-	experiences: {
-		title: string;
-		organization: string;
-		date: string | null;
-		location: string | null;
-	}[];
-	educations: {
-		title: string;
-		organization: string;
-		date: string | null;
-		location: string | null;
-	}[];
-	projects?: string[];
-	achievements?: string[];
-}
-
-export const membersJP: Member[] = [
+export const membersJP = [
 	{
 		role: '創設者',
 		firstname: 'Temuulen',
@@ -2187,7 +2159,7 @@ export const membersJP: Member[] = [
 ];
 
 // English member data
-export const membersEN: Member[] = [
+export const membersEN = [
 	{
 		role: 'Founder',
 		firstname: 'Temuulen',
