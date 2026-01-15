@@ -1,24 +1,5 @@
 import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Read the members data from JSON file
-let membersJP = [];
-let membersEN = [];
-
-try {
-	const membersData = JSON.parse(fs.readFileSync('./scripts/members-data.json', 'utf8'));
-	membersJP = membersData.membersJP || [];
-	membersEN = membersData.membersEN || [];
-} catch (error) {
-	console.error('Error reading members data:', error);
-	// Fallback: define the members data directly
-	membersJP = [];
-	membersEN = [];
-}
+import { membersEN, membersJP } from '../src/lib/i18n/members.ts';
 
 // Product keys
 const productKeys = [
