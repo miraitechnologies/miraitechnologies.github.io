@@ -2155,6 +2155,63 @@ export const membersJP = [
 			'複数回全国優勝 ― 自律ロボット競技大会（2017年〜2025年）',
 			'第2位およびメンター ― RobotChallenge 世界大会（中国・北京、2024年、2025年）'
 		]
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Munkhgerel',
+		lastname: 'Chuluunbold',
+		image: '/images/members/munkhgerel.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2025年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Global Trust Networks Co., Ltd',
+				date: '2021年 - 2023年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'プロジェクトスペシャリスト',
+				organization: 'Tavan Bogd Solutions LLC',
+				date: '2018年 - 2021年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'Web Developer',
+				organization: 'Avdar LLC',
+				date: '2019年 - 2019年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'Web Developer',
+				organization: 'ATM Service Mongolia LLC',
+				date: '2016年 - 2018年',
+				location: 'モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: 'コンピュータサイエンス上級ディプロマ',
+				organization: 'Greenwich Collage',
+				date: '2014年 - 2025年',
+				location: 'シドニー、オーストラリア'
+			},
+			{
+				title: 'コンピュータサイエンス学士',
+				organization: 'モンゴル科学技術大学',
+				date: '2012年 - 2016年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [],
+		achievements: ['2012年 州物理オリンピック 名誉証書']
 	}
 ];
 
@@ -4325,5 +4382,62 @@ export const membersEN = [
 			'Multiple-Time National Champion - Autonomous Robot Competition (2017-2025)',
 			'2nd Place & Mentor- RobotChallenge World Competition, Beijing, China (2024,2025)'
 		]
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Munkhgerel',
+		lastname: 'Chuluunbold',
+		image: '/images/members/munkhgerel.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Software Engineer',
+				organization: 'Global Trust Networks Co., Ltd',
+				date: '2021 - 2023',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Project Specialist',
+				organization: 'Tavan Bogd Solutions LLC',
+				date: '2018 - 2021',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Web Developer',
+				organization: 'Avdar LLC',
+				date: '2019 - 2019',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Web Developer',
+				organization: 'ATM Service Mongolia LLC',
+				date: '2016 - 2018',
+				location: 'Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Advanced Diploma in Computer Science',
+				organization: 'Greenwich Collage',
+				date: '2014 - 2025',
+				location: 'Sydney, Australia'
+			},
+			{
+				title: 'Bachelor in Computer Science',
+				organization: 'Mongolian University of Science and Technology ',
+				date: '2012 - 2016',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [],
+		achievements: ['2012 State Physics Olympiad Honorary Certificate']
 	}
 ];
