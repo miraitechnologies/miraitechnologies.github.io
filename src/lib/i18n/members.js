@@ -910,6 +910,109 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'マネージャー、ブリッジエンジニア',
+		firstname: 'Enkhbayar',
+		lastname: 'Sanduijav',
+		image: '/images/members/enkhbayar.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'マネージャー、ブリッジエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'IT部門ディレクター',
+				organization: 'ONDO LLC',
+				date: '2024年 - 2025年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: '技術顧問',
+				organization: 'ONDO Holding LLC',
+				date: '2023年 - 2023年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'R&D責任者',
+				organization: 'AND Global Pte. Ltd.',
+				date: '2017年 - 2022年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: '技術顧問',
+				organization: 'AND Systems Tech LLC',
+				date: '2022年 - 2022年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'CEO',
+				organization: 'AND Systems Tech LLC',
+				date: '2018年 - 2021年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'R&D責任者',
+				organization: 'AND Systems Tech LLC',
+				date: '2017年 - 2018年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'リードソフトウェアエンジニア',
+				organization: 'Hitachi Solutons Ltd.',
+				date: '2014年 - 2017年',
+				location: '東京、日本'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Hitachi Solutons Ltd. (former Hitachi Software Engineering Co., Ltd.)',
+				date: '2005年 - 2014年',
+				location: '東京、日本'
+			}
+		],
+		educations: [
+			{
+				title: '情報学修士',
+				organization: 'Department of Intelligence Science and Technology, Kyoto University',
+				date: '2003年 - 2005年',
+				location: '京都、日本'
+			},
+			{
+				title: '情報工学学士',
+				organization: 'Computer Science and Systems Engineering, Kobe University',
+				date: '2001年 - 2003年',
+				location: '神戸、日本'
+			},
+			{
+				title: '情報工学準学士',
+				organization: 'Matsue National College of Technology',
+				date: '1998年 - 2001年',
+				location: '松江、日本'
+			}
+		],
+		projects: [
+			'世界銀行プロジェクト：スマート駐車場管理システム（SPMS）および機器の技術仕様',
+			'国家研究：AI駆動型法制度分析プロジェクト',
+			'データレイクハウス／ウェアハウスの開発',
+			'オンラインスタートアップアクセラレーターシステムの開発',
+			'ISO/IEC バイオメトリクスの技術専門家',
+			'バイオメトリクス認証製品の開発',
+			'修士論文：自然言語処理',
+			'学士論文：並列処理'
+		],
+		achievements: [
+			'2003-2005 Jinnai奨学金、日本',
+			'1997-2003 日本政府文部省奨学金、日本',
+			'1995年 モンゴル全国大学生ITプログラミングオリンピアード 第2位',
+			'1994年 モンゴル全国大学生ITプログラミングオリンピアード 第1位',
+			'1994年 国際数学オリンピアード 名誉賞、モンゴル',
+			'1994年 モンゴル全国数学オリンピアード 銅メダル'
+		]
+	},
+	{
 		role: 'ブリッジエンジニア',
 		firstname: 'Batzorigt',
 		lastname: 'Rentsen',
@@ -3129,6 +3232,109 @@ export const membersEN = [
 			'1997-2002 日本政府文部科学省奨学金, 日本',
 			'2015 California University of Management and Sciences - Cum Laude Honor Graduate CGPA 3.89',
 			'2017 University of California, Los Angeles - Awarded with Distinction'
+		]
+	},
+	{
+		role: 'Manager, Bridge Engineer',
+		firstname: 'Enkhbayar',
+		lastname: 'Sanduijav',
+		image: '/images/members/enkhbayar.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Manager, Bridge Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Director of IT Sector',
+				organization: 'ONDO LLC',
+				date: '2024 - 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Technical Advisor',
+				organization: 'ONDO Holding LLC',
+				date: '2023 - 2023',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Head of R&D',
+				organization: 'AND Global Pte. Ltd.',
+				date: '2017 - 2022',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Technical Advisor',
+				organization: 'AND Systems Tech LLC',
+				date: '2022 - 2022',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'CEO',
+				organization: 'AND Systems Tech LLC',
+				date: '2018 - 2021',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Head of R&D',
+				organization: 'AND Systems Tech LLC',
+				date: '2017 - 2018',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Lead Software Engineer',
+				organization: 'Hitachi Solutons Ltd.',
+				date: '2014 - 2017',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'Software Engineer',
+				organization: 'Hitachi Solutons Ltd. (former Hitachi Software Engineering Co., Ltd.)',
+				date: '2005 - 2014',
+				location: 'Tokyo, Japan'
+			}
+		],
+		educations: [
+			{
+				title: 'Master of Informatics',
+				organization: 'Department of Intelligence Science and Technology, Kyoto University',
+				date: '2003 - 2005',
+				location: 'Kyoto, Japan'
+			},
+			{
+				title: 'Bachelor of Information Engineering',
+				organization: 'Computer Science and Systems Engineering, Kobe University',
+				date: '2001 - 2003',
+				location: 'Kobe, Japan'
+			},
+			{
+				title: 'Pre-Bachelor of Information Engineering',
+				organization: 'Matsue National College of Technology',
+				date: '1998 - 2001',
+				location: 'Matsue, Japan'
+			}
+		],
+		projects: [
+			'World bank project: Technical Specifications of the Smart Parking Management System (SPMS) and Equipment',
+			'National research: AI-Powered Legal Framework Analysis Project',
+			'Data LakeHouse / WareHouse development',
+			'Online startup accelarator system development',
+			'Technical expert at ISO/IEC Biometrics',
+			'Biometrics Authentication Product development',
+			'Master thesis: Natural Language Processing',
+			'Bachelor Thesis: Parallel Processing'
+		],
+		achievements: [
+			'2003-2005 Jinnai Scholarship, Japan',
+			'1997-2003 Japanese Government Monbusho Scholarship, Japan',
+			'1995 Second Place, National Undergraduate IT Programming Olympiad, Mongolia',
+			'1994 First Place, National Undergraduate IT Programming Olympiad, Mongolia',
+			'1994 Honourable mention, International Mathematics Olympiad, Mongolia',
+			'1994 Bronze medal, National Mathematics Olympiad, Mongolia'
 		]
 	},
 	{
