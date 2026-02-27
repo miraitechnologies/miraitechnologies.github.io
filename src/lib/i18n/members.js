@@ -2315,6 +2315,63 @@ export const membersJP = [
 		],
 		projects: [],
 		achievements: ['2012年 州物理オリンピック 名誉証書']
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Dambiinyam',
+		lastname: 'Ulaanbandi',
+		image: '/images/members/dambiinyam.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'モバイルアプリケーション開発者',
+				organization: 'Zangia LLC',
+				date: '2024年 - 2025年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'シニアソフトウェアエンジニア',
+				organization: 'MKIT LLC - Catenoid',
+				date: '2022年 - 2024年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Second Community LLC',
+				date: '2020年 - 2021年',
+				location: 'モンゴル'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Gerege systems',
+				date: '2017年 - 2020年',
+				location: 'モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: 'ソフトウェア工学学士',
+				organization: 'モンゴル国立大学 ',
+				date: '2012年 - 2016年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'ライブ動画ストリーミングモバイルアプリケーション',
+			'銀行カードリーダー統合対応Android POSシステム - Gerege Systems、警察サービスアプリ、医療サービスアプリ、政府公共サービスアプリ',
+			'教育用モバイルアプリケーション - Etoos: 韓国人学習者向け英語学習アプリ、Riiid: 数学問題解決学習アプリ、Urso: 英語学習アプリ',
+			'ライドシェアモバイルアプリケーション',
+			'SmartGobi Travel Platform - モバイルアプリケーション、Webプラットフォーム'
+		],
+		achievements: []
 	}
 ];
 
@@ -4645,5 +4702,62 @@ export const membersEN = [
 		],
 		projects: [],
 		achievements: ['2012 State Physics Olympiad Honorary Certificate']
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Dambiinyam',
+		lastname: 'Ulaanbandi',
+		image: '/images/members/dambiinyam.jpg',
+		bio: null,
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Mobile Application Developer',
+				organization: 'Zangia LLC',
+				date: '2024 - 2025',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Senior Software Engineer',
+				organization: 'MKIT LLC - Catenoid',
+				date: '2022 - 2024',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Software Engineer',
+				organization: 'Second Community LLC',
+				date: '2020 - 2021',
+				location: 'Mongolia'
+			},
+			{
+				title: 'Software Engineer',
+				organization: 'Gerege systems',
+				date: '2017 - 2020',
+				location: 'Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Software Engineering',
+				organization: 'National University of Mongolia ',
+				date: '2012 - 2016',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Live Video Streaming Mobile Application',
+			'Android POS System with Bank Card Reader Integration - Gerege Systems, Police service app, Medical service app, Government public service app',
+			'Educational Mobile Applications - Etoos: English learning app for Korean learners, Riiid: Math problem solving learning app, Urso: English learning app',
+			'Ride Sharing Mobile Application',
+			'SmartGobi Travel Platform - Mobile application, Web platform'
+		],
+		achievements: []
 	}
 ];
