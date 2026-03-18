@@ -688,58 +688,6 @@ export const membersJP = [
 		]
 	},
 	{
-		role: 'リサーチエンジニア',
-		firstname: 'Sumiyajav',
-		lastname: 'Sarangerel',
-		image: 'images/members/sumiyajav.jpg',
-		bio: null,
-		current: [
-			{
-				title: '大学院研究助手',
-				organization: 'MIT ARCLab',
-				date: '2023年6月より',
-				location: 'ケンブリッジ、マサチューセッツ'
-			}
-		],
-		experiences: [
-			{
-				title: '学部生研究助手',
-				organization: 'MIT Senseable City Lab',
-				date: '2022年9月 - 2023年5月',
-				location: 'ケンブリッジ、マサチューセッツ'
-			},
-			{
-				title: 'ソフトウェアエンジニアリングインターン',
-				organization: 'Iterative Health',
-				date: '2022年6月 - 2022年8月',
-				location: 'ケンブリッジ、マサチューセッツ'
-			}
-		],
-		educations: [
-			{
-				title: '人工知能工学修士',
-				organization: 'マサチューセッツ工科大学 (MIT)',
-				date: '2025年6月卒業予定',
-				location: 'ケンブリッジ、マサチューセッツ'
-			},
-			{
-				title: 'コンピュータサイエンス・エンジニアリング学士',
-				organization: 'マサチューセッツ工科大学 (MIT)',
-				date: '2024年2月',
-				location: 'ケンブリッジ、マサチューセッツ'
-			}
-		],
-		projects: [
-			'プロンプトエンジニアリングに基づくLLMの不確実性キャリブレーション',
-			'宇宙物体密度予測のための時系列機械学習'
-		],
-		achievements: [
-			'第49回国際物理オリンピアード銀メダル、2018年、リスボン、ポルトガル',
-			'第19回アジア物理オリンピアード銅メダル、2018年、ハノイ、ベトナム',
-			'第48回国際物理オリンピアード銅メダル、2017年、ジョグジャカルタ、インドネシア'
-		]
-	},
-	{
 		role: 'マネージャー、ブリッジエンジニア',
 		firstname: 'Ganbold',
 		lastname: 'Sukhbat',
@@ -3067,58 +3015,6 @@ export const membersEN = [
 			'Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer. 2021. NT5?! Training T5 to Perform Numerical Reasoning. arXiv preprint arXiv: 2104.07307v2',
 			'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. Artificial neural networks applied as molecularwave function solvers. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
 			'NGK Insulators Scholarship 2017-2019, Daiko Foundation Scholarship 2017, Japan Gov. Monbukagakusho Honors Scholarship 2016.'
-		]
-	},
-	{
-		role: 'Research Engineer',
-		firstname: 'Sumiyajav',
-		lastname: 'Sarangerel',
-		image: 'images/members/sumiyajav.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Graduate Research Assistant',
-				organization: 'MIT ARCLab',
-				date: 'Since June 2023',
-				location: 'Cambridge, MA'
-			}
-		],
-		experiences: [
-			{
-				title: 'Undergraduate Research Assistant',
-				organization: 'MIT Senseable City Lab',
-				date: 'Sep. 2022 - May 2023',
-				location: 'Cambridge, MA'
-			},
-			{
-				title: 'Software Engineering Intern',
-				organization: 'Iterative Health',
-				date: 'June 2022 - Aug. 2022',
-				location: 'Cambridge, MA'
-			}
-		],
-		educations: [
-			{
-				title: 'M.Eng in Artificial Intelligence',
-				organization: 'Massachusetts Institute of Technology (MIT)',
-				date: 'Expected June 2025',
-				location: 'Cambridge, MA'
-			},
-			{
-				title: 'B.S. in Computer Science and Engineering',
-				organization: 'Massachusetts Institute of Technology (MIT)',
-				date: 'Feb 2024',
-				location: 'Cambridge, MA'
-			}
-		],
-		projects: [
-			'Uncertainty Calibration of LLMs based on prompt engineering',
-			'Time Series Machine Learning for Space Object Density Forecasting'
-		],
-		achievements: [
-			'49th International Physics Olympiad Silver medal, 2018, Lisbon, Portugal',
-			'19th Asian Physics Olympiad Bronze medal, 2018, Hanoi, Vietnam',
-			'48th International Physics Olympiad Bronze medal, 2017, Yogyakarta, Indonesia'
 		]
 	},
 	{
