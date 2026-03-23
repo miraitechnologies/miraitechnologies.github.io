@@ -627,6 +627,80 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'R&Dコンサルタント',
+		firstname: 'Batkhurel',
+		lastname: 'Serdavaa',
+		image: '/images/members/batkhurel.jpg',
+		current: [
+			{
+				title: 'R&Dコンサルタント',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニアデータサイエンティスト',
+				organization: 'addice co., Ltd.',
+				date: '2023年より',
+				location: '東京、日本'
+			}
+		],
+		experiences: [
+			{
+				title: '客員教員',
+				organization: '一橋大学, Japan',
+				date: '2025年',
+				location: '東京、日本'
+			},
+			{
+				title: '金融安定評議会 調整・調査ユニット長',
+				organization: 'モンゴル中央銀行',
+				date: '2014年 - 2015年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'シニアエコノミスト',
+				organization: 'モンゴル中央銀行',
+				date: '2013年 - 2014年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'エコノミスト',
+				organization: 'モンゴル中央銀行',
+				date: '2009年 - 2013年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '経済学博士',
+				organization: '一橋大学',
+				date: '2024年',
+				location: '東京、日本'
+			},
+			{
+				title: '公共政策修士',
+				organization: '一橋大学',
+				date: '2017年',
+				location: '東京、日本'
+			},
+			{
+				title: '経営学修士',
+				organization: 'National University of Mongolia',
+				date: '2011年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: '経営学学士',
+				organization: 'National University of Mongolia',
+				date: '2008年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [],
+		achievements: []
+	},
+	{
 		role: 'リサーチエンジニア',
 		firstname: 'Lester (Peng-Jian)',
 		lastname: 'Yang',
@@ -3016,6 +3090,80 @@ export const membersEN = [
 			'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. Artificial neural networks applied as molecularwave function solvers. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
 			'NGK Insulators Scholarship 2017-2019, Daiko Foundation Scholarship 2017, Japan Gov. Monbukagakusho Honors Scholarship 2016.'
 		]
+	},
+	{
+		role: 'R&D Consultant',
+		firstname: 'Batkhurel',
+		lastname: 'Serdavaa',
+		image: '/images/members/batkhurel.jpg',
+		current: [
+			{
+				title: 'R&D Consultant',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Data Scientist',
+				organization: 'addice co., Ltd.',
+				date: 'Since 2023',
+				location: 'Tokyo, Japan'
+			}
+		],
+		experiences: [
+			{
+				title: 'Guest Faculty Member',
+				organization: 'Hitotsubashi University, Japan',
+				date: '2025',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'Head of the Coordinating and Research Unit of the Financial Stability Council',
+				organization: 'The Central Bank of Mongolia',
+				date: '2014 - 2015',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Senior Economist',
+				organization: 'The Central Bank of Mongolia',
+				date: '2013 - 2014',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Economist',
+				organization: 'The Central Bank of Mongolia',
+				date: '2009 - 2013',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Ph.D. in Economics',
+				organization: 'Hitotsubashi University',
+				date: '2024',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'Master of Public Policy',
+				organization: 'Hitotsubashi University',
+				date: '2017',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'Master of Business Administration',
+				organization: 'National University of Mongolia',
+				date: '2011',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Bachelor of Business Administration',
+				organization: 'National University of Mongolia',
+				date: '2008',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [],
+		achievements: []
 	},
 	{
 		role: 'Manager, Bridge Engineer',
