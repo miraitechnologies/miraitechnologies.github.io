@@ -1918,39 +1918,6 @@ export const membersJP = [
 	},
 	{
 		role: 'ソフトウェアエンジニア',
-		firstname: 'Biziya',
-		lastname: 'Sarangerel',
-		image: '/images/members/bizya.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'ソフトウェアエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2024年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: '研究助手',
-				organization: 'レーザー研究所、モンゴル国立大学',
-				date: null,
-				location: 'モンゴル'
-			}
-		],
-		educations: [
-			{
-				title: '理論物理学理学士',
-				organization: 'モンゴル国立大学',
-				date: '2019-2024年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: ['学士論文: ハートリー-フォックアルゴリズムのプログラミング/単純原子系への応用'],
-		achievements: ['2017年 銅メダル、全国物理オリンピアード、モンゴル']
-	},
-	{
-		role: 'ソフトウェアエンジニア',
 		firstname: 'Erkhembayar',
 		lastname: 'Ganbold',
 		image: '/images/members/erkhembayar.jpg',
@@ -4320,41 +4287,6 @@ export const membersEN = [
 			'Employee of the year, Grapecity Mongolia LLC, 2020',
 			'Employee of the year, Grapecity Mongolia LLC, 2023'
 		]
-	},
-	{
-		role: 'Software Engineer',
-		firstname: 'Biziya',
-		lastname: 'Sarangerel',
-		image: '/images/members/bizya.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Software Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2024',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		experiences: [
-			{
-				title: 'Research assistant',
-				organization: 'Laser Research Laboratory, National University of Mongolia',
-				date: null,
-				location: 'Mongolia'
-			}
-		],
-		educations: [
-			{
-				title: 'A Bachelor of Science in Theoretical Physics',
-				organization: 'National University of Mongolia ',
-				date: '2019 - 2024',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		projects: [
-			'Bachelor Thesis: Programming the Hartree-Fock Algorithm/Applications to Simple Atomic Systems '
-		],
-		achievements: ['2017 Bronze Medal, National Physics Olympiad, Mongolia']
 	},
 	{
 		role: 'Software Engineer',
