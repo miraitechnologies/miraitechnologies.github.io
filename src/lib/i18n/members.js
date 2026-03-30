@@ -1961,65 +1961,6 @@ export const membersJP = [
 	},
 	{
 		role: 'ソフトウェアエンジニア',
-		firstname: 'Ganzorig',
-		lastname: 'Batnasan',
-		image: '/images/members/ganzorig.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'ソフトウェアエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2025年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: '研究助手',
-				organization: '自然言語処理学部、モハメド・ビン・ザイード人工知能大学',
-				date: '2023-2024年',
-				location: 'アブダビ、アラブ首長国連邦'
-			},
-			{
-				title: '研究助手',
-				organization: 'AI・ロボティクス研究所、アラブ首長国連邦大学',
-				date: '2020-2024年',
-				location: 'アブダビ、アラブ首長国連邦'
-			},
-			{
-				title: 'インターン',
-				organization: 'Dentsu Data Artist Mongolia',
-				date: null,
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		educations: [
-			{
-				title: '工学修士',
-				organization: 'アラブ首長国連邦大学',
-				date: '2022-2024年',
-				location: 'アブダビ、アラブ首長国連邦'
-			},
-			{
-				title: '電子工学学士',
-				organization: 'モンゴル科学技術大学',
-				date: '2016-2020年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: [
-			'修士論文: 手話認識のためのVision Transformer',
-			'学士論文: 深層強化学習に基づく移動ロボットナビゲーション',
-			'倒立振子ベース不安定システムの状態空間制御',
-			'コンピュータビジョンベースのラインキーピングロボット',
-			'Fisheye8K: 魚眼カメラ物体検出のベンチマークとデータセット、CVPRW2023',
-			'プライバシー保護された日常生活活動認識のための超低解像度赤外線センサーベースワイヤレスセンサーネットワーク',
-			'第8回AI City Challenge、CVPR2024',
-			'CVQA: 文化的多様性多言語視覚質問応答ベンチマーク、NeurIPS2024'
-		]
-	},
-	{
-		role: 'ソフトウェアエンジニア',
 		firstname: 'Tuguldur',
 		lastname: 'Bayarsaikhan',
 		image: '/images/members/tuguldur.jpg',
@@ -4329,66 +4270,6 @@ export const membersEN = [
 			'“ABU Robocon 2019 Mongolia” runner up prize.',
 			'“Autonomous robot 2019” 1 st prize.',
 			'“Autonomous robot 2024” 1 st prize.'
-		]
-	},
-	{
-		role: 'Software Engineer',
-		firstname: 'Ganzorig',
-		lastname: 'Batnasan',
-		image: '/images/members/ganzorig.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Software Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2025',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		experiences: [
-			{
-				title: 'Research assistant',
-				organization:
-					'Natural Language Processing Department, Mohamed Bin Zayed University of Artificial Intelligence',
-				date: '2023 - 2024',
-				location: 'Abu Dhabi, United Arab Emirates'
-			},
-			{
-				title: 'Research assistant',
-				organization: 'AI and Robotics Lab, United Arab Emirates University',
-				date: '2020 - 2024',
-				location: 'Abu Dhabi, United Arab Emirates'
-			},
-			{
-				title: 'Intern',
-				organization: 'Dentsu Data Artist Mongolia',
-				date: null,
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		educations: [
-			{
-				title: 'Master of Science in Engineering',
-				organization: 'United Arab Emirates University',
-				date: '2022 - 2024',
-				location: 'Abu Dhabi, United Arab Emirates'
-			},
-			{
-				title: 'Bachelor of Electronic Engineering',
-				organization: 'Mongolian University of Science and Technology',
-				date: '2016-2020',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		projects: [
-			'Master Thesis: Vision Transformer for Sign Language Recognition',
-			'Bachelor Thesis: Deep Reinforcement Learning based mobile robot navigation',
-			'State Space Control of Inverted Pendulum based unstable system',
-			'Computer vision based line keeping robot',
-			'Fisheye8K: A benchmark and dataset for fisheye camera object detection, CVPRW2023',
-			'Ultra-low resolution infrared sensor-based wireless sensor network for privacy-preserved recognition of daily activities of living',
-			'8th AI City Challenge, CVPR2024',
-			'CVQA: Culturally-diverse multilingual visual question answering benchmark, NeurIPS2024'
 		]
 	},
 	{
