@@ -627,6 +627,67 @@ export const membersJP = [
 		]
 	},
 	{
+		role: 'リサーチエンジニア',
+		firstname: 'Lester (Peng-Jian)',
+		lastname: 'Yang',
+		image: '/images/members/lester.jpeg',
+		bio: 'プロジェクトの詳細は lesterpjy.me をご覧ください',
+		current: [
+			{
+				title: 'リサーチエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2024年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'シニアエンジニアリングサイエンティスト',
+				organization: 'Logitech',
+				date: '2021年5月 - 2022年6月',
+				location: '新竹、台湾'
+			},
+			{
+				title: 'データサイエンスインターン',
+				organization: 'Omnistream Co.',
+				date: '2020年4月 - 2020年6月',
+				location: 'シンガポール'
+			},
+			{
+				title: '理論・量子化学学部生研究員',
+				organization: '名古屋大学',
+				date: '2018年8月 - 2019年9月',
+				location: '名古屋、日本'
+			}
+		],
+		educations: [
+			{
+				title: '情報・データサイエンス修士',
+				organization: 'カリフォルニア大学バークレー校',
+				date: '2019年8月 - 2021年5月',
+				location: 'カリフォルニア、アメリカ'
+			},
+			{
+				title: '化学学士',
+				organization: '名古屋大学',
+				date: '2015年10月 - 2019年9月',
+				location: '名古屋、日本'
+			}
+		],
+		projects: [
+			'オープンソース貢献 LangChain: pdfplumberによるPDFドキュメントローダーの統合により、LangChainでpdfplumberのビジュアルデバッガーを使用可能に',
+			'ワクチン接種意見への影響: COVID-19ワクチン接種に関する魅力的なメディアの露出がワクチン接種傾向に与える影響を研究するランダム実験データの差分の差分分析',
+			'BayWheels自転車シェアデータ分析: BigQueryのSQLを使用してパブリック自転車シェアデータセットをクエリし、ユーザータイプ別に上位旅行ルートを分離。自転車ステーションの状況、使用量によるステーションの人気、使用時間による収益改善の推奨事項を考案',
+			'フライト遅延予測: 運輸統計局の定時運行データセットとNOAA提供の気象データを使用した出発便遅延予測。11ギガバイトのデータをクリーンアップ、探索、PySparkでエンジニアリングし、86%の再現率で出発遅延を予測する勾配ブーストツリーモデルを構築'
+		],
+		achievements: [
+			'Peng-Jian Yang, Shang-Yu Yu, Yi-Hsieh Wang, Ko Chun Lin, Zhaoyan Han. 2023. 製品製造用カラーマッチングシステム. USPTO. US11847799B2.',
+			'Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer. 2021. NT5?! 数値推論を実行するためのT5の訓練. arXiv preprint arXiv: 2104.07307v2',
+			'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. 分子波動関数ソルバーとして適用された人工ニューラルネットワーク. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
+			'NGKセラミックス奨学金 2017-2019年、大光財団奨学金 2017年、日本政府文部科学省奨学金 2016年'
+		]
+	},
+	{
 		role: 'R&Dコンサルタント',
 		firstname: 'Batkhurel',
 		lastname: 'Serdavaa',
@@ -699,67 +760,6 @@ export const membersJP = [
 		],
 		projects: [],
 		achievements: []
-	},
-	{
-		role: 'リサーチエンジニア',
-		firstname: 'Lester (Peng-Jian)',
-		lastname: 'Yang',
-		image: '/images/members/lester.jpeg',
-		bio: 'プロジェクトの詳細は lesterpjy.me をご覧ください',
-		current: [
-			{
-				title: 'リサーチエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2024年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: 'シニアエンジニアリングサイエンティスト',
-				organization: 'Logitech',
-				date: '2021年5月 - 2022年6月',
-				location: '新竹、台湾'
-			},
-			{
-				title: 'データサイエンスインターン',
-				organization: 'Omnistream Co.',
-				date: '2020年4月 - 2020年6月',
-				location: 'シンガポール'
-			},
-			{
-				title: '理論・量子化学学部生研究員',
-				organization: '名古屋大学',
-				date: '2018年8月 - 2019年9月',
-				location: '名古屋、日本'
-			}
-		],
-		educations: [
-			{
-				title: '情報・データサイエンス修士',
-				organization: 'カリフォルニア大学バークレー校',
-				date: '2019年8月 - 2021年5月',
-				location: 'カリフォルニア、アメリカ'
-			},
-			{
-				title: '化学学士',
-				organization: '名古屋大学',
-				date: '2015年10月 - 2019年9月',
-				location: '名古屋、日本'
-			}
-		],
-		projects: [
-			'オープンソース貢献 LangChain: pdfplumberによるPDFドキュメントローダーの統合により、LangChainでpdfplumberのビジュアルデバッガーを使用可能に',
-			'ワクチン接種意見への影響: COVID-19ワクチン接種に関する魅力的なメディアの露出がワクチン接種傾向に与える影響を研究するランダム実験データの差分の差分分析',
-			'BayWheels自転車シェアデータ分析: BigQueryのSQLを使用してパブリック自転車シェアデータセットをクエリし、ユーザータイプ別に上位旅行ルートを分離。自転車ステーションの状況、使用量によるステーションの人気、使用時間による収益改善の推奨事項を考案',
-			'フライト遅延予測: 運輸統計局の定時運行データセットとNOAA提供の気象データを使用した出発便遅延予測。11ギガバイトのデータをクリーンアップ、探索、PySparkでエンジニアリングし、86%の再現率で出発遅延を予測する勾配ブーストツリーモデルを構築'
-		],
-		achievements: [
-			'Peng-Jian Yang, Shang-Yu Yu, Yi-Hsieh Wang, Ko Chun Lin, Zhaoyan Han. 2023. 製品製造用カラーマッチングシステム. USPTO. US11847799B2.',
-			'Peng-Jian Yang, Ying Ting Chen, Yuechan Chen, Daniel Cer. 2021. NT5?! 数値推論を実行するためのT5の訓練. arXiv preprint arXiv: 2104.07307v2',
-			'Peng-Jian Yang, Mahito Sugiyama, Koji Tsuda, Takeshi Yanai. 2020. 分子波動関数ソルバーとして適用された人工ニューラルネットワーク. Journal of Chemical Theory and Computation. doi:10.1021/acs.jctc.9b01132',
-			'NGKセラミックス奨学金 2017-2019年、大光財団奨学金 2017年、日本政府文部科学省奨学金 2016年'
-		]
 	},
 	{
 		role: 'マネージャー、ブリッジエンジニア',
