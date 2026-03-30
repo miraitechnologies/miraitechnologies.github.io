@@ -2093,60 +2093,6 @@ export const membersJP = [
 	},
 	{
 		role: 'ソフトウェアエンジニア',
-		firstname: 'Khuslen',
-		lastname: 'Otgonbayar',
-		image: '/images/members/khuslen.jpeg',
-		bio: null,
-		current: [
-			{
-				title: 'ソフトウェアエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2025年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: '研究助手',
-				organization: '昆山杜克大学',
-				date: '2023年 - 2025年',
-				location: '崑山、中国'
-			},
-			{
-				title: 'データサイエンティストインターン',
-				organization: 'Metropolitan Policy Institute',
-				date: '2024年6月 - 2024年8月',
-				location: 'ウランバートル、モンゴル'
-			},
-			{
-				title: 'ブランディング戦略・研究インターンシップ',
-				organization: 'Hugo Boss',
-				date: '2023年6月 - 2023年8月',
-				location: 'ニューヨーク、米国（リモート）'
-			}
-		],
-		educations: [
-			{
-				title: '学士号 - データサイエンス',
-				organization: '昆山杜克大学 & Duke University',
-				date: '2021年 - 2025年',
-				location: 'ダーラム、米国；崑山、中国；バルセロナ、スペイン'
-			}
-		],
-		projects: [
-			'ハイブリッド Markov-LSTM時系列予測',
-			'線形回帰とサポートベクタ回帰による時系列予測の比較研究',
-			'インタラクティブ交通流可視化・分析ダッシュボード',
-			'時空間大気質予測'
-		],
-		achievements: [
-			'銀メダリスト - 国家化学オリンピアード (2016年)',
-			'銅メダリスト - 新入学数学オリンピアード (2016年)',
-			'"Khuuhed-Erdene"メダリスト - モンゴル子供宮殿 (2021年)'
-		]
-	},
-	{
-		role: 'ソフトウェアエンジニア',
 		firstname: 'Elems',
 		lastname: 'Yesyensau',
 		image: '/images/members/elems.jpg',
@@ -4402,60 +4348,6 @@ export const membersEN = [
 			'"National champions" in National robot contest (ABU Robocon 2024 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
 			'"ROHM award" in Asia-pacific Robot contest (ABU Robocon 2024 Mongolia), Ulaanbaatar Mongolia (leader of SOYOMBO team).',
 			'"Mongolian first jumping robot" in National robot contest (ABU Robocon 2025 Mongolia), Ulaanbaatar Mongolia (instructor of SOYOMBO team).'
-		]
-	},
-	{
-		role: 'Software Engineer',
-		firstname: 'Khuslen',
-		lastname: 'Otgonbayar',
-		image: '/images/members/khuslen.jpeg',
-		bio: null,
-		current: [
-			{
-				title: 'Software Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2025',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		experiences: [
-			{
-				title: 'Research Assistant',
-				organization: '昆山杜克大学',
-				date: '2023 - 2025',
-				location: 'Kunshan, China'
-			},
-			{
-				title: 'Data Scientist Intern',
-				organization: 'Metropolitan Policy Institute',
-				date: 'Jun 2024 - Aug 2024',
-				location: 'Ulaanbaatar, Mongolia'
-			},
-			{
-				title: 'Branding Strategy & Research Internship',
-				organization: 'Hugo Boss',
-				date: 'Jun 2023 - Aug 2023',
-				location: 'New York, USA (Remote)'
-			}
-		],
-		educations: [
-			{
-				title: 'Bachelor of Science - Data Science',
-				organization: '昆山杜克大学 & Duke University',
-				date: '2021 - 2025',
-				location: 'Durham, USA; Kunshan, China; Barcelona, Spain'
-			}
-		],
-		projects: [
-			'Hybrid of Markov-LSTM for Time Series Forecasting',
-			'Comparative Study of Linear and Support Vector Regression for Time Series Prediction',
-			'Interactive Traffic Flow Visualization and Analysis Dashboard',
-			'Spatial-Temporal Air Quality Prediction'
-		],
-		achievements: [
-			'Silver Medalist - State Chemistry Olympiad (2016)',
-			'Bronze Medalist - New Beginning Mathematics Olympiad (2016)',
-			'"Khuuhed-Erdene" Medalist - Mongolian Children\'s Palace (2021)'
 		]
 	},
 	{
