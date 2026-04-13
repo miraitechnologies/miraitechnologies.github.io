@@ -2248,6 +2248,50 @@ export const membersJP = [
 			'SmartGobi Travel Platform - モバイルアプリケーション、Webプラットフォーム'
 		],
 		achievements: []
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Saruulgun',
+		lastname: 'Chinzorigt',
+		image: '/images/members/saruulgun.jpg',
+		bio: '堅牢なソフトウェアアプリケーションの開発および実装の経験を持つソフトウェアエンジニア',
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Flexton Inc',
+				date: '2024年 - 2025年',
+				location: 'アメリカ合衆国'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Unimedia LLC',
+				date: '2018年 - 2021年',
+				location: 'モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: 'コンピュータサイエンス学士',
+				organization: 'Khuree Information and Communication Technologies',
+				date: '2008年 - 2012年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'eコマースアプリケーションのエンタープライズマイクロサービスの設計および開発',
+			'金融アプリケーションのマイクロサービスの開発',
+			'フリーランサー向けアプリケーションCrowd-Jobのフルスタック開発',
+			'新聞Webアプリケーション向けDoushin systemというプロジェクトのフルスタック開発'
+		],
+		achievements: ['2022年 インターンシップ - MIUおよびSyrencloud llc']
 	}
 ];
 
@@ -4508,5 +4552,49 @@ export const membersEN = [
 			'SmartGobi Travel Platform - Mobile application, Web platform'
 		],
 		achievements: []
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Saruulgun',
+		lastname: 'Chinzorigt',
+		image: '/images/members/saruulgun.jpg',
+		bio: 'Software engineer with experience of development and implementating robust software applications',
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Software Engineer',
+				organization: 'Flexton Inc',
+				date: '2024 - 2025',
+				location: 'USA'
+			},
+			{
+				title: 'Software Engineer',
+				organization: 'Unimedia LLC',
+				date: '2018 - 2021',
+				location: 'Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Computer Science',
+				organization: 'Khuree Information and Communication Technologies',
+				date: '2008 - 2012',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Design and developmend of Entrerprise Micro-Services of e-commerce applications',
+			'Development of Micro-Serviced of Financial application',
+			'Full-Stack development of Crowd-Job for freelancer application',
+			'Full-Stack development of project named Doushin system for newspaper web application'
+		],
+		achievements: ['2022 Internship - MIU and Syrencloud llc']
 	}
 ];
