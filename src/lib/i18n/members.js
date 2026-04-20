@@ -2292,6 +2292,57 @@ export const membersJP = [
 			'新聞Webアプリケーション向けDoushin systemというプロジェクトのフルスタック開発'
 		],
 		achievements: ['2022年 インターンシップ - MIUおよびSyrencloud llc']
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Choijamts',
+		lastname: 'Byambasuren',
+		image: '/images/members/choijamts.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'システムエンジニア',
+				organization: 'USP Lab.',
+				date: '2023年 - 2026年',
+				location: '東京、日本'
+			},
+			{
+				title: 'システムエンジニア',
+				organization: 'BeNEXT Technologies',
+				date: '2023年 - 2023年',
+				location: '東京、日本'
+			},
+			{
+				title: '開発者',
+				organization: 'Tapatrip LLC',
+				date: '2021年 - 2023年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'システムエンジニア',
+				organization: 'USP Mongolia LLC',
+				date: '2020年 - 2021年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '準学士号 - 電気工学',
+				organization: 'Ibaraki National College of Technology',
+				date: '2017年 - 2020年',
+				location: '茨城、日本'
+			}
+		],
+		projects: ['ERPシステム', '旅行プラットフォーム', '教育用モバイルアプリ', '決済処理システム'],
+		achievements: []
 	}
 ];
 
@@ -4596,5 +4647,61 @@ export const membersEN = [
 			'Full-Stack development of project named Doushin system for newspaper web application'
 		],
 		achievements: ['2022 Internship - MIU and Syrencloud llc']
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Choijamts',
+		lastname: 'Byambasuren',
+		image: '/images/members/choijamts.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'System Engineer',
+				organization: 'USP Lab.',
+				date: '2023 - 2026',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'System Engineer',
+				organization: 'BeNEXT Technologies',
+				date: '2023 - 2023',
+				location: 'Tokyo, Japan'
+			},
+			{
+				title: 'Developer',
+				organization: 'Tapatrip LLC',
+				date: '2021 - 2023',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'System Engineer',
+				organization: 'USP Mongolia LLC',
+				date: '2020 - 2021',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Associate Degree - Electrical Engineering',
+				organization: 'Ibaraki National College of Technology',
+				date: '2017 - 2020',
+				location: 'Ibaraki, Japan'
+			}
+		],
+		projects: [
+			'ERP System',
+			'Travel Platform',
+			'Educational Mobile App',
+			'Payment Processing System'
+		],
+		achievements: []
 	}
 ];
