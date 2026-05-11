@@ -2343,6 +2343,51 @@ export const membersJP = [
 		],
 		projects: ['ERPシステム', '旅行プラットフォーム', '教育用モバイルアプリ', '決済処理システム'],
 		achievements: []
+	},
+	{
+		role: 'システム管理者',
+		firstname: 'Tuguldur',
+		lastname: 'Tamir',
+		image: '/images/members/tuguldur_t.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'システム管理者',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'ネットワーク管理者',
+				organization: 'TDB',
+				date: '2025年 - 2025年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'ネットワークエンジニア',
+				organization: 'Nachinzaan NBFI',
+				date: '2017年 - 2025年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'システム管理者',
+				organization: 'Grapecity Mongolia LLC',
+				date: '2009年 - 2017年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: 'ハードウェアおよびソフトウェア工学におけるコンピュータサイエンス学士',
+				organization: 'モンゴル科学技術大学',
+				date: '2004年 - 2009年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [],
+		achievements: []
 	}
 ];
 
@@ -4702,6 +4747,51 @@ export const membersEN = [
 			'Educational Mobile App',
 			'Payment Processing System'
 		],
+		achievements: []
+	},
+	{
+		role: 'System Admin',
+		firstname: 'Tuguldur',
+		lastname: 'Tamir',
+		image: '/images/members/tuguldur_t.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'System Admin',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Network Administrator',
+				organization: 'TDB',
+				date: '2025 - 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Network Engineer',
+				organization: 'Nachinzaan NBFI',
+				date: '2017 - 2025',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'System Administrator',
+				organization: 'Grapecity Mongolia LLC',
+				date: '2009 - 2017',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Computer Science in Hardware and Software Engineering',
+				organization: 'Mongolian University of Science and Technology',
+				date: '2004 - 2009',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [],
 		achievements: []
 	}
 ];
