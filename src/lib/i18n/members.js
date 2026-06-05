@@ -2425,6 +2425,65 @@ export const membersJP = [
 			'地方情報技術オリンピック（Darkhan 2018）2位',
 			'U17全国バスケットボール選手権（2020）金メダル'
 		]
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Shinebayar',
+		lastname: 'Khosbayar ',
+		image: '/images/members/shinebayar.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: 'シニアソフトウェアエンジニア',
+				organization: 'Obortech Mongolia LLC',
+				date: '2022年 - 2026年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フルスタックソフトウェアエンジニア',
+				organization: 'Silver Elephant Mining Corporation',
+				date: '2021年 - 2022年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'フルスタックソフトウェアエンジニア',
+				organization: '2nd Community Systems LLC',
+				date: '2020年 - 2021年',
+				location: 'ウランバートル、モンゴル'
+			},
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Gerege Systems LLC',
+				date: '2017年 - 2020年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: 'コンピュータサイエンス学士',
+				organization: 'National University of Mongolia ',
+				date: '2013年 - 2017年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'ブロックチェーンおよびIoTベースのサプライチェーン追跡プラットフォーム',
+			'一酸化炭素検知・監視システム',
+			'日本向けオンライン楽器ストア',
+			'デジタルウォレットプラットフォーム',
+			'RFIDベースの鉱山入退管理システム',
+			'オンライン保険査定プラットフォーム',
+			'SmartGobi旅行アプリおよびWebポータル'
+		],
+		achievements: []
 	}
 ];
 
@@ -4867,5 +4926,64 @@ export const membersEN = [
 			'2nd Place, Provincial Information Technology Olympiad (Darkhan 2018)',
 			'Gold Medal, U17 National Basketball Championship (2020)'
 		]
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Shinebayar',
+		lastname: 'Khosbayar ',
+		image: '/images/members/shinebayar.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Senior Software Engineer',
+				organization: 'Obortech Mongolia LLC',
+				date: '2022 - 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Full Stack Software Engineer',
+				organization: 'Silver Elephant Mining Corporation',
+				date: '2021 - 2022',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Full Stack Software Engineer',
+				organization: '2nd Community Systems LLC',
+				date: '2020 - 2021',
+				location: 'Ulaanbaatar, Mongolia'
+			},
+			{
+				title: 'Software Engineer',
+				organization: 'Gerege Systems LLC',
+				date: '2017 - 2020',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor in Computer Science',
+				organization: 'National University of Mongolia ',
+				date: '2013 - 2017',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Blockchain and IoT-Based Supply Chain Traceability Platform',
+			'Carbon Monoxide Detection and Monitoring System',
+			'Japan Online Musical Instrument Store',
+			'Digital Wallet Platform',
+			'RFID-Based Mine Access Control System',
+			'Online Insurance Assessment Platform',
+			'SmartGobi Travel App and Web Portal'
+		],
+		achievements: []
 	}
 ];
