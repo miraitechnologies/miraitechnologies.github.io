@@ -2388,6 +2388,43 @@ export const membersJP = [
 		],
 		projects: [],
 		achievements: []
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Dosjan',
+		lastname: 'Tumurkhan',
+		image: '/images/members/dosjan.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		experiences: [],
+		educations: [
+			{
+				title: '電子工学学士',
+				organization: 'National University of Mongolia ',
+				date: '2021年 - 2026年',
+				location: 'ウランバートル、モンゴル'
+			}
+		],
+		projects: [
+			'学士論文: FPGAベースの位置推定アルゴリズム実装',
+			'MITモーター制御を用いた差動駆動ジャンプロボット向け組み込みシステム開発',
+			'3つのデッドホイールエンコーダを用いたロボット位置推定アルゴリズムのマイクロコントローラ実装（ABU Robocon 2025）'
+		],
+		achievements: [
+			'アジア太平洋ロボットコンテスト（ABU Robocon 2024 Vietnam）におけるROHM賞',
+			'全国ロボットコンテスト（ABU Robocon 2024）優勝',
+			'全国電子工学オリンピック2023 団体1位',
+			'地方情報技術オリンピック（Darkhan 2019）3位',
+			'地方情報技術オリンピック（Darkhan 2018）2位',
+			'U17全国バスケットボール選手権（2020）金メダル'
+		]
 	}
 ];
 
@@ -4793,5 +4830,42 @@ export const membersEN = [
 		],
 		projects: [],
 		achievements: []
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Dosjan',
+		lastname: 'Tumurkhan',
+		image: '/images/members/dosjan.jpg',
+		bio: '',
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [],
+		educations: [
+			{
+				title: 'Bachelor in Electronics engineering',
+				organization: 'National University of Mongolia ',
+				date: '2021 - 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Bachelor Thesis: FPGA-Based Implementation of a Position Estimation Algorithm',
+			'Embedded System Development for a Differential Drive Jumping Robot Using MIT Motor Control',
+			'Microcontroller-Based Implementation of a Robot Position Estimation algorithm Using Three Dead-Wheel Encoders (ABU Robocon 2025)'
+		],
+		achievements: [
+			'ROHM Award in Asia-Pacific Robot Contest (ABU Robocon 2024 Vietnam)',
+			'National Champion in National Robot Contest (ABU Robocon 2024)',
+			'1st Place (Team), National Electronics Olympiad 2023',
+			'3rd Place, Provincial Information Technology Olympiad (Darkhan 2019)',
+			'2nd Place, Provincial Information Technology Olympiad (Darkhan 2018)',
+			'Gold Medal, U17 National Basketball Championship (2020)'
+		]
 	}
 ];
