@@ -1918,49 +1918,6 @@ export const membersJP = [
 	},
 	{
 		role: 'ソフトウェアエンジニア',
-		firstname: 'Erkhembayar',
-		lastname: 'Ganbold',
-		image: '/images/members/erkhembayar.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'ソフトウェアエンジニア',
-				organization: 'Mirai Technologies LLC',
-				date: '2024年より',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		experiences: [
-			{
-				title: '研究助手',
-				organization: 'アラブ首長国連邦大学',
-				date: '2020-2022年',
-				location: 'アラブ首長国連邦'
-			}
-		],
-		educations: [
-			{
-				title: '電子工学学士',
-				organization: '通信・情報技術学部',
-				date: '2016-2020年',
-				location: 'ウランバートル、モンゴル'
-			}
-		],
-		projects: [
-			'NSDevil: インテリジェントスマートデバイス配送サービス',
-			'UAE大学プロジェクト: 魚眼カメラ交通監視システム',
-			'UAE大学スタートアップ: 「Meta touch」タッチレス技術を使用したエレベーター操作',
-			'学士論文: 強化学習アルゴリズムに基づくQ-learningを使用したシーソーバランス制御',
-			'アジア開発銀行プロジェクト: ロボットシステム開発と実験'
-		],
-		achievements: [
-			'「ABU Robocon 2019 Mongolia」準優勝賞',
-			'「Autonomous robot 2019」第1位',
-			'「Autonomous robot 2024」第1位'
-		]
-	},
-	{
-		role: 'ソフトウェアエンジニア',
 		firstname: 'Tuguldur',
 		lastname: 'Bayarsaikhan',
 		image: '/images/members/tuguldur.jpg',
@@ -4409,49 +4366,6 @@ export const membersEN = [
 			'Outstanding Graduate Student Award, 2017',
 			'Employee of the year, Grapecity Mongolia LLC, 2020',
 			'Employee of the year, Grapecity Mongolia LLC, 2023'
-		]
-	},
-	{
-		role: 'Software Engineer',
-		firstname: 'Erkhembayar',
-		lastname: 'Ganbold',
-		image: '/images/members/erkhembayar.jpg',
-		bio: null,
-		current: [
-			{
-				title: 'Software Engineer',
-				organization: 'Mirai Technologies LLC',
-				date: 'Since 2024',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		experiences: [
-			{
-				title: 'Research assistant',
-				organization: 'United Arab Emirates University',
-				date: '2020 - 2022',
-				location: 'United Arab Emirates'
-			}
-		],
-		educations: [
-			{
-				title: 'A Bachelor of Electronic Engineering',
-				organization: 'School of Communication and Information Technology',
-				date: '2016 - 2020',
-				location: 'Ulaanbaatar, Mongolia'
-			}
-		],
-		projects: [
-			'NSDevil: Intelligent Smart Device Delivery Service.',
-			'UAE University Project: Fisheye camera traffic monitoring system.',
-			'UAE University Startup: "Meta touch" Elevetor operates using touchless technology.',
-			'Bachelor Thesis: Control of Seesaw balancing using Q-learning based on Reinforcement learning algorithm.',
-			'Asian Development Bank Project: Robot system development and experiment.'
-		],
-		achievements: [
-			'“ABU Robocon 2019 Mongolia” runner up prize.',
-			'“Autonomous robot 2019” 1 st prize.',
-			'“Autonomous robot 2024” 1 st prize.'
 		]
 	},
 	{
