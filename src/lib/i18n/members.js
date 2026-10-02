@@ -2441,6 +2441,63 @@ export const membersJP = [
 			'SmartGobi旅行アプリおよびWebポータル'
 		],
 		achievements: []
+	},
+	{
+		role: 'ソフトウェアエンジニア',
+		firstname: 'Samdanjamts',
+		lastname: 'Surenjav',
+		image: '/images/members/samdanjamts.jpg',
+		bio: '組み込みシステム、ロボティクス、自動化、ソフトウェア開発の経験を持つ電子工学エンジニア。',
+		current: [
+			{
+				title: 'ソフトウェアエンジニア',
+				organization: 'Mirai Technologies LLC',
+				date: '2026年より',
+				location: 'ウランバートル, モンゴル'
+			}
+		],
+		experiences: [
+			{
+				title: '組み込みシステムエンジニア',
+				organization: 'ONDO Space LLC',
+				date: '2024年 - 2026年',
+				location: 'ウランバートル, モンゴル'
+			}
+		],
+		educations: [
+			{
+				title: '電子工学学士',
+				organization: 'モンゴル国立大学',
+				date: '2020年 - 2024年',
+				location: 'ウランバートル, モンゴル'
+			}
+		],
+		projects: [
+			'遠隔地域における野生動物モニタリング向け衛星ベースGPS追跡デバイス',
+			'携帯電話ネットワーク圏外地域の遊牧民向け衛星ベース緊急SOS通信デバイス',
+			'0.5U CubeSat電源システムの開発、試験、統合',
+			'AirQスマート空気質モニタリングおよび換気システム',
+			'学士論文：室内空気質モニタリングおよび換気制御のためのインテリジェントIoTシステムの開発'
+		],
+		achievements: [
+			'2026年 - 第3位, CanSat 2026全国大会, ローバー部門',
+			'2024年 - 第1位, Innovation Owners 2024コンテスト, AirQプロジェクト',
+			'2024年 - 最優秀卒業生賞, モンゴル国立大学情報技術・電子工学部',
+			'2024年 - 第1位, 第20回全国電子工学オリンピアード, 団体部門',
+			'2024年 - 第3位, 第20回全国電子工学オリンピアード, 問題解決部門',
+			'2023年 - 第3位, 第19回全国電子工学オリンピアード, 団体部門',
+			'2023年 - 第2位, 第19回全国電子工学オリンピアード, 問題解決部門',
+			'2023年 - 第2位, NUM 100マス・チェッカー選手権',
+			'2022年 - 第3位, ABU Robocon全国大会, NUM SOYOMBOチーム',
+			'2022年 - 第2位, 第18回全国電子工学オリンピアード, 団体部門',
+			'2022年 - 第1位, Computer Network 2022オリンピアード, レベルI',
+			'2022年 - 第1位, NUM電子工学オリンピアード, アナログ回路解析部門',
+			'2022年 - 授業料50%奨学金, モンゴル国立大学',
+			'2021年 - 第1位, ライントレースロボット競技',
+			'2020年 - 大学入学試験で750点以上を取得したことによる授業料50%奨学金',
+			'2019年 - 第2位, 第17回全国思考力オリンピアード, 第2ラウンド',
+			'2015年 - チェッカー1級資格, 全国ジュニア選手権'
+		]
 	}
 ];
 
@@ -4899,5 +4956,62 @@ export const membersEN = [
 			'SmartGobi Travel App and Web Portal'
 		],
 		achievements: []
+	},
+	{
+		role: 'Software Engineer',
+		firstname: 'Samdanjamts',
+		lastname: 'Surenjav',
+		image: '/images/members/samdanjamts.jpg',
+		bio: 'Electronics Engineer with experience in embedded systems, robotics, automation, and software development.',
+		current: [
+			{
+				title: 'Software Engineer',
+				organization: 'Mirai Technologies LLC',
+				date: 'Since 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		experiences: [
+			{
+				title: 'Embedded System Engineer',
+				organization: 'ONDO Space LLC',
+				date: '2024 - 2026',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		educations: [
+			{
+				title: 'Bachelor of Electronics Engineering',
+				organization: 'National University of Mongolia',
+				date: '2020 - 2024',
+				location: 'Ulaanbaatar, Mongolia'
+			}
+		],
+		projects: [
+			'Satellite-Based GPS Tracking Device for Wildlife Monitoring in Remote Areas',
+			'Satellite-Based Emergency SOS Communication Device for Herders in Areas without Cellular Network Coverage',
+			'0.5U CubeSat Electrical Power System Development, Testing, and Integration',
+			'AirQ Smart Air Quality Monitoring and Ventilation System',
+			'Bachelor Thesis: Development of an Intelligent IoT System for Indoor Air Quality Monitoring and Ventilation Control'
+		],
+		achievements: [
+			'2026 - 3rd Place, CanSat 2026 National Competition, Rover Category',
+			'2024 - 1st Place, Innovation Owners 2024 Competition, AirQ Project',
+			'2024 - Best Academic Graduate Award, School of Information Technology and Electronic, National University of Mongolia',
+			'2024 - 1st Place, 20th National Electronics Olympiad, Team Category',
+			'2024 - 3rd Place, 20th National Electronics Olympiad, Problem-Solving Category',
+			'2023 - 3rd Place, 19th National Electronics Olympiad, Team Category',
+			'2023 - 2nd Place, 19th National Electronics Olympiad, Problem-Solving Category',
+			'2023 - 2nd Place, NUM 100-Square Checkers Championship',
+			'2022 - 3rd Place, ABU Robocon National Competition, NUM SOYOMBO Team',
+			'2022 - 2nd Place, 18th National Electronics Olympiad, Team Category',
+			'2022 - 1st Place, Computer Network 2022 Olympiad, Level I',
+			'2022 - 1st Place, NUM Electronics Olympiad, Analog Circuit Analysis Category',
+			'2022 - 50% Tuition Scholarship, National University of Mongolia',
+			'2021 - 1st Place, Line-Following Robot Competition',
+			'2020 - 50% Tuition Scholarship for Scoring 750 or Higher on the University Entrance Examination',
+			'2019 - 2nd Place, 17th National Thinking Skills Olympiad, Second Round',
+			'2015 - First-Degree Qualification in Checkers, National Junior Championship'
+		]
 	}
 ];
